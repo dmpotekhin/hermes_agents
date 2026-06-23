@@ -61,7 +61,7 @@ skills/.curator_*
 skills/.usage.json
 
 # Cron output (generated content)
-cron/output/
+**/cron/output/
 
 # SOUL backups
 SOUL.md.save

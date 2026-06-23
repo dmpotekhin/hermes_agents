@@ -1,0 +1,1672 @@
+{
+  "info": {
+    "description": "Персональный словарь из разговорного клуба японского языка",
+    "created": "2026-06-20",
+    "last_updated": "2026-06-23",
+    "total_words": 174,
+    "themes": [
+      "знакомство",
+      "вопросы",
+      "местоимения",
+      "приветствия",
+      "страны",
+      "частицы",
+      "вежливость",
+      "профессии",
+      "языки",
+      "хобби",
+      "еда",
+      "утверждения",
+      "семья",
+      "счёт людей",
+      "глаголы"
+    ]
+  },
+  "words": [
+    {
+      "id": 1,
+      "kanji": "初めまして",
+      "hiragana": "はじめまして",
+      "romaji": "hajimemashite",
+      "translation": "разрешите представиться (при первой встрече)",
+      "theme": "знакомство",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 2,
+      "kanji": "どうぞよろしくお願いします",
+      "hiragana": "どうぞよろしくおねがいします",
+      "romaji": "douzo yoroshiku onegaishimasu",
+      "translation": "рад знакомству / прошу благосклонности",
+      "theme": "знакомство",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 3,
+      "kanji": "こちらこそ",
+      "hiragana": "こちらこそ",
+      "romaji": "kochira koso",
+      "translation": "взаимно",
+      "theme": "знакомство",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 4,
+      "kanji": "名前",
+      "hiragana": "なまえ",
+      "romaji": "namae",
+      "translation": "имя",
+      "theme": "знакомство",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 5,
+      "kanji": "国",
+      "hiragana": "くに",
+      "romaji": "kuni",
+      "translation": "страна",
+      "theme": "знакомство",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 6,
+      "kanji": "来ました",
+      "hiragana": "きました",
+      "romaji": "kimashita",
+      "translation": "приехал(а)",
+      "theme": "знакомство",
+      "date_added": "2026-06-20",
+      "note": "прошедшая форма глагола 来る (приходить)"
+    },
+    {
+      "id": 7,
+      "kanji": "仕事",
+      "hiragana": "しごと",
+      "romaji": "shigoto",
+      "translation": "работа",
+      "theme": "знакомство",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 8,
+      "kanji": "学生",
+      "hiragana": "がくせい",
+      "romaji": "gakusei",
+      "translation": "студент",
+      "theme": "знакомство",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 9,
+      "kanji": "医者",
+      "hiragana": "いしゃ",
+      "romaji": "isha",
+      "translation": "врач",
+      "theme": "знакомство",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 10,
+      "kanji": "何",
+      "hiragana": "なん / なに",
+      "romaji": "nan / nani",
+      "translation": "что?",
+      "theme": "вопросы",
+      "date_added": "2026-06-20",
+      "note": "なん — перед だ/です/счётными суффиксами, なに — в остальных случаях"
+    },
+    {
+      "id": 11,
+      "kanji": "こんにちは",
+      "hiragana": "こんにちは",
+      "romaji": "konnichiwa",
+      "translation": "здравствуйте, добрый день",
+      "theme": "приветствия",
+      "date_added": "2026-06-20",
+      "note": "используется днём (с 11 до ~18)"
+    },
+    {
+      "id": 12,
+      "kanji": "あのう",
+      "hiragana": "あのう",
+      "romaji": "anou",
+      "translation": "э-э, простите... (слово-хезитация)",
+      "theme": "знакомство",
+      "date_added": "2026-06-20",
+      "note": "используется перед неловким вопросом или паузой"
+    },
+    {
+      "id": 13,
+      "kanji": "私",
+      "hiragana": "わたし",
+      "romaji": "watashi",
+      "translation": "я (универсальное)",
+      "theme": "местоимения",
+      "date_added": "2026-06-20",
+      "note": "используется и мужчинами, и женщинами — официально/нейтрально"
+    },
+    {
+      "id": 14,
+      "kanji": "僕",
+      "hiragana": "ぼく",
+      "romaji": "boku",
+      "translation": "я (мужское, скромное)",
+      "theme": "местоимения",
+      "date_added": "2026-06-20",
+      "note": "используется мужчинами, звучит мягче/скромнее чем 私"
+    },
+    {
+      "id": 15,
+      "kanji": "宜しくお願いします",
+      "hiragana": "よろしくおねがいします",
+      "romaji": "yoroshiku onegaishimasu",
+      "translation": "рад знакомству / прошу благосклонности",
+      "theme": "знакомство",
+      "date_added": "2026-06-20",
+      "note": "вариант без どうぞ — супер-стандартная фраза после знакомства"
+    },
+    {
+      "id": 16,
+      "kanji": "お国",
+      "hiragana": "おくに",
+      "romaji": "okuni",
+      "translation": "страна (вежливая форма)",
+      "theme": "вежливость",
+      "date_added": "2026-06-20",
+      "note": "お — префикс вежливости. Только о других, не о себе!"
+    },
+    {
+      "id": 17,
+      "kanji": "どこ",
+      "hiragana": "どこ",
+      "romaji": "doko",
+      "translation": "где, куда, откуда",
+      "theme": "вопросы",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 18,
+      "kanji": "から",
+      "hiragana": "から",
+      "romaji": "kara",
+      "translation": "из, от, с (частица направления)",
+      "theme": "частицы",
+      "date_added": "2026-06-20",
+      "note": "Страна + から来ました = приехал из (страны)"
+    },
+    {
+      "id": 19,
+      "kanji": "そうですか",
+      "hiragana": "そうですか",
+      "romaji": "sou desu ka",
+      "translation": "вот как, понятно, неужели",
+      "theme": "знакомство",
+      "date_added": "2026-06-20",
+      "note": "стандартный активный ответ на слова собеседника"
+    },
+    {
+      "id": 20,
+      "kanji": "さん",
+      "hiragana": "さん",
+      "romaji": "san",
+      "translation": "господин/госпожа (суффикс к имени)",
+      "theme": "вежливость",
+      "date_added": "2026-06-20",
+      "note": "универсальный вежливый суффикс (муж/жен)"
+    },
+    {
+      "id": 21,
+      "kanji": "どちら",
+      "hiragana": "どちら",
+      "romaji": "dochira",
+      "translation": "который, куда, откуда (вежливая форма)",
+      "theme": "вопросы",
+      "date_added": "2026-06-20",
+      "note": "вежливая версия どこ"
+    },
+    {
+      "id": 22,
+      "kanji": "日本",
+      "hiragana": "にほん",
+      "romaji": "nihon",
+      "translation": "Япония",
+      "theme": "страны",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 23,
+      "kanji": "ロシア",
+      "hiragana": "ロシア",
+      "romaji": "roshia",
+      "translation": "Россия",
+      "theme": "страны",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 24,
+      "kanji": "アメリカ",
+      "hiragana": "アメリカ",
+      "romaji": "amerika",
+      "translation": "США",
+      "theme": "страны",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 25,
+      "kanji": "中国",
+      "hiragana": "ちゅうごく",
+      "romaji": "chuugoku",
+      "translation": "Китай",
+      "theme": "страны",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 26,
+      "kanji": "韓国",
+      "hiragana": "かんこく",
+      "romaji": "kankoku",
+      "translation": "Южная Корея",
+      "theme": "страны",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 27,
+      "kanji": "イギリス",
+      "hiragana": "イギリス",
+      "romaji": "igirisu",
+      "translation": "Великобритания",
+      "theme": "страны",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 28,
+      "kanji": "フランス",
+      "hiragana": "フランス",
+      "romaji": "furansu",
+      "translation": "Франция",
+      "theme": "страны",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 29,
+      "kanji": "ドイツ",
+      "hiragana": "ドイツ",
+      "romaji": "doitsu",
+      "translation": "Германия",
+      "theme": "страны",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 30,
+      "kanji": "イタリア",
+      "hiragana": "イタリア",
+      "romaji": "itaria",
+      "translation": "Италия",
+      "theme": "страны",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 31,
+      "kanji": "カナダ",
+      "hiragana": "カナダ",
+      "romaji": "kanada",
+      "translation": "Канада",
+      "theme": "страны",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 32,
+      "kanji": "ベラルーシ",
+      "hiragana": "ベラルーシ",
+      "romaji": "beraruushi",
+      "translation": "Беларусь",
+      "theme": "страны",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 33,
+      "kanji": "カザフスタン",
+      "hiragana": "カザフスタン",
+      "romaji": "kazafusutan",
+      "translation": "Казахстан",
+      "theme": "страны",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 34,
+      "kanji": "ウクライナ",
+      "hiragana": "ウクライナ",
+      "romaji": "ukuraina",
+      "translation": "Украина",
+      "theme": "страны",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 35,
+      "kanji": "スペイン",
+      "hiragana": "スペイン",
+      "romaji": "supein",
+      "translation": "Испания",
+      "theme": "страны",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 36,
+      "kanji": "トルコ",
+      "hiragana": "トルコ",
+      "romaji": "toruko",
+      "translation": "Турция",
+      "theme": "страны",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 37,
+      "kanji": "お仕事",
+      "hiragana": "おしごと",
+      "romaji": "oshigoto",
+      "translation": "работа (вежливая форма)",
+      "theme": "вежливость",
+      "date_added": "2026-06-20",
+      "note": "お — префикс вежливости. Спрашиваем о работе собеседника"
+    },
+    {
+      "id": 38,
+      "kanji": "プログラマー",
+      "hiragana": "プログラマー",
+      "romaji": "puroguramaa",
+      "translation": "программист",
+      "theme": "профессии",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 39,
+      "kanji": "教師",
+      "hiragana": "きょうし",
+      "romaji": "kyoushi",
+      "translation": "учитель",
+      "theme": "профессии",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 40,
+      "kanji": "会計士",
+      "hiragana": "かいけいし",
+      "romaji": "kaikeishi",
+      "translation": "бухгалтер",
+      "theme": "профессии",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 41,
+      "kanji": "弁護士",
+      "hiragana": "べんごし",
+      "romaji": "bengoshi",
+      "translation": "адвокат",
+      "theme": "профессии",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 42,
+      "kanji": "建設作業員",
+      "hiragana": "けんせつさぎょういん",
+      "romaji": "kensetsu sagyouin",
+      "translation": "строитель",
+      "theme": "профессии",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 43,
+      "kanji": "運転手",
+      "hiragana": "うんてんしゅ",
+      "romaji": "untenshu",
+      "translation": "водитель",
+      "theme": "профессии",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 44,
+      "kanji": "料理人",
+      "hiragana": "りょうりにん",
+      "romaji": "ryourinin",
+      "translation": "повар",
+      "theme": "профессии",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 45,
+      "kanji": "マーケター",
+      "hiragana": "マーケター",
+      "romaji": "maaketaa",
+      "translation": "маркетолог",
+      "theme": "профессии",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 46,
+      "kanji": "出来ます",
+      "hiragana": "できます",
+      "romaji": "dekimasu",
+      "translation": "уметь, мочь, владеть",
+      "theme": "знакомство",
+      "date_added": "2026-06-20",
+      "note": "про язык: 日本語が出来ます = владею японским"
+    },
+    {
+      "id": 47,
+      "kanji": "日本語",
+      "hiragana": "にほんご",
+      "romaji": "nihongo",
+      "translation": "японский язык",
+      "theme": "языки",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 48,
+      "kanji": "英語",
+      "hiragana": "えいご",
+      "romaji": "eigo",
+      "translation": "английский язык",
+      "theme": "языки",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 49,
+      "kanji": "ロシア語",
+      "hiragana": "ロシアご",
+      "romaji": "roshiago",
+      "translation": "русский язык",
+      "theme": "языки",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 50,
+      "kanji": "少し",
+      "hiragana": "すこし",
+      "romaji": "sukoshi",
+      "translation": "немного",
+      "theme": "знакомство",
+      "date_added": "2026-06-20",
+      "note": "日本語が少し出来ます = немного говорю по-японски"
+    },
+    {
+      "id": 51,
+      "kanji": "食べ物",
+      "hiragana": "たべもの",
+      "romaji": "tabemono",
+      "translation": "еда",
+      "theme": "еда",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 52,
+      "kanji": "好きです",
+      "hiragana": "すきです",
+      "romaji": "suki desu",
+      "translation": "любить, нравиться",
+      "theme": "хобби",
+      "date_added": "2026-06-20",
+      "note": "食べ物が好きです = люблю еду"
+    },
+    {
+      "id": 53,
+      "kanji": "趣味",
+      "hiragana": "しゅみ",
+      "romaji": "shumi",
+      "translation": "хобби",
+      "theme": "хобби",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 54,
+      "kanji": "読書",
+      "hiragana": "どくしょ",
+      "romaji": "dokusho",
+      "translation": "чтение (книг)",
+      "theme": "хобби",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 55,
+      "kanji": "音楽",
+      "hiragana": "おんがく",
+      "romaji": "ongaku",
+      "translation": "музыка",
+      "theme": "хобби",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 56,
+      "kanji": "はい",
+      "hiragana": "はい",
+      "romaji": "hai",
+      "translation": "да",
+      "theme": "утверждения",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 57,
+      "kanji": "いいえ",
+      "hiragana": "いいえ",
+      "romaji": "iie",
+      "translation": "нет",
+      "theme": "утверждения",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 58,
+      "kanji": "出来ません",
+      "hiragana": "できません",
+      "romaji": "dekimasen",
+      "translation": "не могу, не владею",
+      "theme": "языки",
+      "date_added": "2026-06-20",
+      "note": "отрицательная форма 出来ます"
+    },
+    {
+      "id": 59,
+      "kanji": "でも",
+      "hiragana": "でも",
+      "romaji": "demo",
+      "translation": "но, однако, зато",
+      "theme": "утверждения",
+      "date_added": "2026-06-20",
+      "note": "ставится в начале предложения"
+    },
+    {
+      "id": 60,
+      "kanji": "いいですね",
+      "hiragana": "いいですね",
+      "romaji": "ii desu ne",
+      "translation": "как хорошо, здорово",
+      "theme": "утверждения",
+      "date_added": "2026-06-20",
+      "note": "ね — частица для смягчения/согласия"
+    },
+    {
+      "id": 61,
+      "kanji": "よ",
+      "hiragana": "よ",
+      "romaji": "yo",
+      "translation": "частица усиления / уверенности",
+      "theme": "частицы",
+      "date_added": "2026-06-20",
+      "note": "ставится в конце предложения — «же», «ведь»"
+    },
+    {
+      "id": 62,
+      "kanji": "中国語",
+      "hiragana": "ちゅうごくご",
+      "romaji": "chuugokugo",
+      "translation": "китайский язык",
+      "theme": "языки",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 63,
+      "kanji": "スペイン語",
+      "hiragana": "スペインご",
+      "romaji": "supeingo",
+      "translation": "испанский язык",
+      "theme": "языки",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 64,
+      "kanji": "フランス語",
+      "hiragana": "フランスご",
+      "romaji": "furansugo",
+      "translation": "французский язык",
+      "theme": "языки",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 65,
+      "kanji": "ドイツ語",
+      "hiragana": "ドイツご",
+      "romaji": "doitsugo",
+      "translation": "немецкий язык",
+      "theme": "языки",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 66,
+      "kanji": "イタリア語",
+      "hiragana": "イタリアご",
+      "romaji": "itariago",
+      "translation": "итальянский язык",
+      "theme": "языки",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 67,
+      "kanji": "韓国語",
+      "hiragana": "かんこくご",
+      "romaji": "kankokugo",
+      "translation": "корейский язык",
+      "theme": "языки",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 68,
+      "kanji": "アラビア語",
+      "hiragana": "アラビアご",
+      "romaji": "arabiago",
+      "translation": "арабский язык",
+      "theme": "языки",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 69,
+      "kanji": "ポルトガル語",
+      "hiragana": "ポルトガルご",
+      "romaji": "porutogarugo",
+      "translation": "португальский язык",
+      "theme": "языки",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 70,
+      "kanji": "ヒンディー語",
+      "hiragana": "ヒンディーご",
+      "romaji": "hindigo",
+      "translation": "хинди",
+      "theme": "языки",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 71,
+      "kanji": "トルコ語",
+      "hiragana": "トルコご",
+      "romaji": "torukogo",
+      "translation": "турецкий язык",
+      "theme": "языки",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 72,
+      "kanji": "どんな",
+      "hiragana": "どんな",
+      "romaji": "donna",
+      "translation": "какой, что за",
+      "theme": "вопросы",
+      "date_added": "2026-06-20",
+      "note": "[どんな + существительное] — どんな食べ物 = какая еда"
+    },
+    {
+      "id": 73,
+      "kanji": "ラーメン",
+      "hiragana": "ラーメン",
+      "romaji": "raamen",
+      "translation": "рамэн (японская лапша)",
+      "theme": "еда",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 74,
+      "kanji": "好きじゃないです",
+      "hiragana": "すきじゃないです",
+      "romaji": "suki ja nai desu",
+      "translation": "не нравится",
+      "theme": "еда",
+      "date_added": "2026-06-20",
+      "note": "отрицательная форма 好きです. Разговорный вариант"
+    },
+    {
+      "id": 75,
+      "kanji": "寿司",
+      "hiragana": "すし",
+      "romaji": "sushi",
+      "translation": "суши",
+      "theme": "еда",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 76,
+      "kanji": "映画",
+      "hiragana": "えいが",
+      "romaji": "eiga",
+      "translation": "фильм, кино",
+      "theme": "хобби",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 77,
+      "kanji": "旅行",
+      "hiragana": "りょこう",
+      "romaji": "ryokou",
+      "translation": "путешествие",
+      "theme": "хобби",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 78,
+      "kanji": "料理",
+      "hiragana": "りょうり",
+      "romaji": "ryouri",
+      "translation": "приготовление еды, кулинария",
+      "theme": "хобби",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 79,
+      "kanji": "ガーデニング",
+      "hiragana": "ガーデニング",
+      "romaji": "gaadeningu",
+      "translation": "садоводство",
+      "theme": "хобби",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 80,
+      "kanji": "写真",
+      "hiragana": "しゃしん",
+      "romaji": "shashin",
+      "translation": "фотография",
+      "theme": "хобби",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 81,
+      "kanji": "絵画",
+      "hiragana": "かいが",
+      "romaji": "kaiga",
+      "translation": "живопись",
+      "theme": "хобби",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 82,
+      "kanji": "スポーツ",
+      "hiragana": "スポーツ",
+      "romaji": "supootsu",
+      "translation": "спорт",
+      "theme": "хобби",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 83,
+      "kanji": "ゲーム",
+      "hiragana": "ゲーム",
+      "romaji": "geemu",
+      "translation": "видеоигры",
+      "theme": "хобби",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 84,
+      "kanji": "手芸",
+      "hiragana": "しゅげい",
+      "romaji": "shugei",
+      "translation": "рукоделие",
+      "theme": "хобби",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 85,
+      "kanji": "ダンス",
+      "hiragana": "ダンス",
+      "romaji": "dansu",
+      "translation": "танцы",
+      "theme": "хобби",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 86,
+      "kanji": "ハイキング",
+      "hiragana": "ハイキング",
+      "romaji": "haikingu",
+      "translation": "пешие походы",
+      "theme": "хобби",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 87,
+      "kanji": "プログラミング",
+      "hiragana": "プログラミング",
+      "romaji": "puroguramingu",
+      "translation": "программирование",
+      "theme": "хобби",
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": 88,
+      "kanji": "営業",
+      "hiragana": "えいぎょう",
+      "romaji": "eigyou",
+      "translation": "продажи, сейлз, коммерция",
+      "theme": "профессии",
+      "date_added": "2026-06-20",
+      "note": "из JLPT N5 — День 1 (частица の)"
+    },
+    {
+      "id": 89,
+      "kanji": "野球",
+      "hiragana": "やきゅう",
+      "romaji": "yakyuu",
+      "translation": "бейсбол",
+      "theme": "хобби",
+      "date_added": "2026-06-20",
+      "note": "из JLPT N5 — День 1 (частица の)"
+    },
+    {
+      "id": 90,
+      "kanji": "出身",
+      "hiragana": "しゅっしん",
+      "romaji": "shusshin",
+      "translation": "родной город, откуда родом",
+      "theme": "знакомство",
+      "date_added": "2026-06-20",
+      "note": "из JLPT N5 — День 1. [Страна/город + 出身です] = родом из..."
+    },
+    {
+      "kanji": "夫",
+      "hiragana": "おっと",
+      "romaji": "otto",
+      "translation": "муж",
+      "theme": "семья",
+      "id": 91,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "妻",
+      "hiragana": "つま",
+      "romaji": "tsuma",
+      "translation": "жена",
+      "theme": "семья",
+      "id": 92,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "祖父",
+      "hiragana": "そふ",
+      "romaji": "sofu",
+      "translation": "дедушка",
+      "theme": "семья",
+      "id": 93,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "祖母",
+      "hiragana": "そぼ",
+      "romaji": "sobo",
+      "translation": "бабушка",
+      "theme": "семья",
+      "id": 94,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "父",
+      "hiragana": "ちち",
+      "romaji": "chichi",
+      "translation": "отец",
+      "theme": "семья",
+      "id": 95,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "母",
+      "hiragana": "はは",
+      "romaji": "haha",
+      "translation": "мать",
+      "theme": "семья",
+      "id": 96,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "兄",
+      "hiragana": "あに",
+      "romaji": "ani",
+      "translation": "старший брат",
+      "theme": "семья",
+      "id": 97,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "姉",
+      "hiragana": "あね",
+      "romaji": "ane",
+      "translation": "старшая сестра",
+      "theme": "семья",
+      "id": 98,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "弟",
+      "hiragana": "おとうと",
+      "romaji": "otouto",
+      "translation": "младший брат",
+      "theme": "семья",
+      "id": 99,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "妹",
+      "hiragana": "いもうと",
+      "romaji": "imouto",
+      "translation": "младшая сестра",
+      "theme": "семья",
+      "id": 100,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "兄弟",
+      "hiragana": "きょうだい",
+      "romaji": "kyoudai",
+      "translation": "братья и сёстры",
+      "theme": "семья",
+      "id": 101,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "息子",
+      "hiragana": "むすこ",
+      "romaji": "musuko",
+      "translation": "сын",
+      "theme": "семья",
+      "id": 102,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "娘",
+      "hiragana": "むすめ",
+      "romaji": "musume",
+      "translation": "дочь",
+      "theme": "семья",
+      "id": 103,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "家族",
+      "hiragana": "かぞく",
+      "romaji": "kazoku",
+      "translation": "семья",
+      "theme": "семья",
+      "id": 104,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "何人",
+      "hiragana": "なんにん",
+      "romaji": "nannin",
+      "translation": "сколько человек",
+      "theme": "вопросы",
+      "note": "人 (nin) — счётный суффикс для людей",
+      "id": 105,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "一人",
+      "hiragana": "ひとり",
+      "romaji": "hitori",
+      "translation": "1 человек",
+      "theme": "счёт людей",
+      "note": "исключение: не いちにん, а ひとり",
+      "id": 106,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "二人",
+      "hiragana": "ふたり",
+      "romaji": "futari",
+      "translation": "2 человека",
+      "theme": "счёт людей",
+      "note": "исключение: не ににん, а ふたり",
+      "id": 107,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "三人",
+      "hiragana": "さんにん",
+      "romaji": "sannin",
+      "translation": "3 человека",
+      "theme": "счёт людей",
+      "id": 108,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "四人",
+      "hiragana": "よにん",
+      "romaji": "yonin",
+      "translation": "4 человека",
+      "theme": "счёт людей",
+      "id": 109,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "五人",
+      "hiragana": "ごにん",
+      "romaji": "gonin",
+      "translation": "5 человек",
+      "theme": "счёт людей",
+      "id": 110,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "六人",
+      "hiragana": "ろくにん",
+      "romaji": "rokunin",
+      "translation": "6 человек",
+      "theme": "счёт людей",
+      "id": 111,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "七人",
+      "hiragana": "しちにん",
+      "romaji": "shichinin",
+      "translation": "7 человек",
+      "theme": "счёт людей",
+      "id": 112,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "八人",
+      "hiragana": "はちにん",
+      "romaji": "hachinin",
+      "translation": "8 человек",
+      "theme": "счёт людей",
+      "id": 113,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "九人",
+      "hiragana": "きゅうにん",
+      "romaji": "kyuunin",
+      "translation": "9 человек",
+      "theme": "счёт людей",
+      "id": 114,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "十人",
+      "hiragana": "じゅうにん",
+      "romaji": "juunin",
+      "translation": "10 человек",
+      "theme": "счёт людей",
+      "id": 115,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "います",
+      "hiragana": "います",
+      "romaji": "imasu",
+      "translation": "быть, иметься (об одушевлённых)",
+      "theme": "семья",
+      "note": "Для неодушевлённых — あります (arimasu). 妹がいます = есть младшая сестра",
+      "id": 116,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "と",
+      "hiragana": "と",
+      "romaji": "to",
+      "translation": "и, с (совместный падеж)",
+      "theme": "частицы",
+      "note": "Соединяет существительные. 私と夫と息子 = я, муж и сын",
+      "id": 117,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "住む",
+      "hiragana": "すむ",
+      "romaji": "sumu",
+      "translation": "жить, проживать",
+      "theme": "глаголы",
+      "note": "住んでいます (sunde imasu) — живу (て-форма + います)",
+      "id": 118,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "に",
+      "hiragana": "に",
+      "romaji": "ni",
+      "translation": "в, на (частица места/направления)",
+      "theme": "частицы",
+      "note": "Место + に住んでいます = живу в (месте)",
+      "id": 119,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "ご主人",
+      "hiragana": "ごしゅじん",
+      "romaji": "goshujin",
+      "translation": "муж (вежл., о чужом)",
+      "theme": "вежливость",
+      "note": "夫 (otto) — о своём муже, ご主人 — о чужом",
+      "id": 120,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "奥さん",
+      "hiragana": "おくさん",
+      "romaji": "okusan",
+      "translation": "жена (вежл., о чужой)",
+      "theme": "вежливость",
+      "note": "妻 (tsuma) — о своей жене, 奥さん — о чужой",
+      "id": 121,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "お爺さん",
+      "hiragana": "おじいさん",
+      "romaji": "ojiisan",
+      "translation": "дедушка (вежл., о чужом)",
+      "theme": "вежливость",
+      "id": 122,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "お婆さん",
+      "hiragana": "おばあさん",
+      "romaji": "obaasan",
+      "translation": "бабушка (вежл., о чужой)",
+      "theme": "вежливость",
+      "id": 123,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "お父さん",
+      "hiragana": "おとうさん",
+      "romaji": "otousan",
+      "translation": "отец (вежл., о чужом)",
+      "theme": "вежливость",
+      "note": "父 (chichi) — о своём отце, お父さん — о чужом/обращение",
+      "id": 124,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "お母さん",
+      "hiragana": "おかあさん",
+      "romaji": "okaasan",
+      "translation": "мать (вежл., о чужой)",
+      "theme": "вежливость",
+      "note": "母 (haha) — о своей матери, お母さん — о чужой/обращение",
+      "id": 125,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "お兄さん",
+      "hiragana": "おにいさん",
+      "romaji": "oniisan",
+      "translation": "старший брат (вежл., о чужом)",
+      "theme": "вежливость",
+      "id": 126,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "お姉さん",
+      "hiragana": "おねえさん",
+      "romaji": "oneesan",
+      "translation": "старшая сестра (вежл., о чужой)",
+      "theme": "вежливость",
+      "id": 127,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "弟さん",
+      "hiragana": "おとうとさん",
+      "romaji": "otoutosan",
+      "translation": "младший брат (вежл., о чужом)",
+      "theme": "вежливость",
+      "id": 128,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "妹さん",
+      "hiragana": "いもうとさん",
+      "romaji": "imoutosan",
+      "translation": "младшая сестра (вежл., о чужой)",
+      "theme": "вежливость",
+      "id": 129,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "息子さん",
+      "hiragana": "むすこさん",
+      "romaji": "musukosan",
+      "translation": "сын (вежл., о чужом)",
+      "theme": "вежливость",
+      "id": 130,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "娘さん",
+      "hiragana": "むすめさん",
+      "romaji": "musumesan",
+      "translation": "дочь (вежл., о чужой)",
+      "theme": "вежливость",
+      "id": 131,
+      "date_added": "2026-06-22"
+    },
+    {
+      "kanji": "教科書",
+      "hiragana": "きょうかしょ",
+      "romaji": "kyoukasho",
+      "translation": "учебник",
+      "theme": "глаголы",
+      "note": "из JLPT N5 — День 7 (счётные суффиксы)",
+      "id": 132,
+      "date_added": "2026-06-23"
+    },
+    {
+      "kanji": "〜冊",
+      "hiragana": "〜さつ",
+      "romaji": "~satsu",
+      "translation": "счётный суффикс для книг/журналов",
+      "theme": "счёт людей",
+      "note": "1冊=いっさつ(issatsu), 2冊=にさつ(nisatsu), 3冊=さんさつ(sansatsu), 6冊=ろくさつ(rokusatsu)...",
+      "id": 133,
+      "date_added": "2026-06-23"
+    },
+    {
+      "kanji": "持っている",
+      "hiragana": "もっている",
+      "romaji": "motteiru",
+      "translation": "иметь, держать (при себе)",
+      "theme": "глаголы",
+      "note": "из JLPT N5 — День 7. て-форма глагола 持つ(もつ) + いる",
+      "id": 134,
+      "date_added": "2026-06-23"
+    },
+    {
+      "kanji": "駅",
+      "hiragana": "えき",
+      "romaji": "eki",
+      "translation": "станция, вокзал",
+      "theme": "глаголы",
+      "note": "из JLPT N5 — День 7 (счётные суффиксы)",
+      "id": 135,
+      "date_added": "2026-06-23"
+    },
+    {
+      "kanji": "前",
+      "hiragana": "まえ",
+      "romaji": "mae",
+      "translation": "перед, спереди; до",
+      "theme": "глаголы",
+      "note": "из JLPT N5 — 駅の前 = перед станцией. Также: ご飯の前 = до еды",
+      "id": 136,
+      "date_added": "2026-06-23"
+    },
+    {
+      "kanji": "犬",
+      "hiragana": "いぬ",
+      "romaji": "inu",
+      "translation": "собака",
+      "theme": "глаголы",
+      "note": "из JLPT N5 — День 7 (счётные суффиксы)",
+      "id": 137,
+      "date_added": "2026-06-23"
+    },
+    {
+      "kanji": "猫",
+      "hiragana": "ねこ",
+      "romaji": "neko",
+      "translation": "кошка",
+      "theme": "глаголы",
+      "note": "из JLPT N5 — День 7 (счётные суффиксы)",
+      "id": 138,
+      "date_added": "2026-06-23"
+    },
+    {
+      "kanji": "〜匹",
+      "hiragana": "〜ひき",
+      "romaji": "~hiki",
+      "translation": "счётный суффикс для мелких животных",
+      "theme": "счёт людей",
+      "note": "1匹=いっぴき(ippiki), 2匹=にひき(nihiki), 3匹=さんびき(sanbiki), 8匹=はっぴき(happiki)",
+      "id": 139,
+      "date_added": "2026-06-23"
+    },
+    {
+      "kanji": "〜歳",
+      "hiragana": "〜さい",
+      "romaji": "~sai",
+      "translation": "счётный суффикс для возраста",
+      "theme": "счёт людей",
+      "note": "1歳=いっさい(issai) — 注意! 8歳=はっさい(hassai), 20歳=はたち(hatachi) — исключение",
+      "id": 140,
+      "date_added": "2026-06-23"
+    },
+    {
+      "kanji": "〜回",
+      "hiragana": "〜かい",
+      "romaji": "~kai",
+      "translation": "счётный суффикс для частоты/раз",
+      "theme": "счёт людей",
+      "note": "1回=いっかい(ikkai), 6回=ろっかい(rokkai). 週5回 = 5 раз в неделю",
+      "id": 141,
+      "date_added": "2026-06-23"
+    },
+    {
+      "kanji": "車",
+      "hiragana": "くるま",
+      "romaji": "kuruma",
+      "translation": "машина, автомобиль",
+      "theme": "глаголы",
+      "note": "из JLPT N5 — День 7 (счётные суффиксы: 〜台)",
+      "id": 142,
+      "date_added": "2026-06-23"
+    },
+    {
+      "kanji": "〜台",
+      "hiragana": "〜だい",
+      "romaji": "~dai",
+      "translation": "счётный суффикс для машин/техники",
+      "theme": "счёт людей",
+      "note": "из JLPT N5 — День 7. 車を2台(にだい)持っています = у меня 2 машины",
+      "id": 143,
+      "date_added": "2026-06-23"
+    },
+    {
+      "kanji": "〜本",
+      "hiragana": "〜ほん",
+      "romaji": "~hon",
+      "translation": "счётный суффикс для длинных предметов",
+      "theme": "счёт людей",
+      "note": "1本=いっぽん(ippon), 3本=さんぼん(sanbon), 6本=ろっぽん(roppon), 8本=はっぽん(happon)",
+      "id": 144,
+      "date_added": "2026-06-23"
+    },
+    {
+      "kanji": "雨",
+      "hiragana": "あめ",
+      "romaji": "ame",
+      "translation": "дождь",
+      "theme": "глаголы",
+      "note": "из JLPT N5 — День 7. 雨が降っている = идёт дождь",
+      "id": 145,
+      "date_added": "2026-06-23"
+    },
+    {
+      "kanji": "降る",
+      "hiragana": "ふる",
+      "romaji": "furu",
+      "translation": "падать, идти (о дожде/снеге)",
+      "theme": "глаголы",
+      "note": "из JLPT N5 — День 7. 雨が降っていない = дождь не идёт",
+      "id": 146,
+      "date_added": "2026-06-23"
+    },
+    {
+      "kanji": "待つ",
+      "hiragana": "まつ",
+      "romaji": "matsu",
+      "translation": "ждать",
+      "theme": "глаголы",
+      "note": "из JLPT N5 — День 7. 待っていない = не жду",
+      "id": 147,
+      "date_added": "2026-06-23"
+    },
+    {
+      "kanji": "結婚",
+      "hiragana": "けっこん",
+      "romaji": "kekkon",
+      "translation": "брак, женитьба, замужество",
+      "theme": "глаголы",
+      "note": "из JLPT N5 — День 7. 結婚していない = не женат / не замужем (する глагол)",
+      "id": 148,
+      "date_added": "2026-06-23"
+    },
+    {
+      "kanji": "風邪",
+      "hiragana": "かぜ",
+      "romaji": "kaze",
+      "translation": "простуда",
+      "theme": "глаголы",
+      "note": "из JLPT N5 — День 7. 風邪をひいている = простужен (букв: поймал простуду)",
+      "id": 149,
+      "date_added": "2026-06-23"
+    },
+    {
+      "kanji": "郵便局",
+      "hiragana": "ゆうびんきょく",
+      "romaji": "yuubinkyoku",
+      "translation": "почта, почтовое отделение",
+      "note": "из JLPT N5 — День 8 (частица が)",
+      "id": 150,
+      "date_added": "2026-06-23",
+      "theme": "глаголы"
+    },
+    {
+      "kanji": "お金",
+      "hiragana": "おかね",
+      "romaji": "okane",
+      "translation": "деньги",
+      "note": "из JLPT N5 — День 8 (частица が)",
+      "id": 151,
+      "date_added": "2026-06-23",
+      "theme": "глаголы"
+    },
+    {
+      "kanji": "払う",
+      "hiragana": "はらう",
+      "romaji": "harau",
+      "translation": "платить",
+      "note": "из JLPT N5 — День 8 (частица が)",
+      "id": 152,
+      "date_added": "2026-06-23",
+      "theme": "глаголы"
+    },
+    {
+      "kanji": "美味しい",
+      "hiragana": "おいしい",
+      "romaji": "oishii",
+      "translation": "вкусный",
+      "note": "из JLPT N5 — День 8 (частица が). い-прилагательное",
+      "id": 153,
+      "date_added": "2026-06-23",
+      "theme": "глаголы"
+    },
+    {
+      "kanji": "図書館",
+      "hiragana": "としょかん",
+      "romaji": "toshokan",
+      "translation": "библиотека",
+      "note": "из JLPT N5 — День 8 (частица で — место)",
+      "id": 154,
+      "date_added": "2026-06-23",
+      "theme": "глаголы"
+    },
+    {
+      "kanji": "読む",
+      "hiragana": "よむ",
+      "romaji": "yomu",
+      "translation": "читать",
+      "note": "из JLPT N5 — День 8 (частица で — место). U-глагол",
+      "id": 155,
+      "date_added": "2026-06-23",
+      "theme": "глаголы"
+    },
+    {
+      "kanji": "食事",
+      "hiragana": "しょくじ",
+      "romaji": "shokuji",
+      "translation": "еда, приём пищи",
+      "note": "из JLPT N5 — День 8. 食事をする = принимать пищу",
+      "id": 156,
+      "date_added": "2026-06-23",
+      "theme": "глаголы"
+    },
+    {
+      "kanji": "帽子",
+      "hiragana": "ぼうし",
+      "romaji": "boushi",
+      "translation": "шляпа, головной убор",
+      "note": "из JLPT N5 — День 8 (частица で — место)",
+      "id": 157,
+      "date_added": "2026-06-23",
+      "theme": "глаголы"
+    },
+    {
+      "kanji": "買う",
+      "hiragana": "かう",
+      "romaji": "kau",
+      "translation": "покупать",
+      "note": "из JLPT N5 — День 8. U-глагол",
+      "id": 158,
+      "date_added": "2026-06-23",
+      "theme": "глаголы"
+    },
+    {
+      "kanji": "家",
+      "hiragana": "いえ",
+      "romaji": "ie",
+      "translation": "дом",
+      "note": "из JLPT N5 — День 8. 家の中で = внутри дома",
+      "id": 159,
+      "date_added": "2026-06-23",
+      "theme": "глаголы"
+    },
+    {
+      "kanji": "中",
+      "hiragana": "なか",
+      "romaji": "naka",
+      "translation": "внутри, середина",
+      "note": "из JLPT N5 — День 8. 家の中で = внутри дома",
+      "id": 160,
+      "date_added": "2026-06-23",
+      "theme": "глаголы"
+    },
+    {
+      "kanji": "遊ぶ",
+      "hiragana": "あそぶ",
+      "romaji": "asobu",
+      "translation": "играть",
+      "note": "из JLPT N5 — День 8. U-глагол",
+      "id": 161,
+      "date_added": "2026-06-23",
+      "theme": "глаголы"
+    },
+    {
+      "kanji": "プール",
+      "hiragana": "プール",
+      "romaji": "puuru",
+      "translation": "бассейн",
+      "note": "из JLPT N5 — День 8 (частица で — место)",
+      "id": 162,
+      "date_added": "2026-06-23",
+      "theme": "глаголы"
+    },
+    {
+      "kanji": "泳ぐ",
+      "hiragana": "およぐ",
+      "romaji": "oyogu",
+      "translation": "плавать",
+      "note": "из JLPT N5 — День 8. U-глагол",
+      "id": 163,
+      "date_added": "2026-06-23",
+      "theme": "глаголы"
+    },
+    {
+      "kanji": "電車",
+      "hiragana": "でんしゃ",
+      "romaji": "densha",
+      "translation": "поезд, электричка",
+      "note": "из JLPT N5 — День 8 (частица で — инструмент)",
+      "id": 164,
+      "date_added": "2026-06-23",
+      "theme": "глаголы"
+    },
+    {
+      "kanji": "会社",
+      "hiragana": "かいしゃ",
+      "romaji": "kaisha",
+      "translation": "компания, офис",
+      "note": "из JLPT N5 — День 8. 会社に行く = идти на работу",
+      "id": 165,
+      "date_added": "2026-06-23",
+      "theme": "глаголы"
+    },
+    {
+      "kanji": "バス",
+      "hiragana": "バス",
+      "romaji": "basu",
+      "translation": "автобус",
+      "note": "из JLPT N5 — День 8 (частица で — инструмент)",
+      "id": 166,
+      "date_added": "2026-06-23",
+      "theme": "глаголы"
+    },
+    {
+      "kanji": "箸",
+      "hiragana": "はし",
+      "romaji": "hashi",
+      "translation": "палочки для еды",
+      "note": "из JLPT N5 — День 8 (частица で — инструмент)",
+      "id": 167,
+      "date_added": "2026-06-23",
+      "theme": "глаголы"
+    },
+    {
+      "kanji": "ご飯",
+      "hiragana": "ごはん",
+      "romaji": "gohan",
+      "translation": "рис, еда",
+      "note": "из JLPT N5 — День 8. ご飯を食べる = есть/кушать",
+      "id": 168,
+      "date_added": "2026-06-23",
+      "theme": "глаголы"
+    },
+    {
+      "kanji": "鉛筆",
+      "hiragana": "えんぴつ",
+      "romaji": "enpitsu",
+      "translation": "карандаш",
+      "note": "из JLPT N5 — День 8 (частица で — инструмент)",
+      "id": 169,
+      "date_added": "2026-06-23",
+      "theme": "глаголы"
+    },
+    {
+      "kanji": "日記",
+      "hiragana": "にっき",
+      "romaji": "nikki",
+      "translation": "дневник",
+      "note": "из JLPT N5 — День 8. 日記をつける = вести дневник",
+      "id": 170,
+      "date_added": "2026-06-23",
+      "theme": "глаголы"
+    },
+    {
+      "kanji": "書く",
+      "hiragana": "かく",
+      "romaji": "kaku",
+      "translation": "писать",
+      "note": "из JLPT N5 — День 8. U-глагол",
+      "id": 171,
+      "date_added": "2026-06-23",
+      "theme": "глаголы"
+    },
+    {
+      "kanji": "作る",
+      "hiragana": "つくる",
+      "romaji": "tsukuru",
+      "translation": "делать, создавать, готовить",
+      "note": "из JLPT N5 — День 8. U-глагол",
+      "id": 172,
+      "date_added": "2026-06-23",
+      "theme": "глаголы"
+    },
+    {
+      "kanji": "いつも",
+      "hiragana": "いつも",
+      "romaji": "itsumo",
+      "translation": "всегда",
+      "note": "из JLPT N5 — День 8 (частица で — место)",
+      "id": 173,
+      "date_added": "2026-06-23",
+      "theme": "глаголы"
+    },
+    {
+      "kanji": "話せる",
+      "hiragana": "はなせる",
+      "romaji": "hanaseru",
+      "translation": "мочь говорить, уметь говорить",
+      "note": "из JLPT N5 — День 8 (частица が). Потенциальная форма глагола 話す",
+      "id": 174,
+      "date_added": "2026-06-23",
+      "theme": "глаголы"
+    }
+  ]
+}

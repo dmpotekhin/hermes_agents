@@ -107,6 +107,24 @@ gh pr review 123 --request-changes --body "See inline comments."
 
 ---
 
+## Pitfall: GitHub auth on a fresh macOS
+
+If `gh` is not installed (macOS default), use SSH directly:
+
+```bash
+# Check if SSH key exists
+test -f ~/.ssh/id_ed25519.pub || ssh-keygen -t ed25519 -C "$(git config user.email)" -f ~/.ssh/id_ed25519 -N ""
+cat ~/.ssh/id_ed25519.pub   # add to github.com/settings/keys
+ssh -T git@github.com
+git remote set-url origin git@github.com:owner/repo.git
+```
+
+## Reference: Hermes config backup to GitHub
+
+See `references/hermes-backup-to-github.md` for a full guide on pushing
+`~/.hermes/` (profiles, skills, config) to a private repo with a tuned
+.gitignore that excludes secrets, sessions, caches, and runtime state.
+
 ## Section 5: Repository Management
 
 ```bash

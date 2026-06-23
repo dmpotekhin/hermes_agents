@@ -1,0 +1,248 @@
+{
+  "title": "JLPT N5 — 30-дневный план",
+  "start_date": "2026-06-17",
+  "time": "20:00 MSK",
+  "days": [
+    {
+      "day": 1,
+      "patterns": [
+        "n5_0001",
+        "n5_0002"
+      ],
+      "title": "Частицы の и は",
+      "topic": "particles"
+    },
+    {
+      "day": 2,
+      "patterns": [
+        "n5_0003",
+        "n5_0004",
+        "n5_0005",
+        "n5_0006",
+        "n5_0007",
+        "n5_0008",
+        "n5_0009"
+      ],
+      "title": "Связка だ/です, вопросы и существование",
+      "topic": "basics+questions+existence"
+    },
+    {
+      "day": 3,
+      "patterns": [],
+      "title": "Повторение: день 1-2",
+      "topic": "review"
+    },
+    {
+      "day": 4,
+      "patterns": [
+        "n5_0019",
+        "n5_0020"
+      ],
+      "title": "Частицы が (subject) и で (location)",
+      "topic": "particles"
+    },
+    {
+      "day": 5,
+      "patterns": [
+        "n5_0021",
+        "n5_0022"
+      ],
+      "title": "Частица で (средство) и でしょう",
+      "topic": "particles"
+    },
+    {
+      "day": 6,
+      "patterns": [
+        "n5_0010",
+        "n5_0011"
+      ],
+      "title": "Прошедшее время: ru-глаголы и u-глаголы",
+      "topic": "verbs"
+    },
+    {
+      "day": 7,
+      "patterns": [
+        "n5_0012",
+        "n5_0013"
+      ],
+      "title": "Исключения する/くる и 〜ている",
+      "topic": "verbs"
+    },
+    {
+      "day": 8,
+      "patterns": [
+        "n5_0014",
+        "n5_0015"
+      ],
+      "title": "Отрицание 〜ない и отриц. прошлое 〜なかった",
+      "topic": "verbs"
+    },
+    {
+      "day": 9,
+      "patterns": [],
+      "title": "Повторение: дни 6-10",
+      "topic": "review"
+    },
+    {
+      "day": 10,
+      "patterns": [
+        "n5_0016",
+        "n5_0017"
+      ],
+      "title": "Счётные суффиксы (Counters 001-002)",
+      "topic": "counters"
+    },
+    {
+      "day": 11,
+      "patterns": [
+        "n5_0023",
+        "n5_0024"
+      ],
+      "title": "な-прилагательные: отриц. и прошлое",
+      "topic": "adjectives"
+    },
+    {
+      "day": 12,
+      "patterns": [
+        "n5_0025",
+        "n5_0026"
+      ],
+      "title": "い-прилагательные: отриц. и прошлое",
+      "topic": "adjectives"
+    },
+    {
+      "day": 13,
+      "patterns": [
+        "n5_0032",
+        "n5_0042"
+      ],
+      "title": "Союзы: が (но), けれども",
+      "topic": "conjunctions"
+    },
+    {
+      "day": 14,
+      "patterns": [],
+      "title": "Повторение: дни 12-15",
+      "topic": "review"
+    },
+    {
+      "day": 15,
+      "patterns": [
+        "n5_0034",
+        "n5_0035"
+      ],
+      "title": "Просьбы: てください / ないでください",
+      "topic": "requests"
+    },
+    {
+      "day": 16,
+      "patterns": [
+        "n5_0046",
+        "n5_0047"
+      ],
+      "title": "Предложения: ませんか / ましょう",
+      "topic": "proposals"
+    },
+    {
+      "day": 17,
+      "patterns": [
+        "n5_0063",
+        "n5_0072"
+      ],
+      "title": "Желание: たい / планы: つもり",
+      "topic": "desires"
+    },
+    {
+      "day": 18,
+      "patterns": [
+        "n5_0067",
+        "n5_0070"
+      ],
+      "title": "Разрешение: てもいい / запрет: てはいけない",
+      "topic": "permission"
+    },
+    {
+      "day": 19,
+      "patterns": [],
+      "title": "Повторение: дни 17-20",
+      "topic": "review"
+    },
+    {
+      "day": 20,
+      "patterns": [
+        "n5_0027",
+        "n5_0028"
+      ],
+      "title": "Время: とき / ながら",
+      "topic": "time"
+    },
+    {
+      "day": 21,
+      "patterns": [
+        "n5_0040",
+        "n5_0041",
+        "n5_0061"
+      ],
+      "title": "Причина/откуда: から / ので",
+      "topic": "reason"
+    },
+    {
+      "day": 22,
+      "patterns": [
+        "n5_0045",
+        "n5_0068"
+      ],
+      "title": "Последовательность: まえに / てから",
+      "topic": "sequence"
+    },
+    {
+      "day": 23,
+      "patterns": [],
+      "title": "Повторение: дни 22-24",
+      "topic": "review"
+    },
+    {
+      "day": 24,
+      "patterns": [
+        "n5_0038",
+        "n5_0074"
+      ],
+      "title": "Сравнения: いちばん / より",
+      "topic": "comparison"
+    },
+    {
+      "day": 25,
+      "patterns": [
+        "n5_0033",
+        "n5_0043"
+      ],
+      "title": "Количество: だけ / くらい",
+      "topic": "quantity"
+    },
+    {
+      "day": 26,
+      "patterns": [
+        "n5_0048",
+        "n5_0049",
+        "n5_0044"
+      ],
+      "title": "Доп. частицы: も / もう / まだ",
+      "topic": "particles"
+    },
+    {
+      "day": 27,
+      "patterns": [
+        "n5_0057",
+        "n5_0062"
+      ],
+      "title": "Номинализация の / слишком すぎる",
+      "topic": "advanced"
+    },
+    {
+      "day": 28,
+      "patterns": [],
+      "title": "Финальный тест — все 74 паттерна N5",
+      "topic": "final"
+    }
+  ]
+}
