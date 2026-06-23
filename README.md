@@ -1,85 +1,126 @@
-# Hermes Agent — Конфигурация и профили
+<div align="center">
 
-Репозиторий содержит полную конфигурацию **Hermes Agent** на macOS, включая все профили, навыки (skills), плагины и JLPT-базу для изучения японского языка.
+# 🏯 Hermes Agent — Конфигурация и профили
+
+[![GitHub](https://img.shields.io/badge/репозиторий-privado-8A2BE2?style=flat-square&logo=github)](https://github.com/dmpotekhin/hernes_agents)
+[![JLPT](https://img.shields.io/badge/JLPT-N5_N4_N3-FF6B6B?style=flat-square&logo=opencontainersinitiative)](#jlpt-база-знаний)
+[![Anki](https://img.shields.io/badge/Anki-колода-00ADD8?style=flat-square&logo=anki)](#anki-колода-n5-по-дням)
+[![Hermes](https://img.shields.io/badge/Hermes-Agent-4FC08D?style=flat-square)](#)
+[![macOS](https://img.shields.io/badge/platform-macOS-000000?style=flat-square&logo=apple)](#)
+
+**Полная конфигурация Hermes Agent на macOS · 2 профиля · 100+ навыков · JLPT-база N5–N1**
+
+</div>
 
 ---
 
-## Структура репозитория
+## 📋 Содержание
+
+- [Структура репозитория](#-структура-репозитория)
+- [Профили](#-профили)
+- [JLPT База знаний](#-jlpt-база-знаний)
+  - [Поиск по RAG](#поиск-по-rag)
+  - [Формат паттернов](#формат-паттернов)
+- [Anki-колода N5](#-anki-колода-n5-по-дням)
+  - [Характеристики](#характеристики)
+  - [Как использовать](#как-использовать)
+  - [Сборка](#сборка-колоды)
+- [Быстрый старт](#-быстрый-старт)
+- [Безопасность](#-безопасность)
+- [Диагностика](#-диагностика)
+
+---
+
+## 📁 Структура репозитория
 
 ```
 ~/.hermes/
-├── config.yaml              # Глобальная конфигурация Hermes Agent
-├── SOUL.md                  # Личность агента (по умолчанию пустая)
-├── .gitignore               # Игнорируемые файлы (секреты, кэш, логи)
+├── 📄 config.yaml               # Глобальная конфигурация Hermes Agent
+├── 📄 SOUL.md                   # Личность агента
+├── 📄 .gitignore                # Игнорируемые файлы
 │
-├── profiles/
-│   ├── japanese-tutor/      # Основной профиль — репетитор японского
-│   │   ├── config.yaml          # Конфигурация профиля
-│   │   ├── SOUL.md              # Личность профиля
-│   │   ├── skills/              # Навыки (скиллы) профиля
-│   │   └── cron/jobs.json       # Расписание: N5-урок ежедневно в 21:00
+├── 👤 profiles/
+│   ├── 🇯🇵  japanese-tutor/      # Репетитор японского языка
+│   │   ├── config.yaml
+│   │   ├── SOUL.md
+│   │   ├── skills/              # Навыки профиля
+│   │   └── cron/jobs.json       # Ежедневный урок в 21:00 MSK
 │   │
-│   └── travel-agent/        # Второй профиль — тревел-агент
+│   └── ✈️  travel-agent/        # Тревел-агент
 │       ├── config.yaml
 │       ├── SOUL.md
 │       └── skills/
 │
-├── skills/                  # Общие навыки (доступны всем профилям)
-│   ├── creative/            # Генерация изображений, ASCII-art, Excalidraw, p5.js
-│   ├── mlops/               # LLM-инференс (llama.cpp, vLLM), HuggingFace
-│   ├── research/            # arXiv, бумаги, blogwatcher
-│   ├── productivity/        # Notion, Google Workspace, Airtable
-│   ├── github/              # GitHub workflow, PR, code review
-│   ├── media/               # YouTube, GIF, аудио
-│   ├── devops/              # Kanban-доска
-│   └── ...                  # И другие категории
+├── 🧠 skills/                   # Общие навыки
+│   ├── creative/                # генерация, дизайн, инфографика
+│   ├── mlops/                   # LLM, инференс, HuggingFace
+│   ├── github/                  # PR, code review, CI
+│   ├── research/                # arXiv, paper writing
+│   ├── productivity/            # Notion, Google Workspace, PDF
+│   ├── media/                   # YouTube, аудио, GIF
+│   └── ...                      # 100+ навыков
 │
-├── plugins/                 # Плагины (внешние репозитории)
+├── 📦 jp_rag_data/              # JLPT база знаний
+│   ├── chromadb/                # ChromaDB векторная БД
+│   ├── patterns.jsonl           # 723 паттерна N5–N1
+│   ├── user_vocab.json          # 174 слова · 15 тем
+│   ├── query_rag.py             # Поиск по паттернам
+│   ├── daily_lesson.py          # Генератор урока
+│   ├── study_plan.json          # 30-дневный план N5
+│   ├── N5_vocab_days.apkg       # Anki-колода · 1 444 слова
+│   └── build_n5_anki.py         # Сборщик Anki-колоды
 │
-├── jp_rag_data/             # JLPT база знаний (японский язык)
-│   ├── chromadb/            # Векторная БД для семантического поиска
-│   ├── patterns.jsonl       # 723 грамматических паттерна N5–N1
-│   ├── user_vocab.json      # Словарь (174 слова в 15 темах)
-│   ├── query_rag.py         # Скрипт поиска по RAG
-│   ├── daily_lesson.py      # Генератор ежедневного урока
-│   ├── study_plan.json      # 30-дневный план N5
-│   ├── N5_vocab_days.apkg   # Anki-колода: 1 444 слова N5 по дням
-│   └── build_n5_anki_*.py   # Скрипты сборки Anki-колод
-│
-└── cron/                    # Глобальные cron-задачи Hermes
+├── 🔌 plugins/                  # Внешние плагины
+└── ⏰ cron/                     # Глобальные cron-задачи
 ```
 
 ---
 
-## Профили
+## 👤 Профили
 
-### japanese-tutor
-- **Назначение:** Репетитор японского языка (Sato-sensei)
-- **Модель:** deepseek-v4-flash (провайдер: DeepSeek)
-- **Задачи:** Последовательное изучение JLPT N5-N1, проверка грамматики, словарный запас
-- **Cron:** Урок N5 каждый день в 21:00 MSK (доставляется в Telegram)
+### 🇯🇵 japanese-tutor
 
-### travel-agent
-- **Назначение:** Тревел-агент для планирования поездок
-- **Модель:** deepseek-v4-flash
-- **Задачи:** Поиск отелей, билетов, маршрутов
+Ваш персональный репетитор японского языка — **Sato-sensei**.
+
+| Параметр | Значение |
+|---------|---------|
+| **Назначение** | Изучение JLPT N5–N1, грамматика, лексика |
+| **Модель** | `deepseek-v4-flash` |
+| **Провайдер** | DeepSeek |
+| **Доставка** | Telegram · ежедневно в 21:00 MSK |
+| **Метод** | Последовательное прохождение паттернов Акудзавы |
+
+### ✈️ travel-agent
+
+Помощник в планировании поездок.
+
+| Параметр | Значение |
+|---------|---------|
+| **Назначение** | Поиск билетов, отелей, маршрутов |
+| **Модель** | `deepseek-v4-flash` |
+| **Провайдер** | DeepSeek |
 
 ---
 
-## JLPT База знаний (jp_rag_data)
+## 📦 JLPT База знаний
 
-### Что внутри
+Данные из книг **Noboru Akuzawa — Japanese Sentence Patterns for JLPT** (N5–N1).
+
+### Состав
+
 | Файл | Описание |
-|---|---|
-| `patterns.jsonl` | 723 грамматических паттерна из книг Нобору Акудзавы (N5-N1) |
-| `chromadb/` | Векторная БД (ChromaDB) с эмбеддингами для семантического поиска |
-| `user_vocab.json` | Персональный словарь (174 слова, 15 тем) |
-| `study_plan.json` | План изучения N5 на 30 дней |
+|------|----------|
+| `patterns.jsonl` | 723 паттерна с примерами, хираганой, ромадзи |
+| `chromadb/` | Векторная БД для семантического поиска (модель `intfloat/multilingual-e5-small`) |
+| `user_vocab.json` | Персональный словарь: 174 слова, 15 тем |
+| `study_plan.json` | 30-дневный план N5 с разбивкой по дням |
 | `study_progress.json` | Прогресс изучения |
-| `query_rag.py` | Скрипт поиска по RAG |
+| `query_rag.py` | CLI-поиск по RAG |
 | `daily_lesson.py` | Генератор ежедневного урока |
 
 ### Поиск по RAG
+
+Поддерживает запросы на русском, английском и японском.
 
 ```bash
 # Поиск по всем уровням
@@ -89,100 +130,106 @@ python3 ~/.hermes/jp_rag_data/query_rag.py "частица は"
 python3 ~/.hermes/jp_rag_data/query_rag.py "отрицательная форма" N5
 
 # Поиск на японском
-python3 ~/.hermes/jp_rag_data/query_rag.py "～たいです"
+python3 ~/.hermes/jp_rag_data/query_rag.py "〜たいです"
 ```
 
-### Формат паттернов (patterns.jsonl)
+### Формат паттернов
 
 ```json
 {
-  "level": "N5",
-  "pattern": "〜たいです",
-  "hiragana": "〜たいです",
-  "meaning": "Хотеть сделать что-то",
-  "examples": [
-    {
-      "kanji": "日本に行きたいです。",
-      "hiragana": "にほんにいきたいです。",
-      "romaji": "Nihon ni ikitai desu.",
-      "translation": "Я хочу поехать в Японию."
-    }
+  "id": "n5_0001",
+  "jlpt_level": "N5",
+  "pattern_title": "の (no) – 1: of (possessive particle)",
+  "meaning": "of / possessive particle",
+  "formation": "Noun 1 + の + Noun 2",
+  "japanese_examples": ["私の名前はテイラーです。"],
+  "hiragana_examples": ["わたしの なまえは ていらーです。"],
+  "romaji_examples": ["Watashi no namae wa teirâ desu."],
+  "english_examples": ["My name is Taylor."],
+  "vocabulary": [
+    {"word": "私", "reading": "わたし(watashi)", "meaning": "I"},
+    {"word": "名前", "reading": "なまえ(namae)", "meaning": "name"}
   ],
-  "vocab": [
-    {"kanji": "日本", "hiragana": "にほん", "romaji": "nihon", "meaning": "Япония"}
-  ]
+  "page_start": 24,
+  "page_end": 26
 }
 ```
 
 ---
 
-## Anki-колода N5 по дням
+## 🃏 Anki-колода N5 по дням
 
 Готовая колода для интервального повторения всей лексики N5.
 
-**Файл:** `jp_rag_data/N5_vocab_days.apkg`
+**Файл:** [`jp_rag_data/N5_vocab_days.apkg`](jp_rag_data/N5_vocab_days.apkg)
 
 ### Характеристики
 
 | Параметр | Значение |
-|---|---|
-| Всего слов | 1 444 |
-| Типов карточек | 3 (Kanji→Чтение, Хирагана→Кандзи, Перевод→Кандзи) |
-| Всего карточек | 4 332 |
-| Подколод | 22 дня + Дополнительные |
-| С переводом | 49 слов (из `vocabulary` поля паттернов + user_vocab) |
-| Без перевода | 1 395 (можно добавить в Anki через кнопку Edit) |
+|----------|----------|
+| **Всего слов** | 1 444 |
+| **Типы карточек** | 3 вида: Kanji→Чтение, Хирагана→Кандзи, Перевод→Кандзи |
+| **Всего карточек** | 4 332 |
+| **Подколоды** | 22 дня + Дополнительные |
+| **С переводом** | 49 слов (`vocabulary` + `user_vocab`) |
+| **Без перевода** | 1 395 (можно добавить в Anki) |
 
-### Как использовать
+### Структура подколод
 
-1. Открыть `N5_vocab_days.apkg` в AnkiDesktop или AnkiDroid
-2. Колода автоматически разобьётся на подколоды по дням:
-   - `日本語 N5 :: По дням :: День 1 - Частицы の и は`
-   - `日本語 N5 :: По дням :: День 2 - Связка だ/です...`
-   - ...
-3. Учить по одному дню в день, параллельно с основным курсом
+```
+日本語 N5 :: По дням
+├── День 1  — Частицы の и は                   (45 слов)
+├── День 2  — Связка だ/です, вопросы           (88 слов)
+├── День 4  — Частицы が и で                   (41 слово)
+├── День 5  — Частица で, でしょう               (41 слово)
+├── День 6  — Прошедшее время                   (43 слова)
+├── ...                                          ...
+├── День 27 — Номинализация の, すぎる           (54 слова)
+└── Дополнительные паттерны                     (525 слов)
+```
+
+> **Примечание:** Дни 3, 9, 14, 19, 23, 28 — повторение, без новых слов.
 
 ### Источники слов
 
-| Источник | Слов |
-|---|---|
+| Источник | Количество |
+|----------|:----------:|
 | Поле `vocabulary` в паттернах | 29 |
-| Извлечено из примеров-предложений | ~1 200 |
-| Из user_vocab.json | 174 |
+| Извлечено из примеров | ~1 200 |
+| Из `user_vocab.json` | 174 |
+| **Всего уникальных** | **1 444** |
 
 ### Сборка колоды
 
 ```bash
-# Установить genanki
+# 1. Установить genanki
 pip3 install genanki
 
-# Собрать колоду (без перевода — быстро)
-python3 jp_rag_data/build_n5_now.py
+# 2. Собрать (без перевода — 15 секунд)
+python3 jp_rag_data/build_n5_anki.py
 
-# Собрать колоду с переводом через Google Translate (долго, ~20 мин)
-python3 jp_rag_data/build_n5_final.py
+# 3. Импортировать N5_vocab_days.apkg в Anki
 ```
 
-Скрипты сборки лежат в `~/Downloads/`. Чтобы собрать заново после обновления паттернов:
+Чтобы пересобрать после обновления `patterns.jsonl` или `user_vocab.json`:
 
 ```bash
-cp ~/Downloads/build_n5_now.py ~/.hermes/jp_rag_data/
-cd ~/.hermes && python3 jp_rag_data/build_n5_now.py
+cd ~/.hermes && python3 jp_rag_data/build_n5_anki.py
 ```
 
 ---
 
-## Быстрый старт после клонирования
+## 🚀 Быстрый старт
 
 ```bash
 # 1. Клонировать репозиторий
 git clone git@github.com:dmpotekhin/hernes_agents.git ~/.hermes
 
-# 2. Создать .env с API-ключами (не в git!)
+# 2. Создать .env с API-ключами
 cp .env.example .env
-# Отредактировать .env: вставить ключи DeepSeek, OpenAI и т.д.
+# Отредактировать .env: DeepSeek, OpenAI и т.д.
 
-# 3. Установить Hermes (если не установлен)
+# 3. Установить Hermes (если ещё нет)
 # https://hermes-agent.nousresearch.com/docs
 
 # 4. Запустить
@@ -191,33 +238,44 @@ hermes --profile japanese-tutor
 
 ---
 
-## Важные замечания
+## 🔒 Безопасность
 
-### Что НЕ попало в git (смотри .gitignore)
-- `.env` — API-ключи и токены
-- `auth.json`, `nous_auth.json` — аутентификация
-- `channel_directory.json` — привязка каналов
-- `sessions/`, `logs/`, `cache/` — сессии и логи
-- `memories/` — долговременная память агента
-- `state.db`, `kanban.db` — базы данных рантайма
-- `cron/output/` — сгенерированные уроки
-- `pairing/` — связка с Telegram/Discord
+Следующие файлы **НЕ попадают** в git (см. [`.gitignore`](.gitignore)):
 
-### Если что-то пошло не так
+| Файл | Причина |
+|------|---------|
+| `.env` | API-ключи и токены |
+| `auth.json`, `nous_auth.json` | Аутентификация |
+| `channel_directory.json` | Привязка каналов |
+| `sessions/`, `logs/`, `cache/` | Сессии и логи |
+| `memories/` | Долговременная память агента |
+| `state.db`, `kanban.db` | Базы данных |
+| `cron/output/` | Сгенерированные уроки |
+| `pairing/` | Связка с Telegram/Discord |
+
+---
+
+## 🔧 Диагностика
+
 ```bash
-# Проверить статус
+# Статус Hermes
 hermes status
 
-# Посмотреть логи
+# Логи
 tail -f ~/.hermes/logs/*.log
 
-# Перезапустить шлюз (Telegram)
+# Перезапуск Telegram-шлюза
 cat ~/.hermes/gateway.pid | xargs kill
 hermes gateway --daemon
+
+# Проверить состояние git
+cd ~/.hermes && git status
 ```
 
 ---
 
-## Поддержка
+<div align="center">
 
-По вопросам обращаться к владельцу репозитория (@dmpotekhin).
+**Hermes Agents** · © 2026 [@dmpotekhin](https://github.com/dmpotekhin)
+
+</div>
