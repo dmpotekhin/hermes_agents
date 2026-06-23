@@ -1,0 +1,28 @@
+{
+  "flight-search": {
+    "archived_at": null,
+    "created_at": "2026-06-19T10:16:18.401963+00:00",
+    "created_by": "agent",
+    "last_patched_at": "2026-06-19T10:16:28.166266+00:00",
+    "last_used_at": "2026-06-19T10:16:30.798673+00:00",
+    "last_viewed_at": "2026-06-19T10:16:30.794557+00:00",
+    "patch_count": 1,
+    "pinned": false,
+    "state": "active",
+    "use_count": 1,
+    "view_count": 1
+  },
+  "hermes-agent": {
+    "archived_at": null,
+    "created_at": "2026-06-16T10:27:34.686584+00:00",
+    "created_by": null,
+    "last_patched_at": null,
+    "last_used_at": "2026-06-16T10:27:34.687683+00:00",
+    "last_viewed_at": "2026-06-16T10:27:34.686614+00:00",
+    "patch_count": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 1,
+    "view_count": 1
+  }
+}

@@ -1,0 +1,70 @@
+# Sensitive / secrets
+.env
+auth.json
+nous_auth.json
+channel_directory.json
+gateway_state.json
+gateway.lock
+
+# Embedded git repos (hermes source code, plugins)
+hermes-agent/
+plugins/*/
+
+# Large cache / DB
+models_dev_cache.json
+state.db
+state.db-shm
+state.db-wal
+kanban.db
+
+# Session history & logs
+sessions/
+logs/
+*.log
+*.history
+
+# Caches
+cache/
+audio_cache/
+image_cache/
+sandboxes/
+*.skills_prompt_snapshot.json
+*models_cache.json
+*_cache.json
+
+# Personal memories
+memories/
+
+# Binaries
+bin/
+
+# Lock & temp files
+*.lock
+.clean_shutdown
+.install_method
+.update_check
+*.pid
+processes.json
+
+# Config backups
+config.yaml.bak*
+
+# Pairing / pairing info
+pairing/
+
+# Pastes cache
+pastes/
+
+# Skills internal state
+skills/.bundled_manifest
+skills/.curator_*
+skills/.usage.json
+
+# Cron output (generated content)
+cron/output/
+
+# SOUL backups
+SOUL.md.save
+
+# Node / deps
+node_modules/

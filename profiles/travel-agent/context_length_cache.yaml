@@ -1,0 +1,3 @@
+context_lengths:
+  deepseek/deepseek-v4-flash@https://inference-api.nousresearch.com/v1: 1048576
+  stepfun/step-3.7-flash:free@https://inference-api.nousresearch.com/v1: 256000
