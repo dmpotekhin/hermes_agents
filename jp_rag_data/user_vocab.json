@@ -3,7 +3,7 @@
     "description": "Персональный словарь из разговорного клуба японского языка",
     "created": "2026-06-20",
     "last_updated": "2026-06-24",
-    "total_words": 205,
+    "total_words": 221,
     "themes": [
       "знакомство",
       "вопросы",
@@ -1961,6 +1961,153 @@
       "date_added": "2026-06-24",
       "note": "Традиционный японский обед в коробке",
       "id": 205
+    },
+    {
+      "kanji": "します",
+      "hiragana": "します",
+      "romaji": "shimasu",
+      "translation": "делать (ます-форма глагола する)",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "note": "する → します. [名詞 + にします] = выбираю, остановлюсь на...",
+      "id": 206
+    },
+    {
+      "kanji": "じゃ",
+      "hiragana": "じゃ",
+      "romaji": "ja",
+      "translation": "ну, что ж, тогда (разг. сокращение от では)",
+      "theme": "утверждения",
+      "date_added": "2026-06-24",
+      "note": "じゃ、僕も！ = Ну, я тоже! Разговорная форма では",
+      "id": 207
+    },
+    {
+      "kanji": "牛丼",
+      "hiragana": "ぎゅうどん",
+      "romaji": "gyuudon",
+      "translation": "рис с говядиной (гиюдон)",
+      "theme": "еда",
+      "date_added": "2026-06-24",
+      "id": 208
+    },
+    {
+      "kanji": "カレーライス",
+      "hiragana": "カレーライス",
+      "romaji": "kareeraisu",
+      "translation": "карри с рисом",
+      "theme": "еда",
+      "date_added": "2026-06-24",
+      "id": 209
+    },
+    {
+      "kanji": "おにぎり",
+      "hiragana": "おにぎり",
+      "romaji": "onigiri",
+      "translation": "онигири (рисовый колобок с начинкой)",
+      "theme": "еда",
+      "date_added": "2026-06-24",
+      "id": 210
+    },
+    {
+      "kanji": "うどん",
+      "hiragana": "うどん",
+      "romaji": "udon",
+      "translation": "удон (толстая пшеничная лапша)",
+      "theme": "еда",
+      "date_added": "2026-06-24",
+      "id": 211
+    },
+    {
+      "kanji": "そば",
+      "hiragana": "そば",
+      "romaji": "soba",
+      "translation": "соба (гречневая лапша)",
+      "theme": "еда",
+      "date_added": "2026-06-24",
+      "id": 212
+    },
+    {
+      "kanji": "お好み焼き",
+      "hiragana": "おこのみやき",
+      "romaji": "okonomiyaki",
+      "translation": "окономияки (японская «пицца»)",
+      "theme": "еда",
+      "date_added": "2026-06-24",
+      "id": 213
+    },
+    {
+      "kanji": "焼きそば",
+      "hiragana": "やきそば",
+      "romaji": "yakisoba",
+      "translation": "жареная лапша",
+      "theme": "еда",
+      "date_added": "2026-06-24",
+      "id": 214
+    },
+    {
+      "kanji": "親子丼",
+      "hiragana": "おやこどん",
+      "romaji": "oyakodon",
+      "translation": "рис с курицей и яйцом",
+      "theme": "еда",
+      "date_added": "2026-06-24",
+      "note": "Букв. «родитель и дитя» (курица+яйцо) + дон (рис)",
+      "id": 215
+    },
+    {
+      "kanji": "刺身",
+      "hiragana": "さしみ",
+      "romaji": "sashimi",
+      "translation": "сашими (сырая рыба тонкими ломтиками)",
+      "theme": "еда",
+      "date_added": "2026-06-24",
+      "id": 216
+    },
+    {
+      "kanji": "焼き鳥",
+      "hiragana": "やきとり",
+      "romaji": "yakitori",
+      "translation": "якитори (куриные шашлычки)",
+      "theme": "еда",
+      "date_added": "2026-06-24",
+      "id": 217
+    },
+    {
+      "kanji": "パスタ",
+      "hiragana": "パスタ",
+      "romaji": "pasuta",
+      "translation": "паста",
+      "theme": "еда",
+      "date_added": "2026-06-24",
+      "id": 218
+    },
+    {
+      "kanji": "ピザ",
+      "hiragana": "ピザ",
+      "romaji": "piza",
+      "translation": "пицца",
+      "theme": "еда",
+      "date_added": "2026-06-24",
+      "id": 219
+    },
+    {
+      "kanji": "ハンバーガー",
+      "hiragana": "ハンバーガー",
+      "romaji": "hanbaagaa",
+      "translation": "гамбургер",
+      "theme": "еда",
+      "date_added": "2026-06-24",
+      "id": 220
+    },
+    {
+      "kanji": "サラダ",
+      "hiragana": "サラダ",
+      "romaji": "sarada",
+      "translation": "салат",
+      "theme": "еда",
+      "date_added": "2026-06-24",
+      "id": 221
     }
   ]
 }
