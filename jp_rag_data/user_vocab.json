@@ -3,7 +3,7 @@
     "description": "Персональный словарь из разговорного клуба японского языка",
     "created": "2026-06-20",
     "last_updated": "2026-06-24",
-    "total_words": 182,
+    "total_words": 192,
     "themes": [
       "знакомство",
       "вопросы",
@@ -21,7 +21,8 @@
       "счёт людей",
       "глаголы",
       "прилагательные",
-      "время"
+      "время",
+      "наречия"
     ]
   },
   "words": [
@@ -1747,6 +1748,99 @@
       "date_added": "2026-06-24",
       "note": "Заключительная частица. Ставится в конце предложения для мягкого утверждения/ожидания согласия",
       "id": 182
+    },
+    {
+      "kanji": "朝ご飯",
+      "hiragana": "あさごはん",
+      "romaji": "asagohan",
+      "translation": "завтрак",
+      "theme": "еда",
+      "date_added": "2026-06-24",
+      "id": 183
+    },
+    {
+      "kanji": "食べます",
+      "hiragana": "たべます",
+      "romaji": "tabemasu",
+      "translation": "есть, кушать",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "note": "ます-форма глагола 食べる(たべる). 朝ご飯を食べます = завтракаю",
+      "id": 184
+    },
+    {
+      "kanji": "パン",
+      "hiragana": "パン",
+      "romaji": "pan",
+      "translation": "хлеб",
+      "theme": "еда",
+      "date_added": "2026-06-24",
+      "id": 185
+    },
+    {
+      "kanji": "肉",
+      "hiragana": "にく",
+      "romaji": "niku",
+      "translation": "мясо",
+      "theme": "еда",
+      "date_added": "2026-06-24",
+      "id": 186
+    },
+    {
+      "kanji": "卵",
+      "hiragana": "たまご",
+      "romaji": "tamago",
+      "translation": "яйцо",
+      "theme": "еда",
+      "date_added": "2026-06-24",
+      "id": 187
+    },
+    {
+      "kanji": "魚",
+      "hiragana": "さかな",
+      "romaji": "sakana",
+      "translation": "рыба",
+      "theme": "еда",
+      "date_added": "2026-06-24",
+      "id": 188
+    },
+    {
+      "kanji": "野菜",
+      "hiragana": "やさい",
+      "romaji": "yasai",
+      "translation": "овощи",
+      "theme": "еда",
+      "date_added": "2026-06-24",
+      "id": 189
+    },
+    {
+      "kanji": "果物",
+      "hiragana": "くだもの",
+      "romaji": "kudamono",
+      "translation": "фрукты",
+      "theme": "еда",
+      "date_added": "2026-06-24",
+      "id": 190
+    },
+    {
+      "kanji": "よく",
+      "hiragana": "よく",
+      "romaji": "yoku",
+      "translation": "часто",
+      "theme": "наречия",
+      "date_added": "2026-06-24",
+      "note": "Наречие частоты. よく食べます = часто ем",
+      "id": 191
+    },
+    {
+      "kanji": "あまり",
+      "hiragana": "あまり",
+      "romaji": "amari",
+      "translation": "не очень, не особо (с отриц. формой)",
+      "theme": "наречия",
+      "date_added": "2026-06-24",
+      "note": "Используется с отрицанием: あまり食べません = не очень-то ем",
+      "id": 192
     }
   ]
 }
