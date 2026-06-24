@@ -3,7 +3,7 @@
     "description": "Персональный словарь из разговорного клуба японского языка",
     "created": "2026-06-20",
     "last_updated": "2026-06-24",
-    "total_words": 221,
+    "total_words": 254,
     "themes": [
       "знакомство",
       "вопросы",
@@ -2108,6 +2108,311 @@
       "theme": "еда",
       "date_added": "2026-06-24",
       "id": 221
+    },
+    {
+      "kanji": "有名",
+      "hiragana": "ゆうめい",
+      "romaji": "yuumei",
+      "translation": "известный, знаменитый (な-прил.)",
+      "theme": "прилагательные",
+      "date_added": "2026-06-24",
+      "note": "な-прилагательное. 有名な人 = известный человек",
+      "id": 222
+    },
+    {
+      "kanji": "安全",
+      "hiragana": "あんぜん",
+      "romaji": "anzen",
+      "translation": "безопасный (な-прил.)",
+      "theme": "прилагательные",
+      "date_added": "2026-06-24",
+      "note": "な-прилагательное",
+      "id": 223
+    },
+    {
+      "kanji": "元気",
+      "hiragana": "げんき",
+      "romaji": "genki",
+      "translation": "здоровый, бодрый, энергичный (な-прил.)",
+      "theme": "прилагательные",
+      "date_added": "2026-06-24",
+      "note": "な-прилагательное. お元気ですか = как дела? (букв: вы бодры?)",
+      "id": 224
+    },
+    {
+      "kanji": "静か",
+      "hiragana": "しずか",
+      "romaji": "shizuka",
+      "translation": "тихий, спокойный (な-прил.)",
+      "theme": "прилагательные",
+      "date_added": "2026-06-24",
+      "note": "な-прилагательное",
+      "id": 225
+    },
+    {
+      "kanji": "便利",
+      "hiragana": "べんり",
+      "romaji": "benri",
+      "translation": "удобный (な-прил.)",
+      "theme": "прилагательные",
+      "date_added": "2026-06-24",
+      "note": "な-прилагательное",
+      "id": 226
+    },
+    {
+      "kanji": "きれい",
+      "hiragana": "きれい",
+      "romaji": "kirei",
+      "translation": "красивый, чистый (な-прил.)",
+      "theme": "прилагательные",
+      "date_added": "2026-06-24",
+      "note": "な-прилагательное, хотя оканчивается на い! きれいな人 = красивый человек",
+      "id": 227
+    },
+    {
+      "kanji": "にぎやか",
+      "hiragana": "にぎやか",
+      "romaji": "nigiyaka",
+      "translation": "оживлённый, многолюдный (な-прил.)",
+      "theme": "прилагательные",
+      "date_added": "2026-06-24",
+      "note": "な-прилагательное",
+      "id": 228
+    },
+    {
+      "kanji": "親切",
+      "hiragana": "しんせつ",
+      "romaji": "shinsetsu",
+      "translation": "добрый (な-прил.)",
+      "theme": "прилагательные",
+      "date_added": "2026-06-24",
+      "note": "な-прилагательное",
+      "id": 229
+    },
+    {
+      "kanji": "高い",
+      "hiragana": "たかい",
+      "romaji": "takai",
+      "translation": "высокий, дорогой (い-прил.)",
+      "theme": "прилагательные",
+      "date_added": "2026-06-24",
+      "id": 230
+    },
+    {
+      "kanji": "安い",
+      "hiragana": "やすい",
+      "romaji": "yasui",
+      "translation": "дешёвый (い-прил.)",
+      "theme": "прилагательные",
+      "date_added": "2026-06-24",
+      "id": 231
+    },
+    {
+      "kanji": "赤い",
+      "hiragana": "あかい",
+      "romaji": "akai",
+      "translation": "красный (い-прил.)",
+      "theme": "прилагательные",
+      "date_added": "2026-06-24",
+      "id": 232
+    },
+    {
+      "kanji": "怖い",
+      "hiragana": "こわい",
+      "romaji": "kowai",
+      "translation": "страшный, пугающий (い-прил.)",
+      "theme": "прилагательные",
+      "date_added": "2026-06-24",
+      "id": 233
+    },
+    {
+      "kanji": "難しい",
+      "hiragana": "むずかしい",
+      "romaji": "muzukashii",
+      "translation": "сложный, трудный (い-прил.)",
+      "theme": "прилагательные",
+      "date_added": "2026-06-24",
+      "id": 234
+    },
+    {
+      "kanji": "新しい",
+      "hiragana": "あたらしい",
+      "romaji": "atarashii",
+      "translation": "новый (い-прил.)",
+      "theme": "прилагательные",
+      "date_added": "2026-06-24",
+      "id": 235
+    },
+    {
+      "kanji": "楽しい",
+      "hiragana": "たのしい",
+      "romaji": "tanoshii",
+      "translation": "весёлый, приятный (い-прил.)",
+      "theme": "прилагательные",
+      "date_added": "2026-06-24",
+      "id": 236
+    },
+    {
+      "kanji": "広い",
+      "hiragana": "ひろい",
+      "romaji": "hiroi",
+      "translation": "просторный, широкий (い-прил.)",
+      "theme": "прилагательные",
+      "date_added": "2026-06-24",
+      "id": 237
+    },
+    {
+      "kanji": "遠い",
+      "hiragana": "とおい",
+      "romaji": "tooi",
+      "translation": "далёкий (い-прил.)",
+      "theme": "прилагательные",
+      "date_added": "2026-06-24",
+      "id": 238
+    },
+    {
+      "kanji": "うるさい",
+      "hiragana": "うるさい",
+      "romaji": "urusai",
+      "translation": "шумный, надоедливый (い-прил.)",
+      "theme": "прилагательные",
+      "date_added": "2026-06-24",
+      "id": 239
+    },
+    {
+      "kanji": "数年前",
+      "hiragana": "すうねんまえ",
+      "romaji": "suunenmae",
+      "translation": "несколько лет назад",
+      "theme": "время",
+      "date_added": "2026-06-24",
+      "id": 240
+    },
+    {
+      "kanji": "昨日",
+      "hiragana": "きのう",
+      "romaji": "kinou",
+      "translation": "вчера",
+      "theme": "время",
+      "date_added": "2026-06-24",
+      "id": 241
+    },
+    {
+      "kanji": "時間",
+      "hiragana": "じかん",
+      "romaji": "jikan",
+      "translation": "время, час",
+      "theme": "время",
+      "date_added": "2026-06-24",
+      "id": 242
+    },
+    {
+      "kanji": "地域",
+      "hiragana": "ちいき",
+      "romaji": "chiiki",
+      "translation": "район, область, территория",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "id": 243
+    },
+    {
+      "kanji": "食堂",
+      "hiragana": "しょくどう",
+      "romaji": "shokudou",
+      "translation": "столовая",
+      "theme": "еда",
+      "date_added": "2026-06-24",
+      "id": 244
+    },
+    {
+      "kanji": "商店街",
+      "hiragana": "しょうてんがい",
+      "romaji": "shoutengai",
+      "translation": "торговая улица",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "id": 245
+    },
+    {
+      "kanji": "ホテル",
+      "hiragana": "ホテル",
+      "romaji": "hoteru",
+      "translation": "отель",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "id": 246
+    },
+    {
+      "kanji": "屋根",
+      "hiragana": "やね",
+      "romaji": "yane",
+      "translation": "крыша",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "id": 247
+    },
+    {
+      "kanji": "山",
+      "hiragana": "やま",
+      "romaji": "yama",
+      "translation": "гора",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "id": 248
+    },
+    {
+      "kanji": "人前",
+      "hiragana": "ひとまえ",
+      "romaji": "hitomae",
+      "translation": "на людях, перед людьми",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "id": 249
+    },
+    {
+      "kanji": "建物",
+      "hiragana": "たてもの",
+      "romaji": "tatemono",
+      "translation": "здание",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "id": 250
+    },
+    {
+      "kanji": "パーティー",
+      "hiragana": "パーティー",
+      "romaji": "paatii",
+      "translation": "вечеринка",
+      "theme": "хобби",
+      "date_added": "2026-06-24",
+      "id": 251
+    },
+    {
+      "kanji": "職場",
+      "hiragana": "しょくば",
+      "romaji": "shokuba",
+      "translation": "рабочее место",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "id": 252
+    },
+    {
+      "kanji": "最寄り駅",
+      "hiragana": "もよりえき",
+      "romaji": "moyorieki",
+      "translation": "ближайшая станция",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "id": 253
+    },
+    {
+      "kanji": "道",
+      "hiragana": "みち",
+      "romaji": "michi",
+      "translation": "дорога, путь",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "id": 254
     }
   ]
 }
