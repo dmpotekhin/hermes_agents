@@ -3,7 +3,7 @@
     "description": "Персональный словарь из разговорного клуба японского языка",
     "created": "2026-06-20",
     "last_updated": "2026-06-24",
-    "total_words": 192,
+    "total_words": 205,
     "themes": [
       "знакомство",
       "вопросы",
@@ -1841,6 +1841,126 @@
       "date_added": "2026-06-24",
       "note": "Используется с отрицанием: あまり食べません = не очень-то ем",
       "id": 192
+    },
+    {
+      "kanji": "も",
+      "hiragana": "も",
+      "romaji": "mo",
+      "translation": "тоже, также, и (частица)",
+      "theme": "частицы",
+      "date_added": "2026-06-24",
+      "note": "Вытесняет は/が/を. 果物も好きです = ещё и фрукты люблю",
+      "id": 193
+    },
+    {
+      "kanji": "好き",
+      "hiragana": "すき",
+      "romaji": "suki",
+      "translation": "любимый, нравится (な-прилагательное)",
+      "theme": "прилагательные",
+      "date_added": "2026-06-24",
+      "note": "な-прилагательное! 果物が好きです = люблю фрукты. 好きじゃない = не люблю",
+      "id": 194
+    },
+    {
+      "kanji": "牛乳",
+      "hiragana": "ぎゅうにゅう",
+      "romaji": "gyuunyuu",
+      "translation": "молоко",
+      "theme": "еда",
+      "date_added": "2026-06-24",
+      "id": 195
+    },
+    {
+      "kanji": "チーズ",
+      "hiragana": "チーズ",
+      "romaji": "chiizu",
+      "translation": "сыр",
+      "theme": "еда",
+      "date_added": "2026-06-24",
+      "id": 196
+    },
+    {
+      "kanji": "スープ",
+      "hiragana": "スープ",
+      "romaji": "suupu",
+      "translation": "суп",
+      "theme": "еда",
+      "date_added": "2026-06-24",
+      "id": 197
+    },
+    {
+      "kanji": "カレー",
+      "hiragana": "カレー",
+      "romaji": "karee",
+      "translation": "карри",
+      "theme": "еда",
+      "date_added": "2026-06-24",
+      "id": 198
+    },
+    {
+      "kanji": "天ぷら",
+      "hiragana": "てんぷら",
+      "romaji": "tempura",
+      "translation": "темпура",
+      "theme": "еда",
+      "date_added": "2026-06-24",
+      "id": 199
+    },
+    {
+      "kanji": "味噌汁",
+      "hiragana": "みそしる",
+      "romaji": "misoshiru",
+      "translation": "мисо-суп",
+      "theme": "еда",
+      "date_added": "2026-06-24",
+      "id": 200
+    },
+    {
+      "kanji": "お菓子",
+      "hiragana": "おかし",
+      "romaji": "okashi",
+      "translation": "сладости, десерты, снеки",
+      "theme": "еда",
+      "date_added": "2026-06-24",
+      "id": 201
+    },
+    {
+      "kanji": "お茶",
+      "hiragana": "おちゃ",
+      "romaji": "ocha",
+      "translation": "чай (зелёный чай)",
+      "theme": "еда",
+      "date_added": "2026-06-24",
+      "id": 202
+    },
+    {
+      "kanji": "ジュース",
+      "hiragana": "ジュース",
+      "romaji": "juusu",
+      "translation": "сок",
+      "theme": "еда",
+      "date_added": "2026-06-24",
+      "id": 203
+    },
+    {
+      "kanji": "水",
+      "hiragana": "みず",
+      "romaji": "mizu",
+      "translation": "вода",
+      "theme": "еда",
+      "date_added": "2026-06-24",
+      "id": 204
+    },
+    {
+      "kanji": "お弁当",
+      "hiragana": "おべんとう",
+      "romaji": "obentou",
+      "translation": "бэнто (обед в коробке)",
+      "theme": "еда",
+      "date_added": "2026-06-24",
+      "note": "Традиционный японский обед в коробке",
+      "id": 205
     }
   ]
 }
