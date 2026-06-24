@@ -3,7 +3,7 @@
     "description": "Персональный словарь из разговорного клуба японского языка",
     "created": "2026-06-20",
     "last_updated": "2026-06-24",
-    "total_words": 254,
+    "total_words": 268,
     "themes": [
       "знакомство",
       "вопросы",
@@ -2413,6 +2413,139 @@
       "theme": "глаголы",
       "date_added": "2026-06-24",
       "id": 254
+    },
+    {
+      "kanji": "強い",
+      "hiragana": "つよい",
+      "romaji": "tsuyoi",
+      "translation": "сильный (い-прил.)",
+      "theme": "прилагательные",
+      "date_added": "2026-06-24",
+      "note": "い-прилагательное",
+      "id": 255
+    },
+    {
+      "kanji": "弱い",
+      "hiragana": "よわい",
+      "romaji": "yowai",
+      "translation": "слабый (い-прил.)",
+      "theme": "прилагательные",
+      "date_added": "2026-06-24",
+      "note": "い-прилагательное",
+      "id": 256
+    },
+    {
+      "kanji": "すごい",
+      "hiragana": "すごい",
+      "romaji": "sugoi",
+      "translation": "крутой, потрясающий, невероятный (い-прил.)",
+      "theme": "прилагательные",
+      "date_added": "2026-06-24",
+      "note": "Самое частое слово в аниме! すごい！= Круто! Супер!",
+      "id": 257
+    },
+    {
+      "kanji": "大丈夫",
+      "hiragana": "だいじょうぶ",
+      "romaji": "daijoubu",
+      "translation": "в порядке, нормально (な-прил.)",
+      "theme": "прилагательные",
+      "date_added": "2026-06-24",
+      "note": "大丈夫ですか？= Вы в порядке?",
+      "id": 258
+    },
+    {
+      "kanji": "頑張る",
+      "hiragana": "がんばる",
+      "romaji": "ganbaru",
+      "translation": "стараться, прилагать усилия",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "note": "頑張れ！(повелит.) = Давай! Постарайся! Держись!",
+      "id": 259
+    },
+    {
+      "kanji": "勝つ",
+      "hiragana": "かつ",
+      "romaji": "katsu",
+      "translation": "побеждать, выигрывать",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "id": 260
+    },
+    {
+      "kanji": "負ける",
+      "hiragana": "まける",
+      "romaji": "makeru",
+      "translation": "проигрывать",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "id": 261
+    },
+    {
+      "kanji": "戦う",
+      "hiragana": "たたかう",
+      "romaji": "tatakau",
+      "translation": "сражаться, воевать",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "id": 262
+    },
+    {
+      "kanji": "捕まえる",
+      "hiragana": "つかまえる",
+      "romaji": "tsukamaeru",
+      "translation": "поймать, схватить",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "id": 263
+    },
+    {
+      "kanji": "逃げる",
+      "hiragana": "にげる",
+      "romaji": "nigeru",
+      "translation": "убегать, сбегать",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "id": 264
+    },
+    {
+      "kanji": "倒す",
+      "hiragana": "たおす",
+      "romaji": "taosu",
+      "translation": "одолеть, победить, сбить",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "id": 265
+    },
+    {
+      "kanji": "攻撃",
+      "hiragana": "こうげき",
+      "romaji": "kougeki",
+      "translation": "атака, нападение",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "note": "攻撃する = атаковать",
+      "id": 266
+    },
+    {
+      "kanji": "進化",
+      "hiragana": "しんか",
+      "romaji": "shinka",
+      "translation": "эволюция",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "note": "進化する = эволюционировать",
+      "id": 267
+    },
+    {
+      "kanji": "電気",
+      "hiragana": "でんき",
+      "romaji": "denki",
+      "translation": "электричество, свет",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "id": 268
     }
   ]
 }

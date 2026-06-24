@@ -1,0 +1,245 @@
+{
+  "info": {
+    "description": "Шпаргалка для просмотра Pokémon на японском",
+    "created": "2026-06-24",
+    "total_words": 28,
+    "categories": ["герои", "батл", "команды", "эмоции", "типы"]
+  },
+  "words": [
+    {
+      "id": 1,
+      "kanji": "ポケモン",
+      "hiragana": "ポケモン",
+      "romaji": "pokemon",
+      "translation": "покемон",
+      "category": "герои"
+    },
+    {
+      "id": 2,
+      "kanji": "サトシ",
+      "hiragana": "サトシ",
+      "romaji": "satoshi",
+      "translation": "Сатоси (Эш)",
+      "category": "герои"
+    },
+    {
+      "id": 3,
+      "kanji": "ピカチュウ",
+      "hiragana": "ピカチュウ",
+      "romaji": "pikachuu",
+      "translation": "Пикачу",
+      "category": "герои"
+    },
+    {
+      "id": 4,
+      "kanji": "モンスターボール",
+      "hiragana": "モンスターボール",
+      "romaji": "monsutaabooru",
+      "translation": "покебол",
+      "category": "герои"
+    },
+    {
+      "id": 5,
+      "kanji": "ゲット",
+      "hiragana": "ゲット",
+      "romaji": "getto",
+      "translation": "поймать (покемона)",
+      "category": "батл",
+      "note": "ポケモンゲットだぜ！ — легендарная фраза «Я поймал покемона!»"
+    },
+    {
+      "id": 6,
+      "kanji": "バトル",
+      "hiragana": "バトル",
+      "romaji": "batoru",
+      "translation": "битва, сражение",
+      "category": "батл"
+    },
+    {
+      "id": 7,
+      "kanji": "戦う",
+      "hiragana": "たたかう",
+      "romaji": "tatakau",
+      "translation": "сражаться",
+      "category": "батл"
+    },
+    {
+      "id": 8,
+      "kanji": "勝つ",
+      "hiragana": "かつ",
+      "romaji": "katsu",
+      "translation": "победить",
+      "category": "батл"
+    },
+    {
+      "id": 9,
+      "kanji": "負ける",
+      "hiragana": "まける",
+      "romaji": "makeru",
+      "translation": "проиграть",
+      "category": "батл"
+    },
+    {
+      "id": 10,
+      "kanji": "倒す",
+      "hiragana": "たおす",
+      "romaji": "taosu",
+      "translation": "победить, одолеть",
+      "category": "батл",
+      "note": "敵を倒す = одолеть противника"
+    },
+    {
+      "id": 11,
+      "kanji": "捕まえる",
+      "hiragana": "つかまえる",
+      "romaji": "tsukamaeru",
+      "translation": "поймать, схватить",
+      "category": "батл"
+    },
+    {
+      "id": 12,
+      "kanji": "逃げる",
+      "hiragana": "にげる",
+      "romaji": "nigeru",
+      "translation": "убегать, сбегать",
+      "category": "батл"
+    },
+    {
+      "id": 13,
+      "kanji": "進化",
+      "hiragana": "しんか",
+      "romaji": "shinka",
+      "translation": "эволюция",
+      "category": "батл",
+      "note": "進化する = эволюционировать. Частая фраза в покемонах!"
+    },
+    {
+      "id": 14,
+      "kanji": "強い",
+      "hiragana": "つよい",
+      "romaji": "tsuyoi",
+      "translation": "сильный (い-прил.)",
+      "category": "эмоции"
+    },
+    {
+      "id": 15,
+      "kanji": "弱い",
+      "hiragana": "よわい",
+      "romaji": "yowai",
+      "translation": "слабый (い-прил.)",
+      "category": "эмоции"
+    },
+    {
+      "id": 16,
+      "kanji": "すごい",
+      "hiragana": "すごい",
+      "romaji": "sugoi",
+      "translation": "здорово!; крутой, потрясающий (い-прил.)",
+      "category": "эмоции",
+      "note": "Самое частое слово в аниме! すごい！= Круто!"
+    },
+    {
+      "id": 17,
+      "kanji": "やった",
+      "hiragana": "やった",
+      "romaji": "yatta",
+      "translation": "ура! получилось! (прошлая форма やる)",
+      "category": "эмоции"
+    },
+    {
+      "id": 18,
+      "kanji": "大丈夫",
+      "hiragana": "だいじょうぶ",
+      "romaji": "daijoubu",
+      "translation": "в порядке, нормально (な-прил.)",
+      "category": "эмоции",
+      "note": "大丈夫？= Ты в порядке? 大丈夫です = Всё хорошо"
+    },
+    {
+      "id": 19,
+      "kanji": "頑張れ",
+      "hiragana": "がんばれ",
+      "romaji": "ganbare",
+      "translation": "давай! постарайся! держись! (повелит. форма)",
+      "category": "команды",
+      "note": "頑張る = стараться. 頑張れ！= Давай, ты сможешь!"
+    },
+    {
+      "id": 20,
+      "kanji": "行くぞ",
+      "hiragana": "いくぞ",
+      "romaji": "iku zo",
+      "translation": "погнали! вперёд!",
+      "category": "команды",
+      "note": "ぞ — частица усиления. 行く = идти. Почти как «Пошли!»"
+    },
+    {
+      "id": 21,
+      "kanji": "待って",
+      "hiragana": "まって",
+      "romaji": "matte",
+      "translation": "подожди! (て-форма 待つ)",
+      "category": "команды"
+    },
+    {
+      "id": 22,
+      "kanji": "助けて",
+      "hiragana": "たすけて",
+      "romaji": "tasukete",
+      "translation": "помогите! (て-форма 助ける)",
+      "category": "команды"
+    },
+    {
+      "id": 23,
+      "kanji": "出せ",
+      "hiragana": "だせ",
+      "romaji": "dase",
+      "translation": "выходи! (повелит. форма 出す)",
+      "category": "команды",
+      "note": "Используется, чтобы выпустить покемона из покебола"
+    },
+    {
+      "id": 24,
+      "kanji": "戻れ",
+      "hiragana": "もどれ",
+      "romaji": "modore",
+      "translation": "вернись! (повелит. форма 戻る)",
+      "category": "команды",
+      "note": "Возвращает покемона в покебол"
+    },
+    {
+      "id": 25,
+      "kanji": "攻撃",
+      "hiragana": "こうげき",
+      "romaji": "kougeki",
+      "translation": "атака",
+      "category": "типы",
+      "note": "こうげきする = атаковать"
+    },
+    {
+      "id": 26,
+      "kanji": "防御",
+      "hiragana": "ぼうぎょ",
+      "romaji": "bougyo",
+      "translation": "защита",
+      "category": "типы"
+    },
+    {
+      "id": 27,
+      "kanji": "電気",
+      "hiragana": "でんき",
+      "romaji": "denki",
+      "translation": "электричество (тип Пикачу!)",
+      "category": "типы",
+      "note": "十万ボルト！(じゅうまんボルト) — «Десять тысяч вольт!» — атака Пикачу"
+    },
+    {
+      "id": 28,
+      "kanji": "技",
+      "hiragana": "わざ",
+      "romaji": "waza",
+      "translation": "приём, атака, техника",
+      "category": "типы"
+    }
+  ]
+}
