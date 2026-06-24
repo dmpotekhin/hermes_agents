@@ -3,7 +3,7 @@
     "description": "Персональный словарь из разговорного клуба японского языка",
     "created": "2026-06-20",
     "last_updated": "2026-06-24",
-    "total_words": 285,
+    "total_words": 328,
     "themes": [
       "знакомство",
       "вопросы",
@@ -2710,6 +2710,421 @@
       "theme": "глаголы",
       "date_added": "2026-06-24",
       "id": 285
+    },
+    {
+      "kanji": "行け",
+      "hiragana": "いけ",
+      "romaji": "ike",
+      "translation": "Вперёд! (повелит. 行く)",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "note": "ポケモン行け！= Покемон, вперёд! Самая частая команда",
+      "id": 286
+    },
+    {
+      "kanji": "当たれ",
+      "hiragana": "あたれ",
+      "romaji": "atare",
+      "translation": "Попади! (повелит. 当たる)",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "note": "Атака должна попасть в цель",
+      "id": 287
+    },
+    {
+      "kanji": "避ける",
+      "hiragana": "よける",
+      "romaji": "yokeru",
+      "translation": "уклоняться, избегать",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "note": "避けろ！(повелит.) = Уклонись!",
+      "id": 288
+    },
+    {
+      "kanji": "守る",
+      "hiragana": "まもる",
+      "romaji": "mamoru",
+      "translation": "защищать, охранять",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "note": "守れ！= Защищайся!",
+      "id": 289
+    },
+    {
+      "kanji": "止まれ",
+      "hiragana": "とまれ",
+      "romaji": "tomare",
+      "translation": "Стой! (повелит. 止まる)",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "id": 290
+    },
+    {
+      "kanji": "任せる",
+      "hiragana": "まかせる",
+      "romaji": "makaseru",
+      "translation": "доверять, полагаться",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "note": "任せて！= Положись на меня!",
+      "id": 291
+    },
+    {
+      "kanji": "かっこいい",
+      "hiragana": "かっこいい",
+      "romaji": "kakkoii",
+      "translation": "крутой, классный (い-прил.)",
+      "theme": "прилагательные",
+      "date_added": "2026-06-24",
+      "note": "Второе по частоте слово в аниме после すごい!",
+      "id": 292
+    },
+    {
+      "kanji": "かわいい",
+      "hiragana": "かわいい",
+      "romaji": "kawaii",
+      "translation": "милый, симпатичный (い-прил.)",
+      "theme": "прилагательные",
+      "date_added": "2026-06-24",
+      "note": "Пикачу - かわいい!",
+      "id": 293
+    },
+    {
+      "kanji": "危ない",
+      "hiragana": "あぶない",
+      "romaji": "abunai",
+      "translation": "опасный (い-прил.)",
+      "theme": "прилагательные",
+      "date_added": "2026-06-24",
+      "note": "危ない！= Опасность!",
+      "id": 294
+    },
+    {
+      "kanji": "やばい",
+      "hiragana": "やばい",
+      "romaji": "yabai",
+      "translation": "опасно, плохо; круто (сленг, い-прил.)",
+      "theme": "прилагательные",
+      "date_added": "2026-06-24",
+      "note": "Универсальное слово в аниме: и «всё пропало» и «крутоняшно»",
+      "id": 295
+    },
+    {
+      "kanji": "やめろ",
+      "hiragana": "やめろ",
+      "romaji": "yamero",
+      "translation": "Прекрати! (повелит. やめる)",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "id": 296
+    },
+    {
+      "kanji": "マジ",
+      "hiragana": "マジ",
+      "romaji": "maji",
+      "translation": "серьёзно, правда? (сленг)",
+      "theme": "утверждения",
+      "date_added": "2026-06-24",
+      "note": "マジで？= Серьёзно? Правда?",
+      "id": 297
+    },
+    {
+      "kanji": "本当",
+      "hiragana": "ほんとう",
+      "romaji": "hontou",
+      "translation": "правда, на самом деле",
+      "theme": "утверждения",
+      "date_added": "2026-06-24",
+      "note": "本当ですか？= Правда? 本当に = действительно",
+      "id": 298
+    },
+    {
+      "kanji": "うそ",
+      "hiragana": "うそ",
+      "romaji": "uso",
+      "translation": "ложь; да ладно! не может быть!",
+      "theme": "утверждения",
+      "date_added": "2026-06-24",
+      "note": "うそ！= Не может быть! (букв. ложь)",
+      "id": 299
+    },
+    {
+      "kanji": "俺",
+      "hiragana": "おれ",
+      "romaji": "ore",
+      "translation": "я (грубое, мужское)",
+      "theme": "местоимения",
+      "date_added": "2026-06-24",
+      "note": "Используют крутые персонажи-парни. 僕 — мягче, 俺 — грубее",
+      "id": 300
+    },
+    {
+      "kanji": "お前",
+      "hiragana": "おまえ",
+      "romaji": "omae",
+      "translation": "ты (грубое, фамильярное)",
+      "theme": "местоимения",
+      "date_added": "2026-06-24",
+      "note": "В аниме постоянно! К собеседнику, которого хорошо знаешь",
+      "id": 301
+    },
+    {
+      "kanji": "こいつ",
+      "hiragana": "こいつ",
+      "romaji": "koitsu",
+      "translation": "этот тип, этот парень (фамильярно)",
+      "theme": "местоимения",
+      "date_added": "2026-06-24",
+      "id": 302
+    },
+    {
+      "kanji": "あいつ",
+      "hiragana": "あいつ",
+      "romaji": "aitsu",
+      "translation": "тот тип (вон там), он (фамильярно)",
+      "theme": "местоимения",
+      "date_added": "2026-06-24",
+      "id": 303
+    },
+    {
+      "kanji": "タイプ",
+      "hiragana": "タイプ",
+      "romaji": "taipu",
+      "translation": "тип",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "id": 304
+    },
+    {
+      "kanji": "炎",
+      "hiragana": "ほのお",
+      "romaji": "honoo",
+      "translation": "пламя, огонь (тип)",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "note": "ほのおタイプ = огненный тип",
+      "id": 305
+    },
+    {
+      "kanji": "草",
+      "hiragana": "くさ",
+      "romaji": "kusa",
+      "translation": "трава (тип)",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "note": "くさタイプ = травяной тип",
+      "id": 306
+    },
+    {
+      "kanji": "地面",
+      "hiragana": "じめん",
+      "romaji": "jimen",
+      "translation": "земля (тип), земля",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "id": 307
+    },
+    {
+      "kanji": "飛行",
+      "hiragana": "ひこう",
+      "romaji": "hikou",
+      "translation": "полёт (тип)",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "note": "ひこうタイプ = летающий тип",
+      "id": 308
+    },
+    {
+      "kanji": "毒",
+      "hiragana": "どく",
+      "romaji": "doku",
+      "translation": "яд (тип)",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "id": 309
+    },
+    {
+      "kanji": "岩",
+      "hiragana": "いわ",
+      "romaji": "iwa",
+      "translation": "скала (тип)",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "id": 310
+    },
+    {
+      "kanji": "虫",
+      "hiragana": "むし",
+      "romaji": "mushi",
+      "translation": "насекомое (тип)",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "note": "むしタイプ = жучиный тип",
+      "id": 311
+    },
+    {
+      "kanji": "鋼",
+      "hiragana": "はがね",
+      "romaji": "hagane",
+      "translation": "сталь (тип)",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "id": 312
+    },
+    {
+      "kanji": "氷",
+      "hiragana": "こおり",
+      "romaji": "koori",
+      "translation": "лёд (тип)",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "id": 313
+    },
+    {
+      "kanji": "超能力",
+      "hiragana": "ちょうのうりょく",
+      "romaji": "chounouryoku",
+      "translation": "экстрасенсорика, телепатия (тип)",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "note": "エスパータイプ = психический тип",
+      "id": 314
+    },
+    {
+      "kanji": "悪",
+      "hiragana": "あく",
+      "romaji": "aku",
+      "translation": "тьма, зло (тип)",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "id": 315
+    },
+    {
+      "kanji": "ドラゴン",
+      "hiragana": "ドラゴン",
+      "romaji": "doragon",
+      "translation": "дракон (тип)",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "id": 316
+    },
+    {
+      "kanji": "ゴースト",
+      "hiragana": "ゴースト",
+      "romaji": "goosuto",
+      "translation": "призрак (тип)",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "id": 317
+    },
+    {
+      "kanji": "フェアリー",
+      "hiragana": "フェアリー",
+      "romaji": "fearii",
+      "translation": "фея (тип)",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "id": 318
+    },
+    {
+      "kanji": "勝負",
+      "hiragana": "しょうぶ",
+      "romaji": "shoubu",
+      "translation": "матч, состязание, поединок",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "note": "勝負だ！= Принимаю бой!",
+      "id": 319
+    },
+    {
+      "kanji": "挑戦",
+      "hiragana": "ちょうせん",
+      "romaji": "chousen",
+      "translation": "вызов (на бой)",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "note": "挑戦する = бросать вызов",
+      "id": 320
+    },
+    {
+      "kanji": "ジム",
+      "hiragana": "ジム",
+      "romaji": "jimu",
+      "translation": "гим (тренировочный зал/стадион)",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "note": "ポケモンジム = стадион покемонов",
+      "id": 321
+    },
+    {
+      "kanji": "回復",
+      "hiragana": "かいふく",
+      "romaji": "kaifuku",
+      "translation": "восстановление, исцеление",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "note": "回復する = восстанавливать(ся)",
+      "id": 322
+    },
+    {
+      "kanji": "野生",
+      "hiragana": "やせい",
+      "romaji": "yasei",
+      "translation": "дикий",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "note": "野生のポケモン = дикий покемон",
+      "id": 323
+    },
+    {
+      "kanji": "現れる",
+      "hiragana": "あらわれる",
+      "romaji": "arawareru",
+      "translation": "появляться",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "note": "現れた！= Появился!",
+      "id": 324
+    },
+    {
+      "kanji": "見つける",
+      "hiragana": "みつける",
+      "romaji": "mitsukeru",
+      "translation": "находить, обнаруживать",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "note": "見つけた！= Нашёл!",
+      "id": 325
+    },
+    {
+      "kanji": "トレーナー",
+      "hiragana": "トレーナー",
+      "romaji": "toreenaa",
+      "translation": "тренер",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "note": "ポケモントレーナー",
+      "id": 326
+    },
+    {
+      "kanji": "センター",
+      "hiragana": "センター",
+      "romaji": "sentaa",
+      "translation": "центр",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "note": "ポケモンセンター",
+      "id": 327
+    },
+    {
+      "kanji": "きずぐすり",
+      "hiragana": "きずぐすり",
+      "romaji": "kizugusuri",
+      "translation": "зелье, лекарство от ран",
+      "theme": "еда",
+      "date_added": "2026-06-24",
+      "id": 328
     }
   ]
 }

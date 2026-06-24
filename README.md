@@ -63,7 +63,7 @@
 ├── 📦 jp_rag_data/              # JLPT база знаний
 │   ├── chromadb/                # ChromaDB векторная БД
 │   ├── patterns.jsonl           # 723 паттерна N5–N1
-│   ├── user_vocab.json          # 285 слов · 18 тем
+│   ├── user_vocab.json          # 328 слов · 18 тем
 │   ├── pokemon_vocab.json       # 28 слов · шпаргалка Pokémon
 │   ├── query_rag.py             # Поиск по паттернам
 │   ├── daily_lesson.py          # Генератор урока
@@ -113,7 +113,7 @@
 |------|----------|
 | `patterns.jsonl` | 723 паттерна с примерами, хираганой, ромадзи |
 | `chromadb/` | Векторная БД для семантического поиска (модель `intfloat/multilingual-e5-small`) |
-| `user_vocab.json` | Персональный словарь: 285 слов, 18 тем |
+| `user_vocab.json` | Персональный словарь: 328 слов, 18 тем |
 | `study_plan.json` | 30-дневный план N5 с разбивкой по дням |
 | `study_progress.json` | Прогресс изучения |
 | `query_rag.py` | CLI-поиск по RAG |
@@ -197,7 +197,7 @@ python3 ~/.hermes/jp_rag_data/query_rag.py "〜たいです"
 |----------|:----------:|
 | Поле `vocabulary` в паттернах | 29 |
 | Извлечено из примеров | ~1 200 |
-|| Из `user_vocab.json` | 285 |
+|| Из `user_vocab.json` | 328 |
 | **Всего уникальных** | **1 444** |
 
 ### Сборка колоды
