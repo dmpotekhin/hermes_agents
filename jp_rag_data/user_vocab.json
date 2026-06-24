@@ -3,7 +3,7 @@
     "description": "Персональный словарь из разговорного клуба японского языка",
     "created": "2026-06-20",
     "last_updated": "2026-06-24",
-    "total_words": 268,
+    "total_words": 285,
     "themes": [
       "знакомство",
       "вопросы",
@@ -2546,6 +2546,170 @@
       "theme": "глаголы",
       "date_added": "2026-06-24",
       "id": 268
+    },
+    {
+      "kanji": "ゲット",
+      "hiragana": "ゲット",
+      "romaji": "getto",
+      "translation": "получать, добывать (от англ. get)",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "note": "ポケモンゲットだぜ！= Поймал покемона!",
+      "id": 269
+    },
+    {
+      "kanji": "バトル",
+      "hiragana": "バトル",
+      "romaji": "batoru",
+      "translation": "битва, сражение (от англ. battle)",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "note": "バトルする = сражаться",
+      "id": 270
+    },
+    {
+      "kanji": "やる",
+      "hiragana": "やる",
+      "romaji": "yaru",
+      "translation": "делать (разг. аналог する)",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "note": "やった！= Ура! Получилось! (прошедшее время). Разговорная замена する",
+      "id": 271
+    },
+    {
+      "kanji": "防御",
+      "hiragana": "ぼうぎょ",
+      "romaji": "bougyo",
+      "translation": "защита, оборона",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "note": "防御する = защищать(ся)",
+      "id": 272
+    },
+    {
+      "kanji": "技",
+      "hiragana": "わざ",
+      "romaji": "waza",
+      "translation": "приём, техника, навык",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "id": 273
+    },
+    {
+      "kanji": "助ける",
+      "hiragana": "たすける",
+      "romaji": "tasukeru",
+      "translation": "помогать, спасать",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "note": "助けて！(て-форма) = Помогите!",
+      "id": 274
+    },
+    {
+      "kanji": "出す",
+      "hiragana": "だす",
+      "romaji": "dasu",
+      "translation": "выпускать, вытаскивать, отправлять",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "note": "出せ！(повелит.) = Выпускай! (покемона)",
+      "id": 275
+    },
+    {
+      "kanji": "戻る",
+      "hiragana": "もどる",
+      "romaji": "modoru",
+      "translation": "возвращаться",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "note": "戻れ！(повелит.) = Вернись! (в покебол)",
+      "id": 276
+    },
+    {
+      "kanji": "見る",
+      "hiragana": "みる",
+      "romaji": "miru",
+      "translation": "видеть, смотреть",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "note": "テレビを見る = смотреть телевизор. る-глагол",
+      "id": 277
+    },
+    {
+      "kanji": "聞く",
+      "hiragana": "きく",
+      "romaji": "kiku",
+      "translation": "слушать, слышать; спрашивать",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "note": "音楽を聞く = слушать музыку. u-глагол",
+      "id": 278
+    },
+    {
+      "kanji": "話す",
+      "hiragana": "はなす",
+      "romaji": "hanasu",
+      "translation": "говорить, разговаривать",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "note": "日本語を話す = говорить по-японски. u-глагол",
+      "id": 279
+    },
+    {
+      "kanji": "使う",
+      "hiragana": "つかう",
+      "romaji": "tsukau",
+      "translation": "использовать, пользоваться",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "id": 280
+    },
+    {
+      "kanji": "止める",
+      "hiragana": "とめる",
+      "romaji": "tomeru",
+      "translation": "останавливать",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "id": 281
+    },
+    {
+      "kanji": "呼ぶ",
+      "hiragana": "よぶ",
+      "romaji": "yobu",
+      "translation": "звать, называть",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "id": 282
+    },
+    {
+      "kanji": "知る",
+      "hiragana": "しる",
+      "romaji": "shiru",
+      "translation": "знать",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "note": "知っています = знаю. 知りません = не знаю",
+      "id": 283
+    },
+    {
+      "kanji": "覚える",
+      "hiragana": "おぼえる",
+      "romaji": "oboeru",
+      "translation": "запоминать, учить",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "id": 284
+    },
+    {
+      "kanji": "忘れる",
+      "hiragana": "わすれる",
+      "romaji": "wasureru",
+      "translation": "забывать",
+      "theme": "глаголы",
+      "date_added": "2026-06-24",
+      "id": 285
     }
   ]
 }
