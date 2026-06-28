@@ -65,6 +65,7 @@
 │   ├── patterns.jsonl           # 723 паттерна N5–N1
 │   ├── user_vocab.json          # 328 слов · 18 тем
 │   ├── pokemon_vocab.json       # 28 слов · шпаргалка Pokémon
+│   ├── 30_days_conversation_prompts.md  # Промты для разговорной практики с AI
 │   ├── query_rag.py             # Поиск по паттернам
 │   ├── daily_lesson.py          # Генератор урока
 │   ├── study_plan.json          # 30-дневный план N5
@@ -118,6 +119,7 @@
 | `study_progress.json` | Прогресс изучения |
 | `query_rag.py` | CLI-поиск по RAG |
 | `daily_lesson.py` | Генератор ежедневного урока |
+| `30_days_conversation_prompts.md` | 30 промтов для разговорной практики с AI (Perplexity, Claude) |
 
 ### Поиск по RAG
 
