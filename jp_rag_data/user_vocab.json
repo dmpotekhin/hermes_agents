@@ -3,7 +3,7 @@
     "description": "Персональный словарь из разговорного клуба японского языка",
     "created": "2026-06-20",
     "last_updated": "2026-07-02",
-    "total_words": 399,
+    "total_words": 416,
     "themes": [
       "вежливость",
       "вопросы",
@@ -3766,6 +3766,162 @@
       "translation": "микроволновка",
       "theme": "дом",
       "date_added": "2026-07-02"
+    },
+    {
+      "kanji": "暇",
+      "hiragana": "ひま",
+      "romaji": "hima",
+      "translation": "свободное время, досуг",
+      "theme": "время",
+      "date_added": "2026-07-02",
+      "id": 400
+    },
+    {
+      "kanji": "公園",
+      "hiragana": "こうえん",
+      "romaji": "kouen",
+      "translation": "парк",
+      "theme": "места",
+      "date_added": "2026-07-02",
+      "id": 401
+    },
+    {
+      "kanji": "歌う",
+      "hiragana": "うたう",
+      "romaji": "utau",
+      "translation": "петь",
+      "theme": "глаголы",
+      "date_added": "2026-07-02",
+      "id": 402
+    },
+    {
+      "kanji": "踊る",
+      "hiragana": "おどる",
+      "romaji": "odoru",
+      "translation": "танцевать",
+      "theme": "глаголы",
+      "date_added": "2026-07-02",
+      "id": 403
+    },
+    {
+      "kanji": "富士山",
+      "hiragana": "ふじさん",
+      "romaji": "fujisan",
+      "translation": "гора Фудзи",
+      "theme": "места",
+      "date_added": "2026-07-02",
+      "id": 404
+    },
+    {
+      "kanji": "傘",
+      "hiragana": "かさ",
+      "romaji": "kasa",
+      "translation": "зонт",
+      "theme": "вещи",
+      "date_added": "2026-07-02",
+      "id": 405
+    },
+    {
+      "kanji": "気をつける",
+      "hiragana": "きをつける",
+      "romaji": "ki o tsukeru",
+      "translation": "быть осторожным, обращать внимание",
+      "theme": "глаголы",
+      "date_added": "2026-07-02",
+      "note": "気をつけたほうがいい = лучше быть осторожным",
+      "id": 406
+    },
+    {
+      "kanji": "薬",
+      "hiragana": "くすり",
+      "romaji": "kusuri",
+      "translation": "лекарство",
+      "theme": "здоровье",
+      "date_added": "2026-07-02",
+      "id": 407
+    },
+    {
+      "kanji": "歯を磨く",
+      "hiragana": "はをみがく",
+      "romaji": "ha o migaku",
+      "translation": "чистить зубы",
+      "theme": "глаголы",
+      "date_added": "2026-07-02",
+      "id": 408
+    },
+    {
+      "kanji": "謝る",
+      "hiragana": "あやまる",
+      "romaji": "ayamaru",
+      "translation": "извиняться",
+      "theme": "глаголы",
+      "date_added": "2026-07-02",
+      "id": 409
+    },
+    {
+      "kanji": "週間",
+      "hiragana": "しゅうかん",
+      "romaji": "shuukan",
+      "translation": "неделя (счётный период)",
+      "theme": "время",
+      "date_added": "2026-07-02",
+      "note": "1週間 = いっしゅうかん (одна неделя)",
+      "id": 410
+    },
+    {
+      "kanji": "ヶ月",
+      "hiragana": "かげつ",
+      "romaji": "kagetsu",
+      "translation": "месяц (счётный период)",
+      "theme": "время",
+      "date_added": "2026-07-02",
+      "note": "1ヶ月 = いっかげつ (один месяц)",
+      "id": 411
+    },
+    {
+      "kanji": "回",
+      "hiragana": "かい",
+      "romaji": "kai",
+      "translation": "раз (счётный суффикс)",
+      "theme": "числа",
+      "date_added": "2026-07-02",
+      "id": 412
+    },
+    {
+      "kanji": "嫌い",
+      "hiragana": "きらい",
+      "romaji": "kirai",
+      "translation": "нелюбимый, ненавистный (な-прил.)",
+      "theme": "прилагательные",
+      "date_added": "2026-07-02",
+      "id": 413
+    },
+    {
+      "kanji": "会議",
+      "hiragana": "かいぎ",
+      "romaji": "kaigi",
+      "translation": "собрание, совещание",
+      "theme": "работа",
+      "date_added": "2026-07-02",
+      "id": 414
+    },
+    {
+      "kanji": "出席する",
+      "hiragana": "しゅっせきする",
+      "romaji": "shusseki suru",
+      "translation": "присутствовать, посещать",
+      "theme": "глаголы",
+      "date_added": "2026-07-02",
+      "id": 415
+    },
+    {
+      "kanji": "見える",
+      "hiragana": "みえる",
+      "romaji": "mieru",
+      "translation": "быть видимым, видеться",
+      "theme": "глаголы",
+      "date_added": "2026-07-02",
+      "id": 416
     }
   ]
 }
