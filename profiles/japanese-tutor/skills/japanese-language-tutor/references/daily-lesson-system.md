@@ -12,9 +12,9 @@ study_plan.json  ──►  daily_lesson.py  ──►  cron job  ──►  Tel
 
 | Файл | Назначение |
 |------|-----------|
-| `~/Downloads/jp_rag_data/study_plan.json` | План на 30 дней: day, title, pattern IDs, topic |
-| `~/Downloads/jp_rag_data/daily_lesson.py` | Генератор урока: определяет день → читает JSONL → выводит сообщение |
-| `~/Downloads/jp_rag_data/study_progress.json` | Состояние (создаётся автоматически) |
+| `~/.hermes/jp_rag_data/study_plan.json` | План на 30 дней: day, title, pattern IDs, topic |
+| `~/.hermes/jp_rag_data/daily_lesson.py` | Генератор урока: определяет день → читает JSONL → выводит сообщение |
+| `~/.hermes/jp_rag_data/study_progress.json` | Состояние (создаётся автоматически) |
 
 ## Как это работает
 
@@ -77,7 +77,7 @@ hermes cronjob create \
   --name n5-daily-lesson \
   --schedule '0 20 * * *' \
   --deliver telegram:222651048 \
-  --prompt 'Запусти python3 ~/Downloads/jp_rag_data/daily_lesson.py и выведи результат'
+  --prompt 'Запусти python3 ~/.hermes/jp_rag_data/daily_lesson.py и выведи результат'
 ```
 
 **Важно:** `--deliver telegram` без указания chat_id (например `telegram:222651048`) **НЕ сработает** — появится ошибка `no delivery target resolved for deliver=telegram`. Всегда указывайте числовой Telegram ID пользователя.
@@ -135,7 +135,7 @@ hermes cronjob update <job_id> --deliver telegram:222651048
 **Если это не помогает (после перезапуска gateway):**
 1. Самый быстрый способ — запустить скрипт напрямую в CLI:
    ```bash
-   python3 ~/Downloads/jp_rag_data/daily_lesson.py
+   python3 ~/.hermes/jp_rag_data/daily_lesson.py
    ```
 2. Дождаться следующего cron-тика (на следующий день в 20:00) — обычно отрабатывает нормально, так как gateway успевает зарегистрироваться.
 3. При необходимости — полная перезагрузка gateway с удалением gateway_state.json:

@@ -3,7 +3,7 @@
 ## Расположение
 
 ```
-~/Downloads/jp_rag_data/
+~/.hermes/jp_rag_data/
 ├── patterns.jsonl           # 1.5MB — 723 паттерна, структурированные
 ├── chromadb/                # 12MB — векторная база ChromaDB
 │   ├── chroma.sqlite3
@@ -12,6 +12,8 @@
 ├── build_jp_rag_v3.py       # парсер PDF → JSONL
 └── build_chroma_rag.py      # JSONL → ChromaDB с эмбеддингами
 ```
+
+База включена в Git-репозиторий `hernes_agents` (`~/.hermes/`).
 
 ## Итого: 723 грамматических паттерна
 
@@ -32,7 +34,7 @@
 # Все N5 паттерны кратко
 python3 -c "
 import json
-with open('~/Downloads/jp_rag_data/patterns.jsonl') as f:
+with open('$HOME/.hermes/jp_rag_data/patterns.jsonl') as f:
     for line in f:
         p = json.loads(line)
         if p['jlpt_level'] == 'N5':
@@ -42,7 +44,7 @@ with open('~/Downloads/jp_rag_data/patterns.jsonl') as f:
 # Полная информация о конкретном паттерне
 python3 -c "
 import json
-with open('~/Downloads/jp_rag_data/patterns.jsonl') as f:
+with open('$HOME/.hermes/jp_rag_data/patterns.jsonl') as f:
     for line in f:
         p = json.loads(line)
         if p['id'] == 'n5_0001':
@@ -56,7 +58,7 @@ from collections import Counter
 lvls = Counter()
 ex = 0
 vocab = 0
-with open('~/Downloads/jp_rag_data/patterns.jsonl') as f:
+with open('$HOME/.hermes/jp_rag_data/patterns.jsonl') as f:
     for line in f:
         p = json.loads(line)
         lvls[p['jlpt_level']] += 1
@@ -72,14 +74,13 @@ print('Total vocab:', vocab)
 
 ```bash
 # Поиск на любом языке (русский, японский, английский)
-cd ~/Downloads/jp_rag_data
-python3 query_rag.py 'частица は тема предложения'
-python3 query_rag.py 'たい want to do'
-python3 query_rag.py 'глагол する спряжение'
+python3 ~/.hermes/jp_rag_data/query_rag.py 'частица は тема предложения'
+python3 ~/.hermes/jp_rag_data/query_rag.py 'たい want to do'
+python3 ~/.hermes/jp_rag_data/query_rag.py 'глагол する спряжение'
 
 # С фильтром по уровню JLPT
-python3 query_rag.py 'て-form' N5
-python3 query_rag.py 'пассивный залог' N3
+python3 ~/.hermes/jp_rag_data/query_rag.py 'て-form' N5
+python3 ~/.hermes/jp_rag_data/query_rag.py 'пассивный залог' N3
 ```
 
 ## Техническая реализация
@@ -123,7 +124,7 @@ pip install chromadb sentence-transformers "numpy<2" "sentence-transformers<3.0"
 
 ```python
 import sys
-sys.path.insert(0, '/Users/dmitrypotekhin/Downloads/jp_rag_data')
+sys.path.insert(0, os.path.expanduser('~/.hermes/jp_rag_data'))
 from query_rag import search, format_result, format_simple
 
 results = search('частица は', jlpt_level='N5', n_results=3)
@@ -137,7 +138,7 @@ RAG используется через Telegram-бота (профиль `japan
 
 1. Gateway принимает сообщение через Telegram API
 2. Агент (Sato-sensei) загружает skill `japanese-language-tutor`
-3. При необходимости RAG-поиска — запускает `python3 query_rag.py '<вопрос>' <JLPT_LEVEL>`
+3. При необходимости RAG-поиска — запускает `python3 ~/.hermes/jp_rag_data/query_rag.py '<вопрос>' <JLPT_LEVEL>`
 4. Формирует ответ на русском с примерами из найденных паттернов
 
 ### Gateway reconnect (если Telegram отвалился)
@@ -168,4 +169,4 @@ hermes gateway status --profile japanese-tutor
 
 - При добавлении новых PDF-материалов по японскому
 - После исправления/дополнения данных в patterns.jsonl
-- Команда: `cd ~/Downloads && python3 build_jp_rag_v3.py && python3 build_chroma_rag.py`
+- Команда: `cd ~/.hermes/jp_rag_data && python3 build_jp_rag_v3.py && python3 build_chroma_rag.py`

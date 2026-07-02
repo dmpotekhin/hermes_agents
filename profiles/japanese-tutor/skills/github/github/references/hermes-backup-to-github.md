@@ -128,7 +128,40 @@ git commit -m "Initial commit: all Hermes profiles, skills, configs"
 git push -u origin main
 ```
 
-### 5. Verify
+### 5. Migrate External Companion Data Into the Repo
+
+If you have data living outside `~/.hermes/` that belongs with the backup
+(e.g. JLPT RAG database in `~/Downloads/jp_rag_data/`, custom scripts,
+reference docs), move it into the repo rather than keeping it separate:
+
+```bash
+# Copy the external data into the repo
+cp -r ~/Downloads/some-data ~/.hermes/some-data
+
+# The original copy at ~/Downloads/ can stay (or be deleted after verification).
+# Scripts that reference the old path MUST be updated.
+```
+
+After moving, **update hardcoded paths** in any scripts that reference the old location:
+
+```python
+# BEFORE (hardcoded absolute path):
+CHROMA_PATH = '/Users/you/Downloads/jp_rag_data/chromadb/'
+
+# AFTER (portable ~ expansion):
+CHROMA_PATH = os.path.expanduser('~/.hermes/jp_rag_data/chromadb/')
+```
+
+Then stage, commit, and push as usual:
+
+```bash
+cd ~/.hermes
+git add .
+git commit -m "Add jp_rag_data: JLPT RAG database, vocabulary, patterns"
+git push
+```
+
+### 6. Verify
 
 ```bash
 # Check no leaked sensitive files

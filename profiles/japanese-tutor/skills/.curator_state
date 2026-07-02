@@ -1,9 +1,9 @@
 {
-  "last_report_path": "/Users/dmitrypotekhin/.hermes/profiles/japanese-tutor/logs/curator/20260623-075114",
-  "last_run_at": "2026-06-23T07:51:14.318454+00:00",
-  "last_run_duration_seconds": 1118.633206,
-  "last_run_summary": "auto: no changes; llm: ## Curation Complete — 13 Skills Absorbed into 5 Class-Level Umbrellas\n\n### Clusters Processed\n\n**1. GitHub Workflow (5→1)**\n- **New umbrella:** `github` (category: github)\n- Absorbed: `github-auth`, `github-code-review`, `github-issues`, `…\narchived 14 skill(s):\n  • claude-code — pruned (stale)\n  • claude-design — pruned (stale)\n  • codex — pruned (stale)\n  • github-auth — pruned (stale)\n  • github-code-review — pruned (stale)\n  • github-issues — pruned (stale)\n  • github-pr-workflow — pruned (stale)\n  • github-repo-management — pruned (stale)\n  • kanban-orchestrator — pruned (stale)\n  • kanban-worker — pruned (stale)\n  … and 4 more\nfull report: hermes curator status",
+  "last_report_path": "/Users/dmitrypotekhin/.hermes/profiles/japanese-tutor/logs/curator/20260701-195349",
+  "last_run_at": "2026-07-01T19:53:49.703801+00:00",
+  "last_run_duration_seconds": 0.648729,
+  "last_run_summary": "auto: no changes; llm: skipped (consolidation off)",
   "last_run_summary_shown_at": null,
   "paused": false,
-  "run_count": 1
+  "run_count": 2
 }

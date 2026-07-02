@@ -501,7 +501,56 @@ for g in json.load(sys.stdin):
     print(f\"  {g['id']}  {g['description'] or '(no desc)':40}  {files}\")"
 ```
 
-## Quick Reference Table
+## 11. Codebase Inspection (LOC Analysis)
+
+Use `pygount` to analyze repository composition — languages, line counts, code-vs-comment ratios.
+
+### Setup
+```bash
+pip install pygount 2>/dev/null || pip install --break-system-packages pygount
+```
+
+### Basic Usage
+```bash
+# Full language breakdown
+pygount --format=summary \
+  --folders-to-skip=".git,node_modules,venv,.venv,__pycache__,.cache,dist,build,.next,.tox,.eggs,*.egg-info" \
+  .
+```
+
+**Always exclude `.git`, `node_modules`, and `venv`** — without `--folders-to-skip`, pygount crawls everything and may hang on large dependency trees.
+
+### Common Exclusion Patterns
+
+| Project type | Folders to skip |
+|---|---|
+| Python | `.git,venv,.venv,__pycache__,.cache,dist,build,.tox,.eggs,.mypy_cache` |
+| JS/TS | `.git,node_modules,dist,build,.next,.cache,.turbo,coverage` |
+| General | `.git,node_modules,venv,.venv,__pycache__,.cache,dist,build,.next,.tox,vendor,third_party` |
+
+### Filter by Language
+```bash
+# Only Python
+pygount --suffix=py --format=summary .
+
+# Python + YAML
+pygount --suffix=py,yaml,yml --format=summary .
+```
+
+### Output Formats
+- `--format=summary` — Table with language, files, code, comments, % of total
+- `--format=json` — JSON for programmatic use
+
+### Interpreting Results
+- **Code** = executable/declarative lines
+- **Comment** = comments and documentation
+- **Markdown** shows 0 code lines (all content classified as comments)
+- **JSON files** may show conservative code counts
+
+### Pseudo-languages in output
+`__empty__` (empty files), `__binary__` (images, compiled), `__generated__` (auto-detected), `__duplicate__` (identical content), `__unknown__` (unrecognized types).
+
+### Quick Reference Table
 
 | Action | gh | git + curl |
 |--------|-----|-----------|

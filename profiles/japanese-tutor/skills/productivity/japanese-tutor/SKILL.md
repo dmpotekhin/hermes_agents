@@ -237,7 +237,7 @@ hermes cronjob update <job_id> --deliver telegram:222651048
 
 Run the script directly in CLI as a fallback:
 ```bash
-python3 ~/Downloads/jp_rag_data/daily_lesson.py
+python3 ~/.hermes/jp_rag_data/daily_lesson.py
 ```
 Show the output to the user in the current conversation.
 

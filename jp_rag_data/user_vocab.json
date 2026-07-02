@@ -2,27 +2,28 @@
   "info": {
     "description": "Персональный словарь из разговорного клуба японского языка",
     "created": "2026-06-20",
-    "last_updated": "2026-06-24",
-    "total_words": 328,
+    "last_updated": "2026-07-02",
+    "total_words": 348,
     "themes": [
-      "знакомство",
-      "вопросы",
-      "местоимения",
-      "приветствия",
-      "страны",
-      "частицы",
       "вежливость",
-      "профессии",
-      "языки",
-      "хобби",
-      "еда",
-      "утверждения",
-      "семья",
-      "счёт людей",
-      "глаголы",
-      "прилагательные",
+      "вопросы",
       "время",
-      "наречия"
+      "глаголы",
+      "еда",
+      "знакомство",
+      "местоимения",
+      "наречия",
+      "приветствия",
+      "прилагательные",
+      "природа",
+      "профессии",
+      "семья",
+      "страны",
+      "счёт людей",
+      "утверждения",
+      "хобби",
+      "частицы",
+      "языки"
     ]
   },
   "words": [
@@ -3125,6 +3126,186 @@
       "theme": "еда",
       "date_added": "2026-06-24",
       "id": 328
+    },
+    {
+      "kanji": "怒る",
+      "hiragana": "おこる",
+      "romaji": "okoru",
+      "translation": "злиться, сердиться",
+      "theme": "глаголы",
+      "date_added": "2026-06-27",
+      "id": 329
+    },
+    {
+      "kanji": "勉強する",
+      "hiragana": "べんきょうする",
+      "romaji": "benkyou suru",
+      "translation": "учиться, заниматься",
+      "theme": "глаголы",
+      "date_added": "2026-06-27",
+      "id": 330
+    },
+    {
+      "kanji": "選ぶ",
+      "hiragana": "えらぶ",
+      "romaji": "erabu",
+      "translation": "выбирать",
+      "theme": "глаголы",
+      "date_added": "2026-06-27",
+      "id": 331
+    },
+    {
+      "kanji": "忙しい",
+      "hiragana": "いそがしい",
+      "romaji": "isogashii",
+      "translation": "занятой",
+      "theme": "прилагательные",
+      "date_added": "2026-06-27",
+      "id": 332
+    },
+    {
+      "kanji": "天気",
+      "hiragana": "てんき",
+      "romaji": "tenki",
+      "translation": "погода",
+      "theme": "природа",
+      "date_added": "2026-06-27",
+      "id": 333
+    },
+    {
+      "kanji": "散歩する",
+      "hiragana": "さんぽする",
+      "romaji": "sanpo suru",
+      "translation": "гулять",
+      "theme": "глаголы",
+      "date_added": "2026-06-27",
+      "id": 334
+    },
+    {
+      "kanji": "寒い",
+      "hiragana": "さむい",
+      "romaji": "samui",
+      "translation": "холодный",
+      "theme": "прилагательные",
+      "date_added": "2026-06-27",
+      "id": 335
+    },
+    {
+      "kanji": "合格する",
+      "hiragana": "ごうかくする",
+      "romaji": "goukaku suru",
+      "translation": "сдать (экзамен)",
+      "theme": "глаголы",
+      "date_added": "2026-06-27",
+      "id": 336
+    },
+    {
+      "kanji": "分かる",
+      "hiragana": "わかる",
+      "romaji": "wakaru",
+      "translation": "понимать",
+      "theme": "глаголы",
+      "date_added": "2026-06-27",
+      "id": 337
+    },
+    {
+      "kanji": "眠る",
+      "hiragana": "ねむる",
+      "romaji": "nemuru",
+      "translation": "спать",
+      "theme": "глаголы",
+      "date_added": "2026-06-27",
+      "id": 338
+    },
+    {
+      "kanji": "ケーキ",
+      "hiragana": "けーき",
+      "romaji": "keeki",
+      "translation": "торт",
+      "theme": "еда",
+      "date_added": "2026-06-27",
+      "id": 339
+    },
+    {
+      "kanji": "質問",
+      "hiragana": "しつもん",
+      "romaji": "shitsumon",
+      "translation": "вопрос",
+      "theme": "глаголы",
+      "date_added": "2026-06-27",
+      "id": 340
+    },
+    {
+      "kanji": "答える",
+      "hiragana": "こたえる",
+      "romaji": "kotaeru",
+      "translation": "отвечать",
+      "theme": "глаголы",
+      "date_added": "2026-06-27",
+      "id": 341
+    },
+    {
+      "kanji": "つける",
+      "hiragana": "つける",
+      "romaji": "tsukeru",
+      "translation": "включать",
+      "theme": "глаголы",
+      "date_added": "2026-06-27",
+      "id": 342
+    },
+    {
+      "kanji": "見せる",
+      "hiragana": "みせる",
+      "romaji": "miseru",
+      "translation": "показывать",
+      "theme": "глаголы",
+      "date_added": "2026-06-27",
+      "id": 343
+    },
+    {
+      "id": 344,
+      "kanji": "飲みます",
+      "hiragana": "のみます",
+      "romaji": "nomimasu",
+      "translation": "пить",
+      "theme": "глаголы",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 345,
+      "kanji": "コーヒー",
+      "hiragana": "こーひー",
+      "romaji": "koohii",
+      "translation": "кофе",
+      "theme": "еда",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 346,
+      "kanji": "毎日",
+      "hiragana": "まいにち",
+      "romaji": "mainichi",
+      "translation": "каждый день",
+      "theme": "время",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 347,
+      "kanji": "どう",
+      "hiragana": "どう",
+      "romaji": "dou",
+      "translation": "как?",
+      "theme": "вопросы",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 348,
+      "kanji": "いかが",
+      "hiragana": "いかが",
+      "romaji": "ikaga",
+      "translation": "как? (вежливая форма)",
+      "theme": "вопросы",
+      "date_added": "2026-07-02"
     }
   ]
 }
