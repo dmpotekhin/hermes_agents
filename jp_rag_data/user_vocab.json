@@ -3,7 +3,7 @@
     "description": "Персональный словарь из разговорного клуба японского языка",
     "created": "2026-06-20",
     "last_updated": "2026-07-02",
-    "total_words": 381,
+    "total_words": 399,
     "themes": [
       "вежливость",
       "вопросы",
@@ -3603,6 +3603,168 @@
       "romaji": "nemasu",
       "translation": "спать",
       "theme": "глаголы",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 382,
+      "kanji": "明るい",
+      "hiragana": "あかるい",
+      "romaji": "akarui",
+      "translation": "светлый",
+      "theme": "прилагательные",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 383,
+      "kanji": "暗い",
+      "hiragana": "くらい",
+      "romaji": "kurai",
+      "translation": "тёмный",
+      "theme": "прилагательные",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 384,
+      "kanji": "狭い",
+      "hiragana": "せまい",
+      "romaji": "semai",
+      "translation": "узкий, тесный",
+      "theme": "прилагательные",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 385,
+      "kanji": "新しくない",
+      "hiragana": "あたらしくない",
+      "romaji": "atarashikunai",
+      "translation": "не новый (отр. форма)",
+      "theme": "прилагательные",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 386,
+      "kanji": "あります",
+      "hiragana": "あります",
+      "romaji": "arimasu",
+      "translation": "есть, находиться (неодуш.)",
+      "theme": "глаголы",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 387,
+      "kanji": "ありません",
+      "hiragana": "ありません",
+      "romaji": "arimasen",
+      "translation": "нет, отсутствует (неодуш.)",
+      "theme": "глаголы",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 388,
+      "kanji": "棚",
+      "hiragana": "たな",
+      "romaji": "tana",
+      "translation": "полка",
+      "theme": "дом",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 389,
+      "kanji": "ソファ",
+      "hiragana": "そふぁ",
+      "romaji": "sofa",
+      "translation": "диван",
+      "theme": "дом",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 390,
+      "kanji": "タンス",
+      "hiragana": "たんす",
+      "romaji": "tansu",
+      "translation": "комод",
+      "theme": "дом",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 391,
+      "kanji": "本棚",
+      "hiragana": "ほんだな",
+      "romaji": "hondana",
+      "translation": "книжный шкаф",
+      "theme": "дом",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 392,
+      "kanji": "鏡",
+      "hiragana": "かがみ",
+      "romaji": "kagami",
+      "translation": "зеркало",
+      "theme": "дом",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 393,
+      "kanji": "カーテン",
+      "hiragana": "かーてん",
+      "romaji": "kaaten",
+      "translation": "занавеска",
+      "theme": "дом",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 394,
+      "kanji": "絨毯",
+      "hiragana": "じゅうたん",
+      "romaji": "juutan",
+      "translation": "ковёр",
+      "theme": "дом",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 395,
+      "kanji": "ランプ",
+      "hiragana": "らんぷ",
+      "romaji": "ranpu",
+      "translation": "лампа",
+      "theme": "дом",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 396,
+      "kanji": "枕",
+      "hiragana": "まくら",
+      "romaji": "makura",
+      "translation": "подушка",
+      "theme": "дом",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 397,
+      "kanji": "テレビ",
+      "hiragana": "てれび",
+      "romaji": "terebi",
+      "translation": "телевизор",
+      "theme": "дом",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 398,
+      "kanji": "冷蔵庫",
+      "hiragana": "れいぞうこ",
+      "romaji": "reizouko",
+      "translation": "холодильник",
+      "theme": "дом",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 399,
+      "kanji": "電子レンジ",
+      "hiragana": "でんしれんじ",
+      "romaji": "denshi renji",
+      "translation": "микроволновка",
+      "theme": "дом",
       "date_added": "2026-07-02"
     }
   ]
