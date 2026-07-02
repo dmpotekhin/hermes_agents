@@ -3,12 +3,13 @@
     "description": "Персональный словарь из разговорного клуба японского языка",
     "created": "2026-06-20",
     "last_updated": "2026-07-02",
-    "total_words": 371,
+    "total_words": 381,
     "themes": [
       "вежливость",
       "вопросы",
       "время",
       "глаголы",
+      "дом",
       "еда",
       "знакомство",
       "местоимения",
@@ -3511,6 +3512,96 @@
       "hiragana": "のみません",
       "romaji": "nomimasen",
       "translation": "не пью (отриц. форма)",
+      "theme": "глаголы",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 372,
+      "kanji": "部屋",
+      "hiragana": "へや",
+      "romaji": "heya",
+      "translation": "комната",
+      "theme": "дом",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 373,
+      "kanji": "古い",
+      "hiragana": "ふるい",
+      "romaji": "furui",
+      "translation": "старый",
+      "theme": "прилагательные",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 374,
+      "kanji": "大きい",
+      "hiragana": "おおきい",
+      "romaji": "ookii",
+      "translation": "большой",
+      "theme": "прилагательные",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 375,
+      "kanji": "小さい",
+      "hiragana": "ちいさい",
+      "romaji": "chiisai",
+      "translation": "маленький",
+      "theme": "прилагательные",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 376,
+      "kanji": "ベッド",
+      "hiragana": "べっど",
+      "romaji": "beddo",
+      "translation": "кровать",
+      "theme": "дом",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 377,
+      "kanji": "机",
+      "hiragana": "つくえ",
+      "romaji": "tsukue",
+      "translation": "письменный стол",
+      "theme": "дом",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 378,
+      "kanji": "椅子",
+      "hiragana": "いす",
+      "romaji": "isu",
+      "translation": "стул",
+      "theme": "дом",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 379,
+      "kanji": "エアコン",
+      "hiragana": "えあこん",
+      "romaji": "eakon",
+      "translation": "кондиционер",
+      "theme": "дом",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 380,
+      "kanji": "布団",
+      "hiragana": "ふとん",
+      "romaji": "futon",
+      "translation": "футон (яп. одеяло/матрас)",
+      "theme": "дом",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 381,
+      "kanji": "寝ます",
+      "hiragana": "ねます",
+      "romaji": "nemasu",
+      "translation": "спать",
       "theme": "глаголы",
       "date_added": "2026-07-02"
     }

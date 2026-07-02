@@ -380,27 +380,27 @@
     "archived_at": null,
     "created_at": "2026-06-16T07:15:35.824709+00:00",
     "created_by": "agent",
-    "last_patched_at": "2026-07-02T10:46:04.982185+00:00",
-    "last_used_at": "2026-07-02T10:45:55.729305+00:00",
-    "last_viewed_at": "2026-07-02T10:45:55.725465+00:00",
-    "patch_count": 103,
+    "last_patched_at": "2026-07-02T10:49:46.227754+00:00",
+    "last_used_at": "2026-07-02T10:49:24.985606+00:00",
+    "last_viewed_at": "2026-07-02T10:49:24.982111+00:00",
+    "patch_count": 105,
     "pinned": false,
     "state": "active",
-    "use_count": 84,
-    "view_count": 83
+    "use_count": 86,
+    "view_count": 85
   },
   "japanese-tutor": {
     "archived_at": null,
     "created_at": "2026-06-16T08:08:05.719494+00:00",
     "created_by": "agent",
     "last_patched_at": "2026-06-23T09:24:03.830617+00:00",
-    "last_used_at": "2026-06-24T20:41:58.499871+00:00",
-    "last_viewed_at": "2026-06-24T20:41:58.493613+00:00",
+    "last_used_at": "2026-07-02T10:49:11.434594+00:00",
+    "last_viewed_at": "2026-07-02T10:49:11.425426+00:00",
     "patch_count": 9,
     "pinned": false,
     "state": "active",
-    "use_count": 28,
-    "view_count": 28
+    "use_count": 29,
+    "view_count": 29
   },
   "jupyter-live-kernel": {
     "archived_at": null,
