@@ -149,7 +149,7 @@ Sato-sensei раскладывает на поля: kanji, hiragana, romaji, tra
    - Глаголы в словарной форме
 4. **Проверить дубликаты** по `hiragana` (самый надёжный ключ)
 5. **Добавить с appropriate theme:** прилагательные → прилагательные, существительные → глаголы (по умолчанию) или еда/время/хобби если подходят
-6. **Обновить файлы:** user_vocab.json + study_progress.json + README.md (3 места) + git push
+6. **Обновить файлы:** user_vocab.json + study_progress.json + git push
 7. **Показать таблицу** (kanji | hiragana | **romaji** | translation) — не забыть ромадзи!
 
 **Объём:** dense extraction может дать 20-40 слов за один урок (как в днях 11-12). Это нормально.
@@ -163,30 +163,31 @@ Sato-sensei раскладывает на поля: kanji, hiragana, romaji, tra
 
 ### Git-синхронизация после обновления словаря
 
-Когда пользователь добавляет слова **и** просит обновить README / запушить на GitHub:
+Когда пользователь добавляет слова **и** просит «обнови README / обнови ридми и запушь»:
 
-0. **Определить, какой «ридми» имеется в виду.** Пользователь может назвать «ридми файлом» как `~/.hermes/README.md` (корень репозитория — общая статистика с захардкоженными счётчиками), так и `references/user-vocab-database.md` (подробная документация по словарю — темы, word-листы, счётчики). При сигнале «обнови ридми» без уточнения — обновлять ОБА файла: и корневой README.md (статистика), и `references/user-vocab-database.md` (список тем, word-листы, счётчики).
+0. **«Ридми» = `references/user-vocab-database.md`.** Корневого `~/.hermes/README.md` в репозитории нет. Пользователь называет «ридми файлом» именно `references/user-vocab-database.md` — подробную документацию по словарю (список тем, word-листы, счётчик total_words). Обновлять только его.
 
-1. В `~/.hermes/README.md` счётчики слов захардкожены в 3 местах, обновить все три:
-   - Дерево структуры — строка вида `user_vocab.json          # NNN слова · M тем`
-   - Таблица состава JLPT-базы — строка вида `| \`user_vocab.json\` | Персональный словарь: NNN слова, M тем |`
-   - Таблица источников Anki-колоды — строка вида `| Из \`user_vocab.json\` | NNN |`
+1. **Обновить `references/user-vocab-database.md`:**
+   - JSON-блок в секции «Структура файла»: `total_words` и `themes` — синхронизировать с актуальным `user_vocab.json`
+   - Секция «Тематические группы»: если были добавлены слова в новые темы — добавить раздел; если добавились слова в существующие темы — дополнить word-лист
 
-2. **Pitfall: patch() с двойным пайпом `||` в markdown-таблицах.**
-   В таблице Anki-источников строка имеет вид `|| Из \`user_vocab.json\` | 192 |` (двойной `||` в начале, т.к. первая колонка пустая).
-   При замене через `patch()` используй old_string = `"|| Из \\`user_vocab.json\\` | NNN |"` и new_string = `"|| Из \\`user_vocab.json\\` | MMM |"`.
-   Не добавляй лишний `|` в начале — это сломает формат таблицы.
-   Проверяй результат: `|||` (тройной пайп) = ошибка, нужно заменить на `||`.
-
-3. Git workflow:
+2. **Git workflow (через terminal, т.к. execute_code не может писать сюда напрямую):**
    ```bash
    cd ~/.hermes
-   git add jp_rag_data/user_vocab.json README.md
-   git commit -m "vocab: add N words from <source>"
+   git add jp_rag_data/user_vocab.json profiles/japanese-tutor/skills/japanese-language-tutor/references/user-vocab-database.md
+   git rm --cached jp_rag_data/add_vocab.py  # удалить временный скрипт, если создавался
+   git commit -m "📚 vocab: add N words from <source> — XXX total"
    git push origin main
    ```
+   После пуша сообщить пользователю: сколько добавлено, откуда, SHA коммита.
 
-4. Сообщить пользователю: сколько добавлено, откуда, SHA коммита.
+3. **Скриптовый подход (рекомендуемый):** Из-за проблем с `execute_code` (не может прочитать большой JSON с управляющими символами) и блокировкой `terminal` на `write`, предпочтительный workflow:
+   - Написать Python-скрипт через `write_file` в `~/.hermes/jp_rag_data/add_vocab.py`
+   - Запустить через `terminal` (`cd ~/.hermes/jp_rag_data && python3 add_vocab.py`)
+   - После успешного выполнения — удалить скрипт: `git rm --cached jp_rag_data/add_vocab.py`
+   - Скрипт должен: читать JSON → проверять дубликаты по `hiragana` и `kanji` → добавлять → писать → выводить отчёт
+
+4. **Проверка дубликатов:** Сверять и по `hiragana`, и по `kanji`. Многие слова из диалогов разговорного клуба уже есть (水, お茶, いつも, 昨日, 食堂, 牛乳, 美味しい — типичные дубликаты). Всегда выводить какие слова пропущены и почему.
 
 ### Cross-Reference: JLPT ↔ Conversation Club Vocabulary
 
@@ -798,7 +799,7 @@ hermes cronjob remove <job_id>
 4. Создать файл через write_file
 5. Общие слова (сильный, слабый, побеждать) добавить и в user_vocab.json
 6. Контекстно-зависимые (имена, вымышленные названия) — только в мини-словаре
-7. Обновить README.md и запушить
+7. Обновить `references/mini-dictionaries.md` и запушить
 
 Подробности — в `references/mini-dictionaries.md`.
 

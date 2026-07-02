@@ -3,7 +3,7 @@
     "description": "Персональный словарь из разговорного клуба японского языка",
     "created": "2026-06-20",
     "last_updated": "2026-07-02",
-    "total_words": 366,
+    "total_words": 371,
     "themes": [
       "вежливость",
       "вопросы",
@@ -3467,6 +3467,51 @@
       "romaji": "pizaya",
       "translation": "пиццерия",
       "theme": "еда",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 367,
+      "kanji": "ありがとうございます",
+      "hiragana": "ありがとうございます",
+      "romaji": "arigatou gozaimasu",
+      "translation": "спасибо (вежл.)",
+      "theme": "утверждения",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 368,
+      "kanji": "いただきます",
+      "hiragana": "いただきます",
+      "romaji": "itadakimasu",
+      "translation": "принимаю с благодарностью (перед едой)",
+      "theme": "утверждения",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 369,
+      "kanji": "クッキー",
+      "hiragana": "くっきー",
+      "romaji": "kukkii",
+      "translation": "печенье",
+      "theme": "еда",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 370,
+      "kanji": "結構です",
+      "hiragana": "けっこうです",
+      "romaji": "kekkou desu",
+      "translation": "достаточно, спасибо (вежл. отказ)",
+      "theme": "утверждения",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 371,
+      "kanji": "飲みません",
+      "hiragana": "のみません",
+      "romaji": "nomimasen",
+      "translation": "не пью (отриц. форма)",
+      "theme": "глаголы",
       "date_added": "2026-07-02"
     }
   ]
