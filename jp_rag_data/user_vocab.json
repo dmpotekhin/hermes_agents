@@ -3,7 +3,7 @@
     "description": "Персональный словарь из разговорного клуба японского языка",
     "created": "2026-06-20",
     "last_updated": "2026-07-02",
-    "total_words": 348,
+    "total_words": 366,
     "themes": [
       "вежливость",
       "вопросы",
@@ -3305,6 +3305,168 @@
       "romaji": "ikaga",
       "translation": "как? (вежливая форма)",
       "theme": "вопросы",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 349,
+      "kanji": "紅茶",
+      "hiragana": "こうちゃ",
+      "romaji": "koucha",
+      "translation": "чёрный чай",
+      "theme": "еда",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 350,
+      "kanji": "コーラ",
+      "hiragana": "こーら",
+      "romaji": "koora",
+      "translation": "кола",
+      "theme": "еда",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 351,
+      "kanji": "日本酒",
+      "hiragana": "にほんしゅ",
+      "romaji": "nihonshu",
+      "translation": "сакэ",
+      "theme": "еда",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 352,
+      "kanji": "ビール",
+      "hiragana": "びーる",
+      "romaji": "biiru",
+      "translation": "пиво",
+      "theme": "еда",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 353,
+      "kanji": "ワイン",
+      "hiragana": "わいん",
+      "romaji": "wain",
+      "translation": "вино",
+      "theme": "еда",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 354,
+      "kanji": "飲みました",
+      "hiragana": "のみました",
+      "romaji": "nomimashita",
+      "translation": "пил (прош. вр.)",
+      "theme": "глаголы",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 355,
+      "kanji": "食べました",
+      "hiragana": "たべました",
+      "romaji": "tabemashita",
+      "translation": "кушал (прош. вр.)",
+      "theme": "глаголы",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 356,
+      "kanji": "食べませんでした",
+      "hiragana": "たべませんでした",
+      "romaji": "tabemasen deshita",
+      "translation": "не кушал (прош. отр.)",
+      "theme": "глаголы",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 357,
+      "kanji": "昼ご飯",
+      "hiragana": "ひるごはん",
+      "romaji": "hirugohan",
+      "translation": "обед",
+      "theme": "еда",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 358,
+      "kanji": "ラーメン屋",
+      "hiragana": "らーめんや",
+      "romaji": "raamenya",
+      "translation": "раменная",
+      "theme": "еда",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 359,
+      "kanji": "とても",
+      "hiragana": "とても",
+      "romaji": "totemo",
+      "translation": "очень",
+      "theme": "наречия",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 360,
+      "kanji": "そして",
+      "hiragana": "そして",
+      "romaji": "soshite",
+      "translation": "и, а затем",
+      "theme": "частицы",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 361,
+      "kanji": "レストラン",
+      "hiragana": "れすとらん",
+      "romaji": "resutoran",
+      "translation": "ресторан",
+      "theme": "еда",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 362,
+      "kanji": "カフェ",
+      "hiragana": "かふぇ",
+      "romaji": "kafe",
+      "translation": "кафе",
+      "theme": "еда",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 363,
+      "kanji": "うどん屋",
+      "hiragana": "うどんや",
+      "romaji": "udonya",
+      "translation": "лапшичная (удон)",
+      "theme": "еда",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 364,
+      "kanji": "そば屋",
+      "hiragana": "そばや",
+      "romaji": "sobaya",
+      "translation": "лапшичная (соба)",
+      "theme": "еда",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 365,
+      "kanji": "寿司屋",
+      "hiragana": "すしや",
+      "romaji": "sushiya",
+      "translation": "суши-бар",
+      "theme": "еда",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": 366,
+      "kanji": "ピザ屋",
+      "hiragana": "ぴざや",
+      "romaji": "pizaya",
+      "translation": "пиццерия",
+      "theme": "еда",
       "date_added": "2026-07-02"
     }
   ]
