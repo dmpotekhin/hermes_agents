@@ -2,28 +2,33 @@
   "info": {
     "description": "Персональный словарь из разговорного клуба японского языка",
     "created": "2026-06-20",
-    "last_updated": "2026-07-02",
-    "total_words": 416,
+    "last_updated": "2026-07-07",
+    "total_words": 491,
     "themes": [
       "вежливость",
+      "вещи",
       "вопросы",
       "время",
       "глаголы",
       "дом",
       "еда",
+      "здоровье",
       "знакомство",
+      "места",
       "местоимения",
       "наречия",
       "приветствия",
       "прилагательные",
       "природа",
       "профессии",
+      "работа",
       "семья",
       "страны",
       "счёт людей",
       "утверждения",
       "хобби",
       "частицы",
+      "числа",
       "языки"
     ]
   },
@@ -3922,6 +3927,681 @@
       "theme": "глаголы",
       "date_added": "2026-07-02",
       "id": 416
+    },
+    {
+      "id": 417,
+      "kanji": "会う",
+      "hiragana": "あう",
+      "romaji": "au",
+      "translation": "встречаться",
+      "theme": "глаголы",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 418,
+      "kanji": "明日",
+      "hiragana": "あした",
+      "romaji": "ashita",
+      "translation": "завтра",
+      "theme": "время",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 419,
+      "kanji": "暑い",
+      "hiragana": "あつい",
+      "romaji": "atsui",
+      "translation": "жаркий",
+      "theme": "прилагательные",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 420,
+      "kanji": "有る",
+      "hiragana": "ある",
+      "romaji": "aru",
+      "translation": "быть, находиться (неодуш.)",
+      "theme": "глаголы",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 421,
+      "kanji": "良い",
+      "hiragana": "いい",
+      "romaji": "ii",
+      "translation": "хороший",
+      "theme": "прилагательные",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 422,
+      "kanji": "行く",
+      "hiragana": "いく",
+      "romaji": "iku",
+      "translation": "идти",
+      "theme": "глаголы",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 423,
+      "kanji": "居る",
+      "hiragana": "いる",
+      "romaji": "iru",
+      "translation": "быть, находиться (одуш.)",
+      "theme": "глаголы",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 424,
+      "kanji": "絵",
+      "hiragana": "え",
+      "romaji": "e",
+      "translation": "картина, рисунок",
+      "theme": "хобби",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 425,
+      "kanji": "起きる",
+      "hiragana": "おきる",
+      "romaji": "okiru",
+      "translation": "вставать, просыпаться",
+      "theme": "глаголы",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 426,
+      "kanji": "教える",
+      "hiragana": "おしえる",
+      "romaji": "oshieru",
+      "translation": "учить, обучать",
+      "theme": "глаголы",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 427,
+      "kanji": "遅い",
+      "hiragana": "おそい",
+      "romaji": "osoi",
+      "translation": "поздний, медленный",
+      "theme": "прилагательные",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 428,
+      "kanji": "重い",
+      "hiragana": "おもい",
+      "romaji": "omoi",
+      "translation": "тяжёлый",
+      "theme": "прилагательные",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 429,
+      "kanji": "面白い",
+      "hiragana": "おもしろい",
+      "romaji": "omoshiroi",
+      "translation": "интересный",
+      "theme": "прилагательные",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 430,
+      "kanji": "降りる",
+      "hiragana": "おりる",
+      "romaji": "oriru",
+      "translation": "выходить (из транспорта)",
+      "theme": "глаголы",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 431,
+      "kanji": "終わる",
+      "hiragana": "おわる",
+      "romaji": "owaru",
+      "translation": "заканчиваться",
+      "theme": "глаголы",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 432,
+      "kanji": "帰る",
+      "hiragana": "かえる",
+      "romaji": "kaeru",
+      "translation": "возвращаться домой",
+      "theme": "глаголы",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 433,
+      "kanji": "鍵",
+      "hiragana": "かぎ",
+      "romaji": "kagi",
+      "translation": "ключ",
+      "theme": "дом",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 434,
+      "kanji": "鞄",
+      "hiragana": "かばん",
+      "romaji": "kaban",
+      "translation": "сумка, портфель",
+      "theme": "дом",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 435,
+      "kanji": "軽い",
+      "hiragana": "かるい",
+      "romaji": "karui",
+      "translation": "лёгкий",
+      "theme": "прилагательные",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 436,
+      "kanji": "簡単",
+      "hiragana": "かんたん",
+      "romaji": "kantan",
+      "translation": "простой",
+      "theme": "прилагательные",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 437,
+      "kanji": "学校",
+      "hiragana": "がっこう",
+      "romaji": "gakkou",
+      "translation": "школа",
+      "theme": "дом",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 438,
+      "kanji": "今日",
+      "hiragana": "きょう",
+      "romaji": "kyou",
+      "translation": "сегодня",
+      "theme": "время",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 439,
+      "kanji": "去年",
+      "hiragana": "きょねん",
+      "romaji": "kyonen",
+      "translation": "прошлый год",
+      "theme": "время",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 440,
+      "kanji": "靴",
+      "hiragana": "くつ",
+      "romaji": "kutsu",
+      "translation": "обувь",
+      "theme": "дом",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 441,
+      "kanji": "来る",
+      "hiragana": "くる",
+      "romaji": "kuru",
+      "translation": "приходить",
+      "theme": "глаголы",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 442,
+      "kanji": "黒板",
+      "hiragana": "こくばん",
+      "romaji": "kokuban",
+      "translation": "доска (классная)",
+      "theme": "дом",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 443,
+      "kanji": "今年",
+      "hiragana": "ことし",
+      "romaji": "kotoshi",
+      "translation": "этот год",
+      "theme": "время",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 444,
+      "kanji": "今週",
+      "hiragana": "こんしゅう",
+      "romaji": "konshuu",
+      "translation": "эта неделя",
+      "theme": "время",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 445,
+      "kanji": "財布",
+      "hiragana": "さいふ",
+      "romaji": "saifu",
+      "translation": "кошелёк",
+      "theme": "дом",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 446,
+      "kanji": "上手",
+      "hiragana": "じょうず",
+      "romaji": "jouzu",
+      "translation": "умелый, хорошо получается",
+      "theme": "прилагательные",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 447,
+      "kanji": "する",
+      "hiragana": "する",
+      "romaji": "suru",
+      "translation": "делать",
+      "theme": "глаголы",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 448,
+      "kanji": "座る",
+      "hiragana": "すわる",
+      "romaji": "suwaru",
+      "translation": "сидеть, садиться",
+      "theme": "глаголы",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 449,
+      "kanji": "先週",
+      "hiragana": "せんしゅう",
+      "romaji": "senshuu",
+      "translation": "прошлая неделя",
+      "theme": "время",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 450,
+      "kanji": "立つ",
+      "hiragana": "たつ",
+      "romaji": "tatsu",
+      "translation": "стоять",
+      "theme": "глаголы",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 451,
+      "kanji": "楽しむ",
+      "hiragana": "たのしむ",
+      "romaji": "tanoshimu",
+      "translation": "наслаждаться, веселиться",
+      "theme": "глаголы",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 452,
+      "kanji": "食べる",
+      "hiragana": "たべる",
+      "romaji": "taberu",
+      "translation": "есть, кушать",
+      "theme": "глаголы",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 453,
+      "kanji": "大学",
+      "hiragana": "だいがく",
+      "romaji": "daigaku",
+      "translation": "университет",
+      "theme": "дом",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 454,
+      "kanji": "つまらない",
+      "hiragana": "つまらない",
+      "romaji": "tsumaranai",
+      "translation": "скучный",
+      "theme": "прилагательные",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 455,
+      "kanji": "出かける",
+      "hiragana": "でかける",
+      "romaji": "dekakeru",
+      "translation": "выходить (куда-то)",
+      "theme": "глаголы",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 456,
+      "kanji": "出る",
+      "hiragana": "でる",
+      "romaji": "deru",
+      "translation": "выходить, выезжать",
+      "theme": "глаголы",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 457,
+      "kanji": "電話",
+      "hiragana": "でんわ",
+      "romaji": "denwa",
+      "translation": "телефон",
+      "theme": "дом",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 458,
+      "kanji": "時計",
+      "hiragana": "とけい",
+      "romaji": "tokei",
+      "translation": "часы",
+      "theme": "дом",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 459,
+      "kanji": "届ける",
+      "hiragana": "とどける",
+      "romaji": "todokeru",
+      "translation": "доставлять, относить",
+      "theme": "глаголы",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 460,
+      "kanji": "友達",
+      "hiragana": "ともだち",
+      "romaji": "tomodachi",
+      "translation": "друг",
+      "theme": "знакомство",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 461,
+      "kanji": "撮る",
+      "hiragana": "とる",
+      "romaji": "toru",
+      "translation": "фотографировать, снимать",
+      "theme": "глаголы",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 462,
+      "kanji": "習う",
+      "hiragana": "ならう",
+      "romaji": "narau",
+      "translation": "изучать, учиться (у кого-то)",
+      "theme": "глаголы",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 463,
+      "kanji": "眠い",
+      "hiragana": "ねむい",
+      "romaji": "nemui",
+      "translation": "сонный",
+      "theme": "прилагательные",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 464,
+      "kanji": "寝る",
+      "hiragana": "ねる",
+      "romaji": "neru",
+      "translation": "спать",
+      "theme": "глаголы",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 465,
+      "kanji": "飲む",
+      "hiragana": "のむ",
+      "romaji": "nomu",
+      "translation": "пить",
+      "theme": "глаголы",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 466,
+      "kanji": "乗る",
+      "hiragana": "のる",
+      "romaji": "noru",
+      "translation": "садиться (на транспорт)",
+      "theme": "глаголы",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 467,
+      "kanji": "入る",
+      "hiragana": "はいる",
+      "romaji": "hairu",
+      "translation": "входить",
+      "theme": "глаголы",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 468,
+      "kanji": "始まる",
+      "hiragana": "はじまる",
+      "romaji": "hajimaru",
+      "translation": "начинаться",
+      "theme": "глаголы",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 469,
+      "kanji": "働く",
+      "hiragana": "はたらく",
+      "romaji": "hataraku",
+      "translation": "работать",
+      "theme": "глаголы",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 470,
+      "kanji": "早い",
+      "hiragana": "はやい",
+      "romaji": "hayai",
+      "translation": "ранний, быстрый",
+      "theme": "прилагательные",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 471,
+      "kanji": "晴れ",
+      "hiragana": "はれ",
+      "romaji": "hare",
+      "translation": "ясная погода",
+      "theme": "природа",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 472,
+      "kanji": "晩ご飯",
+      "hiragana": "ばんごはん",
+      "romaji": "bangohan",
+      "translation": "ужин",
+      "theme": "еда",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 473,
+      "kanji": "病院",
+      "hiragana": "びょういん",
+      "romaji": "byouin",
+      "translation": "больница",
+      "theme": "дом",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 474,
+      "kanji": "服",
+      "hiragana": "ふく",
+      "romaji": "fuku",
+      "translation": "одежда",
+      "theme": "дом",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 475,
+      "kanji": "下手",
+      "hiragana": "へた",
+      "romaji": "heta",
+      "translation": "неумелый, плохо получается",
+      "theme": "прилагательные",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 476,
+      "kanji": "本",
+      "hiragana": "ほん",
+      "romaji": "hon",
+      "translation": "книга",
+      "theme": "хобби",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 477,
+      "kanji": "毎朝",
+      "hiragana": "まいあさ",
+      "romaji": "maiasa",
+      "translation": "каждое утро",
+      "theme": "время",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 478,
+      "kanji": "毎晩",
+      "hiragana": "まいばん",
+      "romaji": "maiban",
+      "translation": "каждый вечер",
+      "theme": "время",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 479,
+      "kanji": "不味い",
+      "hiragana": "まずい",
+      "romaji": "mazui",
+      "translation": "невкусный",
+      "theme": "прилагательные",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 480,
+      "kanji": "窓",
+      "hiragana": "まど",
+      "romaji": "mado",
+      "translation": "окно",
+      "theme": "дом",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 481,
+      "kanji": "店",
+      "hiragana": "みせ",
+      "romaji": "mise",
+      "translation": "магазин",
+      "theme": "дом",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 482,
+      "kanji": "申し込む",
+      "hiragana": "もうしこむ",
+      "romaji": "moushikomu",
+      "translation": "записываться, подавать заявку",
+      "theme": "глаголы",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 483,
+      "kanji": "持つ",
+      "hiragana": "もつ",
+      "romaji": "motsu",
+      "translation": "держать, иметь, носить",
+      "theme": "глаголы",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 484,
+      "kanji": "優しい",
+      "hiragana": "やさしい",
+      "romaji": "yasashii",
+      "translation": "добрый, мягкий",
+      "theme": "прилагательные",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 485,
+      "kanji": "休む",
+      "hiragana": "やすむ",
+      "romaji": "yasumu",
+      "translation": "отдыхать, брать выходной",
+      "theme": "глаголы",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 486,
+      "kanji": "雪",
+      "hiragana": "ゆき",
+      "romaji": "yuki",
+      "translation": "снег",
+      "theme": "природа",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 487,
+      "kanji": "来週",
+      "hiragana": "らいしゅう",
+      "romaji": "raishuu",
+      "translation": "следующая неделя",
+      "theme": "время",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 488,
+      "kanji": "来年",
+      "hiragana": "らいねん",
+      "romaji": "rainen",
+      "translation": "следующий год",
+      "theme": "время",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 489,
+      "kanji": "悪い",
+      "hiragana": "わるい",
+      "romaji": "warui",
+      "translation": "плохой",
+      "theme": "прилагательные",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 490,
+      "kanji": "宿題",
+      "hiragana": "しゅくだい",
+      "romaji": "shukudai",
+      "translation": "домашнее задание",
+      "theme": "дом",
+      "date_added": "2026-07-07"
+    },
+    {
+      "id": 491,
+      "kanji": "自転車",
+      "hiragana": "じてんしゃ",
+      "romaji": "jitensha",
+      "translation": "велосипед",
+      "theme": "дом",
+      "date_added": "2026-07-07"
     }
   ]
 }
