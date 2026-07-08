@@ -1,7 +1,7 @@
 ---
 name: japanese-tutor
 description: "Operate the japanese-tutor Hermes profile: Telegram gateway, access control, STT/voice support, and daily operations for a Russian-speaking Japanese tutor."
-version: 1.1.0
+version: 1.2.0
 author: Hermes Agent
 metadata:
   hermes:
@@ -260,3 +260,22 @@ The user's profile in memory contains:
 - Current topic: hiragana
 - Telegram ID for access control
 - Gateway running status
+
+## Direct API Messaging
+
+For one-off pushes to Telegram without the gateway or cron machinery,
+see `references/direct-telegram-send.md`. This is useful when you need
+to send a message immediately and don't want to wait for a cron tick
+or spawn a full agent session.
+
+Key pattern:
+```bash
+cd ~/.hermes/profiles/japanese-tutor \
+  && export $(grep -v '^#' .env | xargs) \
+  && python3 -c "
+import os, requests
+r = requests.post(f'https://api.telegram.org/bot{os.environ[\"TELEGRAM_BOT_TOKEN\"]}/sendMessage',
+    data={'chat_id': 222651048, 'text': 'Hello', 'parse_mode': 'Markdown'})
+print(r.ok)
+"
+```

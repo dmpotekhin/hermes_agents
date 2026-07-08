@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5178846-3a40-46af-a44e-d03114740a1b" name="Changes" comment="" />
+    <list default="true" id="a5178846-3a40-46af-a44e-d03114740a1b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/jp_rag_data/study_progress.json" beforeDir="false" afterPath="$PROJECT_DIR$/jp_rag_data/study_progress.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/.hermes_history" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/japanese-tutor/.hermes_history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/.usage.json" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/japanese-tutor/skills/.usage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/japanese-language-tutor/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/japanese-tutor/skills/japanese-language-tutor/SKILL.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/cron/ticker_heartbeat" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/cron/ticker_heartbeat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/cron/ticker_last_success" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/cron/ticker_last_success" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,28 +17,32 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5,
-  "fromUser": false
-}]]></component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/hermes-agent/apps/desktop/package.json" />
+    <dismissed value="$PROJECT_DIR$/hermes-agent/package.json" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3Fm96fJ6UNNgyrSuJ0vU39OEtPK" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

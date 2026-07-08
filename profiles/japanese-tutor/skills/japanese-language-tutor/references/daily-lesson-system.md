@@ -114,6 +114,38 @@ hermes cronjob update <job_id> --schedule '0 20 * * *'
 Решение: переключить cron на `--deliver origin` (сообщение придёт в CLI-сессию).
 При восстановлении соединения — переключить обратно на `--deliver telegram`.
 
+### Cron перестал срабатывать без ошибок
+
+**Симптом:** `hermes cronjob list` показывает `last_run_at` давний (например, 5 дней назад), но `state: scheduled`, `enabled: true`. Никаких ошибок в логах. Задача просто перестала срабатывать по расписанию.
+
+**Диагностика:**
+```bash
+hermes cronjob list                     # проверить last_run_at и next_run_at
+hermes cronjob run <job_id>             # принудительный запуск — сработает или нет?
+```
+
+**Почему происходит:** неизвестно (возможно, внутреннее состояние Hermes cron scheduler сбивается после длительной работы или gateway restart без перезапуска cron). Задача остаётся зарегистрированной, но не триггерится.
+
+**Workaround — пересоздать задачу:**
+1. Запомнить параметры текущей задачи:
+   ```bash
+   hermes cronjob list  # schedule, deliver, prompt_preview
+   ```
+2. Удалить старую:
+   ```bash
+   hermes cronjob remove <old_job_id>
+   ```
+3. Создать новую с теми же параметрами:
+   ```bash
+   hermes cronjob create --name n5-daily-lesson --schedule '0 21 * * *' --prompt '...' --deliver telegram:222651048
+   ```
+4. Проверить:
+   ```bash
+   hermes cronjob list  # убедиться, что next_run_at показывает завтрашнюю дату
+   ```
+
+**Профилактика:** периодически проверять `hermes cronjob list` и обращать внимание на `last_run_at`. Если прошло >2 дней без выполнения (а пользователь не просил паузу) — пересоздать задачу.
+
 ### "no delivery target resolved for deliver=telegram"
 
 Симптом: cron job **выполнился успешно**, но лог показывает:

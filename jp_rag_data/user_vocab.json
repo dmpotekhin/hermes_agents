@@ -2,8 +2,8 @@
   "info": {
     "description": "Персональный словарь из разговорного клуба японского языка",
     "created": "2026-06-20",
-    "last_updated": "2026-07-07",
-    "total_words": 491,
+    "last_updated": "2026-07-08",
+    "total_words": 929,
     "themes": [
       "вежливость",
       "вещи",
@@ -4602,6 +4602,4386 @@
       "translation": "велосипед",
       "theme": "дом",
       "date_added": "2026-07-07"
+    },
+    {
+      "id": 492,
+      "kanji": "青",
+      "hiragana": "あお",
+      "romaji": "ao",
+      "translation": "blue",
+      "theme": "прилагательные",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 493,
+      "kanji": "青い",
+      "hiragana": "あおい",
+      "romaji": "aoi",
+      "translation": "blue",
+      "theme": "прилагательные",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 494,
+      "kanji": "赤",
+      "hiragana": "あか",
+      "romaji": "aka",
+      "translation": "red",
+      "theme": "прилагательные",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 495,
+      "kanji": "秋",
+      "hiragana": "あき",
+      "romaji": "aki",
+      "translation": "fall (season)",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 496,
+      "kanji": "開ける",
+      "hiragana": "あける",
+      "romaji": "akeru",
+      "translation": "to open (v.t.)",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 497,
+      "kanji": "上げる",
+      "hiragana": "あげる",
+      "romaji": "ageru",
+      "translation": "to raise, to lift",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 498,
+      "kanji": "朝",
+      "hiragana": "あさ",
+      "romaji": "asa",
+      "translation": "morning",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 499,
+      "kanji": "明後日",
+      "hiragana": "あさって",
+      "romaji": "asatte",
+      "translation": "day after tomorrow",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 500,
+      "kanji": "足",
+      "hiragana": "あし",
+      "romaji": "ashi",
+      "translation": "foot; leg",
+      "theme": "здоровье",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 501,
+      "kanji": "暖かい",
+      "hiragana": "あたたかい",
+      "romaji": "atatakai",
+      "translation": "warm",
+      "theme": "природа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 502,
+      "kanji": "頭",
+      "hiragana": "あたま",
+      "romaji": "atama",
+      "translation": "head",
+      "theme": "здоровье",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 503,
+      "kanji": "あちら",
+      "hiragana": "あちら",
+      "romaji": "achira",
+      "translation": "this way (polite)",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 504,
+      "kanji": "あっち",
+      "hiragana": "あっち",
+      "romaji": "acchi",
+      "translation": "over there",
+      "theme": "места",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 505,
+      "kanji": "後",
+      "hiragana": "あと",
+      "romaji": "ato",
+      "translation": "afterwards (later); in the future; the rest; since then",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 506,
+      "kanji": "アパート",
+      "hiragana": "アパート",
+      "romaji": "アパ-ト",
+      "translation": "apartment (abbr.)",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 507,
+      "kanji": "浴びる",
+      "hiragana": "あびる",
+      "romaji": "abiru",
+      "translation": "to bathe, to shower",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 508,
+      "kanji": "甘い",
+      "hiragana": "あまい",
+      "romaji": "amai",
+      "translation": "generous, sweet",
+      "theme": "еда",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 509,
+      "kanji": "洗う",
+      "hiragana": "あらう",
+      "romaji": "arau",
+      "translation": "to wash",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 510,
+      "kanji": "歩く",
+      "hiragana": "あるく",
+      "romaji": "aruku",
+      "translation": "to walk",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 511,
+      "kanji": "言う",
+      "hiragana": "いう",
+      "romaji": "iu",
+      "translation": "to say",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 512,
+      "kanji": "いくつ",
+      "hiragana": "いくつ",
+      "romaji": "ikutsu",
+      "translation": "how many, how old",
+      "theme": "вопросы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 513,
+      "kanji": "いくら",
+      "hiragana": "いくら",
+      "romaji": "ikura",
+      "translation": "how much, how many",
+      "theme": "вопросы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 514,
+      "kanji": "痛い",
+      "hiragana": "いたい",
+      "romaji": "itai",
+      "translation": "hurt; painful; sore",
+      "theme": "здоровье",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 515,
+      "kanji": "一",
+      "hiragana": "いち",
+      "romaji": "ichi",
+      "translation": "one",
+      "theme": "числа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 516,
+      "kanji": "一日",
+      "hiragana": "いちにち",
+      "romaji": "ichinichi",
+      "translation": "one day (duration)",
+      "theme": "числа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 517,
+      "kanji": "一番",
+      "hiragana": "いちばん",
+      "romaji": "ichiban",
+      "translation": "best (most), first, number one",
+      "theme": "наречия",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 518,
+      "kanji": "いつ",
+      "hiragana": "いつ",
+      "romaji": "itsu",
+      "translation": "when",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 519,
+      "kanji": "五日",
+      "hiragana": "いつか",
+      "romaji": "itsuka",
+      "translation": "five days; fifth day of the month",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 520,
+      "kanji": "一緒",
+      "hiragana": "いっしょ",
+      "romaji": "issho",
+      "translation": "together",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 521,
+      "kanji": "五つ",
+      "hiragana": "いつつ",
+      "romaji": "itsutsu",
+      "translation": "five things",
+      "theme": "числа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 522,
+      "kanji": "意味",
+      "hiragana": "いみ",
+      "romaji": "imi",
+      "translation": "meaning, significance",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 523,
+      "kanji": "嫌",
+      "hiragana": "いや",
+      "romaji": "iya",
+      "translation": "disagreeable, detestable, unpleasant",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 524,
+      "kanji": "入口",
+      "hiragana": "いりぐち",
+      "romaji": "iriguchi",
+      "translation": "entrance",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 525,
+      "kanji": "入れる",
+      "hiragana": "いれる",
+      "romaji": "ireru",
+      "translation": "to put in",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 526,
+      "kanji": "色",
+      "hiragana": "いろ",
+      "romaji": "iro",
+      "translation": "color",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 527,
+      "kanji": "色々",
+      "hiragana": "いろいろ",
+      "romaji": "iroiro",
+      "translation": "various",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 528,
+      "kanji": "上",
+      "hiragana": "うえ",
+      "romaji": "ue",
+      "translation": "above (up, top, etc.), over, on top of",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 529,
+      "kanji": "後ろ",
+      "hiragana": "うしろ",
+      "romaji": "ushiro",
+      "translation": "back, behind, rear",
+      "theme": "здоровье",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 530,
+      "kanji": "薄い",
+      "hiragana": "うすい",
+      "romaji": "usui",
+      "translation": "thin, weak",
+      "theme": "прилагательные",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 531,
+      "kanji": "歌",
+      "hiragana": "うた",
+      "romaji": "uta",
+      "translation": "a song",
+      "theme": "семья",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 532,
+      "kanji": "うち",
+      "hiragana": "うち",
+      "romaji": "uchi",
+      "translation": "home; house; my place",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 533,
+      "kanji": "生まれる",
+      "hiragana": "うまれる",
+      "romaji": "umareru",
+      "translation": "to be born",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 534,
+      "kanji": "海",
+      "hiragana": "うみ",
+      "romaji": "umi",
+      "translation": "sea, beach",
+      "theme": "природа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 535,
+      "kanji": "売る",
+      "hiragana": "うる",
+      "romaji": "uru",
+      "translation": "to sell (v.t.)",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 536,
+      "kanji": "上着",
+      "hiragana": "うわぎ",
+      "romaji": "uwagi",
+      "translation": "coat, jacket",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 537,
+      "kanji": "映画館",
+      "hiragana": "えいがかん",
+      "romaji": "ēgakan",
+      "translation": "movie theater, cinema",
+      "theme": "еда",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 538,
+      "kanji": "エレベーター",
+      "hiragana": "エレベーター",
+      "romaji": "エレベ-タ-",
+      "translation": "elevator",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 539,
+      "kanji": "～円",
+      "hiragana": "～えん",
+      "romaji": "～en",
+      "translation": "Yen",
+      "theme": "числа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 540,
+      "kanji": "お～",
+      "hiragana": "お～",
+      "romaji": "o～",
+      "translation": "honorable ~ (honorific)",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 541,
+      "kanji": "多い",
+      "hiragana": "おおい",
+      "romaji": "ōi",
+      "translation": "many; there are a lot",
+      "theme": "прилагательные",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 542,
+      "kanji": "大きな",
+      "hiragana": "おおきな",
+      "romaji": "ōkina",
+      "translation": "big",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 543,
+      "kanji": "大勢",
+      "hiragana": "おおぜい",
+      "romaji": "ōzē",
+      "translation": "great number of people",
+      "theme": "еда",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 544,
+      "kanji": "置く",
+      "hiragana": "おく",
+      "romaji": "oku",
+      "translation": "to put; to lay; to place",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 545,
+      "kanji": "お酒",
+      "hiragana": "おさけ",
+      "romaji": "osake",
+      "translation": "sake; alcohol",
+      "theme": "еда",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 546,
+      "kanji": "お皿",
+      "hiragana": "おさら",
+      "romaji": "osara",
+      "translation": "plate, dish",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 547,
+      "kanji": "伯父",
+      "hiragana": "おじさん",
+      "romaji": "ojisan",
+      "translation": "uncle, middle-aged man",
+      "theme": "семья",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 548,
+      "kanji": "押す",
+      "hiragana": "おす",
+      "romaji": "osu",
+      "translation": "to push, to press, to stamp (e.g., a passport)",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 549,
+      "kanji": "お手洗い",
+      "hiragana": "おてあらい",
+      "romaji": "otearai",
+      "translation": "toilet, restroom, bathroom (lit., a place to wash one's hands)",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 550,
+      "kanji": "男",
+      "hiragana": "おとこ",
+      "romaji": "otoko",
+      "translation": "man, male",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 551,
+      "kanji": "男の子",
+      "hiragana": "おとこのこ",
+      "romaji": "otokonoko",
+      "translation": "boy",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 552,
+      "kanji": "一昨日",
+      "hiragana": "おととい",
+      "romaji": "ototoi",
+      "translation": "the day before yesterday",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 553,
+      "kanji": "おととし",
+      "hiragana": "おととし",
+      "romaji": "ototoshi",
+      "translation": "year before last",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 554,
+      "kanji": "大人",
+      "hiragana": "おとな",
+      "romaji": "otona",
+      "translation": "adult",
+      "theme": "числа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 555,
+      "kanji": "お腹",
+      "hiragana": "おなか",
+      "romaji": "onaka",
+      "translation": "stomach",
+      "theme": "здоровье",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 556,
+      "kanji": "同じ",
+      "hiragana": "おなじ",
+      "romaji": "onaji",
+      "translation": "same, identical",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 557,
+      "kanji": "伯母さん",
+      "hiragana": "おばさん",
+      "romaji": "obasan",
+      "translation": "aunt",
+      "theme": "семья",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 558,
+      "kanji": "お風呂",
+      "hiragana": "おふろ",
+      "romaji": "ofuro",
+      "translation": "a bath",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 559,
+      "kanji": "おまわりさん",
+      "hiragana": "おまわりさん",
+      "romaji": "omawarisan",
+      "translation": "policeman (friendly term)",
+      "theme": "профессии",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 560,
+      "kanji": "女",
+      "hiragana": "おんな",
+      "romaji": "onna",
+      "translation": "woman, female",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 561,
+      "kanji": "女の子",
+      "hiragana": "おんなのこ",
+      "romaji": "onnanoko",
+      "translation": "girl",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 562,
+      "kanji": "～回",
+      "hiragana": "～かい",
+      "romaji": "～kai",
+      "translation": "counter for occurrences (~ times)",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 563,
+      "kanji": "外国",
+      "hiragana": "がいこく",
+      "romaji": "gaikoku",
+      "translation": "foreign country; abroad",
+      "theme": "места",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 564,
+      "kanji": "外国人",
+      "hiragana": "がいこくじん",
+      "romaji": "gaikokujin",
+      "translation": "foreigner",
+      "theme": "числа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 565,
+      "kanji": "階段",
+      "hiragana": "かいだん",
+      "romaji": "kaidan",
+      "translation": "stairs",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 566,
+      "kanji": "買い物",
+      "hiragana": "かいもの",
+      "romaji": "kaimono",
+      "translation": "shopping",
+      "theme": "места",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 567,
+      "kanji": "返す",
+      "hiragana": "かえす",
+      "romaji": "kaesu",
+      "translation": "to return something",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 568,
+      "kanji": "顔",
+      "hiragana": "かお",
+      "romaji": "kao",
+      "translation": "face (body part)",
+      "theme": "здоровье",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 569,
+      "kanji": "かかる",
+      "hiragana": "かかる",
+      "romaji": "kakaru",
+      "translation": "it takes (amount of time, money) (v.i.)",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 570,
+      "kanji": "～か月",
+      "hiragana": "～かげつ",
+      "romaji": "～kagetsu",
+      "translation": "(number of) months",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 571,
+      "kanji": "掛ける",
+      "hiragana": "かける",
+      "romaji": "kakeru",
+      "translation": "to put on (e.g., glasses); to hang (e.g., on a wall)",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 572,
+      "kanji": "貸す",
+      "hiragana": "かす",
+      "romaji": "kasu",
+      "translation": "to lend",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 573,
+      "kanji": "方",
+      "hiragana": "かた",
+      "romaji": "kata",
+      "translation": "-- honorific form for 人 (ひと) --; way of doing",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 574,
+      "kanji": "片仮名",
+      "hiragana": "かたかな",
+      "romaji": "katakana",
+      "translation": "katakana",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 575,
+      "kanji": "～月",
+      "hiragana": "～がつ",
+      "romaji": "～gatsu",
+      "translation": "month of year",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 576,
+      "kanji": "カップ",
+      "hiragana": "カップ",
+      "romaji": "カップ",
+      "translation": "cup",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 577,
+      "kanji": "家庭",
+      "hiragana": "かてい",
+      "romaji": "katē",
+      "translation": "home; family",
+      "theme": "семья",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 578,
+      "kanji": "角",
+      "hiragana": "かど",
+      "romaji": "kado",
+      "translation": "corner (e.g., desk, pavement)",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 579,
+      "kanji": "花瓶",
+      "hiragana": "かびん",
+      "romaji": "kabin",
+      "translation": "(flower) vase",
+      "theme": "природа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 580,
+      "kanji": "かぶる",
+      "hiragana": "かぶる",
+      "romaji": "kaburu",
+      "translation": "to wear, to put on (e.g., a hat on the head)",
+      "theme": "здоровье",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 581,
+      "kanji": "紙",
+      "hiragana": "かみ",
+      "romaji": "kami",
+      "translation": "paper",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 582,
+      "kanji": "カメラ",
+      "hiragana": "カメラ",
+      "romaji": "カメラ",
+      "translation": "camera",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 583,
+      "kanji": "火曜日",
+      "hiragana": "かようび",
+      "romaji": "kayōbi",
+      "translation": "Tuesday",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 584,
+      "kanji": "辛い",
+      "hiragana": "からい",
+      "romaji": "karai",
+      "translation": "hot and spicy; salty",
+      "theme": "еда",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 585,
+      "kanji": "体",
+      "hiragana": "からだ",
+      "romaji": "karada",
+      "translation": "body; health",
+      "theme": "здоровье",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 586,
+      "kanji": "借りる",
+      "hiragana": "かりる",
+      "romaji": "kariru",
+      "translation": "to borrow, to owe",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 587,
+      "kanji": "～がる",
+      "hiragana": "～がる",
+      "romaji": "～garu",
+      "translation": "feel",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 588,
+      "kanji": "カレンダー",
+      "hiragana": "カレンダー",
+      "romaji": "カレンダ-",
+      "translation": "calendar",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 589,
+      "kanji": "川",
+      "hiragana": "かわ",
+      "romaji": "kawa",
+      "translation": "river",
+      "theme": "природа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 590,
+      "kanji": "～側",
+      "hiragana": "～がわ",
+      "romaji": "～gawa",
+      "translation": "~ side",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 591,
+      "kanji": "漢字",
+      "hiragana": "かんじ",
+      "romaji": "kanji",
+      "translation": "kanji; Chinese character",
+      "theme": "языки",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 592,
+      "kanji": "黄色",
+      "hiragana": "きいろ",
+      "romaji": "kīro",
+      "translation": "yellow",
+      "theme": "прилагательные",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 593,
+      "kanji": "黄色い",
+      "hiragana": "きいろい",
+      "romaji": "kīroi",
+      "translation": "yellow",
+      "theme": "прилагательные",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 594,
+      "kanji": "消える",
+      "hiragana": "きえる",
+      "romaji": "kieru",
+      "translation": "to vanish, to disappear",
+      "theme": "здоровье",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 595,
+      "kanji": "北",
+      "hiragana": "きた",
+      "romaji": "kita",
+      "translation": "north",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 596,
+      "kanji": "ギター",
+      "hiragana": "ギター",
+      "romaji": "ギタ-",
+      "translation": "guitar",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 597,
+      "kanji": "汚い",
+      "hiragana": "きたない",
+      "romaji": "kitanai",
+      "translation": "dirty, unclean, filthy",
+      "theme": "прилагательные",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 598,
+      "kanji": "喫茶店",
+      "hiragana": "きっさてん",
+      "romaji": "kissaten",
+      "translation": "café",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 599,
+      "kanji": "切手",
+      "hiragana": "きって",
+      "romaji": "kitte",
+      "translation": "postal (postage) stamps",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 600,
+      "kanji": "切符",
+      "hiragana": "きっぷ",
+      "romaji": "kippu",
+      "translation": "a ticket",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 601,
+      "kanji": "九",
+      "hiragana": "きゅう",
+      "romaji": "kyū",
+      "translation": "nine",
+      "theme": "числа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 602,
+      "kanji": "牛肉",
+      "hiragana": "ぎゅうにく",
+      "romaji": "gyūniku",
+      "translation": "beef",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 603,
+      "kanji": "教室",
+      "hiragana": "きょうしつ",
+      "romaji": "kyōshitsu",
+      "translation": "classroom",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 604,
+      "kanji": "切る",
+      "hiragana": "きる",
+      "romaji": "kiru",
+      "translation": "to cut; to hang up (a phone)",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 605,
+      "kanji": "キロ",
+      "hiragana": "キロ;キログラム",
+      "romaji": "キロ;キログラム",
+      "translation": "(abbr.) kilo (kilogram)",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 606,
+      "kanji": "キロ",
+      "hiragana": "キロ;キロメートル",
+      "romaji": "キロ;キロメ-トル",
+      "translation": "(abbr.) kilo (kilometer)",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 607,
+      "kanji": "銀行",
+      "hiragana": "ぎんこう",
+      "romaji": "ginkō",
+      "translation": "bank",
+      "theme": "места",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 608,
+      "kanji": "金曜日",
+      "hiragana": "きんようび",
+      "romaji": "kinyōbi",
+      "translation": "Friday",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 609,
+      "kanji": "下さい",
+      "hiragana": "ください",
+      "romaji": "kudasai",
+      "translation": "(with te-form verb) please do for me",
+      "theme": "приветствия",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 610,
+      "kanji": "口",
+      "hiragana": "くち",
+      "romaji": "kuchi",
+      "translation": "job opening; mouth",
+      "theme": "здоровье",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 611,
+      "kanji": "靴下",
+      "hiragana": "くつした",
+      "romaji": "kutsushita",
+      "translation": "socks",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 612,
+      "kanji": "曇り",
+      "hiragana": "くもり",
+      "romaji": "kumori",
+      "translation": "cloudiness, cloudy weather",
+      "theme": "еда",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 613,
+      "kanji": "曇る",
+      "hiragana": "くもる",
+      "romaji": "kumoru",
+      "translation": "to become cloudy, to become dim",
+      "theme": "природа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 614,
+      "kanji": "～くらい",
+      "hiragana": "～くらい;ぐらい",
+      "romaji": "～kurai;gurai",
+      "translation": "approximate (quantity)",
+      "theme": "прилагательные",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 615,
+      "kanji": "クラス",
+      "hiragana": "クラス",
+      "romaji": "クラス",
+      "translation": "a class",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 616,
+      "kanji": "グラム",
+      "hiragana": "グラム",
+      "romaji": "グラム",
+      "translation": "gram",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 617,
+      "kanji": "黒",
+      "hiragana": "くろ",
+      "romaji": "kuro",
+      "translation": "black",
+      "theme": "прилагательные",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 618,
+      "kanji": "黒い",
+      "hiragana": "くろい",
+      "romaji": "kuroi",
+      "translation": "black; dark",
+      "theme": "прилагательные",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 619,
+      "kanji": "警官",
+      "hiragana": "けいかん",
+      "romaji": "kēkan",
+      "translation": "police officer",
+      "theme": "места",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 620,
+      "kanji": "今朝",
+      "hiragana": "けさ",
+      "romaji": "kesa",
+      "translation": "this morning",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 621,
+      "kanji": "消す",
+      "hiragana": "けす",
+      "romaji": "kesu",
+      "translation": "to erase, to delete, to turn off power",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 622,
+      "kanji": "結構",
+      "hiragana": "けっこう",
+      "romaji": "kekkō",
+      "translation": "splendid; enough, tolerably",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 623,
+      "kanji": "月曜日",
+      "hiragana": "げつようび",
+      "romaji": "getsuyōbi",
+      "translation": "Monday",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 624,
+      "kanji": "玄関",
+      "hiragana": "げんかん",
+      "romaji": "genkan",
+      "translation": "entrance (to a house or a building)",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 625,
+      "kanji": "～個",
+      "hiragana": "～こ",
+      "romaji": "～ko",
+      "translation": "counter for small items (e.g., fruits, cups)",
+      "theme": "еда",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 626,
+      "kanji": "～語",
+      "hiragana": "～ご",
+      "romaji": "～go",
+      "translation": "word, language",
+      "theme": "языки",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 627,
+      "kanji": "交差点",
+      "hiragana": "こうさてん",
+      "romaji": "kōsaten",
+      "translation": "intersection",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 628,
+      "kanji": "交番",
+      "hiragana": "こうばん",
+      "romaji": "kōban",
+      "translation": "police box",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 629,
+      "kanji": "声",
+      "hiragana": "こえ",
+      "romaji": "koe",
+      "translation": "voice",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 630,
+      "kanji": "コート",
+      "hiragana": "コート",
+      "romaji": "コ-ト",
+      "translation": "coat; court (e.g., tennis)",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 631,
+      "kanji": "午後",
+      "hiragana": "ごご",
+      "romaji": "gogo",
+      "translation": "afternoon, P.M.",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 632,
+      "kanji": "九日",
+      "hiragana": "ここのか",
+      "romaji": "kokonoka",
+      "translation": "nine days; ninth day of the month",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 633,
+      "kanji": "九つ",
+      "hiragana": "ここのつ",
+      "romaji": "kokonotsu",
+      "translation": "nine things",
+      "theme": "числа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 634,
+      "kanji": "午前",
+      "hiragana": "ごぜん",
+      "romaji": "gozen",
+      "translation": "morning, A.M.",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 635,
+      "kanji": "こちら",
+      "hiragana": "こちら",
+      "romaji": "kochira",
+      "translation": "this person (polite); this way (polite)",
+      "theme": "семья",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 636,
+      "kanji": "こっち",
+      "hiragana": "こっち",
+      "romaji": "kocchi",
+      "translation": "this person; this direction; this side",
+      "theme": "семья",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 637,
+      "kanji": "コップ",
+      "hiragana": "コップ",
+      "romaji": "コップ",
+      "translation": "a tumbler; a glass",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 638,
+      "kanji": "言葉",
+      "hiragana": "ことば",
+      "romaji": "kotoba",
+      "translation": "language; word(s); expression(s)",
+      "theme": "языки",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 639,
+      "kanji": "子供",
+      "hiragana": "こども",
+      "romaji": "kodomo",
+      "translation": "child(ren)",
+      "theme": "семья",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 640,
+      "kanji": "コピーする",
+      "hiragana": "コピーする",
+      "romaji": "コピ-suru",
+      "translation": "to copy",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 641,
+      "kanji": "困る",
+      "hiragana": "こまる",
+      "romaji": "komaru",
+      "translation": "to be bothered, to have difficulty",
+      "theme": "места",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 642,
+      "kanji": "～ころ",
+      "hiragana": "～ころ;～ごろ",
+      "romaji": "～koro;～goro",
+      "translation": "about, toward, approximately (time)",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 643,
+      "kanji": "今月",
+      "hiragana": "こんげつ",
+      "romaji": "kongetsu",
+      "translation": "this month",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 644,
+      "kanji": "こんな",
+      "hiragana": "こんな",
+      "romaji": "konna",
+      "translation": "such, like this",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 645,
+      "kanji": "今晩",
+      "hiragana": "こんばん",
+      "romaji": "konban",
+      "translation": "tonight, this evening",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 646,
+      "kanji": "さあ",
+      "hiragana": "さあ",
+      "romaji": "saa",
+      "translation": "come now, well",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 647,
+      "kanji": "～歳",
+      "hiragana": "～さい",
+      "romaji": "～sai",
+      "translation": "~ years old",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 648,
+      "kanji": "先",
+      "hiragana": "さき",
+      "romaji": "saki",
+      "translation": "future; recent, previous",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 649,
+      "kanji": "咲く",
+      "hiragana": "さく",
+      "romaji": "saku",
+      "translation": "to bloom",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 650,
+      "kanji": "作文",
+      "hiragana": "さくぶん",
+      "romaji": "sakubun",
+      "translation": "essay; composition",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 651,
+      "kanji": "差す",
+      "hiragana": "さす",
+      "romaji": "sasu",
+      "translation": "to raise (stretch out) hands, to raise (e.g., umbrella)",
+      "theme": "здоровье",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 652,
+      "kanji": "～冊",
+      "hiragana": "～さつ",
+      "romaji": "～satsu",
+      "translation": "counter for books",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 653,
+      "kanji": "雑誌",
+      "hiragana": "ざっし",
+      "romaji": "zasshi",
+      "translation": "magazine, journal",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 654,
+      "kanji": "砂糖",
+      "hiragana": "さとう",
+      "romaji": "satō",
+      "translation": "sugar",
+      "theme": "еда",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 655,
+      "kanji": "さ来年",
+      "hiragana": "さらいねん",
+      "romaji": "sarainen",
+      "translation": "year after next",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 656,
+      "kanji": "散歩",
+      "hiragana": "さんぽ(する)",
+      "romaji": "sanpo(suru)",
+      "translation": "walk, stroll",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 657,
+      "kanji": "～時",
+      "hiragana": "～じ",
+      "romaji": "～ji",
+      "translation": "~ o'clock (time)",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 658,
+      "kanji": "塩",
+      "hiragana": "しお",
+      "romaji": "shio",
+      "translation": "salt",
+      "theme": "еда",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 659,
+      "kanji": "～時間",
+      "hiragana": "～じかん",
+      "romaji": "～jikan",
+      "translation": "~ hours",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 660,
+      "kanji": "辞書",
+      "hiragana": "じしょ",
+      "romaji": "jisho",
+      "translation": "dictionary",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 661,
+      "kanji": "下",
+      "hiragana": "した",
+      "romaji": "shita",
+      "translation": "under, below, beneath",
+      "theme": "еда",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 662,
+      "kanji": "七",
+      "hiragana": "しち",
+      "romaji": "shichi",
+      "translation": "seven",
+      "theme": "числа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 663,
+      "kanji": "自動車",
+      "hiragana": "じどうしゃ",
+      "romaji": "jidōsha",
+      "translation": "automobile",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 664,
+      "kanji": "死ぬ",
+      "hiragana": "しぬ",
+      "romaji": "shinu",
+      "translation": "to die",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 665,
+      "kanji": "字引",
+      "hiragana": "じびき",
+      "romaji": "jibiki",
+      "translation": "dictionary",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 666,
+      "kanji": "自分",
+      "hiragana": "じぶん",
+      "romaji": "jibun",
+      "translation": "myself, oneself",
+      "theme": "числа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 667,
+      "kanji": "閉まる",
+      "hiragana": "しまる",
+      "romaji": "shimaru",
+      "translation": "to close, to be closed",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 668,
+      "kanji": "閉める",
+      "hiragana": "しめる",
+      "romaji": "shimeru",
+      "translation": "to close, to shut",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 669,
+      "kanji": "シャツ",
+      "hiragana": "シャツ",
+      "romaji": "シャツ",
+      "translation": "shirt",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 670,
+      "kanji": "シャワー",
+      "hiragana": "シャワー",
+      "romaji": "シャワ-",
+      "translation": "shower",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 671,
+      "kanji": "十",
+      "hiragana": "じゅう",
+      "romaji": "jū",
+      "translation": "ten",
+      "theme": "числа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 672,
+      "kanji": "～中",
+      "hiragana": "～じゅう",
+      "romaji": "～jū",
+      "translation": "during, while",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 673,
+      "kanji": "～週間",
+      "hiragana": "～しゅうかん",
+      "romaji": "～shūkan",
+      "translation": "~ weeks",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 674,
+      "kanji": "授業",
+      "hiragana": "じゅぎょう",
+      "romaji": "jugyō",
+      "translation": "a class (of school)",
+      "theme": "места",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 675,
+      "kanji": "丈夫",
+      "hiragana": "じょうぶ",
+      "romaji": "jōbu",
+      "translation": "strong, solid, durable",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 676,
+      "kanji": "醤油",
+      "hiragana": "しょうゆ",
+      "romaji": "shōyu",
+      "translation": "soy sauce",
+      "theme": "еда",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 677,
+      "kanji": "白",
+      "hiragana": "しろ",
+      "romaji": "shiro",
+      "translation": "white",
+      "theme": "прилагательные",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 678,
+      "kanji": "白い",
+      "hiragana": "しろい",
+      "romaji": "shiroi",
+      "translation": "white",
+      "theme": "прилагательные",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 679,
+      "kanji": "～人",
+      "hiragana": "～じん",
+      "romaji": "～jin",
+      "translation": "counter for people",
+      "theme": "числа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 680,
+      "kanji": "新聞",
+      "hiragana": "しんぶん",
+      "romaji": "shinbun",
+      "translation": "newspaper",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 681,
+      "kanji": "水曜日",
+      "hiragana": "すいようび",
+      "romaji": "suiyōbi",
+      "translation": "Wednesday",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 682,
+      "kanji": "吸う",
+      "hiragana": "すう",
+      "romaji": "sū",
+      "translation": "to breathe in, to suck",
+      "theme": "еда",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 683,
+      "kanji": "スカート",
+      "hiragana": "スカート",
+      "romaji": "スカ-ト",
+      "translation": "skirt",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 684,
+      "kanji": "～すぎ",
+      "hiragana": "～すぎ",
+      "romaji": "～sugi",
+      "translation": "past; to exceed, ~ too much",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 685,
+      "kanji": "少ない",
+      "hiragana": "すくない",
+      "romaji": "sukunai",
+      "translation": "a little; a few",
+      "theme": "прилагательные",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 686,
+      "kanji": "すぐに",
+      "hiragana": "すぐに",
+      "romaji": "suguni",
+      "translation": "immediately, soon",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 687,
+      "kanji": "涼しい",
+      "hiragana": "すずしい",
+      "romaji": "suzushī",
+      "translation": "cool, refreshing (in reference to weather)",
+      "theme": "еда",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 688,
+      "kanji": "～ずつ",
+      "hiragana": "～ずつ",
+      "romaji": "～zutsu",
+      "translation": "at a time",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 689,
+      "kanji": "ストーブ",
+      "hiragana": "ストーブ",
+      "romaji": "スト-ブ",
+      "translation": "heater (lit: stove)",
+      "theme": "еда",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 690,
+      "kanji": "スプーン",
+      "hiragana": "スプーン",
+      "romaji": "スプ-ン",
+      "translation": "spoon",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 691,
+      "kanji": "ズボン",
+      "hiragana": "ズボン",
+      "romaji": "ズボン",
+      "translation": "trousers",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 692,
+      "kanji": "背",
+      "hiragana": "せい",
+      "romaji": "sē",
+      "translation": "(one's) height, stature",
+      "theme": "числа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 693,
+      "kanji": "生徒",
+      "hiragana": "せいと",
+      "romaji": "sēto",
+      "translation": "student; pupil",
+      "theme": "профессии",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 694,
+      "kanji": "セーター",
+      "hiragana": "セーター",
+      "romaji": "セ-タ-",
+      "translation": "sweater",
+      "theme": "еда",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 695,
+      "kanji": "石鹸",
+      "hiragana": "せっけん",
+      "romaji": "sekken",
+      "translation": "soap",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 696,
+      "kanji": "背広",
+      "hiragana": "せびろ",
+      "romaji": "sebiro",
+      "translation": "men's suit",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 697,
+      "kanji": "ゼロ",
+      "hiragana": "ゼロ",
+      "romaji": "ゼロ",
+      "translation": "zero",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 698,
+      "kanji": "千",
+      "hiragana": "せん",
+      "romaji": "sen",
+      "translation": "thousand",
+      "theme": "числа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 699,
+      "kanji": "先月",
+      "hiragana": "せんげつ",
+      "romaji": "sengetsu",
+      "translation": "last month",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 700,
+      "kanji": "先生",
+      "hiragana": "せんせい",
+      "romaji": "sensē",
+      "translation": "teacher, professor; master; doctor",
+      "theme": "еда",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 701,
+      "kanji": "洗濯",
+      "hiragana": "せんたく",
+      "romaji": "sentaku",
+      "translation": "washing, laundry",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 702,
+      "kanji": "全部",
+      "hiragana": "ぜんぶ",
+      "romaji": "zenbu",
+      "translation": "all, entire, whole",
+      "theme": "наречия",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 703,
+      "kanji": "掃除",
+      "hiragana": "そうじ(する)",
+      "romaji": "sōji(suru)",
+      "translation": "cleaning, sweeping",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 704,
+      "kanji": "そうして",
+      "hiragana": "そうして;そして",
+      "romaji": "sōshite;soshite",
+      "translation": "and, like that",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 705,
+      "kanji": "そちら",
+      "hiragana": "そちら",
+      "romaji": "sochira",
+      "translation": "over there",
+      "theme": "места",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 706,
+      "kanji": "そっち",
+      "hiragana": "そっち",
+      "romaji": "socchi",
+      "translation": "over there",
+      "theme": "места",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 707,
+      "kanji": "外",
+      "hiragana": "そと",
+      "romaji": "soto",
+      "translation": "outside, exterior",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 708,
+      "kanji": "空",
+      "hiragana": "そら",
+      "romaji": "sora",
+      "translation": "sky",
+      "theme": "природа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 709,
+      "kanji": "それでは",
+      "hiragana": "それでは",
+      "romaji": "soredeha",
+      "translation": "in that situation, well then...",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 710,
+      "kanji": "～台",
+      "hiragana": "～だい",
+      "romaji": "～dai",
+      "translation": "counter for vehicles; machines",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 711,
+      "kanji": "大使館",
+      "hiragana": "たいしかん",
+      "romaji": "taishikan",
+      "translation": "embassy",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 712,
+      "kanji": "大好き",
+      "hiragana": "だいすき",
+      "romaji": "daisuki",
+      "translation": "very like-able, like very much",
+      "theme": "наречия",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 713,
+      "kanji": "大切",
+      "hiragana": "たいせつ",
+      "romaji": "taisetsu",
+      "translation": "important",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 714,
+      "kanji": "台所",
+      "hiragana": "だいどころ",
+      "romaji": "daidokoro",
+      "translation": "kitchen",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 715,
+      "kanji": "大変",
+      "hiragana": "たいへん",
+      "romaji": "taihen",
+      "translation": "very; difficult, hard",
+      "theme": "наречия",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 716,
+      "kanji": "～だけ",
+      "hiragana": "～だけ",
+      "romaji": "～dake",
+      "translation": "only ~, just ~, as ~",
+      "theme": "наречия",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 717,
+      "kanji": "沢山",
+      "hiragana": "たくさん",
+      "romaji": "takusan",
+      "translation": "many, much",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 718,
+      "kanji": "タクシー",
+      "hiragana": "タクシー",
+      "romaji": "タクシ-",
+      "translation": "taxi",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 719,
+      "kanji": "～たち",
+      "hiragana": "～たち",
+      "romaji": "～tachi",
+      "translation": "plural suffix",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 720,
+      "kanji": "たて",
+      "hiragana": "たて",
+      "romaji": "tate",
+      "translation": "length, height",
+      "theme": "числа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 721,
+      "kanji": "頼む",
+      "hiragana": "たのむ",
+      "romaji": "tanomu",
+      "translation": "to request, to ask (a favor)",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 722,
+      "kanji": "たばこ",
+      "hiragana": "たばこ",
+      "romaji": "tabako",
+      "translation": "tobacco, cigarettes",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 723,
+      "kanji": "多分",
+      "hiragana": "たぶん",
+      "romaji": "tabun",
+      "translation": "perhaps, probably, maybe",
+      "theme": "наречия",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 724,
+      "kanji": "誰",
+      "hiragana": "だれ",
+      "romaji": "dare",
+      "translation": "who",
+      "theme": "вопросы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 725,
+      "kanji": "誰か",
+      "hiragana": "だれか",
+      "romaji": "dareka",
+      "translation": "someone",
+      "theme": "числа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 726,
+      "kanji": "誕生日",
+      "hiragana": "たんじょうび",
+      "romaji": "tanjōbi",
+      "translation": "birthday",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 727,
+      "kanji": "段々",
+      "hiragana": "だんだん",
+      "romaji": "dandan",
+      "translation": "gradually, by degrees",
+      "theme": "наречия",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 728,
+      "kanji": "小さな",
+      "hiragana": "ちいさな",
+      "romaji": "chīsana",
+      "translation": "small, little",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 729,
+      "kanji": "近い",
+      "hiragana": "ちかい",
+      "romaji": "chikai",
+      "translation": "near, close by, short",
+      "theme": "здоровье",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 730,
+      "kanji": "違う",
+      "hiragana": "ちがう",
+      "romaji": "chigau",
+      "translation": "to be different; to differ; wrong",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 731,
+      "kanji": "近く",
+      "hiragana": "ちかく",
+      "romaji": "chikaku",
+      "translation": "nearby; in the neighborhood",
+      "theme": "здоровье",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 732,
+      "kanji": "地下鉄",
+      "hiragana": "ちかてつ",
+      "romaji": "chikatetsu",
+      "translation": "underground train, subway",
+      "theme": "природа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 733,
+      "kanji": "地図",
+      "hiragana": "ちず",
+      "romaji": "chizu",
+      "translation": "a map",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 734,
+      "kanji": "茶色",
+      "hiragana": "ちゃいろ",
+      "romaji": "chairo",
+      "translation": "brown",
+      "theme": "прилагательные",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 735,
+      "kanji": "茶碗",
+      "hiragana": "ちゃわん",
+      "romaji": "chawan",
+      "translation": "rice bowl",
+      "theme": "еда",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 736,
+      "kanji": "～中",
+      "hiragana": "～ちゅう",
+      "romaji": "～chū",
+      "translation": "during, while ~ing",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 737,
+      "kanji": "丁度",
+      "hiragana": "ちょうど",
+      "romaji": "chōdo",
+      "translation": "just, right, exactly",
+      "theme": "наречия",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 738,
+      "kanji": "ちょっと",
+      "hiragana": "ちょっと",
+      "romaji": "chotto",
+      "translation": "a little, somewhat; just a little, somewhat",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 739,
+      "kanji": "一日",
+      "hiragana": "ついたち",
+      "romaji": "tsuitachi",
+      "translation": "one day; first day of the month",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 740,
+      "kanji": "疲れる",
+      "hiragana": "つかれる",
+      "romaji": "tsukareru",
+      "translation": "to get (become) tired; to become fatigued",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 741,
+      "kanji": "次",
+      "hiragana": "つぎ",
+      "romaji": "tsugi",
+      "translation": "next",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 742,
+      "kanji": "着く",
+      "hiragana": "つく",
+      "romaji": "tsuku",
+      "translation": "to arrive at, to reach",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 743,
+      "kanji": "勤める",
+      "hiragana": "つとめる",
+      "romaji": "tsutomeru",
+      "translation": "to work (for)",
+      "theme": "работа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 744,
+      "kanji": "冷たい",
+      "hiragana": "つめたい",
+      "romaji": "tsumetai",
+      "translation": "cold (things, people)",
+      "theme": "природа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 745,
+      "kanji": "テープ",
+      "hiragana": "テープ",
+      "romaji": "テ-プ",
+      "translation": "tape",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 746,
+      "kanji": "テープレコーダー",
+      "hiragana": "テープレコーダー",
+      "romaji": "テ-プレコ-ダ-",
+      "translation": "tape recorder",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 747,
+      "kanji": "テーブル",
+      "hiragana": "テーブル",
+      "romaji": "テ-ブル",
+      "translation": "table",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 748,
+      "kanji": "手紙",
+      "hiragana": "てがみ",
+      "romaji": "tegami",
+      "translation": "letter",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 749,
+      "kanji": "できる",
+      "hiragana": "できる",
+      "romaji": "dekiru",
+      "translation": "to be able to (to accomplish)",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 750,
+      "kanji": "出口",
+      "hiragana": "でぐち",
+      "romaji": "deguchi",
+      "translation": "an exit",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 751,
+      "kanji": "テスト",
+      "hiragana": "テスト",
+      "romaji": "テスト",
+      "translation": "test",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 752,
+      "kanji": "では",
+      "hiragana": "では",
+      "romaji": "deha",
+      "translation": "then, well, so",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 753,
+      "kanji": "デパート",
+      "hiragana": "デパート",
+      "romaji": "デパ-ト",
+      "translation": "(abbr.) department store",
+      "theme": "места",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 754,
+      "kanji": "～度",
+      "hiragana": "～ど",
+      "romaji": "～do",
+      "translation": "counter for occurrences; ~ degree; ~ point",
+      "theme": "числа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 755,
+      "kanji": "ドア",
+      "hiragana": "ドア",
+      "romaji": "ドア",
+      "translation": "door (Western style)",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 756,
+      "kanji": "トイレ",
+      "hiragana": "トイレ",
+      "romaji": "トイレ",
+      "translation": "bathroom; toilet",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 757,
+      "kanji": "どうして",
+      "hiragana": "どうして",
+      "romaji": "dōshite",
+      "translation": "why, for what reason",
+      "theme": "семья",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 758,
+      "kanji": "どうぞ",
+      "hiragana": "どうぞ",
+      "romaji": "dōzo",
+      "translation": "please, kindly, by all means",
+      "theme": "приветствия",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 759,
+      "kanji": "動物",
+      "hiragana": "どうぶつ",
+      "romaji": "dōbutsu",
+      "translation": "animal",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 760,
+      "kanji": "どうも",
+      "hiragana": "どうも",
+      "romaji": "dōmo",
+      "translation": "Thank you; somehow; no matter how hard one may try",
+      "theme": "приветствия",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 761,
+      "kanji": "十",
+      "hiragana": "(〜を)とお",
+      "romaji": "(〜wo)tō",
+      "translation": "ten (~)",
+      "theme": "числа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 762,
+      "kanji": "十日",
+      "hiragana": "とおか",
+      "romaji": "tōka",
+      "translation": "ten days; tenth day of the month",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 763,
+      "kanji": "～時",
+      "hiragana": "～とき",
+      "romaji": "～toki",
+      "translation": "at the time of ~",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 764,
+      "kanji": "時々",
+      "hiragana": "ときどき",
+      "romaji": "tokidoki",
+      "translation": "sometimes",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 765,
+      "kanji": "所",
+      "hiragana": "ところ",
+      "romaji": "tokoro",
+      "translation": "place",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 766,
+      "kanji": "年",
+      "hiragana": "とし",
+      "romaji": "toshi",
+      "translation": "year, age",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 767,
+      "kanji": "どっち",
+      "hiragana": "どっち",
+      "romaji": "docchi",
+      "translation": "which one, which way",
+      "theme": "вопросы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 768,
+      "kanji": "どなた",
+      "hiragana": "どなた",
+      "romaji": "donata",
+      "translation": "who",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 769,
+      "kanji": "隣",
+      "hiragana": "となり",
+      "romaji": "tonari",
+      "translation": "next to, next door to",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 770,
+      "kanji": "飛ぶ",
+      "hiragana": "とぶ",
+      "romaji": "tobu",
+      "translation": "to fly, to hop",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 771,
+      "kanji": "止まる",
+      "hiragana": "とまる",
+      "romaji": "tomaru",
+      "translation": "to come to a halt",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 772,
+      "kanji": "土曜日",
+      "hiragana": "どようび",
+      "romaji": "doyōbi",
+      "translation": "Saturday",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 773,
+      "kanji": "鳥",
+      "hiragana": "とり",
+      "romaji": "tori",
+      "translation": "chicken (lit., bird)",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 774,
+      "kanji": "鶏肉",
+      "hiragana": "とりにく",
+      "romaji": "toriniku",
+      "translation": "chicken meat",
+      "theme": "еда",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 775,
+      "kanji": "ない",
+      "hiragana": "ない",
+      "romaji": "nai",
+      "translation": "there isn't, doesn't have",
+      "theme": "места",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 776,
+      "kanji": "ナイフ",
+      "hiragana": "ナイフ",
+      "romaji": "ナイフ",
+      "translation": "knife",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 777,
+      "kanji": "長い",
+      "hiragana": "ながい",
+      "romaji": "nagai",
+      "translation": "long, lengthy",
+      "theme": "прилагательные",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 778,
+      "kanji": "鳴く",
+      "hiragana": "なく",
+      "romaji": "naku",
+      "translation": "to make sound (animal)",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 779,
+      "kanji": "無くす",
+      "hiragana": "なくす",
+      "romaji": "nakusu",
+      "translation": "to lose something",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 780,
+      "kanji": "なぜ",
+      "hiragana": "なぜ",
+      "romaji": "naze",
+      "translation": "why (same as どうして)",
+      "theme": "вопросы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 781,
+      "kanji": "夏",
+      "hiragana": "なつ",
+      "romaji": "natsu",
+      "translation": "summer",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 782,
+      "kanji": "夏休み",
+      "hiragana": "なつやすみ",
+      "romaji": "natsuyasumi",
+      "translation": "summer vacation",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 783,
+      "kanji": "～など",
+      "hiragana": "～など",
+      "romaji": "～nado",
+      "translation": "et cetera",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 784,
+      "kanji": "七つ",
+      "hiragana": "ななつ",
+      "romaji": "nanatsu",
+      "translation": "seven things",
+      "theme": "числа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 785,
+      "kanji": "七日",
+      "hiragana": "なのか",
+      "romaji": "nanoka",
+      "translation": "seven days; seventh day (of the month)",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 786,
+      "kanji": "並ぶ",
+      "hiragana": "ならぶ",
+      "romaji": "narabu",
+      "translation": "to line up, to stand in a line (v.i.)",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 787,
+      "kanji": "並べる",
+      "hiragana": "ならべる",
+      "romaji": "naraberu",
+      "translation": "to put (things) side by side; to line up",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 788,
+      "kanji": "なる",
+      "hiragana": "なる",
+      "romaji": "naru",
+      "translation": "to become",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 789,
+      "kanji": "何～",
+      "hiragana": "なん～",
+      "romaji": "nan～",
+      "translation": "what sort of ~",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 790,
+      "kanji": "西",
+      "hiragana": "にし",
+      "romaji": "nishi",
+      "translation": "west",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 791,
+      "kanji": "～日",
+      "hiragana": "～にち",
+      "romaji": "～nichi",
+      "translation": "~ day of the month, for ~ days",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 792,
+      "kanji": "日曜日",
+      "hiragana": "にちようび",
+      "romaji": "nichiyōbi",
+      "translation": "Sunday",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 793,
+      "kanji": "荷物",
+      "hiragana": "にもつ",
+      "romaji": "nimotsu",
+      "translation": "luggage; baggage",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 794,
+      "kanji": "ニュース",
+      "hiragana": "ニュース",
+      "romaji": "ニュ-ス",
+      "translation": "news",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 795,
+      "kanji": "庭",
+      "hiragana": "にわ",
+      "romaji": "niwa",
+      "translation": "garden",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 796,
+      "kanji": "～人",
+      "hiragana": "～にん",
+      "romaji": "～nin",
+      "translation": "counter for people",
+      "theme": "числа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 797,
+      "kanji": "脱ぐ",
+      "hiragana": "ぬぐ",
+      "romaji": "nugu",
+      "translation": "to take off (clothes)",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 798,
+      "kanji": "温い",
+      "hiragana": "ぬるい",
+      "romaji": "nurui",
+      "translation": "lukewarm",
+      "theme": "природа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 799,
+      "kanji": "ネクタイ",
+      "hiragana": "ネクタイ",
+      "romaji": "ネクタイ",
+      "translation": "tie, necktie",
+      "theme": "здоровье",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 800,
+      "kanji": "～年",
+      "hiragana": "～ねん",
+      "romaji": "～nen",
+      "translation": "~ years",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 801,
+      "kanji": "ノート",
+      "hiragana": "ノート",
+      "romaji": "ノ-ト",
+      "translation": "notebook",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 802,
+      "kanji": "登る",
+      "hiragana": "のぼる",
+      "romaji": "noboru",
+      "translation": "to climb",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 803,
+      "kanji": "飲み物",
+      "hiragana": "のみもの",
+      "romaji": "nomimono",
+      "translation": "drink, beverage",
+      "theme": "еда",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 804,
+      "kanji": "～杯",
+      "hiragana": "～はい",
+      "romaji": "～hai",
+      "translation": "counter for cupfuls",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 805,
+      "kanji": "灰皿",
+      "hiragana": "はいざら",
+      "romaji": "haizara",
+      "translation": "ashtray",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 806,
+      "kanji": "葉書",
+      "hiragana": "はがき",
+      "romaji": "hagaki",
+      "translation": "postcard",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 807,
+      "kanji": "はく",
+      "hiragana": "はく",
+      "romaji": "haku",
+      "translation": "to put on (items below your waist)",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 808,
+      "kanji": "箱",
+      "hiragana": "はこ",
+      "romaji": "hako",
+      "translation": "box",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 809,
+      "kanji": "初め",
+      "hiragana": "はじめ",
+      "romaji": "hajime",
+      "translation": "beginning, start",
+      "theme": "природа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 810,
+      "kanji": "初めて",
+      "hiragana": "はじめて",
+      "romaji": "hajimete",
+      "translation": "for the first time",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 811,
+      "kanji": "走る",
+      "hiragana": "はしる",
+      "romaji": "hashiru",
+      "translation": "to run",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 812,
+      "kanji": "バター",
+      "hiragana": "バター",
+      "romaji": "バタ-",
+      "translation": "butter",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 813,
+      "kanji": "八",
+      "hiragana": "はち",
+      "romaji": "hachi",
+      "translation": "eight",
+      "theme": "числа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 814,
+      "kanji": "二十日",
+      "hiragana": "はつか",
+      "romaji": "hatsuka",
+      "translation": "twenty days, twentieth (day of the month)",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 815,
+      "kanji": "花",
+      "hiragana": "はな",
+      "romaji": "hana",
+      "translation": "flower",
+      "theme": "природа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 816,
+      "kanji": "話",
+      "hiragana": "はなし",
+      "romaji": "hanashi",
+      "translation": "talk (chat), story",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 817,
+      "kanji": "春",
+      "hiragana": "はる",
+      "romaji": "haru",
+      "translation": "spring",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 818,
+      "kanji": "晴れる",
+      "hiragana": "はれる",
+      "romaji": "hareru",
+      "translation": "to be sunny",
+      "theme": "природа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 819,
+      "kanji": "半",
+      "hiragana": "はん",
+      "romaji": "han",
+      "translation": "half (e.g., にじはん | half-past two)",
+      "theme": "числа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 820,
+      "kanji": "晩",
+      "hiragana": "ばん",
+      "romaji": "ban",
+      "translation": "evening",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 821,
+      "kanji": "～番",
+      "hiragana": "～ばん",
+      "romaji": "～ban",
+      "translation": "~st; ~th best",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 822,
+      "kanji": "ハンカチ",
+      "hiragana": "ハンカチ",
+      "romaji": "ハンカチ",
+      "translation": "handkerchief",
+      "theme": "здоровье",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 823,
+      "kanji": "番号",
+      "hiragana": "ばんごう",
+      "romaji": "bangō",
+      "translation": "number, series of digits",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 824,
+      "kanji": "半分",
+      "hiragana": "はんぶん",
+      "romaji": "hanbun",
+      "translation": "half",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 825,
+      "kanji": "東",
+      "hiragana": "ひがし",
+      "romaji": "higashi",
+      "translation": "east",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 826,
+      "kanji": "～匹",
+      "hiragana": "～ひき",
+      "romaji": "～hiki",
+      "translation": "counter for small animals",
+      "theme": "числа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 827,
+      "kanji": "引く",
+      "hiragana": "ひく",
+      "romaji": "hiku",
+      "translation": "to pull, to draw; subtract",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 828,
+      "kanji": "低い",
+      "hiragana": "ひくい",
+      "romaji": "hikui",
+      "translation": "short, low",
+      "theme": "прилагательные",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 829,
+      "kanji": "飛行機",
+      "hiragana": "ひこうき",
+      "romaji": "hikōki",
+      "translation": "airplane",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 830,
+      "kanji": "左",
+      "hiragana": "ひだり",
+      "romaji": "hidari",
+      "translation": "left hand side",
+      "theme": "здоровье",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 831,
+      "kanji": "人",
+      "hiragana": "ひと",
+      "romaji": "hito",
+      "translation": "man, person",
+      "theme": "семья",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 832,
+      "kanji": "一つ",
+      "hiragana": "ひとつ",
+      "romaji": "hitotsu",
+      "translation": "one thing",
+      "theme": "числа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 833,
+      "kanji": "一月",
+      "hiragana": "ひとつき",
+      "romaji": "hitotsuki",
+      "translation": "one month",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 834,
+      "kanji": "百",
+      "hiragana": "ひゃく",
+      "romaji": "hyaku",
+      "translation": "hundred",
+      "theme": "числа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 835,
+      "kanji": "病気",
+      "hiragana": "びょうき",
+      "romaji": "byōki",
+      "translation": "illness; sickness",
+      "theme": "здоровье",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 836,
+      "kanji": "平仮名",
+      "hiragana": "ひらがな",
+      "romaji": "hiragana",
+      "translation": "hiragana",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 837,
+      "kanji": "昼",
+      "hiragana": "ひる",
+      "romaji": "hiru",
+      "translation": "noon, daytime",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 838,
+      "kanji": "フィルム",
+      "hiragana": "フィルム",
+      "romaji": "フィルム",
+      "translation": "film (roll of)",
+      "theme": "хобби",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 839,
+      "kanji": "封筒",
+      "hiragana": "ふうとう",
+      "romaji": "fūtō",
+      "translation": "envelope",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 840,
+      "kanji": "フォーク",
+      "hiragana": "フォーク",
+      "romaji": "フォ-ク",
+      "translation": "fork",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 841,
+      "kanji": "二つ",
+      "hiragana": "ふたつ",
+      "romaji": "futatsu",
+      "translation": "two things",
+      "theme": "числа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 842,
+      "kanji": "豚肉",
+      "hiragana": "ぶたにく",
+      "romaji": "butaniku",
+      "translation": "pork",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 843,
+      "kanji": "二日",
+      "hiragana": "ふつか",
+      "romaji": "futsuka",
+      "translation": "two days; second day of the month",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 844,
+      "kanji": "太い",
+      "hiragana": "ふとい",
+      "romaji": "futoi",
+      "translation": "fat, thick",
+      "theme": "прилагательные",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 845,
+      "kanji": "冬",
+      "hiragana": "ふゆ",
+      "romaji": "fuyu",
+      "translation": "winter",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 846,
+      "kanji": "～分",
+      "hiragana": "～ふん",
+      "romaji": "～fun",
+      "translation": "~ minutes",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 847,
+      "kanji": "文章",
+      "hiragana": "ぶんしょう",
+      "romaji": "bunshō",
+      "translation": "sentence, text",
+      "theme": "числа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 848,
+      "kanji": "ページ",
+      "hiragana": "ページ",
+      "romaji": "ペ-ジ",
+      "translation": "a page",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 849,
+      "kanji": "ペット",
+      "hiragana": "ペット",
+      "romaji": "ペット",
+      "translation": "pet",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 850,
+      "kanji": "辺",
+      "hiragana": "へん",
+      "romaji": "hen",
+      "translation": "area, vicinity",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 851,
+      "kanji": "ペン",
+      "hiragana": "ペン",
+      "romaji": "ペン",
+      "translation": "pen",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 852,
+      "kanji": "勉強",
+      "hiragana": "べんきょう(する)",
+      "romaji": "benkyō(suru)",
+      "translation": "study",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 853,
+      "kanji": "ボールペン",
+      "hiragana": "ボールペン",
+      "romaji": "ボ-ルペン",
+      "translation": "ball-point pen",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 854,
+      "kanji": "外",
+      "hiragana": "ほか",
+      "romaji": "hoka",
+      "translation": "other, the rest",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 855,
+      "kanji": "ポケット",
+      "hiragana": "ポケット",
+      "romaji": "ポケット",
+      "translation": "pocket",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 856,
+      "kanji": "欲しい",
+      "hiragana": "ほしい",
+      "romaji": "hoshī",
+      "translation": "to want, in need of",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 857,
+      "kanji": "ポスト",
+      "hiragana": "ポスト",
+      "romaji": "ポスト",
+      "translation": "mailbox; post, position",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 858,
+      "kanji": "細い",
+      "hiragana": "ほそい",
+      "romaji": "hosoi",
+      "translation": "thin, slender, fine",
+      "theme": "прилагательные",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 859,
+      "kanji": "ボタン",
+      "hiragana": "ボタン",
+      "romaji": "ボタン",
+      "translation": "button",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 860,
+      "kanji": "～本",
+      "hiragana": "～ほん",
+      "romaji": "～hon",
+      "translation": "counter for long cylindrical things",
+      "theme": "числа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 861,
+      "kanji": "～枚",
+      "hiragana": "～まい",
+      "romaji": "～mai",
+      "translation": "counter for flat things",
+      "theme": "числа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 862,
+      "kanji": "毎月",
+      "hiragana": "まいげつ;まいつき",
+      "romaji": "maigetsu;maitsuki",
+      "translation": "every month, monthly",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 863,
+      "kanji": "毎週",
+      "hiragana": "まいしゅう",
+      "romaji": "maishū",
+      "translation": "every week",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 864,
+      "kanji": "毎年",
+      "hiragana": "まいねん;まいとし",
+      "romaji": "mainen;maitoshi",
+      "translation": "every year, yearly, annually",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 865,
+      "kanji": "～前",
+      "hiragana": "～まえ",
+      "romaji": "～mae",
+      "translation": "in front of ~",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 866,
+      "kanji": "曲る",
+      "hiragana": "まがる",
+      "romaji": "magaru",
+      "translation": "to turn, to bend",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 867,
+      "kanji": "また",
+      "hiragana": "また",
+      "romaji": "mata",
+      "translation": "and; furthermore",
+      "theme": "наречия",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 868,
+      "kanji": "まだ",
+      "hiragana": "まだ",
+      "romaji": "mada",
+      "translation": "yet, still, besides",
+      "theme": "здоровье",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 869,
+      "kanji": "町",
+      "hiragana": "まち",
+      "romaji": "machi",
+      "translation": "town; city",
+      "theme": "места",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 870,
+      "kanji": "まっすぐ",
+      "hiragana": "まっすぐ",
+      "romaji": "massugu",
+      "translation": "straight (ahead), direct",
+      "theme": "наречия",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 871,
+      "kanji": "マッチ",
+      "hiragana": "マッチ",
+      "romaji": "マッチ",
+      "translation": "match",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 872,
+      "kanji": "丸い",
+      "hiragana": "まるい",
+      "romaji": "marui",
+      "translation": "round, circular",
+      "theme": "прилагательные",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 873,
+      "kanji": "万",
+      "hiragana": "まん",
+      "romaji": "man",
+      "translation": "ten thousand",
+      "theme": "числа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 874,
+      "kanji": "万年筆",
+      "hiragana": "まんねんひつ",
+      "romaji": "mannenhitsu",
+      "translation": "fountain pen",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 875,
+      "kanji": "磨く",
+      "hiragana": "みがく",
+      "romaji": "migaku",
+      "translation": "to brush (teeth); to polish",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 876,
+      "kanji": "右",
+      "hiragana": "みぎ",
+      "romaji": "migi",
+      "translation": "right hand side",
+      "theme": "здоровье",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 877,
+      "kanji": "短い",
+      "hiragana": "みじかい",
+      "romaji": "mijikai",
+      "translation": "short (length)",
+      "theme": "прилагательные",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 878,
+      "kanji": "三日",
+      "hiragana": "みっか",
+      "romaji": "mikka",
+      "translation": "three days, third day of the month",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 879,
+      "kanji": "三つ",
+      "hiragana": "みっつ",
+      "romaji": "mittsu",
+      "translation": "three things",
+      "theme": "числа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 880,
+      "kanji": "緑",
+      "hiragana": "みどり",
+      "romaji": "midori",
+      "translation": "green",
+      "theme": "прилагательные",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 881,
+      "kanji": "皆さん",
+      "hiragana": "みなさん",
+      "romaji": "minasan",
+      "translation": "all of you, everyone",
+      "theme": "наречия",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 882,
+      "kanji": "南",
+      "hiragana": "みなみ",
+      "romaji": "minami",
+      "translation": "South",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 883,
+      "kanji": "耳",
+      "hiragana": "みみ",
+      "romaji": "mimi",
+      "translation": "ear",
+      "theme": "здоровье",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 884,
+      "kanji": "みんな",
+      "hiragana": "みんな",
+      "romaji": "minna",
+      "translation": "all, everyone, everybody",
+      "theme": "здоровье",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 885,
+      "kanji": "六日",
+      "hiragana": "むいか",
+      "romaji": "muika",
+      "translation": "six days; sixth day of month",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 886,
+      "kanji": "向こう",
+      "hiragana": "むこう",
+      "romaji": "mukō",
+      "translation": "beyond, over there",
+      "theme": "места",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 887,
+      "kanji": "六つ",
+      "hiragana": "むっつ",
+      "romaji": "muttsu",
+      "translation": "six things",
+      "theme": "числа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 888,
+      "kanji": "村",
+      "hiragana": "むら",
+      "romaji": "mura",
+      "translation": "village",
+      "theme": "места",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 889,
+      "kanji": "メートル",
+      "hiragana": "メートル",
+      "romaji": "メ-トル",
+      "translation": "meter",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 890,
+      "kanji": "眼鏡",
+      "hiragana": "めがね",
+      "romaji": "megane",
+      "translation": "eye glasses",
+      "theme": "здоровье",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 891,
+      "kanji": "もう",
+      "hiragana": "もう",
+      "romaji": "mō",
+      "translation": "already; again; more",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 892,
+      "kanji": "木曜日",
+      "hiragana": "もくようび",
+      "romaji": "mokuyōbi",
+      "translation": "Thursday",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 893,
+      "kanji": "もしもし",
+      "hiragana": "もしもし",
+      "romaji": "moshimoshi",
+      "translation": "Hello? (used on the phone)",
+      "theme": "приветствия",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 894,
+      "kanji": "もっと",
+      "hiragana": "もっと",
+      "romaji": "motto",
+      "translation": "more",
+      "theme": "наречия",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 895,
+      "kanji": "物",
+      "hiragana": "もの",
+      "romaji": "mono",
+      "translation": "thing (concrete object)",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 896,
+      "kanji": "門",
+      "hiragana": "もん",
+      "romaji": "mon",
+      "translation": "gate",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 897,
+      "kanji": "問題",
+      "hiragana": "もんだい",
+      "romaji": "mondai",
+      "translation": "a problem",
+      "theme": "прилагательные",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 898,
+      "kanji": "～屋",
+      "hiragana": "～や",
+      "romaji": "～ya",
+      "translation": "~ shop",
+      "theme": "места",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 899,
+      "kanji": "八百屋",
+      "hiragana": "やおや",
+      "romaji": "yaoya",
+      "translation": "greengrocer",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 900,
+      "kanji": "休み",
+      "hiragana": "やすみ",
+      "romaji": "yasumi",
+      "translation": "holiday; day off; absence",
+      "theme": "работа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 901,
+      "kanji": "八つ",
+      "hiragana": "やっつ",
+      "romaji": "yattsu",
+      "translation": "eight things",
+      "theme": "числа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 902,
+      "kanji": "夕方",
+      "hiragana": "ゆうがた",
+      "romaji": "yūgata",
+      "translation": "late afternoon (typically just before dinner time), evening",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 903,
+      "kanji": "夕飯",
+      "hiragana": "ゆうはん",
+      "romaji": "yūhan",
+      "translation": "dinner, supper, evening meal",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 904,
+      "kanji": "昨夜",
+      "hiragana": "ゆうべ",
+      "romaji": "yūbe",
+      "translation": "last night",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 905,
+      "kanji": "ゆっくりと",
+      "hiragana": "ゆっくりと",
+      "romaji": "yukkurito",
+      "translation": "slowly, at ease",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 906,
+      "kanji": "八日",
+      "hiragana": "ようか",
+      "romaji": "yōka",
+      "translation": "eight days; eighth day of the month",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 907,
+      "kanji": "洋服",
+      "hiragana": "ようふく",
+      "romaji": "yōfuku",
+      "translation": "Western-style clothes",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 908,
+      "kanji": "横",
+      "hiragana": "よこ",
+      "romaji": "yoko",
+      "translation": "beside; side; width",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 909,
+      "kanji": "四日",
+      "hiragana": "よっか",
+      "romaji": "yokka",
+      "translation": "four days; fourth day of the month",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 910,
+      "kanji": "四つ",
+      "hiragana": "よっつ",
+      "romaji": "yottsu",
+      "translation": "four things",
+      "theme": "числа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 911,
+      "kanji": "夜",
+      "hiragana": "よる",
+      "romaji": "yoru",
+      "translation": "evening, night",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 912,
+      "kanji": "来月",
+      "hiragana": "らいげつ",
+      "romaji": "raigetsu",
+      "translation": "next month",
+      "theme": "время",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 913,
+      "kanji": "ラジオ",
+      "hiragana": "ラジオ",
+      "romaji": "ラジオ",
+      "translation": "radio",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 914,
+      "kanji": "ラジオカセ",
+      "hiragana": "ラジオカセ",
+      "romaji": "ラジオカセ",
+      "translation": "radio cassette player",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 915,
+      "kanji": "りっぱ",
+      "hiragana": "りっぱ",
+      "romaji": "rippa",
+      "translation": "splendid, fine",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 916,
+      "kanji": "留学生",
+      "hiragana": "りゅうがくせい",
+      "romaji": "ryūgakusē",
+      "translation": "international student",
+      "theme": "профессии",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 917,
+      "kanji": "両親",
+      "hiragana": "りょうしん",
+      "romaji": "ryōshin",
+      "translation": "parents (lit., both parents)",
+      "theme": "семья",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 918,
+      "kanji": "零",
+      "hiragana": "れい",
+      "romaji": "rē",
+      "translation": "zero, nought",
+      "theme": "прилагательные",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 919,
+      "kanji": "レコード",
+      "hiragana": "レコード",
+      "romaji": "レコ-ド",
+      "translation": "record",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 920,
+      "kanji": "練習",
+      "hiragana": "れんしゅう(する)",
+      "romaji": "renshū(suru)",
+      "translation": "(to) practice",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 921,
+      "kanji": "廊下",
+      "hiragana": "ろうか",
+      "romaji": "rōka",
+      "translation": "corridor",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 922,
+      "kanji": "六",
+      "hiragana": "ろく",
+      "romaji": "roku",
+      "translation": "six",
+      "theme": "числа",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 923,
+      "kanji": "ワイシャツ",
+      "hiragana": "ワイシャツ",
+      "romaji": "ワイシャツ",
+      "translation": "shirt (lit: white shirt), business shirt",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 924,
+      "kanji": "渡す",
+      "hiragana": "わたす",
+      "romaji": "watasu",
+      "translation": "to hand (something) over (v.t.); to get across",
+      "theme": "здоровье",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 925,
+      "kanji": "渡る",
+      "hiragana": "わたる",
+      "romaji": "wataru",
+      "translation": "to cross over, to go across",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 926,
+      "kanji": "議長",
+      "hiragana": "ぎちょう",
+      "romaji": "gichō",
+      "translation": "chairman",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 927,
+      "kanji": "練習",
+      "hiragana": "れんしゅうする",
+      "romaji": "renshūsuru",
+      "translation": "to practice",
+      "theme": "глаголы",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 928,
+      "kanji": "携帯電話",
+      "hiragana": "けいたいでんわ",
+      "romaji": "kētaidenwa",
+      "translation": "mobile phone,cell phone",
+      "theme": "вещи",
+      "date_added": "2026-07-08",
+      "note": "N5"
+    },
+    {
+      "id": 929,
+      "kanji": "緊急連絡先",
+      "hiragana": "きんきゅうれんらくさき",
+      "romaji": "kinkyūrenrakusaki",
+      "translation": "emergency contact",
+      "theme": "дом",
+      "date_added": "2026-07-08",
+      "note": "N5"
     }
   ]
 }
