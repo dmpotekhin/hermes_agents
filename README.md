@@ -67,6 +67,11 @@
 │   ├── pokemon_vocab.json       # 28 слов · шпаргалка Pokémon
 │   ├── 30_days_conversation_prompts.md    # Промты для разговорной практики (v1)
 │   ├── Perplexity_N5_30days_v2.md         # Промты v2 · двуязычные + адаптивная сложность
+│   ├── n4_akuzawa_monthly_plan.md   # 30-дневный план N4 (Акудзава)
+│   ├── n4_monthly_plan.md           # 30-дневный детальный план N4
+│   ├── n3_akuzawa_monthly_plan.md   # 30-дневный план N3 (Акудзава)
+│   ├── n2_akuzawa_monthly_plan.md   # 30-дневный план N2 (Акудзава)
+│   ├── n1_akuzawa_monthly_plan.md   # 30-дневный план N1 (Акудзава)
 │   ├── query_rag.py             # Поиск по паттернам
 │   ├── daily_lesson.py          # Генератор урока
 │   ├── study_plan.json          # 30-дневный план N5
@@ -121,7 +126,12 @@
 | `query_rag.py` | CLI-поиск по RAG |
 | `daily_lesson.py` | Генератор ежедневного урока |
 | `30_days_conversation_prompts.md` | 30 промтов для разговорной практики (v1) |
-| `Perplexity_N5_30days_v2.md` | 30 промтов v2 — двуязычные, с адаптивной сложностью |
+|| `Perplexity_N5_30days_v2.md` | 30 промтов v2 — двуязычные, с адаптивной сложностью |
+|| `n4_akuzawa_monthly_plan.md` | 30-дневный план N4 по Акудзаве |
+|| `n4_monthly_plan.md` | 30-дневный детальный план N4 |
+|| `n3_akuzawa_monthly_plan.md` | 30-дневный план N3 по Акудзаве |
+|| `n2_akuzawa_monthly_plan.md` | 30-дневный план N2 по Акудзаве |
+|| `n1_akuzawa_monthly_plan.md` | 30-дневный план N1 по Акудзаве |
 
 ### Поиск по RAG
 
