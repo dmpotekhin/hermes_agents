@@ -8,7 +8,7 @@
 [![Hermes](https://img.shields.io/badge/Hermes-Agent-4FC08D?style=flat-square)](#)
 [![macOS](https://img.shields.io/badge/platform-macOS-000000?style=flat-square&logo=apple)](#)
 
-**Полная конфигурация Hermes Agent на macOS · 2 профиля · 100+ навыков · JLPT-база N5–N1**
+**Полная конфигурация Hermes Agent на macOS · 3 профиля · 100+ навыков · JLPT-база N5–N1**
 
 </div>
 
@@ -40,6 +40,11 @@
 ├── 📄 .gitignore                # Игнорируемые файлы
 │
 ├── 👤 profiles/
+│   ├── 💻  developer/           # Senior Developer Agent
+│   │   ├── config.yaml
+│   │   ├── SOUL.md
+│   │   └── skills/              # Навыки профиля (софт-дев, MCP)
+│   │
 │   ├── 🇯🇵  japanese-tutor/      # Репетитор японского языка
 │   │   ├── config.yaml
 │   │   ├── SOUL.md
@@ -97,6 +102,34 @@
 | **Провайдер** | DeepSeek |
 | **Доставка** | Telegram · ежедневно в 21:00 MSK |
 | **Метод** | Последовательное прохождение паттернов Акудзавы |
+
+### 💻 developer
+
+Старший разработчик и архитектор — методичный, спокойный, с 20-летним опытом.
+
+| Параметр | Значение |
+|---------|---------|
+| **Назначение** | Разработка: TDD, code review, отладка, архитектура |
+| **Модель** | `deepseek-v4-pro` |
+| **Провайдер** | DeepSeek |
+| **MCP-серверы** | playwright, filesystem, git, github |
+| **Метод** | RED → GREEN → REFACTOR → COMMIT |
+
+#### Обязательный процесс
+
+1. Задача расплывчата → brainstorming (≤5 вопросов)
+2. После прояснения → writing-plans → план → ждать OK
+3. Реализация: RED → GREEN → REFACTOR → COMMIT
+4. Завершение: simplify-code → requesting-code-review → verification
+
+#### MCP-серверы
+
+| Сервер | Назначение |
+|--------|-----------|
+| **playwright** | Браузер, UI-тесты (headless) |
+| **filesystem** | Файлы проекта (`~/projects`) |
+| **git** | Коммиты, ветки, статус |
+| **github** | PR, issues, code review |
 
 ### ✈️ travel-agent
 
