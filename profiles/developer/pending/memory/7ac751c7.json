@@ -1,0 +1,22 @@
+{
+  "id": "7ac751c7",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 2 op(s) to memory: - add: Obsidian Brain project at /Users/dmitrypotekhin/brain/ — MCP server for AI agent memory in Obsidian vault. TypeSc",
+  "origin": "background_review",
+  "created_at": 1784821573.2135081,
+  "payload": {
+    "action": "batch",
+    "target": "memory",
+    "operations": [
+      {
+        "content": "Obsidian Brain project at /Users/dmitrypotekhin/brain/ — MCP server for AI agent memory in Obsidian vault. TypeScript/Bun. Approach B with dream algorithm. 22 tasks in 5 phases, using subagent-driven development. Vault path: /Users/dmitrypotekhin/Odsidian/obsidians/Obsidian Vault. Brain/ lives in vault (syncs across machines).",
+        "action": "add"
+      },
+      {
+        "content": "Bun installed at ~/.bun/bin/bun v1.3.14. better-sqlite3 compile fails — xcode-select points to Xcode.app (missing) instead of /Library/Developer/CommandLineTools. sudo required to fix. Node v14 system default, oxlint/oxfmt need >=18. Use 'export PATH=\"$HOME/.bun/bin:$PATH\"' before bun commands.",
+        "action": "add"
+      }
+    ]
+  }
+}

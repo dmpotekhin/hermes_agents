@@ -1,0 +1,32 @@
+{
+  "id": "fe4daf4a",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 4 op(s) to memory: - add: QA Interview Trainer project at /Users/dmitrypotekhin/trainer/qa-interview-trainer/. Three services: backend (Fas",
+  "origin": "background_review",
+  "created_at": 1784824918.723712,
+  "payload": {
+    "action": "batch",
+    "target": "memory",
+    "operations": [
+      {
+        "action": "add",
+        "old_text": "QA Interview Trainer project at /Users/dmitrypotekhin/trainer/qa-interview-trainer/. Three services: backend (FastAPI, port 8000), frontend (Vite+React, port 3000), mock API (Python, port 8080). PostgreSQL 16 at localhost:5432 (database: trainer, user: trainer). pg_hba.conf set to trust auth. Start script: /Users/dmitrypotekhin/trainer/qa-interview-trainer/start.sh. When user asks to \"запусти тренажёр\" or \"start the trainer\", run the start script or launch all 3 services + ensure PostgreSQL is accepting connections.",
+        "content": "QA Interview Trainer project at /Users/dmitrypotekhin/trainer/qa-interview-trainer/. Three services: backend (FastAPI, port 8000), frontend (Vite+React, port 3000), mock API (Python, port 8080). PostgreSQL 16 at localhost:5432 (database: trainer, user: trainer). Start script: /Users/dmitrypotekhin/trainer/qa-interview-trainer/start.sh. GitHub repo: github.com/dmpotekhin/qa-interview-trainer."
+      },
+      {
+        "action": "add",
+        "content": "Obsidian vault at /Users/dmitrypotekhin/Odsidian/obsidians/Obsidian Vault/ — live Obsidian vault with ~189 entries."
+      },
+      {
+        "action": "add",
+        "content": "obsidian-brain project at /Users/dmitrypotekhin/brain/ — MCP memory layer for AI agents using Obsidian vaults. Tech: TypeScript/Bun, 14 MCP tools (writer, reader, search, lifecycle, health, admin, obligations), deterministic dream algorithm (8 phases, 11 rules), FTS5 search via bun:sqlite (built-in, no native deps). 22 source files, 21 test files, 114 tests passing. CLI: o2b. MCP server: src/mcp/server.ts (stdio JSON-RPC 2.0). Start with: BRAIN_VAULT=\"/Users/dmitrypotekhin/Odsidian/obsidians/Obsidian Vault\" bun run src/mcp/server.ts. Init vault with: bun run src/cli.ts init --vault \"<path>\""
+      },
+      {
+        "action": "add",
+        "content": "better-sqlite3 fails on macOS without Xcode.app (xcrun error). Use Bun's built-in `import { Database } from 'bun:sqlite'` instead — zero native deps, full FTS5 support, identical SQLite API. Bun v1.3+ required.",
+        "target": "memory"
+      }
+    ]
+  }
+}

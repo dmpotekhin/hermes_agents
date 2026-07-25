@@ -1,0 +1,14 @@
+{
+  "id": "c2b4f565",
+  "subsystem": "memory",
+  "action": "add",
+  "summary": "add to memory: Travel Content Factory: root .env is the single source of truth. start.sh does `cp .env backend/.env` on every run, over",
+  "origin": "background_review",
+  "created_at": 1784917205.235231,
+  "payload": {
+    "action": "add",
+    "target": "memory",
+    "content": "Travel Content Factory: root .env is the single source of truth. start.sh does `cp .env backend/.env` on every run, overwriting backend/.env. Always edit ROOT .env, never backend/.env directly. Keys: DEEPSEEK_API_KEY, ABACUS_AI_API_KEY.",
+    "old_text": null
+  }
+}

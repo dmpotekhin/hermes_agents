@@ -1,0 +1,24 @@
+{
+  "id": "709781ab",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 2 op(s) to memory: - add: Japanese Reader project at /Users/dmitrypotekhin/projects/japanese-reader/. React + Vite + TypeScript + Tailwind.",
+  "origin": "background_review",
+  "created_at": 1784651174.876446,
+  "payload": {
+    "action": "batch",
+    "target": "memory",
+    "operations": [
+      {
+        "action": "add",
+        "content": "Japanese Reader project at /Users/dmitrypotekhin/projects/japanese-reader/. React + Vite + TypeScript + Tailwind. Uses kuroshiro + kuromoji for furigana, jisho.org proxy for dictionary, Web Speech API for TTS. Node 20 via nvm required (Vite 5 incompatible with Node 14). Start with: cd ~/projects/japanese-reader && npm run dev → localhost:5173.",
+        "target": "memory"
+      },
+      {
+        "action": "add",
+        "content": "User speaks Russian. Provides detailed technical specs upfront. Prefers complete working applications over stubs/TODOs. Proactively identifies potential technical issues (CORS, build config, polyfills). Wants implementation to proceed quickly after design approval — no unnecessary back-and-forth.",
+        "target": "user"
+      }
+    ]
+  }
+}

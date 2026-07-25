@@ -187,6 +187,15 @@ search_files("variable_name\\s*=", path="src/", file_glob="*.py")
 
 ---
 
+## Multi-Component / Deployment Debugging
+
+For issues spanning multiple services (backend, frontend, database, mock API) or when
+container-based deployment fails, see **references/multi-component-deploy-debug.md** —
+covers JSON structure reconciliation, native fallback when Docker is unavailable,
+and OCR-based screenshot verification.
+
+---
+
 ## Phase 2: Pattern Analysis
 
 **Find the pattern before fixing:**

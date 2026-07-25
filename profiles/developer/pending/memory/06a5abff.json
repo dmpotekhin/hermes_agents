@@ -1,0 +1,26 @@
+{
+  "id": "06a5abff",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 3 op(s) to memory: - add: Obsidian Brain project at /Users/dmitrypotekhin/brain/ — MCP memory layer for AI agents, stores in Obsidian vault",
+  "origin": "background_review",
+  "created_at": 1784825011.759155,
+  "payload": {
+    "action": "batch",
+    "target": "memory",
+    "operations": [
+      {
+        "action": "add",
+        "content": "Obsidian Brain project at /Users/dmitrypotekhin/brain/ — MCP memory layer for AI agents, stores in Obsidian vault. TypeScript/Bun. 14 MCP tools, deterministic dream algorithm. 22 source files, 114 tests. Vault path: /Users/dmitrypotekhin/Odsidian/obsidians/Obsidian Vault."
+      },
+      {
+        "action": "add",
+        "content": "User prefers TypeScript + Bun for new projects (chose over Python). Prefers separate, focused projects rather than bundling into existing ones. Decisive decision-maker."
+      },
+      {
+        "action": "add",
+        "content": "macOS environment: Bun at ~/.bun/bin/bun (version 1.3.14). Xcode command line tools installed but xcode-select may need sudo to point to /Library/Developer/CommandLineTools. better-sqlite3 native compilation fails due to Xcode path — use bun:sqlite as fallback."
+      }
+    ]
+  }
+}

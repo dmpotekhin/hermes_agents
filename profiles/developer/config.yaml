@@ -2,12 +2,9 @@ model:
   default: deepseek-v4-pro
   provider: deepseek
   base_url: https://api.deepseek.com/v1
-providers: {}
 fallback_providers: []
-credential_pool_strategies: {}
 toolsets:
-- hermes-cli
-max_concurrent_sessions: null
+  - hermes-cli
 agent:
   max_turns: 150
   gateway_timeout: 1800
@@ -38,7 +35,6 @@ terminal:
   auto_source_bashrc: true
   docker_image: nikolaik/python-nodejs:python3.11-nodejs20
   docker_forward_env: []
-  docker_env: {}
   singularity_image: docker://nikolaik/python-nodejs:python3.11-nodejs20
   modal_image: nikolaik/python-nodejs:python3.11-nodejs20
   daytona_image: nikolaik/python-nodejs:python3.11-nodejs20
@@ -84,9 +80,8 @@ checkpoints:
   retention_days: 7
   delete_orphans: true
   min_interval_hours: 24
-context_file_max_chars: null
 file_read_max_chars: 100000
-mcp_discovery_timeout: 1.5
+mcp_discovery_timeout: 10
 tool_output:
   max_bytes: 50000
   max_lines: 2000
@@ -120,7 +115,6 @@ kanban:
   worker_log_backup_count: 1
   orchestrator_profile: ''
   default_assignee: ''
-  max_in_progress_per_profile: null
   auto_decompose: true
   auto_decompose_per_tick: 3
   dispatch_stale_timeout_seconds: 14400
@@ -148,7 +142,6 @@ auxiliary:
     base_url: ''
     api_key: ''
     timeout: 120
-    extra_body: {}
     download_timeout: 30
   web_extract:
     provider: auto
@@ -156,42 +149,36 @@ auxiliary:
     base_url: ''
     api_key: ''
     timeout: 360
-    extra_body: {}
   compression:
     provider: auto
     model: ''
     base_url: ''
     api_key: ''
     timeout: 120
-    extra_body: {}
   skills_hub:
     provider: auto
     model: ''
     base_url: ''
     api_key: ''
     timeout: 30
-    extra_body: {}
   approval:
     provider: auto
     model: ''
     base_url: ''
     api_key: ''
     timeout: 30
-    extra_body: {}
   mcp:
     provider: auto
     model: ''
     base_url: ''
     api_key: ''
     timeout: 30
-    extra_body: {}
   title_generation:
     provider: auto
     model: ''
     base_url: ''
     api_key: ''
     timeout: 30
-    extra_body: {}
     language: ''
   tts_audio_tags:
     provider: auto
@@ -199,49 +186,42 @@ auxiliary:
     base_url: ''
     api_key: ''
     timeout: 30
-    extra_body: {}
   triage_specifier:
     provider: auto
     model: ''
     base_url: ''
     api_key: ''
     timeout: 120
-    extra_body: {}
   kanban_decomposer:
     provider: auto
     model: ''
     base_url: ''
     api_key: ''
     timeout: 180
-    extra_body: {}
   profile_describer:
     provider: auto
     model: ''
     base_url: ''
     api_key: ''
     timeout: 60
-    extra_body: {}
   curator:
     provider: auto
     model: ''
     base_url: ''
     api_key: ''
     timeout: 600
-    extra_body: {}
   monitor:
     provider: auto
     model: ''
     base_url: ''
     api_key: ''
     timeout: 60
-    extra_body: {}
   background_review:
     provider: auto
     model: ''
     base_url: ''
     api_key: ''
     timeout: 120
-    extra_body: {}
 display:
   compact: false
   personality: ''
@@ -279,7 +259,6 @@ display:
     last_lines: 2
   interim_assistant_messages: true
   tool_progress_command: false
-  tool_progress_overrides: {}
   tool_preview_length: 0
   tool_progress_grouping: accumulate
   ephemeral_system_ttl: 0
@@ -291,9 +270,9 @@ display:
   runtime_footer:
     enabled: false
     fields:
-    - model
-    - context_pct
-    - cwd
+      - model
+      - context_pct
+      - cwd
   copy_shortcut: auto
   tool_progress: all
 dashboard:
@@ -377,8 +356,8 @@ memory:
   user_char_limit: 1375
   provider: ''
 delegation:
-  model: ''
-  provider: ''
+  model: deepseek-chat
+  provider: deepseek
   base_url: ''
   api_key: ''
   api_mode: ''
@@ -387,16 +366,16 @@ delegation:
   child_timeout_seconds: 0
   reasoning_effort: ''
   max_concurrent_children: 3
-  max_async_children: 3
   max_spawn_depth: 1
   orchestrator_enabled: true
   subagent_auto_approve: false
+  max_async_children: 3
 prefill_messages_file: ''
 goals:
   max_turns: 20
 skills:
   external_dirs:
-  - ~/.hermes/skills/superpowers
+    - ~/.hermes/skills/superpowers
   template_vars: true
   inline_shell: false
   inline_shell_timeout: 10
@@ -413,13 +392,11 @@ curator:
   backup:
     enabled: true
     keep: 5
-honcho: {}
 timezone: ''
 slack:
   require_mention: true
   free_response_channels: ''
   allowed_channels: ''
-  channel_prompts: {}
 discord:
   require_mention: true
   free_response_channels: ''
@@ -429,7 +406,6 @@ discord:
   history_backfill: true
   history_backfill_limit: 50
   reactions: true
-  channel_prompts: {}
   dm_role_auth_guild: ''
   server_actions: ''
   allow_any_attachment: false
@@ -443,15 +419,13 @@ discord:
     speech_gain: 1.0
     ack_enabled: true
     ack_phrases:
-    - Let me look into that.
-    - One moment.
-    - Checking on that now.
-    - Give me a sec.
-    - On it.
-whatsapp: {}
+      - Let me look into that.
+      - One moment.
+      - Checking on that now.
+      - Give me a sec.
+      - On it.
 telegram:
   reactions: false
-  channel_prompts: {}
   allowed_chats: ''
   extra:
     rich_messages: false
@@ -459,7 +433,6 @@ mattermost:
   require_mention: true
   free_response_channels: ''
   allowed_channels: ''
-  channel_prompts: {}
 matrix:
   require_mention: true
   free_response_rooms: ''
@@ -471,11 +444,7 @@ approvals:
   mcp_reload_confirm: true
   destructive_slash_confirm: true
 command_allowlist: []
-quick_commands: {}
-platform_hints: {}
-hooks: {}
 hooks_auto_accept: false
-personalities: {}
 security:
   allow_private_urls: false
   redact_secrets: true
@@ -497,7 +466,6 @@ cron:
     expected_audience: ''
     nas_jwks_url: ''
   wrap_response: true
-  max_parallel_jobs: null
 code_execution:
   mode: project
 tools:
@@ -514,7 +482,6 @@ model_catalog:
   enabled: true
   url: https://hermes-agent.nousresearch.com/docs/api/model-catalog.json
   ttl_hours: 1
-  providers: {}
 network:
   force_ipv4: false
 gateway:
@@ -532,7 +499,7 @@ streaming:
   transport: auto
   edit_interval: 0.8
   buffer_threshold: 24
-  cursor: " \u2589"
+  cursor: ' ▉'
   fresh_final_after_seconds: 0.0
 sessions:
   auto_prune: false
@@ -553,7 +520,6 @@ lsp:
   wait_mode: document
   wait_timeout: 5.0
   install_strategy: auto
-  servers: {}
 x_search:
   model: grok-4.20-reasoning
   timeout_seconds: 180
@@ -577,52 +543,245 @@ mcp_servers:
   playwright:
     command: npx
     args:
-    - -y
-    - '@playwright/mcp@latest'
-    - --headless
+      - -y
+      - '@playwright/mcp@latest'
+      - --headless
     enabled: true
   filesystem:
     command: npx
     args:
-    - -y
-    - '@modelcontextprotocol/server-filesystem'
-    - ~/projects
+      - -y
+      - '@modelcontextprotocol/server-filesystem'
+      - ~/projects
     enabled: true
   git:
     command: uvx
     args:
-    - mcp-server-git
-    - --repository
-    - .
+      - mcp-server-git
+      - --repository
+      - .
     enabled: true
   github:
     command: npx
     args:
-    - -y
-    - '@modelcontextprotocol/server-github'
+      - -y
+      - '@modelcontextprotocol/server-github'
     env:
       GITHUB_PERSONAL_ACCESS_TOKEN: ${DEVELOPER_GITHUB_TOKEN}
+    enabled: true
+  perplexity:
+    command: npx
+    args:
+      - -y
+      - '@perplexity-ai/mcp-server'
+    enabled: false
+  obsidian-brain:
+    command: /Users/dmitrypotekhin/brain/bin/o2b-mcp
+    args:
+      '0': run
+      '1': /Users/dmitrypotekhin/brain/src/cli.ts
+      '2': mcp
+    env:
+      BRAIN_VAULT: /Users/dmitrypotekhin/Odsidian/obsidians/Obsidian Vault
     enabled: true
 session_reset:
   mode: none
 platform_toolsets:
   cli:
-  - browser
-  - clarify
-  - code_execution
-  - computer_use
-  - cronjob
-  - delegation
-  - file
-  - image_gen
-  - memory
-  - session_search
-  - skills
-  - terminal
-  - todo
-  - tts
-  - vision
-  - web
+    - browser
+    - clarify
+    - code_execution
+    - computer_use
+    - cronjob
+    - delegation
+    - file
+    - image_gen
+    - memory
+    - session_search
+    - skills
+    - terminal
+    - todo
+    - tts
+    - vision
+    - web
 known_plugin_toolsets:
   cli:
-  - spotify
+    - spotify
+image_gen:
+  provider: abacus_ai
+plugins:
+  enabled:
+    - image_gen/abacus_ai
+custom_providers:
+  - name: abacus-ai
+    api_key: s2_1cdc555034a7493aa20e1984ea7eb694
+    base_url: https://routellm.abacus.ai/v1
+    models:
+      - route-llm
+      - claude-sonnet-5
+      - gpt-5.6-terra
+      - gemini-3.6-flash
+      - gemini-3.5-flash
+      - grok-4.5
+      - claude-fable-5
+      - gpt-5.6-sol
+      - gemini-3.1-pro-preview
+      - claude-opus-5
+      - claude-opus-4-8
+      - gpt-5.5
+      - gpt-5.6-luna
+      - muse-spark-1.1
+      - gpt-5.4-mini
+      - grok-4.3
+      - moonshotai/Kimi-K3
+      - moonshotai/Kimi-K2.7-Code
+      - zai-org/GLM-5.2
+      - deepseek-ai/DeepSeek-V4-Pro
+      - deepseek-ai/DeepSeek-V4-Flash
+      - claude-haiku-4-5-20251001
+      - gpt-5.4-nano
+      - gemini-3.5-flash-lite
+      - gemini-3.1-flash-lite
+      - gemini-3-flash-preview
+      - claude-sonnet-4-6
+      - gpt-5.4
+      - thinkingmachines/Inkling
+      - mimo-v2-pro
+      - MiniMaxAI/MiniMax-M3
+      - MiniMaxAI/MiniMax-M2.7
+      - google/gemma-4-31b-it
+      - zai-org/GLM-5.1
+      - zai-org/GLM-5
+      - zai-org/GLM-4.7
+      - zai-org/GLM-4.6
+      - zai-org/GLM-4.5
+      - deepseek-ai/DeepSeek-V3.2
+      - moonshotai/Kimi-K2.6
+      - moonshotai/Kimi-K2-Instruct
+      - Qwen/Qwen3.6-27B
+      - Qwen/Qwen3-Coder-480B-A35B-Instruct
+      - Qwen/Qwen3-32B
+      - gemini-3.1-flash-image
+      - gemini-3-pro-image
+      - gemini-2.5-flash-image
+      - gemini-2.5-flash
+      - gemini-2.5-pro
+      - meta-llama/Meta-Llama-3.3-70B-Instruct
+      - meta-llama/Meta-Llama-3.1-8B-Instruct
+      - meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8
+      - claude-opus-4-7
+      - claude-opus-4-6
+      - claude-opus-4-5-20251101
+      - claude-sonnet-4-5-20250929
+      - openai/gpt-oss-120b
+      - gpt-5.3-codex
+      - gpt-5.2
+      - gpt-5.1
+      - gpt-5-nano
+      - gpt-5-mini
+      - gpt-5
+      - gpt-4.1-nano
+      - gpt-4.1-mini
+      - gpt-4.1
+      - o3-mini
+      - o3
+      - o3-pro
+      - o4-mini
+      - gpt-4o-mini
+      - gpt-4o
+      - gpt_image15
+      - gpt_image2
+      - gpt_image2_edit
+      - flux_kontext
+      - flux_kontext_edit
+      - flux_pro
+      - flux_pro_ultra
+      - ideogram
+      - ideogram_character
+      - recraft
+      - recraft_svg
+      - recraft_vectorize
+      - dalle
+      - magnific
+      - flux_pro_canny
+      - flux_pro_depth
+      - gpt_image_edit
+      - midjourney
+      - seedream
+      - seedream5_lite
+      - seedream5_pro
+      - dreamina
+      - nano_banana
+      - nano_banana_pro
+      - nano_banana2
+      - nano_banana_lite
+      - qwen_image_edit
+      - imagine_art
+      - hunyuan_image
+      - flux2
+      - flux2_pro
+      - grok_imagine_image
+      - grok_imagine_image_quality
+      - wan27
+      - gpt-audio-1.5
+      - gpt-audio-mini
+      - gemini-2.5-flash-preview-tts
+      - gemini-2.5-pro-preview-tts
+      - hume
+      - elevenlabs
+      - openai_tts
+      - minimax_tts
+      - vibevoice
+      - seed_speech
+      - seed_audio
+      - runway
+      - luma_labs
+      - kling_ai
+      - kling_ai_v2
+      - kling_ai_v21
+      - minimax
+      - veo
+      - hunyuan
+      - wan
+      - wan25
+      - topaz
+      - veo3
+      - seedance
+      - seedance_pro
+      - kling_ai_v25
+      - sora
+      - veo31
+      - veo31_lite
+      - kling_ai_v26
+      - kling_ai_v26_motion
+      - kling_ai_v3
+      - kling_ai_o1
+      - kling_ai_o3
+      - seedance15_pro
+      - seedance20
+      - seedance20_mini
+      - grok_imagine_video
+      - grok_imagine_video15
+      - gemini_omni_flash
+
+# ── Fallback Model ────────────────────────────────────────────────────
+# Automatic provider failover when primary is unavailable.
+# Uncomment and configure to enable. Triggers on rate limits (429),
+# overload (529), service errors (503), or connection failures.
+#
+# Supported providers:
+#   openrouter   (OPENROUTER_API_KEY)  — routes to any model
+#   openai-codex (OAuth — hermes auth) — OpenAI Codex
+#   nous         (OAuth — hermes auth) — Nous Portal
+#   zai          (ZAI_API_KEY)         — Z.AI / GLM
+#   kimi-coding  (KIMI_API_KEY)        — Kimi / Moonshot
+#   kimi-coding-cn (KIMI_CN_API_KEY)   — Kimi / Moonshot (China)
+#   minimax      (MINIMAX_API_KEY)     — MiniMax
+#   minimax-cn   (MINIMAX_CN_API_KEY)  — MiniMax (China)
+#   bedrock      (AWS IAM / boto3)     — AWS Bedrock (Converse API)
+#
+# For custom OpenAI-compatible endpoints, add base_url and key_env.
+#
+# fallback_model:
+#   provider: openrouter
+#   model: anthropic/claude-sonnet-4

@@ -1,0 +1,42 @@
+{
+  "id": "e85c76be",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 7 op(s) to user profile: - add: Speaks Russian. Respond in Russian unless asked otherwise.\n- add: Developer on MacBook Pro 2015 (i5, 16GB RAM, ma",
+  "origin": "background_review",
+  "created_at": 1784564215.019816,
+  "payload": {
+    "action": "batch",
+    "target": "user",
+    "operations": [
+      {
+        "action": "add",
+        "content": "Speaks Russian. Respond in Russian unless asked otherwise."
+      },
+      {
+        "action": "add",
+        "content": "Developer on MacBook Pro 2015 (i5, 16GB RAM, macOS 12.7.6). No GPU — all FFmpeg work CPU-only."
+      },
+      {
+        "action": "add",
+        "content": "Working directory: /Users/dmitrypotekhin/. Projects live there (trainer/, travel-content-factory/, etc)."
+      },
+      {
+        "action": "add",
+        "content": "Prefers emoji-rich READMEs with badges, tables, and visual structure. Values beautiful documentation."
+      },
+      {
+        "action": "add",
+        "content": "Pushes to GitHub after every significant change. SSH auth to GitHub works (git@github.com:dmpotekhin/...)."
+      },
+      {
+        "action": "add",
+        "content": "Wants complete user guides (from scratch) alongside code. Appreciates step-by-step instructions with ASCII diagrams."
+      },
+      {
+        "action": "add",
+        "content": "Prefers detailed specs before coding. Confirms architecture design before implementation starts."
+      }
+    ]
+  }
+}

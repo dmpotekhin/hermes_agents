@@ -1,0 +1,30 @@
+{
+  "id": "f627c2ae",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 4 op(s) to memory: - add: Obsidian vault: /Users/dmitrypotekhin/Odsidian/obsidians/Obsidian Vault. Used as storage for all brain/memory pro",
+  "origin": "background_review",
+  "created_at": 1784819177.979156,
+  "payload": {
+    "action": "batch",
+    "target": "memory",
+    "operations": [
+      {
+        "action": "add",
+        "content": "Obsidian vault: /Users/dmitrypotekhin/Odsidian/obsidians/Obsidian Vault. Used as storage for all brain/memory projects."
+      },
+      {
+        "action": "add",
+        "content": "QA Interview Trainer project: /Users/dmitrypotekhin/trainer/qa-interview-trainer/. Three services (backend:8000, frontend:3000, mock:8080) + PostgreSQL. Start script at project root start.sh. GitHub: github.com/dmpotekhin/qa-interview-trainer."
+      },
+      {
+        "action": "add",
+        "content": "New project 'obsidian-brain' (MCP memory layer): /Users/dmitrypotekhin/brain/. TypeScript/Bun stack. git init done, branch main, first commit 641edf3. Spec at docs/specs/2026-07-23-obsidian-brain-design.md, plan at docs/specs/2026-07-23-obsidian-brain-plan.md. 22 tasks, 5 phases, using subagent-driven-development."
+      },
+      {
+        "action": "add",
+        "content": "Bun installed at ~/.bun/bin/bun v1.3.14. Path added to ~/.zshrc. Use 'export PATH=\"$HOME/.bun/bin:$PATH\"' before bun commands. better-sqlite3 native compilation blocked by Xcode path issue (xcode-select points to missing /Applications/Xcode.app, needs sudo to switch to /Library/Developer/CommandLineTools)."
+      }
+    ]
+  }
+}

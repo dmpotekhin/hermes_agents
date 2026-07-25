@@ -1,0 +1,18 @@
+{
+  "id": "44aa738b",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 1 op(s) to memory: - add: Travel Content Factory skill at ~/.hermes/profiles/developer/skills/travel-content-factory/ updated with: overlay",
+  "origin": "background_review",
+  "created_at": 1784565400.114312,
+  "payload": {
+    "action": "batch",
+    "target": "memory",
+    "operations": [
+      {
+        "action": "add",
+        "content": "Travel Content Factory skill at ~/.hermes/profiles/developer/skills/travel-content-factory/ updated with: overlay_text() drawtext, captions feature, render pipeline v2, escape_drawtext pitfall. Reference files: ffmpeg-audio-patterns.md, frontend-patterns.md, sqlalchemy-pitfalls.md."
+      }
+    ]
+  }
+}

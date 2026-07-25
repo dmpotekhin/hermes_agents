@@ -1,0 +1,24 @@
+{
+  "id": "fa92873f",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 2 op(s) to memory: - add: Travel Content Factory: start.sh copies ROOT .env → backend/.env on every start. ALWAYS add API keys (DEEPSEEK_AP",
+  "origin": "background_review",
+  "created_at": 1784917653.548958,
+  "payload": {
+    "action": "batch",
+    "target": "memory",
+    "operations": [
+      {
+        "content": "Travel Content Factory: start.sh copies ROOT .env → backend/.env on every start. ALWAYS add API keys (DEEPSEEK_API_KEY, ABACUS_AI_API_KEY, etc.) to the ROOT .env at /Users/dmitrypotekhin/travel-content-factory/.env, NEVER to backend/.env — it gets overwritten by the startup script.",
+        "action": "add",
+        "target": "memory"
+      },
+      {
+        "content": "Travel Content Factory now has Abacus AI image generation: backend/services/abacus.py (AbacusImageClient), backend/routers/images.py (/api/images/*), frontend Image Factory tab + Content Factory button + render cover checkbox. API: routellm.abacus.ai/v1/chat/completions, model: flux2_pro. Credits exhausted shows as 400 with body {\"success\":false,\"error\":\"You have no remaining credits to use the LLM apis.\"}.",
+        "action": "add",
+        "target": "memory"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "e70ca8e5",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 1 op(s) to memory: - add: Obsidian Brain project at /Users/dmitrypotekhin/brain/ — MCP memory layer for AI agents. TypeScript + Bun. Stores",
+  "origin": "background_review",
+  "created_at": 1784823392.258225,
+  "payload": {
+    "action": "batch",
+    "target": "memory",
+    "operations": [
+      {
+        "action": "add",
+        "content": "Obsidian Brain project at /Users/dmitrypotekhin/brain/ — MCP memory layer for AI agents. TypeScript + Bun. Stores memory as Markdown in the Obsidian vault at /Users/dmitrypotekhin/Odsidian/obsidians/Obsidian Vault under Brain/. Implements ~14 MCP tools + deterministic dream algorithm. GitHub repo not yet created.",
+        "target": "memory"
+      }
+    ]
+  }
+}
