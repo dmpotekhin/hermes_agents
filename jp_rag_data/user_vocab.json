@@ -2,8 +2,8 @@
   "info": {
     "description": "Персональный словарь из разговорного клуба японского языка",
     "created": "2026-06-20",
-    "last_updated": "2026-07-08",
-    "total_words": 929,
+    "last_updated": "2026-07-27",
+    "total_words": 988,
     "themes": [
       "вежливость",
       "вещи",
@@ -8982,6 +8982,596 @@
       "theme": "дом",
       "date_added": "2026-07-08",
       "note": "N5"
+    },
+    {
+      "id": 930,
+      "kanji": "",
+      "hiragana": "あっ",
+      "romaji": "",
+      "translation": "А! (удивление)",
+      "theme": "прилагательные",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 931,
+      "kanji": "",
+      "hiragana": "うわ",
+      "romaji": "",
+      "translation": "Ух ты! / Ого!",
+      "theme": "прилагательные",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 932,
+      "kanji": "",
+      "hiragana": "えっ",
+      "romaji": "",
+      "translation": "Э? А? (недоверие)",
+      "theme": "прилагательные",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 933,
+      "kanji": "",
+      "hiragana": "オレ",
+      "romaji": "",
+      "translation": "Я (муж., неформ.)",
+      "theme": "глаголы",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 934,
+      "kanji": "",
+      "hiragana": "わあ",
+      "romaji": "",
+      "translation": "Ваа!",
+      "theme": "прилагательные",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 935,
+      "kanji": "君",
+      "hiragana": "きみ",
+      "romaji": "",
+      "translation": "Ты (вежливо, к равному)",
+      "theme": "глаголы",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 936,
+      "kanji": "",
+      "hiragana": "やった",
+      "romaji": "",
+      "translation": "Ура! Получилось!",
+      "theme": "прилагательные",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 937,
+      "kanji": "",
+      "hiragana": "そうだ",
+      "romaji": "",
+      "translation": "Точно! / Да, так",
+      "theme": "глаголы",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 938,
+      "kanji": "",
+      "hiragana": "ダメ",
+      "romaji": "",
+      "translation": "Нельзя! Бесполезно!",
+      "theme": "глаголы",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 939,
+      "kanji": "",
+      "hiragana": "おい",
+      "romaji": "",
+      "translation": "Эй! (окрик)",
+      "theme": "прилагательные",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 940,
+      "kanji": "島",
+      "hiragana": "しま",
+      "romaji": "",
+      "translation": "остров",
+      "theme": "дом",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 941,
+      "kanji": "",
+      "hiragana": "こい",
+      "romaji": "",
+      "translation": "Иди сюда!",
+      "theme": "глаголы",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 942,
+      "kanji": "負け",
+      "hiragana": "まけ",
+      "romaji": "",
+      "translation": "поражение",
+      "theme": "прилагательные",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 943,
+      "kanji": "見て",
+      "hiragana": "みて",
+      "romaji": "",
+      "translation": "Смотри!",
+      "theme": "глаголы",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 944,
+      "kanji": "",
+      "hiragana": "やっぱり",
+      "romaji": "",
+      "translation": "Как я и думал / Всё-таки",
+      "theme": "глаголы",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 945,
+      "kanji": "",
+      "hiragana": "やつ",
+      "romaji": "",
+      "translation": "тип, парень (о ком-то)",
+      "theme": "глаголы",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 946,
+      "kanji": "博士",
+      "hiragana": "はかせ",
+      "romaji": "",
+      "translation": "профессор (доктор)",
+      "theme": "глаголы",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 947,
+      "kanji": "",
+      "hiragana": "しまった",
+      "romaji": "",
+      "translation": "Всё пропало! Чёрт!",
+      "theme": "прилагательные",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 948,
+      "kanji": "待て",
+      "hiragana": "まて",
+      "romaji": "",
+      "translation": "Стой! Жди!",
+      "theme": "глаголы",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 949,
+      "kanji": "",
+      "hiragana": "そうか",
+      "romaji": "",
+      "translation": "Вот как? Понятно...",
+      "theme": "глаголы",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 950,
+      "kanji": "勝ち",
+      "hiragana": "かち",
+      "romaji": "",
+      "translation": "победа",
+      "theme": "прилагательные",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 951,
+      "kanji": "お願い",
+      "hiragana": "おねがい",
+      "romaji": "",
+      "translation": "Пожалуйста (просьба)",
+      "theme": "глаголы",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 952,
+      "kanji": "",
+      "hiragana": "なるほど",
+      "romaji": "",
+      "translation": "Вот оно что...",
+      "theme": "глаголы",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 953,
+      "kanji": "森",
+      "hiragana": "もり",
+      "romaji": "",
+      "translation": "лес",
+      "theme": "дом",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 954,
+      "kanji": "",
+      "hiragana": "まって",
+      "romaji": "",
+      "translation": "Подожди!",
+      "theme": "глаголы",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 955,
+      "kanji": "",
+      "hiragana": "つづく",
+      "romaji": "",
+      "translation": "Продолжение следует",
+      "theme": "глаголы",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 956,
+      "kanji": "大丈夫か",
+      "hiragana": "だいじょうぶか",
+      "romaji": "",
+      "translation": "Ты в порядке?",
+      "theme": "глаголы",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 957,
+      "kanji": "",
+      "hiragana": "やれ",
+      "romaji": "",
+      "translation": "Атакуй! / Сделай это!",
+      "theme": "глаголы",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 958,
+      "kanji": "戻れ",
+      "hiragana": "もどれ",
+      "romaji": "",
+      "translation": "Возвращайся!",
+      "theme": "глаголы",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 959,
+      "kanji": "無理",
+      "hiragana": "むり",
+      "romaji": "",
+      "translation": "Невозможно!",
+      "theme": "глаголы",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 960,
+      "kanji": "行こう",
+      "hiragana": "いこう",
+      "romaji": "",
+      "translation": "Пойдём!",
+      "theme": "глаголы",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 961,
+      "kanji": "戦闘",
+      "hiragana": "せんとう",
+      "romaji": "",
+      "translation": "бой, сражение",
+      "theme": "прилагательные",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 962,
+      "kanji": "",
+      "hiragana": "まさか",
+      "romaji": "",
+      "translation": "Не может быть!",
+      "theme": "прилагательные",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 963,
+      "kanji": "使え",
+      "hiragana": "つかえ",
+      "romaji": "",
+      "translation": "Используй!",
+      "theme": "глаголы",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 964,
+      "kanji": "",
+      "hiragana": "まじ",
+      "romaji": "",
+      "translation": "Серьёзно? Реально? (сленг)",
+      "theme": "прилагательные",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 965,
+      "kanji": "最高",
+      "hiragana": "さいこう",
+      "romaji": "",
+      "translation": "Отлично! Наилучший",
+      "theme": "прилагательные",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 966,
+      "kanji": "",
+      "hiragana": "ひどい",
+      "romaji": "",
+      "translation": "Ужасно! Жестоко!",
+      "theme": "прилагательные",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 967,
+      "kanji": "湖",
+      "hiragana": "みずうみ",
+      "romaji": "",
+      "translation": "озеро",
+      "theme": "дом",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 968,
+      "kanji": "ちょっと待って",
+      "hiragana": "ちょっとまって",
+      "romaji": "",
+      "translation": "Подожди-ка!",
+      "theme": "глаголы",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 969,
+      "kanji": "",
+      "hiragana": "やろう",
+      "romaji": "",
+      "translation": "Сделаем это!",
+      "theme": "глаголы",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 970,
+      "kanji": "",
+      "hiragana": "レベル",
+      "romaji": "",
+      "translation": "уровень",
+      "theme": "глаголы",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 971,
+      "kanji": "",
+      "hiragana": "バカ",
+      "romaji": "",
+      "translation": "дурак!",
+      "theme": "прилагательные",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 972,
+      "kanji": "洞窟",
+      "hiragana": "どうくつ",
+      "romaji": "",
+      "translation": "пещера",
+      "theme": "дом",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 973,
+      "kanji": "任せて",
+      "hiragana": "まかせて",
+      "romaji": "",
+      "translation": "Оставь это мне!",
+      "theme": "глаголы",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 974,
+      "kanji": "",
+      "hiragana": "わかった",
+      "romaji": "",
+      "translation": "Понял",
+      "theme": "глаголы",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 975,
+      "kanji": "",
+      "hiragana": "やったー",
+      "romaji": "",
+      "translation": "Урааа!",
+      "theme": "прилагательные",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 976,
+      "kanji": "",
+      "hiragana": "やはり",
+      "romaji": "",
+      "translation": "Как и ожидалось (форм.)",
+      "theme": "глаголы",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 977,
+      "kanji": "",
+      "hiragana": "やられた",
+      "romaji": "",
+      "translation": "Меня достали! Проиграл!",
+      "theme": "прилагательные",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 978,
+      "kanji": "",
+      "hiragana": "そうだね",
+      "romaji": "",
+      "translation": "Да, наверное",
+      "theme": "глаголы",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 979,
+      "kanji": "",
+      "hiragana": "すげえ",
+      "romaji": "",
+      "translation": "Круто! (муж. речь)",
+      "theme": "прилагательные",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 980,
+      "kanji": "任せろ",
+      "hiragana": "まかせろ",
+      "romaji": "",
+      "translation": "Доверься мне!",
+      "theme": "глаголы",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 981,
+      "kanji": "考える",
+      "hiragana": "かんがえる",
+      "romaji": "",
+      "translation": "думать, размышлять",
+      "theme": "глаголы",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 982,
+      "kanji": "機械",
+      "hiragana": "きかい",
+      "romaji": "",
+      "translation": "механизм, машина",
+      "theme": "дом",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 983,
+      "kanji": "",
+      "hiragana": "だめ",
+      "romaji": "",
+      "translation": "Нельзя! Не выйдет!",
+      "theme": "глаголы",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 984,
+      "kanji": "信じる",
+      "hiragana": "しんじる",
+      "romaji": "",
+      "translation": "верить",
+      "theme": "глаголы",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 985,
+      "kanji": "最悪",
+      "hiragana": "さいあく",
+      "romaji": "",
+      "translation": "Ужасно! Худший",
+      "theme": "прилагательные",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 986,
+      "kanji": "",
+      "hiragana": "でろ",
+      "romaji": "",
+      "translation": "Выходи!",
+      "theme": "глаголы",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 987,
+      "kanji": "",
+      "hiragana": "ゆけ",
+      "romaji": "",
+      "translation": "Вперёд! (уст.)",
+      "theme": "глаголы",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
+    },
+    {
+      "id": 988,
+      "kanji": "",
+      "hiragana": "ひどすぎる",
+      "romaji": "",
+      "translation": "Это слишком жестоко!",
+      "theme": "прилагательные",
+      "date_added": "2026-07-27",
+      "note": "из словаря покемонов"
     }
   ]
 }

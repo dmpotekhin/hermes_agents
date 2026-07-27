@@ -68,7 +68,7 @@
 ├── 📦 jp_rag_data/              # JLPT база знаний
 │   ├── chromadb/                # ChromaDB векторная БД
 │   ├── patterns.jsonl           # 723 паттерна N5–N1
-│   ├── user_vocab.json          # 929 слов · 25 тем
+│   ├── user_vocab.json          # 988 слов · 25 тем
 │   ├── pokemon_vocab.json       # 207 слов · словарь Pokémon (из 283 субтитров)
 │   ├── pokemon_phrasebook.md        # Разговорник Pokémon (14 категорий, markdown)
 │   ├── pokemon_extra_words.json     # +68 имён покемонов из Johto
@@ -155,7 +155,7 @@
 |------|----------|
 | `patterns.jsonl` | 723 паттерна с примерами, хираганой, ромадзи |
 | `chromadb/` | Векторная БД для семантического поиска (модель `intfloat/multilingual-e5-small`) |
-|| `user_vocab.json` | Персональный словарь: 929 слов, 25 тем |
+|| `user_vocab.json` | Персональный словарь: 988 слов, 25 тем |
 || `pokemon_vocab.json` | Словарь Pokémon: 207 слов, 14 категорий (из 283 субтитров) |
 || `pokemon_phrasebook.md` | Разговорник Pokémon для просмотра (таблицы по категориям) |
 || `pokemon_extra_words.json` | Доп. имена покемонов (Johto) — 68 шт. |
@@ -249,7 +249,7 @@ python3 ~/.hermes/jp_rag_data/query_rag.py "〜たいです"
 |----------|:----------:|
 | Поле `vocabulary` в паттернах | 29 |
 | Извлечено из примеров | ~1 200 |
-|| Из `user_vocab.json` | 929 |
+|| Из `user_vocab.json` | 988 |
 | **Всего уникальных** | **1 444** |
 
 ### Сборка колоды
