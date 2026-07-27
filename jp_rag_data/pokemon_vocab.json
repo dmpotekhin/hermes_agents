@@ -1,245 +1,1891 @@
 {
   "info": {
-    "description": "Шпаргалка для просмотра Pokémon на японском",
-    "created": "2026-06-24",
-    "total_words": 28,
-    "categories": ["герои", "батл", "команды", "эмоции", "типы"]
+    "description": "Словарь для просмотра Pokémon (оригинальный сериал, 1-279 + фильмы 1-5)",
+    "created": "2026-07-27",
+    "total_words": 207,
+    "source_files": 283,
+    "found_in_subs": 201,
+    "not_found": 6,
+    "categories": [
+      "битва",
+      "время",
+      "глаголы",
+      "звуки",
+      "имена",
+      "команда_R",
+      "команды",
+      "места",
+      "мир",
+      "покемоны",
+      "предметы",
+      "прил",
+      "фразы",
+      "эмоции"
+    ]
   },
   "words": [
     {
-      "id": 1,
-      "kanji": "ポケモン",
+      "kanji": "",
+      "hiragana": "ニャ",
+      "romaji": "",
+      "translation": "Ня! (звук Мяута)",
+      "category": "звуки",
+      "frequency": 8782,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "ピカ",
+      "romaji": "",
+      "translation": "Пика! (звук Пикачу)",
+      "category": "звуки",
+      "frequency": 8743,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
       "hiragana": "ポケモン",
-      "romaji": "pokemon",
+      "romaji": "",
       "translation": "покемон",
-      "category": "герои"
+      "category": "мир",
+      "frequency": 5192,
+      "note": "встречается в сериале"
     },
     {
-      "id": 2,
-      "kanji": "サトシ",
-      "hiragana": "サトシ",
-      "romaji": "satoshi",
-      "translation": "Сатоси (Эш)",
-      "category": "герои"
-    },
-    {
-      "id": 3,
-      "kanji": "ピカチュウ",
+      "kanji": "",
       "hiragana": "ピカチュウ",
-      "romaji": "pikachuu",
+      "romaji": "",
       "translation": "Пикачу",
-      "category": "герои"
+      "category": "покемоны",
+      "frequency": 3901,
+      "note": "встречается в сериале"
     },
     {
-      "id": 4,
-      "kanji": "モンスターボール",
-      "hiragana": "モンスターボール",
-      "romaji": "monsutaabooru",
-      "translation": "покебол",
-      "category": "герои"
-    },
-    {
-      "id": 5,
-      "kanji": "ゲット",
-      "hiragana": "ゲット",
-      "romaji": "getto",
-      "translation": "поймать (покемона)",
-      "category": "батл",
-      "note": "ポケモンゲットだぜ！ — легендарная фраза «Я поймал покемона!»"
-    },
-    {
-      "id": 6,
-      "kanji": "バトル",
-      "hiragana": "バトル",
-      "romaji": "batoru",
-      "translation": "битва, сражение",
-      "category": "батл"
-    },
-    {
-      "id": 7,
-      "kanji": "戦う",
-      "hiragana": "たたかう",
-      "romaji": "tatakau",
-      "translation": "сражаться",
-      "category": "батл"
-    },
-    {
-      "id": 8,
-      "kanji": "勝つ",
-      "hiragana": "かつ",
-      "romaji": "katsu",
-      "translation": "победить",
-      "category": "батл"
-    },
-    {
-      "id": 9,
-      "kanji": "負ける",
-      "hiragana": "まける",
-      "romaji": "makeru",
-      "translation": "проиграть",
-      "category": "батл"
-    },
-    {
-      "id": 10,
-      "kanji": "倒す",
-      "hiragana": "たおす",
-      "romaji": "taosu",
-      "translation": "победить, одолеть",
-      "category": "батл",
-      "note": "敵を倒す = одолеть противника"
-    },
-    {
-      "id": 11,
-      "kanji": "捕まえる",
-      "hiragana": "つかまえる",
-      "romaji": "tsukamaeru",
-      "translation": "поймать, схватить",
-      "category": "батл"
-    },
-    {
-      "id": 12,
-      "kanji": "逃げる",
-      "hiragana": "にげる",
-      "romaji": "nigeru",
-      "translation": "убегать, сбегать",
-      "category": "батл"
-    },
-    {
-      "id": 13,
-      "kanji": "進化",
-      "hiragana": "しんか",
-      "romaji": "shinka",
-      "translation": "эволюция",
-      "category": "батл",
-      "note": "進化する = эволюционировать. Частая фраза в покемонах!"
-    },
-    {
-      "id": 14,
-      "kanji": "強い",
-      "hiragana": "つよい",
-      "romaji": "tsuyoi",
-      "translation": "сильный (い-прил.)",
-      "category": "эмоции"
-    },
-    {
-      "id": 15,
-      "kanji": "弱い",
-      "hiragana": "よわい",
-      "romaji": "yowai",
-      "translation": "слабый (い-прил.)",
-      "category": "эмоции"
-    },
-    {
-      "id": 16,
-      "kanji": "すごい",
-      "hiragana": "すごい",
-      "romaji": "sugoi",
-      "translation": "здорово!; крутой, потрясающий (い-прил.)",
+      "kanji": "",
+      "hiragana": "あっ",
+      "romaji": "",
+      "translation": "А! (удивление)",
       "category": "эмоции",
-      "note": "Самое частое слово в аниме! すごい！= Круто!"
+      "frequency": 3675,
+      "note": "встречается в сериале"
     },
     {
-      "id": 17,
-      "kanji": "やった",
+      "kanji": "",
+      "hiragana": "いい",
+      "romaji": "",
+      "translation": "Хороший / Хорошо",
+      "category": "фразы",
+      "frequency": 2650,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "ニャー",
+      "romaji": "",
+      "translation": "Няа (Мяут)",
+      "category": "звуки",
+      "frequency": 2576,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "サトシ",
+      "romaji": "",
+      "translation": "Сатиси / Эш",
+      "category": "имена",
+      "frequency": 2534,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "うわ",
+      "romaji": "",
+      "translation": "Ух ты! / Ого!",
+      "category": "эмоции",
+      "frequency": 2152,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "今",
+      "hiragana": "いま",
+      "romaji": "",
+      "translation": "сейчас",
+      "category": "время",
+      "frequency": 1957,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "えっ",
+      "romaji": "",
+      "translation": "Э? А? (недоверие)",
+      "category": "эмоции",
+      "frequency": 1357,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "ゲット",
+      "romaji": "",
+      "translation": "Поймать / получить (от get)",
+      "category": "фразы",
+      "frequency": 1312,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "ロケット",
+      "romaji": "",
+      "translation": "Ракета (Команда R)",
+      "category": "команда_R",
+      "frequency": 1245,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "お前",
+      "hiragana": "おまえ",
+      "romaji": "",
+      "translation": "Ты (муж., грубовато)",
+      "category": "фразы",
+      "frequency": 1229,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "おまえ",
+      "romaji": "",
+      "translation": "Ты",
+      "category": "фразы",
+      "frequency": 1229,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "ロケット団",
+      "hiragana": "ろけっとだん",
+      "romaji": "",
+      "translation": "Команда R (Rocket-dan)",
+      "category": "команда_R",
+      "frequency": 1179,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "オレ",
+      "romaji": "",
+      "translation": "Я (муж., неформ.)",
+      "category": "фразы",
+      "frequency": 1101,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "わあ",
+      "romaji": "",
+      "translation": "Ваа!",
+      "category": "эмоции",
+      "frequency": 993,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "なる",
+      "romaji": "",
+      "translation": "становиться",
+      "category": "глаголы",
+      "frequency": 949,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "いけ",
+      "romaji": "",
+      "translation": "Вперёд! (команда)",
+      "category": "команды",
+      "frequency": 865,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "君",
+      "hiragana": "きみ",
+      "romaji": "",
+      "translation": "Ты (вежливо, к равному)",
+      "category": "фразы",
+      "frequency": 856,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "きみ",
+      "romaji": "",
+      "translation": "Ты",
+      "category": "фразы",
+      "frequency": 856,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "やる",
+      "romaji": "",
+      "translation": "делать / дать (команду)",
+      "category": "глаголы",
+      "frequency": 843,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
       "hiragana": "やった",
-      "romaji": "yatta",
-      "translation": "ура! получилось! (прошлая форма やる)",
-      "category": "эмоции"
+      "romaji": "",
+      "translation": "Ура! Получилось!",
+      "category": "эмоции",
+      "frequency": 842,
+      "note": "встречается в сериале"
     },
     {
-      "id": 18,
+      "kanji": "水",
+      "hiragana": "みず",
+      "romaji": "",
+      "translation": "вода",
+      "category": "предметы",
+      "frequency": 798,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "ニャース",
+      "romaji": "",
+      "translation": "Нясу / Мяут",
+      "category": "имена",
+      "frequency": 746,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "ジム",
+      "romaji": "",
+      "translation": "гим (стадион)",
+      "category": "мир",
+      "frequency": 745,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "ソーナンス",
+      "romaji": "",
+      "translation": "Сонанс / Воббафет",
+      "category": "покемоны",
+      "frequency": 736,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "そうだ",
+      "romaji": "",
+      "translation": "Точно! / Да, так",
+      "category": "фразы",
+      "frequency": 710,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "ピカピカ",
+      "romaji": "",
+      "translation": "Пика-пика (счастливый)",
+      "category": "звуки",
+      "frequency": 681,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "ダメ",
+      "romaji": "",
+      "translation": "Нельзя! Бесполезно!",
+      "category": "фразы",
+      "frequency": 650,
+      "note": "встречается в сериале"
+    },
+    {
       "kanji": "大丈夫",
       "hiragana": "だいじょうぶ",
-      "romaji": "daijoubu",
-      "translation": "в порядке, нормально (な-прил.)",
+      "romaji": "",
+      "translation": "Всё в порядке / нормально",
       "category": "эмоции",
-      "note": "大丈夫？= Ты в порядке? 大丈夫です = Всё хорошо"
+      "frequency": 640,
+      "note": "встречается в сериале"
     },
     {
-      "id": 19,
-      "kanji": "頑張れ",
-      "hiragana": "がんばれ",
-      "romaji": "ganbare",
-      "translation": "давай! постарайся! держись! (повелит. форма)",
-      "category": "команды",
-      "note": "頑張る = стараться. 頑張れ！= Давай, ты сможешь!"
+      "kanji": "",
+      "hiragana": "バトル",
+      "romaji": "",
+      "translation": "битва, бой",
+      "category": "битва",
+      "frequency": 623,
+      "note": "встречается в сериале"
     },
     {
-      "id": 20,
-      "kanji": "行くぞ",
-      "hiragana": "いくぞ",
-      "romaji": "iku zo",
-      "translation": "погнали! вперёд!",
-      "category": "команды",
-      "note": "ぞ — частица усиления. 行く = идти. Почти как «Пошли!»"
+      "kanji": "",
+      "hiragana": "おい",
+      "romaji": "",
+      "translation": "Эй! (окрик)",
+      "category": "эмоции",
+      "frequency": 617,
+      "note": "встречается в сериале"
     },
     {
-      "id": 21,
-      "kanji": "待って",
-      "hiragana": "まって",
-      "romaji": "matte",
-      "translation": "подожди! (て-форма 待つ)",
-      "category": "команды"
+      "kanji": "",
+      "hiragana": "カスミ",
+      "romaji": "",
+      "translation": "Касуми / Мисти",
+      "category": "имена",
+      "frequency": 616,
+      "note": "встречается в сериале"
     },
     {
-      "id": 22,
-      "kanji": "助けて",
-      "hiragana": "たすけて",
-      "romaji": "tasukete",
-      "translation": "помогите! (て-форма 助ける)",
-      "category": "команды"
+      "kanji": "",
+      "hiragana": "タケシ",
+      "romaji": "",
+      "translation": "Такэси / Брок",
+      "category": "имена",
+      "frequency": 586,
+      "note": "встречается в сериале"
     },
     {
-      "id": 23,
-      "kanji": "出せ",
-      "hiragana": "だせ",
-      "romaji": "dase",
-      "translation": "выходи! (повелит. форма 出す)",
-      "category": "команды",
-      "note": "Используется, чтобы выпустить покемона из покебола"
+      "kanji": "島",
+      "hiragana": "しま",
+      "romaji": "",
+      "translation": "остров",
+      "category": "места",
+      "frequency": 568,
+      "note": "встречается в сериале"
     },
     {
-      "id": 24,
-      "kanji": "戻れ",
-      "hiragana": "もどれ",
-      "romaji": "modore",
-      "translation": "вернись! (повелит. форма 戻る)",
-      "category": "команды",
-      "note": "Возвращает покемона в покебол"
+      "kanji": "",
+      "hiragana": "リザードン",
+      "romaji": "",
+      "translation": "Лизардон / Чаризард",
+      "category": "покемоны",
+      "frequency": 531,
+      "note": "встречается в сериале"
     },
     {
-      "id": 25,
-      "kanji": "攻撃",
-      "hiragana": "こうげき",
-      "romaji": "kougeki",
-      "translation": "атака",
-      "category": "типы",
-      "note": "こうげきする = атаковать"
-    },
-    {
-      "id": 26,
-      "kanji": "防御",
-      "hiragana": "ぼうぎょ",
-      "romaji": "bougyo",
-      "translation": "защита",
-      "category": "типы"
-    },
-    {
-      "id": 27,
-      "kanji": "電気",
-      "hiragana": "でんき",
-      "romaji": "denki",
-      "translation": "электричество (тип Пикачу!)",
-      "category": "типы",
-      "note": "十万ボルト！(じゅうまんボルト) — «Десять тысяч вольт!» — атака Пикачу"
-    },
-    {
-      "id": 28,
       "kanji": "技",
       "hiragana": "わざ",
-      "romaji": "waza",
-      "translation": "приём, атака, техника",
-      "category": "типы"
+      "romaji": "",
+      "translation": "приём, техника",
+      "category": "битва",
+      "frequency": 519,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "わざ",
+      "romaji": "",
+      "translation": "приём, техника",
+      "category": "битва",
+      "frequency": 519,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "攻撃",
+      "hiragana": "こうげき",
+      "romaji": "",
+      "translation": "атака",
+      "category": "битва",
+      "frequency": 513,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "こうげき",
+      "romaji": "",
+      "translation": "атака",
+      "category": "битва",
+      "frequency": 513,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "こい",
+      "romaji": "",
+      "translation": "Иди сюда!",
+      "category": "команды",
+      "frequency": 510,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "トレーナー",
+      "romaji": "",
+      "translation": "тренер",
+      "category": "мир",
+      "frequency": 502,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "あいつ",
+      "romaji": "",
+      "translation": "Он / Она (тот тип)",
+      "category": "фразы",
+      "frequency": 501,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "行く",
+      "hiragana": "いく",
+      "romaji": "",
+      "translation": "идти",
+      "category": "глаголы",
+      "frequency": 500,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "フシギダネ",
+      "romaji": "",
+      "translation": "Фусигиданэ / Бульбазавр",
+      "category": "покемоны",
+      "frequency": 496,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "ムサシ",
+      "romaji": "",
+      "translation": "Мусаси / Джесси (Команда R)",
+      "category": "имена",
+      "frequency": 495,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "コジロウ",
+      "romaji": "",
+      "translation": "Кодзиро / Джеймс (Команда R)",
+      "category": "имена",
+      "frequency": 494,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "進化",
+      "hiragana": "しんか",
+      "romaji": "",
+      "translation": "эволюция",
+      "category": "мир",
+      "frequency": 454,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "負け",
+      "hiragana": "まけ",
+      "romaji": "",
+      "translation": "поражение",
+      "category": "битва",
+      "frequency": 441,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "バッジ",
+      "romaji": "",
+      "translation": "значок / бэйдж",
+      "category": "мир",
+      "frequency": 426,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "タイプ",
+      "romaji": "",
+      "translation": "тип (покемона)",
+      "category": "мир",
+      "frequency": 423,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "勝負",
+      "hiragana": "しょうぶ",
+      "romaji": "",
+      "translation": "матч, соревнование",
+      "category": "битва",
+      "frequency": 413,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "見て",
+      "hiragana": "みて",
+      "romaji": "",
+      "translation": "Смотри!",
+      "category": "глаголы",
+      "frequency": 409,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "ゼニガメ",
+      "romaji": "",
+      "translation": "Дзэнигамэ / Сквиртл",
+      "category": "покемоны",
+      "frequency": 390,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "プリン",
+      "romaji": "",
+      "translation": "Пурин / Джиглипафф",
+      "category": "покемоны",
+      "frequency": 385,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "すごい",
+      "romaji": "",
+      "translation": "Потрясающе! Круто!",
+      "category": "эмоции",
+      "frequency": 375,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "できる",
+      "romaji": "",
+      "translation": "мочь, уметь",
+      "category": "глаголы",
+      "frequency": 371,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "やっぱり",
+      "romaji": "",
+      "translation": "Как я и думал / Всё-таки",
+      "category": "фразы",
+      "frequency": 362,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "やつ",
+      "romaji": "",
+      "translation": "тип, парень (о ком-то)",
+      "category": "фразы",
+      "frequency": 357,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "元気",
+      "hiragana": "げんき",
+      "romaji": "",
+      "translation": "здоровый, энергичный",
+      "category": "прил",
+      "frequency": 356,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "行け",
+      "hiragana": "いけ",
+      "romaji": "",
+      "translation": "Вперёд!",
+      "category": "команды",
+      "frequency": 353,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "博士",
+      "hiragana": "はかせ",
+      "romaji": "",
+      "translation": "профессор (доктор)",
+      "category": "мир",
+      "frequency": 347,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "ボール",
+      "romaji": "",
+      "translation": "шар / покебол",
+      "category": "мир",
+      "frequency": 346,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "海",
+      "hiragana": "うみ",
+      "romaji": "",
+      "translation": "море",
+      "category": "места",
+      "frequency": 329,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "しまった",
+      "romaji": "",
+      "translation": "Всё пропало! Чёрт!",
+      "category": "эмоции",
+      "frequency": 307,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "待て",
+      "hiragana": "まて",
+      "romaji": "",
+      "translation": "Стой! Жди!",
+      "category": "команды",
+      "frequency": 306,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "こいつ",
+      "romaji": "",
+      "translation": "Этот парень / эта штука",
+      "category": "фразы",
+      "frequency": 305,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "やな感じ",
+      "hiragana": "やなかんじ",
+      "romaji": "",
+      "translation": "Неприятное чувство... (фраза Мяута)",
+      "category": "команда_R",
+      "frequency": 297,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "町",
+      "hiragana": "まち",
+      "romaji": "",
+      "translation": "город, посёлок",
+      "category": "места",
+      "frequency": 296,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "言う",
+      "hiragana": "いう",
+      "romaji": "",
+      "translation": "сказать",
+      "category": "глаголы",
+      "frequency": 292,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "そうか",
+      "romaji": "",
+      "translation": "Вот как? Понятно...",
+      "category": "фразы",
+      "frequency": 288,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "守る",
+      "hiragana": "まもる",
+      "romaji": "",
+      "translation": "защищать",
+      "category": "глаголы",
+      "frequency": 283,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "勝ち",
+      "hiragana": "かち",
+      "romaji": "",
+      "translation": "победа",
+      "category": "битва",
+      "frequency": 282,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "違う",
+      "hiragana": "ちがう",
+      "romaji": "",
+      "translation": "Не так! Неправильно!",
+      "category": "фразы",
+      "frequency": 281,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "ちがう",
+      "romaji": "",
+      "translation": "Не так!",
+      "category": "фразы",
+      "frequency": 281,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "山",
+      "hiragana": "やま",
+      "romaji": "",
+      "translation": "гора",
+      "category": "места",
+      "frequency": 279,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "カビゴン",
+      "romaji": "",
+      "translation": "Кабигон / Снорлакс",
+      "category": "покемоны",
+      "frequency": 271,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "お願い",
+      "hiragana": "おねがい",
+      "romaji": "",
+      "translation": "Пожалуйста (просьба)",
+      "category": "фразы",
+      "frequency": 270,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "おねがい",
+      "romaji": "",
+      "translation": "Пожалуйста",
+      "category": "фразы",
+      "frequency": 270,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "道",
+      "hiragana": "みち",
+      "romaji": "",
+      "translation": "дорога, путь",
+      "category": "места",
+      "frequency": 246,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "コダック",
+      "romaji": "",
+      "translation": "Кудак / Псайдак",
+      "category": "покемоны",
+      "frequency": 244,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "ジョーイ",
+      "romaji": "",
+      "translation": "Джой (медсестра)",
+      "category": "имена",
+      "frequency": 239,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "なるほど",
+      "romaji": "",
+      "translation": "Вот оно что...",
+      "category": "фразы",
+      "frequency": 237,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "ピッピ",
+      "romaji": "",
+      "translation": "Пиппи / Клефейри",
+      "category": "покемоны",
+      "frequency": 229,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "森",
+      "hiragana": "もり",
+      "romaji": "",
+      "translation": "лес",
+      "category": "места",
+      "frequency": 226,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "強い",
+      "hiragana": "つよい",
+      "romaji": "",
+      "translation": "сильный",
+      "category": "битва",
+      "frequency": 224,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "つよい",
+      "romaji": "",
+      "translation": "сильный",
+      "category": "битва",
+      "frequency": 224,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "イワーク",
+      "romaji": "",
+      "translation": "Ивак / Оникс",
+      "category": "покемоны",
+      "frequency": 221,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "まって",
+      "romaji": "",
+      "translation": "Подожди!",
+      "category": "фразы",
+      "frequency": 220,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "つづく",
+      "romaji": "",
+      "translation": "Продолжение следует",
+      "category": "фразы",
+      "frequency": 217,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "大丈夫か",
+      "hiragana": "だいじょうぶか",
+      "romaji": "",
+      "translation": "Ты в порядке?",
+      "category": "фразы",
+      "frequency": 215,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "来る",
+      "hiragana": "くる",
+      "romaji": "",
+      "translation": "приходить",
+      "category": "глаголы",
+      "frequency": 210,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "モンスターボール",
+      "romaji": "",
+      "translation": "покебол",
+      "category": "мир",
+      "frequency": 209,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "今日",
+      "hiragana": "きょう",
+      "romaji": "",
+      "translation": "сегодня",
+      "category": "время",
+      "frequency": 206,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "やれ",
+      "romaji": "",
+      "translation": "Атакуй! / Сделай это!",
+      "category": "команды",
+      "frequency": 200,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "戻れ",
+      "hiragana": "もどれ",
+      "romaji": "",
+      "translation": "Возвращайся!",
+      "category": "команды",
+      "frequency": 193,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "もどれ",
+      "romaji": "",
+      "translation": "Возвращайся!",
+      "category": "команды",
+      "frequency": 193,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "ポケモンセンター",
+      "romaji": "",
+      "translation": "центр покемонов",
+      "category": "мир",
+      "frequency": 192,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "無理",
+      "hiragana": "むり",
+      "romaji": "",
+      "translation": "Невозможно!",
+      "category": "фразы",
+      "frequency": 188,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "ラッキー",
+      "romaji": "",
+      "translation": "Ракки / Ченси",
+      "category": "покемоны",
+      "frequency": 180,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "明日",
+      "hiragana": "あした",
+      "romaji": "",
+      "translation": "завтра",
+      "category": "время",
+      "frequency": 164,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "マサラタウン",
+      "romaji": "",
+      "translation": "Паллет-Таун (родной город)",
+      "category": "мир",
+      "frequency": 162,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "危ない",
+      "hiragana": "あぶない",
+      "romaji": "",
+      "translation": "опасный",
+      "category": "прил",
+      "frequency": 156,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "オーキド博士",
+      "hiragana": "おおきどはかせ",
+      "romaji": "",
+      "translation": "профессор Оук",
+      "category": "имена",
+      "frequency": 153,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "行こう",
+      "hiragana": "いこう",
+      "romaji": "",
+      "translation": "Пойдём!",
+      "category": "фразы",
+      "frequency": 147,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "ヒトカゲ",
+      "romaji": "",
+      "translation": "Хитотагэ / Чармандер",
+      "category": "покемоны",
+      "frequency": 145,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "戦闘",
+      "hiragana": "せんとう",
+      "romaji": "",
+      "translation": "бой, сражение",
+      "category": "битва",
+      "frequency": 137,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "カメックス",
+      "romaji": "",
+      "translation": "Камэкус / Бластойз",
+      "category": "покемоны",
+      "frequency": 135,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "まさか",
+      "romaji": "",
+      "translation": "Не может быть!",
+      "category": "эмоции",
+      "frequency": 127,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "使え",
+      "hiragana": "つかえ",
+      "romaji": "",
+      "translation": "Используй!",
+      "category": "команды",
+      "frequency": 125,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "時間",
+      "hiragana": "じかん",
+      "romaji": "",
+      "translation": "время",
+      "category": "предметы",
+      "frequency": 124,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "続く",
+      "hiragana": "つづく",
+      "romaji": "",
+      "translation": "продолжаться",
+      "category": "фразы",
+      "frequency": 119,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "夜",
+      "hiragana": "よる",
+      "romaji": "",
+      "translation": "ночь, вечер",
+      "category": "время",
+      "frequency": 117,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "まじ",
+      "romaji": "",
+      "translation": "Серьёзно? Реально? (сленг)",
+      "category": "эмоции",
+      "frequency": 116,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "ケンタロス",
+      "romaji": "",
+      "translation": "Кэнтарос / Таурос",
+      "category": "покемоны",
+      "frequency": 112,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "カイリュー",
+      "romaji": "",
+      "translation": "Каирю / Драгонайт",
+      "category": "покемоны",
+      "frequency": 107,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "最高",
+      "hiragana": "さいこう",
+      "romaji": "",
+      "translation": "Отлично! Наилучший",
+      "category": "эмоции",
+      "frequency": 102,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "ジムリーダー",
+      "romaji": "",
+      "translation": "лидер гима",
+      "category": "мир",
+      "frequency": 101,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "ミュウ",
+      "romaji": "",
+      "translation": "Мью",
+      "category": "покемоны",
+      "frequency": 100,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "ロコン",
+      "romaji": "",
+      "translation": "Рокон / Вульпикс",
+      "category": "покемоны",
+      "frequency": 97,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "ひどい",
+      "romaji": "",
+      "translation": "Ужасно! Жестоко!",
+      "category": "эмоции",
+      "frequency": 93,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "見る",
+      "hiragana": "みる",
+      "romaji": "",
+      "translation": "смотреть, видеть",
+      "category": "глаголы",
+      "frequency": 92,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "湖",
+      "hiragana": "みずうみ",
+      "romaji": "",
+      "translation": "озеро",
+      "category": "места",
+      "frequency": 90,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "朝",
+      "hiragana": "あさ",
+      "romaji": "",
+      "translation": "утро",
+      "category": "время",
+      "frequency": 87,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "名前",
+      "hiragana": "なまえ",
+      "romaji": "",
+      "translation": "имя",
+      "category": "предметы",
+      "frequency": 86,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "街",
+      "hiragana": "まち",
+      "romaji": "",
+      "translation": "улица, город",
+      "category": "места",
+      "frequency": 84,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "川",
+      "hiragana": "かわ",
+      "romaji": "",
+      "translation": "река",
+      "category": "места",
+      "frequency": 82,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "ゲンガー",
+      "romaji": "",
+      "translation": "Гэнга / Генгар",
+      "category": "покемоны",
+      "frequency": 81,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "ちょっと待って",
+      "hiragana": "ちょっとまって",
+      "romaji": "",
+      "translation": "Подожди-ка!",
+      "category": "фразы",
+      "frequency": 80,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "やろう",
+      "romaji": "",
+      "translation": "Сделаем это!",
+      "category": "фразы",
+      "frequency": 79,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "レベル",
+      "romaji": "",
+      "translation": "уровень",
+      "category": "мир",
+      "frequency": 78,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "うるさい",
+      "romaji": "",
+      "translation": "надоедливый! шумный!",
+      "category": "эмоции",
+      "frequency": 76,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "怖い",
+      "hiragana": "こわい",
+      "romaji": "",
+      "translation": "страшный",
+      "category": "прил",
+      "frequency": 73,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "バカ",
+      "romaji": "",
+      "translation": "дурак!",
+      "category": "эмоции",
+      "frequency": 69,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "洞窟",
+      "hiragana": "どうくつ",
+      "romaji": "",
+      "translation": "пещера",
+      "category": "места",
+      "frequency": 64,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "任せて",
+      "hiragana": "まかせて",
+      "romaji": "",
+      "translation": "Оставь это мне!",
+      "category": "фразы",
+      "frequency": 62,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "新しい",
+      "hiragana": "あたらしい",
+      "romaji": "",
+      "translation": "новый",
+      "category": "прил",
+      "frequency": 62,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "昼",
+      "hiragana": "ひる",
+      "romaji": "",
+      "translation": "день (полдень)",
+      "category": "время",
+      "frequency": 61,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "ハクリュー",
+      "romaji": "",
+      "translation": "Хакурю / Драгонайр",
+      "category": "покемоны",
+      "frequency": 57,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "助ける",
+      "hiragana": "たすける",
+      "romaji": "",
+      "translation": "помогать, спасать",
+      "category": "глаголы",
+      "frequency": 57,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "電話",
+      "hiragana": "でんわ",
+      "romaji": "",
+      "translation": "телефон",
+      "category": "предметы",
+      "frequency": 57,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "スターミー",
+      "romaji": "",
+      "translation": "Сутами / Старми",
+      "category": "покемоны",
+      "frequency": 55,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "弱い",
+      "hiragana": "よわい",
+      "romaji": "",
+      "translation": "слабый",
+      "category": "битва",
+      "frequency": 54,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "よわい",
+      "romaji": "",
+      "translation": "слабый",
+      "category": "битва",
+      "frequency": 54,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "バリヤード",
+      "romaji": "",
+      "translation": "Бариядо / Мистер Майм",
+      "category": "покемоны",
+      "frequency": 53,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "捕まえる",
+      "hiragana": "つかまえる",
+      "romaji": "",
+      "translation": "поймать (покемона)",
+      "category": "глаголы",
+      "frequency": 53,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "わかった",
+      "romaji": "",
+      "translation": "Понял",
+      "category": "фразы",
+      "frequency": 52,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "速い",
+      "hiragana": "はやい",
+      "romaji": "",
+      "translation": "быстрый",
+      "category": "прил",
+      "frequency": 52,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "やったー",
+      "romaji": "",
+      "translation": "Урааа!",
+      "category": "эмоции",
+      "frequency": 46,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "ミュウツー",
+      "romaji": "",
+      "translation": "Мьюцу / Мьюту",
+      "category": "покемоны",
+      "frequency": 43,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "やはり",
+      "romaji": "",
+      "translation": "Как и ожидалось (форм.)",
+      "category": "фразы",
+      "frequency": 43,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "ガルーラ",
+      "romaji": "",
+      "translation": "Гарура / Кангасхан",
+      "category": "покемоны",
+      "frequency": 42,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "防御",
+      "hiragana": "ぼうぎょ",
+      "romaji": "",
+      "translation": "защита",
+      "category": "битва",
+      "frequency": 42,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "野生",
+      "hiragana": "やせい",
+      "romaji": "",
+      "translation": "дикий",
+      "category": "мир",
+      "frequency": 41,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "聞く",
+      "hiragana": "きく",
+      "romaji": "",
+      "translation": "слушать",
+      "category": "глаголы",
+      "frequency": 41,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "かっこいい",
+      "romaji": "",
+      "translation": "Крутой! Стильный!",
+      "category": "команда_R",
+      "frequency": 40,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "欲しい",
+      "hiragana": "ほしい",
+      "romaji": "",
+      "translation": "Хочу (чего-то)",
+      "category": "фразы",
+      "frequency": 40,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "フシギバナ",
+      "romaji": "",
+      "translation": "Фусигибана / Винузавр",
+      "category": "покемоны",
+      "frequency": 39,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "小さい",
+      "hiragana": "ちいさい",
+      "romaji": "",
+      "translation": "маленький",
+      "category": "прил",
+      "frequency": 39,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "回復",
+      "hiragana": "かいふく",
+      "romaji": "",
+      "translation": "восстановление (HP)",
+      "category": "битва",
+      "frequency": 38,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "かいふく",
+      "romaji": "",
+      "translation": "восстановление",
+      "category": "битва",
+      "frequency": 38,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "大きい",
+      "hiragana": "おおきい",
+      "romaji": "",
+      "translation": "большой",
+      "category": "прил",
+      "frequency": 37,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "やられた",
+      "romaji": "",
+      "translation": "Меня достали! Проиграл!",
+      "category": "битва",
+      "frequency": 35,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "わかる",
+      "romaji": "",
+      "translation": "понимать",
+      "category": "глаголы",
+      "frequency": 33,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "楽しい",
+      "hiragana": "たのしい",
+      "romaji": "",
+      "translation": "весёлый, приятный",
+      "category": "прил",
+      "frequency": 33,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "トキワシティ",
+      "romaji": "",
+      "translation": "Вёрджиния-Сити",
+      "category": "мир",
+      "frequency": 32,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "食べ物",
+      "hiragana": "たべもの",
+      "romaji": "",
+      "translation": "еда",
+      "category": "предметы",
+      "frequency": 31,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "ピッピカ",
+      "romaji": "",
+      "translation": "Пиппика! (атака!)",
+      "category": "звуки",
+      "frequency": 31,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "来い",
+      "hiragana": "こい",
+      "romaji": "",
+      "translation": "Иди сюда!",
+      "category": "команды",
+      "frequency": 26,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "見つける",
+      "hiragana": "みつける",
+      "romaji": "",
+      "translation": "найти",
+      "category": "глаголы",
+      "frequency": 26,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "遅い",
+      "hiragana": "おそい",
+      "romaji": "",
+      "translation": "медленный",
+      "category": "прил",
+      "frequency": 25,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "そうだね",
+      "romaji": "",
+      "translation": "Да, наверное",
+      "category": "фразы",
+      "frequency": 24,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "昨日",
+      "hiragana": "きのう",
+      "romaji": "",
+      "translation": "вчера",
+      "category": "время",
+      "frequency": 24,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "またまた",
+      "romaji": "",
+      "translation": "Снова! / Опять! (коронная фраза)",
+      "category": "команда_R",
+      "frequency": 23,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "美味しい",
+      "hiragana": "おいしい",
+      "romaji": "",
+      "translation": "вкусный",
+      "category": "прил",
+      "frequency": 23,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "すげえ",
+      "romaji": "",
+      "translation": "Круто! (муж. речь)",
+      "category": "эмоции",
+      "frequency": 22,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "任せろ",
+      "hiragana": "まかせろ",
+      "romaji": "",
+      "translation": "Доверься мне!",
+      "category": "команды",
+      "frequency": 21,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "まかせろ",
+      "romaji": "",
+      "translation": "Доверься мне!",
+      "category": "команды",
+      "frequency": 21,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "毎日",
+      "hiragana": "まいにち",
+      "romaji": "",
+      "translation": "каждый день",
+      "category": "время",
+      "frequency": 20,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "ハナダシティ",
+      "romaji": "",
+      "translation": "Синяя бухта (г. Ханада)",
+      "category": "мир",
+      "frequency": 19,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "考える",
+      "hiragana": "かんがえる",
+      "romaji": "",
+      "translation": "думать, размышлять",
+      "category": "глаголы",
+      "frequency": 19,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "任せる",
+      "hiragana": "まかせる",
+      "romaji": "",
+      "translation": "Доверить (кому-то)",
+      "category": "фразы",
+      "frequency": 18,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "機械",
+      "hiragana": "きかい",
+      "romaji": "",
+      "translation": "механизм, машина",
+      "category": "предметы",
+      "frequency": 13,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "ギャロップ",
+      "romaji": "",
+      "translation": "Гяроппу / Рапидаш",
+      "category": "покемоны",
+      "frequency": 12,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "だめ",
+      "romaji": "",
+      "translation": "Нельзя! Не выйдет!",
+      "category": "фразы",
+      "frequency": 12,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "クチバシティ",
+      "romaji": "",
+      "translation": "г. Кутиба (с портом)",
+      "category": "мир",
+      "frequency": 12,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "止まれ",
+      "hiragana": "とまれ",
+      "romaji": "",
+      "translation": "Стоп! Остановись!",
+      "category": "команды",
+      "frequency": 11,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "サントアンヌ号",
+      "hiragana": "サントアンヌごう",
+      "romaji": "",
+      "translation": "Корабль Сент-Анн",
+      "category": "мир",
+      "frequency": 11,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "おしゃれ",
+      "romaji": "",
+      "translation": "Модный, стильный",
+      "category": "команда_R",
+      "frequency": 10,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "やばい",
+      "romaji": "",
+      "translation": "Опасно! / Круто! (сленг)",
+      "category": "эмоции",
+      "frequency": 9,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "信じる",
+      "hiragana": "しんじる",
+      "romaji": "",
+      "translation": "верить",
+      "category": "глаголы",
+      "frequency": 8,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "避ける",
+      "hiragana": "さける",
+      "romaji": "",
+      "translation": "уклоняться",
+      "category": "битва",
+      "frequency": 7,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "話す",
+      "hiragana": "はなす",
+      "romaji": "",
+      "translation": "говорить",
+      "category": "глаголы",
+      "frequency": 7,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "最悪",
+      "hiragana": "さいあく",
+      "romaji": "",
+      "translation": "Ужасно! Худший",
+      "category": "эмоции",
+      "frequency": 6,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "でろ",
+      "romaji": "",
+      "translation": "Выходи!",
+      "category": "команды",
+      "frequency": 5,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "出ろ",
+      "hiragana": "でろ",
+      "romaji": "",
+      "translation": "Выходи!",
+      "category": "команды",
+      "frequency": 5,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "一匹",
+      "hiragana": "いっぴき",
+      "romaji": "",
+      "translation": "1 покемон (счёт)",
+      "category": "мир",
+      "frequency": 3,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "ゆけ",
+      "romaji": "",
+      "translation": "Вперёд! (уст.)",
+      "category": "команды",
+      "frequency": 1,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "ひどすぎる",
+      "romaji": "",
+      "translation": "Это слишком жестоко!",
+      "category": "эмоции",
+      "frequency": 1,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "つかえ",
+      "romaji": "",
+      "translation": "Используй!",
+      "category": "команды",
+      "frequency": 0,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "",
+      "hiragana": "まて",
+      "romaji": "",
+      "translation": "Стой! Жди!",
+      "category": "команды",
+      "frequency": 0,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "駄目",
+      "hiragana": "だめ",
+      "romaji": "",
+      "translation": "Не выйдет / Плохо",
+      "category": "фразы",
+      "frequency": 0,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "二匹",
+      "hiragana": "にひき",
+      "romaji": "",
+      "translation": "2 покемона",
+      "category": "мир",
+      "frequency": 0,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "三匹",
+      "hiragana": "さんびき",
+      "romaji": "",
+      "translation": "3 покемона",
+      "category": "мир",
+      "frequency": 0,
+      "note": "встречается в сериале"
+    },
+    {
+      "kanji": "嘘",
+      "hiragana": "うそ",
+      "romaji": "",
+      "translation": "ложь! не может быть!",
+      "category": "эмоции",
+      "frequency": 0,
+      "note": "встречается в сериале"
     }
   ]
 }

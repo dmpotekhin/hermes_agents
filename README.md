@@ -69,7 +69,9 @@
 │   ├── chromadb/                # ChromaDB векторная БД
 │   ├── patterns.jsonl           # 723 паттерна N5–N1
 │   ├── user_vocab.json          # 929 слов · 25 тем
-│   ├── pokemon_vocab.json       # 28 слов · шпаргалка Pokémon
+│   ├── pokemon_vocab.json       # 207 слов · словарь Pokémon (из 283 субтитров)
+│   ├── pokemon_phrasebook.md        # Разговорник Pokémon (14 категорий, markdown)
+│   ├── pokemon_extra_words.json     # +68 имён покемонов из Johto
 │   ├── 30_days_conversation_prompts.md    # Промты для разговорной практики (v1)
 │   ├── Perplexity_N5_30days_v2.md         # Промты v2 · двуязычные + адаптивная сложность
 │   ├── n4_akuzawa_monthly_plan.md   # 30-дневный план N4 (Акудзава)
@@ -154,6 +156,9 @@
 | `patterns.jsonl` | 723 паттерна с примерами, хираганой, ромадзи |
 | `chromadb/` | Векторная БД для семантического поиска (модель `intfloat/multilingual-e5-small`) |
 || `user_vocab.json` | Персональный словарь: 929 слов, 25 тем |
+|| `pokemon_vocab.json` | Словарь Pokémon: 207 слов, 14 категорий (из 283 субтитров) |
+|| `pokemon_phrasebook.md` | Разговорник Pokémon для просмотра (таблицы по категориям) |
+|| `pokemon_extra_words.json` | Доп. имена покемонов (Johto) — 68 шт. |
 | `study_plan.json` | 30-дневный план N5 с разбивкой по дням |
 | `study_progress.json` | Прогресс изучения |
 | `query_rag.py` | CLI-поиск по RAG |
