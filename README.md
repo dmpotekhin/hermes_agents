@@ -74,6 +74,7 @@
 │   ├── pokemon_extra_words.json     # +68 имён покемонов из Johto
 │   ├── 30_days_conversation_prompts.md    # Промты для разговорной практики (v1)
 │   ├── Perplexity_N5_30days_v2.md         # Промты v2 · двуязычные + адаптивная сложность
+│   ├── Perplexity_N4_30days_v1.md         # Промты N4 · 30 дней разговорной практики (Акудзава)
 │   ├── n4_akuzawa_monthly_plan.md   # 30-дневный план N4 (Акудзава)
 │   ├── n4_monthly_plan.md           # 30-дневный детальный план N4
 │   ├── n3_akuzawa_monthly_plan.md   # 30-дневный план N3 (Акудзава)
@@ -164,12 +165,13 @@
 | `query_rag.py` | CLI-поиск по RAG |
 | `daily_lesson.py` | Генератор ежедневного урока |
 | `30_days_conversation_prompts.md` | 30 промтов для разговорной практики (v1) |
-|| `Perplexity_N5_30days_v2.md` | 30 промтов v2 — двуязычные, с адаптивной сложностью |
-|| `n4_akuzawa_monthly_plan.md` | 30-дневный план N4 по Акудзаве |
-|| `n4_monthly_plan.md` | 30-дневный детальный план N4 |
-|| `n3_akuzawa_monthly_plan.md` | 30-дневный план N3 по Акудзаве |
-|| `n2_akuzawa_monthly_plan.md` | 30-дневный план N2 по Акудзаве |
-|| `n1_akuzawa_monthly_plan.md` | 30-дневный план N1 по Акудзаве |
+| `Perplexity_N5_30days_v2.md` | 30 промтов v2 — двуязычные, с адаптивной сложностью |
+| `Perplexity_N4_30days_v1.md` | 30 промтов N4 — разговорная практика по Акудзаве (словарь + грамматика + сценарий) |
+| `n4_akuzawa_monthly_plan.md` | 30-дневный план N4 по Акудзаве |
+| `n4_monthly_plan.md` | 30-дневный детальный план N4 |
+| `n3_akuzawa_monthly_plan.md` | 30-дневный план N3 по Акудзаве |
+| `n2_akuzawa_monthly_plan.md` | 30-дневный план N2 по Акудзаве |
+| `n1_akuzawa_monthly_plan.md` | 30-дневный план N1 по Акудзаве |
 
 ### Поиск по RAG
 
