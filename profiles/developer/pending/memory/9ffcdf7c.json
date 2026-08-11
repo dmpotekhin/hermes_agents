@@ -1,0 +1,19 @@
+{
+  "id": "9ffcdf7c",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 1 op(s) to memory: - add: dmpotekhin.github.io project at /Users/dmitrypotekhin/Downloads/dmpotekhin.github.io. GitHub Pages site: resume +",
+  "origin": "background_review",
+  "created_at": 1785013920.051133,
+  "payload": {
+    "action": "batch",
+    "target": "memory",
+    "operations": [
+      {
+        "action": "add",
+        "content": "dmpotekhin.github.io project at /Users/dmitrypotekhin/Downloads/dmpotekhin.github.io. GitHub Pages site: resume + book collection. Live: https://dmpotekhin.github.io. Remote: git@github.com:dmpotekhin/dmpotekhin.github.io.git. Branch: master. Books page: 521 books from Книги.xlsx with 4 genres, notes in js/notes-data.js. Use skill github-pages-books for workflows.",
+        "target": "memory"
+      }
+    ]
+  }
+}

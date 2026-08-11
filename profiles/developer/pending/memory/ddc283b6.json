@@ -1,0 +1,14 @@
+{
+  "id": "ddc283b6",
+  "subsystem": "memory",
+  "action": "add",
+  "summary": "add to memory: Book notes format for dmpotekhin.github.io: 5 theses (hero/setting/conflict/twist/ending) + takeaway (2-3 sentences). No",
+  "origin": "background_review",
+  "created_at": 1785014348.697804,
+  "payload": {
+    "action": "add",
+    "target": "memory",
+    "content": "Book notes format for dmpotekhin.github.io: 5 theses (hero/setting/conflict/twist/ending) + takeaway (2-3 sentences). Non-fiction: concepts/methods/application/insight/audience. File: js/notes-data.js as `const bookNotes = { \"exact title\": { theses: [...], takeaway: \"...\" } }`. Skill: book-notes-workflow.",
+    "old_text": null
+  }
+}

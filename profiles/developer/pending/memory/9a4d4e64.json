@@ -1,0 +1,14 @@
+{
+  "id": "9a4d4e64",
+  "subsystem": "memory",
+  "action": "add",
+  "summary": "add to user profile: User prefers DeepSeek API for LLM tasks (deepseek-flash for cost savings, over deepseek-chat). Uses Handy.app (open-sour",
+  "origin": "background_review",
+  "created_at": 1786061661.921688,
+  "payload": {
+    "action": "add",
+    "target": "user",
+    "content": "User prefers DeepSeek API for LLM tasks (deepseek-flash for cost savings, over deepseek-chat). Uses Handy.app (open-source speech-to-text for macOS) for voice input. API keys stored in local .env files, never committed to git.",
+    "old_text": null
+  }
+}

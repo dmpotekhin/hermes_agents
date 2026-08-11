@@ -1,0 +1,26 @@
+{
+  "id": "04b4bad6",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 3 op(s) to memory: - add: User prefers DeepSeek API for LLM tasks. DEEPSEEK_API_KEY must be set as env var, NEVER committed to git. No Olla",
+  "origin": "background_review",
+  "created_at": 1786060356.052306,
+  "payload": {
+    "action": "batch",
+    "target": "memory",
+    "operations": [
+      {
+        "action": "add",
+        "content": "User prefers DeepSeek API for LLM tasks. DEEPSEEK_API_KEY must be set as env var, NEVER committed to git. No Ollama on Mac."
+      },
+      {
+        "action": "add",
+        "content": "RAG Assistant project at ~/projects/rag-assistant/. Tech: FastAPI + ChromaDB + sentence-transformers (all-MiniLM-L6-v2) for embeddings + DeepSeek API for command parsing. Web UI on :8765. Start: ./start.sh. Tests need DEEPSEEK_API_KEY env var and venv python for full suite — sandbox can't handle ChromaDB+model load, run on host."
+      },
+      {
+        "action": "add",
+        "content": "User denied git rm --cached multiple times — ask before destructive git commands. User expects progress updates during long-running tasks."
+      }
+    ]
+  }
+}

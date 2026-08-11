@@ -1,0 +1,19 @@
+{
+  "id": "bf2942d4",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 1 op(s) to memory: - replace: QA Interview Trainer project at /Users/dmitrypotekhin/trainer/qa-interview-trainer/. Three services: backend",
+  "origin": "background_review",
+  "created_at": 1786108423.7419689,
+  "payload": {
+    "action": "batch",
+    "target": "memory",
+    "operations": [
+      {
+        "action": "replace",
+        "old_text": "QA Interview Trainer project at /Users/dmitrypotekhin/trainer/qa-interview-trainer/. Three services: backend (FastAPI, port 8000), frontend (Vite+React, port 3000), mock API (Python, port 8080). PostgreSQL 16 at localhost:5432 (database: trainer, user: trainer).",
+        "content": "QA Interview Trainer project at /Users/dmitrypotekhin/trainer/qa-interview-trainer/. Three services: backend (FastAPI, port 8000), frontend (Vite+React, port 3000), mock API (Python, port 8080). PostgreSQL 16 at localhost:5432.\n\nRAG Assistant project at /Users/dmitrypotekhin/projects/rag-assistant/. GitHub: https://github.com/dmpotekhin/Rag-assistant. Stack: FastAPI + ChromaDB + sentence-transformers (all-MiniLM-L6-v2) + DeepSeek API (deepseek-flash). LLM via DEEPSEEK_API_KEY env var (.env file in project root, .gitignored). Embeddings: sentence-transformers (no Ollama). Web UI at localhost:8765. Voice via Handy.app → /api/chat. Notes to Obsidian vault. Start: ./start.sh (auto-loads .env). Full test suite times out in sandbox due to ML model load — run on host."
+      }
+    ]
+  }
+}

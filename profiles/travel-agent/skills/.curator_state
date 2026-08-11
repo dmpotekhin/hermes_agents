@@ -1,9 +1,9 @@
 {
-  "last_report_path": "/Users/dmitrypotekhin/.hermes/profiles/travel-agent/logs/curator/20260722-174519",
-  "last_run_at": "2026-07-22T17:45:19.293546+00:00",
-  "last_run_duration_seconds": 0.486779,
-  "last_run_summary": "auto: no changes; llm: skipped (consolidation off)",
+  "last_report_path": "/Users/dmitrypotekhin/.hermes/profiles/travel-agent/logs/curator/20260805-194141",
+  "last_run_at": "2026-08-05T19:41:41.213287+00:00",
+  "last_run_duration_seconds": 1.157086,
+  "last_run_summary": "auto: 1 marked stale; llm: skipped (consolidation off)",
   "last_run_summary_shown_at": null,
   "paused": false,
-  "run_count": 5
+  "run_count": 7
 }

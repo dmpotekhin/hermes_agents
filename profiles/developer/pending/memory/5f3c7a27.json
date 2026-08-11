@@ -1,0 +1,18 @@
+{
+  "id": "5f3c7a27",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 1 op(s) to memory: - add: RAG Assistant project at /Users/dmitrypotekhin/projects/rag-assistant/. Full-stack: FastAPI + ChromaDB + sentence",
+  "origin": "background_review",
+  "created_at": 1786127384.529139,
+  "payload": {
+    "action": "batch",
+    "target": "memory",
+    "operations": [
+      {
+        "action": "add",
+        "content": "RAG Assistant project at /Users/dmitrypotekhin/projects/rag-assistant/. Full-stack: FastAPI + ChromaDB + sentence-transformers + DeepSeek API. Web UI on localhost:8765. Voice via Handy.app. Notes to Obsidian. 9 tasks, 15 tests. Start: ./start.sh (auto-loads .env). Model: deepseek-flash."
+      }
+    ]
+  }
+}

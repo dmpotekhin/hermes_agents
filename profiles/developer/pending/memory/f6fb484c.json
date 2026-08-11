@@ -1,0 +1,26 @@
+{
+  "id": "f6fb484c",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 3 op(s) to memory: - add: Kids Learn project at /Users/dmitrypotekhin/projects/kids-learn/. Web app for kids' math & Python education. Fast",
+  "origin": "background_review",
+  "created_at": 1785846740.2564921,
+  "payload": {
+    "action": "batch",
+    "target": "memory",
+    "operations": [
+      {
+        "action": "add",
+        "content": "Kids Learn project at /Users/dmitrypotekhin/projects/kids-learn/. Web app for kids' math & Python education. FastAPI backend (port 8000) + React/Vite frontend (port 5173). SQLite. DeepSeek API via OpenAI SDK. Start: ./start.sh. Venv at project root. No auth (single-user MVP). 2 courses: Python Basics (7 tasks) + Math Basics (8 tasks). Task types: choice, number, text, code (sandbox via subprocess)."
+      },
+      {
+        "action": "add",
+        "content": "Projects go in ~/projects/. Standard layout: venv at project root, backend/ (FastAPI, port 8000), frontend/ (Vite+React, port 5173). Node 20 via nvm (default system node is v14). .env for API keys."
+      },
+      {
+        "action": "add",
+        "content": "User prefers subagent-driven-development (SDD) for executing multi-task implementation plans. Prefers Russian language. DeepSeek API key goes in .env file (DEEPSEEK_API_KEY), not env variable."
+      }
+    ]
+  }
+}

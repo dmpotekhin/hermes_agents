@@ -1,0 +1,14 @@
+{
+  "id": "13ff615d",
+  "subsystem": "memory",
+  "action": "add",
+  "summary": "add to memory: RAG Assistant project at /Users/dmitrypotekhin/projects/rag-assistant/. Stack: FastAPI (port 8765), ChromaDB, sentence-t",
+  "origin": "background_review",
+  "created_at": 1786061656.43407,
+  "payload": {
+    "action": "add",
+    "target": "memory",
+    "content": "RAG Assistant project at /Users/dmitrypotekhin/projects/rag-assistant/. Stack: FastAPI (port 8765), ChromaDB, sentence-transformers (all-MiniLM-L6-v2), DeepSeek API (deepseek-flash for cost). Web UI at localhost:8765. Voice control via Handy.app → /api/chat. Notes → Obsidian vault. DEEPSEEK_API_KEY stored in .env file (gitignored). Start: ./start.sh (auto-loads .env). User prefers deepseek-flash over deepseek-chat.",
+    "old_text": null
+  }
+}

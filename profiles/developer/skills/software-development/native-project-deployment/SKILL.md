@@ -110,6 +110,33 @@ After verifying everything works, create a `start.sh` that captures the full lau
 - **Password masking in patch strings**: terminal password masking can corrupt strings containing `***`. Use distinct non-masked placeholders like `demo-token` in patch/old_string/new_string. Always `read_file` after patching to verify the actual content.
 - **git merge unrelated histories**: GitHub auto-creates a default branch (e.g. `master`) with an initial commit. Merging a separately-initialized branch requires `git merge main --allow-unrelated-histories`. Conflicts in auto-generated files (README.md, .gitignore) should be resolved with `git checkout --theirs <file>` to keep the project version.
 - **Node.js version in non-interactive shells**: background/non-login shells may pick up system Node instead of nvm. Symptom: `SyntaxError: Unexpected token '??='`. Always source nvm before npm/node commands: `export NVM_DIR="$HOME/.nvm"; [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"`.
+- **Homebrew node shadows nvm node (this user's Mac)**: `which node` can resolve to `/usr/local/opt/node@14/bin/node` even when nvm has a newer Node installed (e.g. v20.20.0), if the Homebrew node path precedes nvm on `$PATH`. Current Vite needs Node ≥18, so `npm create vite@latest` / `npm run dev` will fail or silently scaffold under the wrong version. **Reliable fix — prepend the explicit nvm node bin dir to PATH for that command** rather than relying on source-order guessing:
+  ```bash
+  export PATH="$HOME/.nvm/versions/node/v20.20.0/bin:$PATH" && node --version  # confirm, then run npm/vite
+  ```
+  Do this per npm command unless you've confirmed the export persists for the session. Check `which -a node npm` to see every candidate and pick `~/.nvm/versions/node/<ver>/bin` (the nvm path is always a valid full Node install without needing `nvm.sh` loaded).
+- **Package-style FastAPI app fails with `No module named 'backend'`**. If `main.py` does `from backend.database import ...` / `from backend.routers import ...`, the app is package-style and step 4's `cd backend && uvicorn main:app` **fails** with `ModuleNotFoundError: No module named 'backend'` (the `backend` package isn't on `sys.path`). Launch from the repo root with the package-qualified module path instead:
+  ```bash
+  cd ~/proj && ./venv/bin/uvicorn backend.main:app --port 8000
+  ```
+  Check the top of `main.py` for a `from backend.` import to decide which form to use before `kill %1`-style attempts.
+- **Port-holder that won't respond**: `lsof -ti:<port>` returning a PID while `curl` still gets `000`/`ECONNREFUSED` means the listener is wedged, not "up". There may be multiple competing supervisor wrappers (`pgrep -fl uvicorn` shows several `zsh -lic "… uvicorn …"` processes fighting to bind). Before debugging a frontend against a "ready" backend, confirm the API actually answers; and only kill processes you started — a supervisor wrapper that predates your session belongs to the user, so work around it (use a free port / different backend) rather than killing it.
+- **Foreground `trap 'kill $P1 $P2; exit' INT TERM` + `wait` silently orphaning servers**: In a foreground-style launch script that backgrounds both servers then does a `trap`-on-INT/TERM + `wait`, SIGINT sent **only to the script PID** does NOT kill the children — bash defers the trap handler until the blocking `wait` returns, and `wait` never returns because the servers don't exit on their own. Net effect: Ctrl+C does nothing and backend+frontend are orphaned. This is NOT a daily-user bug because a real terminal Ctrl+C delivers SIGINT to the whole foreground **process group**, so uvicorn/vite get it directly and shut down (verified: servers log clean shutdown and ports are released). It only bites when something signals just the leader PID (some supervisors/Docker stop). Mitigations: (1) prefer the `nohup … &` exit-and-leave-running pattern (see `templates/start-native.sh`) when the script should hand control back; (2) if you keep trap+wait, rename the wrapper trait in comments: real Ctrl+C works, so just document it; (3) to make single-PID SIGINT also work you can `kill` from a `wait $PID` loop but that fights bash semantics — don't over-engineer.
+- **Verifying a launch script's Ctrl+C / kill behavior — simulate the process group, NOT single-PID**: To prove a `start.sh` stops its servers, send SIGINT/SIGTERM to the whole process **group**, which is what a real terminal does — otherwise you'll get a false "script is broken" negative. On macOS `setsid` is NOT on PATH by default, so drive it from Python instead:
+  ```python
+  import os, signal, time, subprocess
+  pid = os.fork()
+  if pid == 0:
+      os.setsid()                      # child becomes new session/group leader
+      os.execv("/bin/bash", ["/bin/bash", "/abs/path/start.sh"])
+  else:
+      time.sleep(12)                   # let both servers boot
+      # probe health + http 200 first
+      os.killpg(pid, signal.SIGINT)    # real Ctrl+C == SIGINT to the group
+      time.sleep(4)
+      os.system("lsof -ti:8000; lsof -ti:5173")  # should print nothing => ports freed
+  ```
+  Expect the bash wrapper itself to still be alive a few seconds after group-SIGINT (it's blocked in `wait`); what matters is that children are gone and ports are freed. Probe ports with `lsof -ti:<port>` after the kill, and always clean up any orphaned PIDs you created.
 
 ## Screenshot-driven verification (OCR)
 

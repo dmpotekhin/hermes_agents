@@ -1,0 +1,22 @@
+{
+  "id": "c95d2b41",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 2 op(s) to memory: - add: Kids Learn project at /Users/dmitrypotekhin/projects/kids-learn/. Web app for kids' math & Python learning, inspi",
+  "origin": "background_review",
+  "created_at": 1785846897.940843,
+  "payload": {
+    "action": "batch",
+    "target": "memory",
+    "operations": [
+      {
+        "action": "add",
+        "content": "Kids Learn project at /Users/dmitrypotekhin/projects/kids-learn/. Web app for kids' math & Python learning, inspired by Brilliant.org. Stack: FastAPI backend (port 8000), React+Vite frontend (port 5173), SQLite, DeepSeek API (deepseek-v4-flash) for explanations. Code sandbox via subprocess (no Docker). Start: ./start.sh or uvicorn backend.main:app --port 8000 (from PROJECT ROOT — NOT from backend/ dir, causes ModuleNotFoundError). Frontend needs Node 20 via nvm."
+      },
+      {
+        "action": "add",
+        "content": "DeepSeek API key expected in DEEPSEEK_API_KEY env var, loaded from .env file in project root. Base URL: https://api.deepseek.com, model: deepseek-v4-flash. Compatible with OpenAI SDK."
+      }
+    ]
+  }
+}

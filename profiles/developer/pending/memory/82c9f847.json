@@ -1,0 +1,26 @@
+{
+  "id": "82c9f847",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 3 op(s) to memory: - add: User prefers anime-style aesthetics for Japanese-themed UI: sakura petals, torii gates, waves, starry night backg",
+  "origin": "background_review",
+  "created_at": 1786456188.2898839,
+  "payload": {
+    "action": "batch",
+    "target": "memory",
+    "operations": [
+      {
+        "action": "add",
+        "content": "User prefers anime-style aesthetics for Japanese-themed UI: sakura petals, torii gates, waves, starry night backgrounds. Uses Satori Reader as design reference."
+      },
+      {
+        "action": "add",
+        "content": "Japanese Reader project at /Users/dmitrypotekhin/projects/japanese-reader/ — React+Vite+TypeScript+Tailwind, kuroshiro for furigana, Web Speech API for audio. Satori Reader-inspired redesign applied (dark theme, sidebar, card grid, 5 anime backgrounds)."
+      },
+      {
+        "action": "add",
+        "content": "User wants per-paragraph speech playback with visual highlighting (blue left border + background on active paragraph, auto-scroll). Word popup must show: hiragana reading, romaji, grammar (parts of speech from Jisho), definitions, Russian translation."
+      }
+    ]
+  }
+}

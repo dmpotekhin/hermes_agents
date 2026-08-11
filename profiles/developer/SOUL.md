@@ -21,8 +21,10 @@
 - Обязательно: тесты (если логика), commit
 
 **feature** — новая функциональность, >3 файлов:
-- ПОЛНЫЙ ЦИКЛ: brainstorming → writing-plans → OK → RED/GREEN/REFACTOR → COMMIT →
-  simplify-code → requesting-code-review → verification-before-completion → "Готово"
+- ПОЛНЫЙ ЦИКЛ: project-state → discuss → brainstorming → writing-plans → OK →
+  RED/GREEN/REFACTOR → COMMIT → simplify-code → security-review →
+  requesting-code-review → verification-before-completion (с coverage check) →
+  project-state (update) → "Готово"
 
 **architecture-change** — изменение схемы БД, API, инфраструктуры:
 - ПОЛНЫЙ ЦИКЛ как feature + ADR в docs/adr/
@@ -35,10 +37,13 @@
 ## Обязательный процесс
 
 **Перед задачей:**
-1. Классифицировать задачу (см. выше)
-2. Если задача расплывчата → brainstorming (≤5 уточняющих вопросов)
-3. Для feature/architecture-change → writing-plans → показать план → ждать подтверждения
-4. Только после OK → реализация
+1. project-state: прочитать `.planning/STATE.md` для ориентации (если нет — создать через state init)
+2. Классифицировать задачу (см. выше)
+3. Если задача расплывчата → brainstorming (≤5 уточняющих вопросов)
+4. Для feature/architecture-change:
+   a. Если нет `.planning/phases/<name>/CONTEXT.md` → discuss (зафиксировать implementation decisions)
+   b. writing-plans → показать план → ждать подтверждения
+5. Только после OK → реализация
 
 **При реализации (micro-loop, для feature/quick-win):**
 RED → GREEN → REFACTOR → COMMIT → следующий тест
@@ -48,7 +53,14 @@ RED → GREEN → REFACTOR → COMMIT → следующий тест
 Сканер: `python3 ~/.hermes/profiles/developer/tools/scan_credentials.py --staged`
 
 **Завершение (только feature/architecture-change):**
-simplify-code → requesting-code-review → verification-before-completion → "Готово"
+simplify-code → security-review → requesting-code-review → verification-before-completion → "Готово"
+
+**Security Review (для feature/architecture-change):**
+- Запустить skill `security-review`: взять `git diff`, проанализировать на уязвимости
+- HIGH findings → СТОП, показать пользователю, не продолжать
+- MEDIUM findings → показать, спросить «продолжить?»
+- Чисто → продолжать молча
+- Можно вызвать вручную в любой момент: «проведи security review»
 
 ## Frozen Specs (замороженные спецификации)
 

@@ -471,3 +471,138 @@ export async function translateText(text: string, lang: TranslationLang): Promis
   return result
 }
 ```
+
+## Romaji Conversion via Kuroshiro
+
+Kuroshiro outputs romaji with `mode: 'spaced'` and `to: 'romaji'`. Add standalone exports alongside the hook:
+
+```ts
+// hooks/useKuroshiro.ts
+export async function toRomaji(text: string): Promise<string> {
+  const k = await getKuroshiro()
+  return k.convert(text, { mode: 'spaced', to: 'romaji' })
+}
+
+export async function toHiragana(text: string): Promise<string> {
+  const k = await getKuroshiro()
+  return k.convert(text, { mode: 'normal', to: 'hiragana' })
+}
+```
+
+Use in WordPopup — display romaji below the hiragana reading:
+
+```tsx
+const [romaji, setRomaji] = useState<string>('')
+useEffect(() => {
+  if (!kanji) return
+  toRomaji(kanji).then((r) => setRomaji(r.trim()))
+}, [kanji])
+// In JSX: {romaji && <p style={{ color: 'var(--sr-accent)' }}>{romaji}</p>}
+```
+
+## Grammar Info — Parts of Speech from Jisho
+
+Jisho returns `parts_of_speech` per sense. Extract and display as tags:
+
+```ts
+const partsOfSpeech = (entry.senses?.[0]?.parts_of_speech || []).slice(0, 5)
+
+// In popup: chip-style tags — "Noun", "Godan verb with ru ending", "I-adjective", etc.
+```
+
+## Per-Paragraph Rendering with Active Highlight
+
+Split text into paragraphs and render each as a separate `<FuriganaText>`. When a paragraph is spoken aloud, highlight it with a blue left border + subtle background.
+
+### Paragraph splitting — use `/\n+/`, not `'\n\n'`
+
+**Pitfall**: `split('\n\n')` only catches double newlines. Japanese text often has single `\n`. Use regex:
+
+```ts
+const paragraphs = useMemo(() => {
+  return text.content.split(/\n+/).filter((p) => p.trim())
+}, [text])
+```
+
+### Active paragraph state + auto-scroll
+
+```tsx
+const [activeParagraph, setActiveParagraph] = useState<number | null>(null)
+
+useEffect(() => {
+  if (activeParagraph !== null) {
+    document.querySelector('.active-paragraph')
+      ?.scrollIntoView({ behavior: 'smooth', block: 'center' })
+  }
+}, [activeParagraph])
+```
+
+### Conditional styling per paragraph
+
+```tsx
+{paragraphs.map((para, i) => (
+  <div key={i} className="mb-7 transition-all duration-300"
+    style={activeParagraph === i ? {
+      borderLeft: '3px solid var(--sr-accent)',
+      backgroundColor: 'rgba(139,184,214,0.08)',
+      borderRadius: '0 8px 8px 0',
+    } : { borderLeft: '3px solid transparent' }}
+  >
+    <FuriganaText text={para} onWordClick={handleWordClick} />
+  </div>
+))}
+```
+
+### Paragraph playback buttons in AudioPlayer
+
+Each paragraph gets a `§N` button. The `onActiveParagraphChange` callback notifies the parent (Reader) to highlight:
+
+```tsx
+const handlePlayParagraph = (paraText: string, index: number) => {
+  stop()
+  setActiveParagraph(index)
+  onActiveParagraphChange?.(index)
+  setTimeout(() => {
+    speak(paraText)
+    // Poll for speech end (onend fires on utterance, not reliably tracked via state)
+    const checkEnd = setInterval(() => {
+      if (!window.speechSynthesis.speaking && !window.speechSynthesis.pending) {
+        setActiveParagraph(null)
+        onActiveParagraphChange?.(null)
+        clearInterval(checkEnd)
+      }
+    }, 200)
+  }, 50)
+}
+```
+
+Pulse animation for active paragraph button:
+
+```css
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(139,184,214,0.4); }
+  50% { box-shadow: 0 0 0 4px rgba(139,184,214,0); }
+}
+```
+
+## Auto-Fill Title from First Line
+
+When the user pastes text into the custom text modal, auto-extract the first line as the title:
+
+```tsx
+const [titleAutoSet, setTitleAutoSet] = useState(false)
+
+const handleContentChange = (value: string) => {
+  setContent(value)
+  if (!titleAutoSet && !title.trim()) {
+    const firstLine = value.trim().split(/\n/)[0].slice(0, 50).trim()
+    if (firstLine) { setTitle(firstLine); setTitleAutoSet(true) }
+  }
+}
+
+// On manual edit → mark as user-set:
+onChange={(e) => { setTitle(e.target.value); setTitleAutoSet(true) }}
+
+// Fallback on save:
+onSave(title.trim() || content.trim().split(/\n/)[0].slice(0, 50).trim() || 'Untitled', content.trim())
+```

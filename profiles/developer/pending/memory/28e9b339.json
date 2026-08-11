@@ -1,0 +1,14 @@
+{
+  "id": "28e9b339",
+  "subsystem": "memory",
+  "action": "add",
+  "summary": "add to memory: Obsidian dev journal is at Brain/notes/journal/YYYY-MM-DD.md (NOT Brain/journal/). Brain MCP brain_create_note writes to",
+  "origin": "background_review",
+  "created_at": 1785018091.159508,
+  "payload": {
+    "action": "add",
+    "target": "memory",
+    "content": "Obsidian dev journal is at Brain/notes/journal/YYYY-MM-DD.md (NOT Brain/journal/). Brain MCP brain_create_note writes to Brain/notes/ by default (good), but brain_devlog writes to Brain/journal/ (wrong path). When logging dev entries for this user, use brain_create_note with path=\"journal/YYYY-MM-DD.md\" or patch the Brain/journal/ file manually into Brain/notes/journal/.",
+    "old_text": null
+  }
+}

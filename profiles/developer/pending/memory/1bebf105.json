@@ -1,0 +1,22 @@
+{
+  "id": "1bebf105",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 2 op(s) to memory: - add: RAG Assistant project: ~/projects/rag-assistant/. Uses DeepSeek API (deepseek-chat) for LLM command parsing, loca",
+  "origin": "background_review",
+  "created_at": 1786053582.90013,
+  "payload": {
+    "action": "batch",
+    "target": "memory",
+    "operations": [
+      {
+        "action": "add",
+        "content": "RAG Assistant project: ~/projects/rag-assistant/. Uses DeepSeek API (deepseek-chat) for LLM command parsing, local Ollama (nomic-embed-text) for embeddings. API key via DEEPSEEK_API_KEY env var — NEVER commit to git. Config in config.yaml (no secrets)."
+      },
+      {
+        "action": "add",
+        "content": "RAG Assistant tech choices: FastAPI + uvicorn, ChromaDB (local), APScheduler for cron, Vanilla HTML/CSS/JS dark-theme web UI, Obsidian vault for notes, Handy.app for voice input. Russian-language interface."
+      }
+    ]
+  }
+}

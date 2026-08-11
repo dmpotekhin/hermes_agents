@@ -1,0 +1,26 @@
+{
+  "id": "fe7f9f02",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 3 op(s) to memory: - add: beautify-github-readme skill: audit_readme.py lives in the skill directory (~/.hermes/profiles/.../beautify-githu",
+  "origin": "background_review",
+  "created_at": 1785098718.3036218,
+  "payload": {
+    "action": "batch",
+    "target": "memory",
+    "operations": [
+      {
+        "action": "add",
+        "content": "beautify-github-readme skill: audit_readme.py lives in the skill directory (~/.hermes/profiles/.../beautify-github-readme/scripts/), NOT the project directory. When running it, find the skill dir first: SKILL_DIR=$(find ~/.hermes/profiles -path \"*/beautify-github-readme\" -type d | head -1). Same for render_motion_gif.py."
+      },
+      {
+        "action": "add",
+        "content": "beautify-github-readme skill: git commit is LOCAL-ONLY — changes are NOT visible on GitHub until git push. User may say 'commit' and expect github.com visibility. Always clarify: commit saves locally, push publishes. Push requires fork+auth for repos user doesn't own. The fork flow: create fork on GitHub → git remote add fork → push to fork → PR to upstream."
+      },
+      {
+        "action": "add",
+        "content": "beautify-github-readme skill was created in this session (2026-07-26) from oil-oil/beautify-github-readme. Full port: SKILL.md + 7 references + 2 scripts. Located at ~/.hermes/profiles/developer/skills/software-development/beautify-github-readme/. Curator blocks edits because metadata says created_by=None — this is a bug, the skill IS agent-created via skill_manage."
+      }
+    ]
+  }
+}

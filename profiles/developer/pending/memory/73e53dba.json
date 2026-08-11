@@ -1,0 +1,27 @@
+{
+  "id": "73e53dba",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 3 op(s) to memory: - replace: QA Interview Trainer project at /Users/dmitrypotekhin/trainer/qa-interview-trainer/. -> QA Interview Trainer",
+  "origin": "background_review",
+  "created_at": 1786055852.225686,
+  "payload": {
+    "action": "batch",
+    "target": "memory",
+    "operations": [
+      {
+        "action": "replace",
+        "old_text": "QA Interview Trainer project at /Users/dmitrypotekhin/trainer/qa-interview-trainer/.",
+        "content": "QA Interview Trainer project at /Users/dmitrypotekhin/trainer/qa-interview-trainer/. Three services: backend (FastAPI, port 8000), frontend (Vite+React, port 3000), mock API (Python, port 8080). PostgreSQL 16 at localhost:5432 (database: trainer, user: trainer)."
+      },
+      {
+        "action": "add",
+        "content": "RAG Assistant project at /Users/dmitrypotekhin/projects/rag-assistant/. Tech: FastAPI + ChromaDB + sentence-transformers (all-MiniLM-L6-v2) + DeepSeek API (chat). Local macOS app with voice control via Handy.app, Obsidian notes, web UI. Embedding: sentence-transformers (not Ollama). LLM: DeepSeek API (key via DEEPSEEK_API_KEY env var)."
+      },
+      {
+        "action": "add",
+        "content": "When Ollama is not installed or available, sentence-transformers (all-MiniLM-L6-v2, ~90MB, pip install) is a reliable pure-Python embedding alternative — no server needed, 384-dim embeddings, works on CPU."
+      }
+    ]
+  }
+}

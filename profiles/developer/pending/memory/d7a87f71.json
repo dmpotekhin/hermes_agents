@@ -1,0 +1,14 @@
+{
+  "id": "d7a87f71",
+  "subsystem": "memory",
+  "action": "add",
+  "summary": "add to memory: QA Trainer Android project at /Users/dmitrypotekhin/qa-trainer-android/ — Kotlin, 5 screens (Basics/Forms/Lists/Gestures",
+  "origin": "background_review",
+  "created_at": 1784977587.120895,
+  "payload": {
+    "action": "add",
+    "target": "memory",
+    "content": "QA Trainer Android project at /Users/dmitrypotekhin/qa-trainer-android/ — Kotlin, 5 screens (Basics/Forms/Lists/Gestures/Challenges), Kaspresso + Appium tests. GitHub: github.com/dmpotekhin/qa-trainer-android (branch: main).",
+    "old_text": null
+  }
+}

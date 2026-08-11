@@ -1,0 +1,24 @@
+{
+  "id": "fa00b64d",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 2 op(s) to memory: - add: После редизайна с переименованием CSS-переменных ОБЯЗАТЕЛЬНО искать старые var(--old-name) по всей кодовой базе.",
+  "origin": "background_review",
+  "created_at": 1786455151.1645179,
+  "payload": {
+    "action": "batch",
+    "target": "memory",
+    "operations": [
+      {
+        "action": "add",
+        "content": "После редизайна с переименованием CSS-переменных ОБЯЗАТЕЛЬНО искать старые var(--old-name) по всей кодовой базе. Старые переменные разрешаются в пустоту без ошибок — кнопки/текст исчезают. Пример: заменили --accent на --sr-accent, а AudioPlayer и FuriganaToggle остались с var(--accent) → кнопки невидимы. Поиск: search_files(pattern=\"old-var-name\", target=\"content\", file_glob=\"*.{tsx,ts,css}\").",
+        "target": "memory"
+      },
+      {
+        "action": "add",
+        "content": "Для извлечения дизайн-токенов с сайта-референса использовать Playwright MCP: browser_navigate → browser_snapshot (структура) → browser_evaluate (CSS: getComputedStyle, цвета, шрифты). Сначала делать standalone HTML-прототип, показывать пользователю, потом внедрять в настоящий код.",
+        "target": "memory"
+      }
+    ]
+  }
+}

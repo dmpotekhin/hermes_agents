@@ -78,8 +78,8 @@ checkpoints:
   max_file_size_mb: 10
   auto_prune: true
   retention_days: 7
-  delete_orphans: true
   min_interval_hours: 24
+  delete_orphans: true
 file_read_max_chars: 100000
 mcp_discovery_timeout: 10
 tool_output:
@@ -107,17 +107,6 @@ compression:
   abort_on_summary_failure: false
   codex_gpt55_autoraise: true
   in_place: false
-kanban:
-  dispatch_in_gateway: true
-  dispatch_interval_seconds: 60
-  failure_limit: 2
-  worker_log_rotate_bytes: 2097152
-  worker_log_backup_count: 1
-  orchestrator_profile: ''
-  default_assignee: ''
-  auto_decompose: true
-  auto_decompose_per_tick: 3
-  dispatch_stale_timeout_seconds: 14400
 prompt_caching:
   cache_ttl: 5m
 openrouter:
@@ -466,6 +455,17 @@ cron:
     expected_audience: ''
     nas_jwks_url: ''
   wrap_response: true
+kanban:
+  dispatch_in_gateway: true
+  dispatch_interval_seconds: 60
+  failure_limit: 2
+  worker_log_rotate_bytes: 2097152
+  worker_log_backup_count: 1
+  orchestrator_profile: ''
+  default_assignee: ''
+  auto_decompose: true
+  auto_decompose_per_tick: 3
+  dispatch_stale_timeout_seconds: 14400
 code_execution:
   mode: project
 tools:
@@ -510,6 +510,7 @@ sessions:
 onboarding:
   seen:
     tool_progress_prompt: true
+    busy_input_prompt: true
   profile_build: ask
 updates:
   pre_update_backup: true
@@ -630,14 +631,14 @@ custom_providers:
       - claude-opus-4-8
       - gpt-5.5
       - gpt-5.6-luna
-      - muse-spark-1.1
+      - muse-spark-1.2
       - gpt-5.4-mini
       - grok-4.3
       - moonshotai/Kimi-K3
       - moonshotai/Kimi-K2.7-Code
       - zai-org/GLM-5.2
       - deepseek-ai/DeepSeek-V4-Pro
-      - deepseek-ai/DeepSeek-V4-Flash
+      - deepseek-ai/DeepSeek-V4-Flash-0731
       - claude-haiku-4-5-20251001
       - gpt-5.4-nano
       - gemini-3.5-flash-lite
@@ -646,6 +647,7 @@ custom_providers:
       - claude-sonnet-4-6
       - gpt-5.4
       - thinkingmachines/Inkling
+      - muse-spark-1.1
       - mimo-v2-pro
       - MiniMaxAI/MiniMax-M3
       - MiniMaxAI/MiniMax-M2.7
@@ -687,6 +689,10 @@ custom_providers:
       - o3
       - o3-pro
       - o4-mini
+      - gpt-realtime-whisper
+      - gpt-transcribe
+      - gpt-4o-transcribe
+      - gpt-4o-mini-transcribe
       - gpt-4o-mini
       - gpt-4o
       - gpt_image15
@@ -740,12 +746,10 @@ custom_providers:
       - kling_ai_v2
       - kling_ai_v21
       - minimax
-      - veo
       - hunyuan
       - wan
       - wan25
       - topaz
-      - veo3
       - seedance
       - seedance_pro
       - kling_ai_v25
@@ -755,14 +759,19 @@ custom_providers:
       - kling_ai_v26
       - kling_ai_v26_motion
       - kling_ai_v3
+      - kling_ai_v3_motion
       - kling_ai_o1
       - kling_ai_o3
       - seedance15_pro
       - seedance20
       - seedance20_mini
+      - seedance25
       - grok_imagine_video
       - grok_imagine_video15
       - gemini_omni_flash
+      - minimax_h3
+      - wan27_video
+      - flux3
 
 # ── Fallback Model ────────────────────────────────────────────────────
 # Automatic provider failover when primary is unavailable.

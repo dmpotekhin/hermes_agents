@@ -1,0 +1,22 @@
+{
+  "id": "da17aed9",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 2 op(s) to memory: - add: Content Factory: /Users/dmitrypotekhin/content-factory/ — Python pipeline для генерации Telegram-постов о тестиро",
+  "origin": "background_review",
+  "created_at": 1785270786.157706,
+  "payload": {
+    "action": "batch",
+    "target": "memory",
+    "operations": [
+      {
+        "action": "add",
+        "content": "Content Factory: /Users/dmitrypotekhin/content-factory/ — Python pipeline для генерации Telegram-постов о тестировании. Модули: devlog_scanner (читает Obsidian-журнал), topic_suggester (генерирует 5 тем → Obsidian), writer, critic (6 категорий), style_expert, hashtag_expert, post_saver. Hermes skill: vibe-coding-blogger."
+      },
+      {
+        "action": "add",
+        "content": "Пользователь хочет писать посты о «вайб-кодинге» в Telegram-канал о тестировании ПО. Материал: реальные проекты с GitHub (kafka-test-trainer, qa-interview-trainer, obsidian-brain, japanese-reader). Темы автоматически генерируются из dev-журнала и сохраняются в Obsidian (Brain/notes/content/)."
+      }
+    ]
+  }
+}

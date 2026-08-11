@@ -1,0 +1,29 @@
+{
+  "id": "a09461ac",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 3 op(s) to memory: - add: CodeMirror 6: `basicSetup` comes from the `codemirror` meta-package, NOT from individual `@codemirror/*` packages",
+  "origin": "background_review",
+  "created_at": 1785846757.9528031,
+  "payload": {
+    "action": "batch",
+    "target": "memory",
+    "operations": [
+      {
+        "action": "add",
+        "content": "CodeMirror 6: `basicSetup` comes from the `codemirror` meta-package, NOT from individual `@codemirror/*` packages. When using CodeMirror in React/Vite projects, install BOTH: `codemirror` (for basicSetup) AND `@codemirror/view`, `@codemirror/state`, `@codemirror/lang-python`, `@codemirror/theme-one-dark`. Without the meta-package, the `basicSetup` import will fail.",
+        "target": "memory"
+      },
+      {
+        "action": "add",
+        "content": "FastAPI project structure: when backend is a package (backend/ with __init__.py), run uvicorn from project ROOT: `uvicorn backend.main:app --port 8000`. Do NOT `cd backend && uvicorn main:app` — that breaks `from backend.xxx` imports with ModuleNotFoundError.",
+        "target": "memory"
+      },
+      {
+        "action": "add",
+        "content": "When using `npm create vite@latest frontend -- --template react`, the resulting React version tracks latest (React 19+), not a pinned version. Plans should account for this. React 19 is backward-compatible for standard hooks/components.",
+        "target": "memory"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "ecefa787",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 2 op(s) to memory: - add: beautify-github-readme skill: scripts live at ~/.hermes/profiles/developer/skills/software-development/beautify-g",
+  "origin": "background_review",
+  "created_at": 1785097148.514087,
+  "payload": {
+    "action": "batch",
+    "target": "memory",
+    "operations": [
+      {
+        "action": "add",
+        "content": "beautify-github-readme skill: scripts live at ~/.hermes/profiles/developer/skills/software-development/beautify-github-readme/scripts/, NOT in the project. Always use the full path when running audit_readme.py or render_motion_gif.py. The SKILL.md says 'python3 scripts/audit_readme.py' but that's a relative path that only works if the skill is installed inside the project."
+      },
+      {
+        "action": "add",
+        "content": "beautify-github-readme skill validated on two real uses: (1) visual refresh of public-facing README with hero + section headers, (2) full creation of internal architecture README for code package. Both used static SVG with terminal/developer-tool aesthetic. User consistently skips attribution and showcase. Skill is MIT-licensed, original by oil-oil."
+      }
+    ]
+  }
+}

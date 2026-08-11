@@ -1,0 +1,22 @@
+{
+  "id": "ec3c8215",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 2 op(s) to user profile: - add: Предпочитает общение на русском. Ценит прагматичные решения без переусложнения. Боится ухудшить работающую систем",
+  "origin": "background_review",
+  "created_at": 1786452353.634272,
+  "payload": {
+    "action": "batch",
+    "target": "user",
+    "operations": [
+      {
+        "action": "add",
+        "content": "Предпочитает общение на русском. Ценит прагматичные решения без переусложнения. Боится ухудшить работающую систему («боюсь хуже будет работать»). Разработчик, основной профиль Hermes: developer."
+      },
+      {
+        "action": "add",
+        "content": "QA Interview Trainer — основной проект. Использует Hermes Agent с моделью deepseek-v4-pro через DeepSeek API. Интересуется безопасностью (security review), CI/CD, улучшением процессов разработки."
+      }
+    ]
+  }
+}

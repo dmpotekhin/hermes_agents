@@ -1,0 +1,18 @@
+{
+  "id": "2d3b4a71",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 1 op(s) to memory: - add: RAG Assistant project at ~/projects/rag-assistant. Full test suite times out in execute_code sandbox due to Chrom",
+  "origin": "background_review",
+  "created_at": 1786134224.0360699,
+  "payload": {
+    "action": "batch",
+    "target": "memory",
+    "operations": [
+      {
+        "action": "add",
+        "content": "RAG Assistant project at ~/projects/rag-assistant. Full test suite times out in execute_code sandbox due to ChromaDB + sentence-transformers loading. Use targeted fast tests (test_health, <3s) as sandbox verification. Run heavy tests on host."
+      }
+    ]
+  }
+}

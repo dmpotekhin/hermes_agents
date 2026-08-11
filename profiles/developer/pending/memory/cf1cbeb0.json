@@ -1,0 +1,18 @@
+{
+  "id": "cf1cbeb0",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 1 op(s) to memory: - add: dmpotekhin.github.io books page: 521 books with genre filter/search/sort. Notes stored in js/notes-data.js keyed",
+  "origin": "background_review",
+  "created_at": 1785016058.381702,
+  "payload": {
+    "action": "batch",
+    "target": "memory",
+    "operations": [
+      {
+        "action": "add",
+        "content": "dmpotekhin.github.io books page: 521 books with genre filter/search/sort. Notes stored in js/notes-data.js keyed by exact book title. Notes format: {theses: [5 strings], takeaway: \"2-3 sentences\"}. Rendering in js/books.js, styles in css/styles.css. Push to master deploys via GitHub Pages (1-2 min CDN delay)."
+      }
+    ]
+  }
+}

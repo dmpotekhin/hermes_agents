@@ -1,0 +1,22 @@
+{
+  "id": "fd27254a",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 2 op(s) to memory: - add: RAG Assistant project at /Users/dmitrypotekhin/projects/rag-assistant/. FastAPI+ChromaDB server on port 8765. Pyt",
+  "origin": "background_review",
+  "created_at": 1786342546.434195,
+  "payload": {
+    "action": "batch",
+    "target": "memory",
+    "operations": [
+      {
+        "action": "add",
+        "content": "RAG Assistant project at /Users/dmitrypotekhin/projects/rag-assistant/. FastAPI+ChromaDB server on port 8765. Python venv at .venv/bin/python. Tests: .venv/bin/pytest. Remote: git@github.com:dmpotekhin/Rag-assistant.git. Branch: main. Features: link storage/retrieval, saved prompts (semantic search), Wikipedia lookup, Obsidian note saving, APScheduler cron. LLM-dependent features (chat parsing, wiki) require DEEPSEEK_API_KEY env var. Server start: .venv/bin/python -m uvicorn server:app --host 127.0.0.1 --port 8765."
+      },
+      {
+        "action": "add",
+        "content": "User prefers subagent-driven development (SDD) for multi-task implementation plans — dispatches fresh subagent per task with review between tasks. Communicates in Russian. Wants to personally test UI in browser after implementation."
+      }
+    ]
+  }
+}

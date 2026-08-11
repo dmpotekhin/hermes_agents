@@ -1,0 +1,22 @@
+{
+  "id": "60ceee89",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 2 op(s) to memory: - add: DeepSeek API model names changed: `deepseek-flash` is now rejected (400 error). Use `deepseek-v4-flash` or `deeps",
+  "origin": "background_review",
+  "created_at": 1786372648.9871411,
+  "payload": {
+    "action": "batch",
+    "target": "memory",
+    "operations": [
+      {
+        "action": "add",
+        "content": "DeepSeek API model names changed: `deepseek-flash` is now rejected (400 error). Use `deepseek-v4-flash` or `deepseek-v4-pro`. This affects any project using DeepSeek via OpenAI-compatible endpoint. Check config.yaml model field."
+      },
+      {
+        "action": "add",
+        "content": "User expects full UI for all features in web apps — not just API/curl. For RAG Assistant: Chat tab with text+voice input, Prompts tab with CRUD. Pure API-only features are considered incomplete."
+      }
+    ]
+  }
+}

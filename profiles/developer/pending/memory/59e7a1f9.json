@@ -1,0 +1,26 @@
+{
+  "id": "59e7a1f9",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 3 op(s) to user profile: - add: Dmitry Potekhin. GitHub Pages: dmpotekhin.github.io repo at /Users/dmitrypotekhin/Downloads/dmpotekhin.github.io.",
+  "origin": "background_review",
+  "created_at": 1785016035.414984,
+  "payload": {
+    "action": "batch",
+    "target": "user",
+    "operations": [
+      {
+        "content": "Dmitry Potekhin. GitHub Pages: dmpotekhin.github.io repo at /Users/dmitrypotekhin/Downloads/dmpotekhin.github.io. Uses Obsidian with private vault for notes. Reads widely: Russian classics, self-dev/business, IT/QA, history.",
+        "action": "add"
+      },
+      {
+        "content": "Book notes format preference: structured theses (5 numbered points covering hero/setting/conflict/twist/ending) + takeaway block with 💡 Вывод. Prefers web-researched content (Путь А) over personal knowledge for book summaries.",
+        "action": "add"
+      },
+      {
+        "content": "GitHub Pages: always commit+push immediately after changes. User refreshes with Cmd+Shift+R to bypass CDN cache. Site structure: books.html, js/books-data.js, js/notes-data.js, js/books.js, css/styles.css.",
+        "action": "add"
+      }
+    ]
+  }
+}

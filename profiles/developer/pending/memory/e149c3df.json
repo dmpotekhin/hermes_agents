@@ -1,0 +1,30 @@
+{
+  "id": "e149c3df",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 4 op(s) to user profile: - add: GitHub: dmpotekhin. Repos: github.com/dmpotekhin/qa-interview-trainer, github.com/dmpotekhin/Rag-assistant\n- add:",
+  "origin": "background_review",
+  "created_at": 1786127379.20947,
+  "payload": {
+    "action": "batch",
+    "target": "user",
+    "operations": [
+      {
+        "content": "GitHub: dmpotekhin. Repos: github.com/dmpotekhin/qa-interview-trainer, github.com/dmpotekhin/Rag-assistant",
+        "action": "add"
+      },
+      {
+        "content": "Uses DeepSeek API for LLM tasks. Prefers deepseek-flash for cost savings. Token stored in DEEPSEEK_API_KEY env var, never in git.",
+        "action": "add"
+      },
+      {
+        "content": "Uses Obsidian for notes. Vault path needs to be configured per project. Prefers .md files with frontmatter (date, source, tags).",
+        "action": "add"
+      },
+      {
+        "content": "Likes comprehensive documentation: README, case studies, setup guides for multiple tools. Shares work with product owner — wants presentation-ready materials.",
+        "action": "add"
+      }
+    ]
+  }
+}

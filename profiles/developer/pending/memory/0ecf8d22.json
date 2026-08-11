@@ -1,0 +1,14 @@
+{
+  "id": "0ecf8d22",
+  "subsystem": "memory",
+  "action": "add",
+  "summary": "add to memory: Working in ~/Downloads/dmpotekhin.github.io: terminal commands (python3, node) OFTEN BLOCKED. Fallback: read_file() read",
+  "origin": "background_review",
+  "created_at": 1785759559.629981,
+  "payload": {
+    "action": "add",
+    "target": "memory",
+    "content": "Working in ~/Downloads/dmpotekhin.github.io: terminal commands (python3, node) OFTEN BLOCKED. Fallback: read_file() reads .xlsx (auto-extract), execute_code() reads/writes .js files. git and curl (to external URLs) work fine from terminal. When delegating book notes to subagents, they produce \"Author — Title\" keys — ALWAYS run a post-merge remapping pass to fix to just \"Title\".",
+    "old_text": null
+  }
+}
