@@ -75,6 +75,8 @@
 │   ├── 30_days_conversation_prompts.md    # Промты для разговорной практики (v1)
 │   ├── Perplexity_N5_30days_v2.md         # Промты v2 · двуязычные + адаптивная сложность
 │   ├── Perplexity_N4_30days_v1.md         # Промты N4 · 30 дней разговорной практики (Акудзава)
+│   ├── pokemon_conversation_plan.md       # 10 дней разговорной практики по Pokémon (Gemini)
+│   ├── bluebird_song_prompt.md            # Промпт для Gemini: разбор песни ブルーバード
 │   ├── n4_akuzawa_monthly_plan.md   # 30-дневный план N4 (Акудзава)
 │   ├── n4_monthly_plan.md           # 30-дневный детальный план N4
 │   ├── n3_akuzawa_monthly_plan.md   # 30-дневный план N3 (Акудзава)
