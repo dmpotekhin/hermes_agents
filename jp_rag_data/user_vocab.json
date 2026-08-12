@@ -2,8 +2,8 @@
   "info": {
     "description": "Персональный словарь из разговорного клуба японского языка",
     "created": "2026-06-20",
-    "last_updated": "2026-07-27",
-    "total_words": 988,
+    "last_updated": "2026-08-12",
+    "total_words": 1007,
     "themes": [
       "вежливость",
       "вещи",
@@ -29,6 +29,7 @@
       "хобби",
       "частицы",
       "числа",
+      "чувства",
       "языки"
     ]
   },
@@ -9572,6 +9573,196 @@
       "theme": "прилагательные",
       "date_added": "2026-07-27",
       "note": "из словаря покемонов"
+    },
+    {
+      "id": 989,
+      "kanji": "飛翔",
+      "hiragana": "ひしょう",
+      "romaji": "hishou",
+      "translation": "полёт",
+      "theme": "природа",
+      "date_added": "2026-08-12",
+      "note": "в песне читается はばた (habata)"
+    },
+    {
+      "id": 990,
+      "kanji": "目指す",
+      "hiragana": "めざす",
+      "romaji": "mezasu",
+      "translation": "стремиться, целиться",
+      "theme": "глаголы",
+      "date_added": "2026-08-12",
+      "note": ""
+    },
+    {
+      "id": 991,
+      "kanji": "悲しみ",
+      "hiragana": "かなしみ",
+      "romaji": "kanashimi",
+      "translation": "печаль",
+      "theme": "чувства",
+      "date_added": "2026-08-12",
+      "note": ""
+    },
+    {
+      "id": 992,
+      "kanji": "切なさ",
+      "hiragana": "せつなさ",
+      "romaji": "setsunasa",
+      "translation": "тоска, щемящее чувство",
+      "theme": "чувства",
+      "date_added": "2026-08-12",
+      "note": ""
+    },
+    {
+      "id": 993,
+      "kanji": "感情",
+      "hiragana": "かんじょう",
+      "romaji": "kanjou",
+      "translation": "чувство, эмоция",
+      "theme": "чувства",
+      "date_added": "2026-08-12",
+      "note": ""
+    },
+    {
+      "id": 994,
+      "kanji": "目覚める",
+      "hiragana": "めざめる",
+      "romaji": "mezameru",
+      "translation": "пробуждаться",
+      "theme": "глаголы",
+      "date_added": "2026-08-12",
+      "note": ""
+    },
+    {
+      "id": 995,
+      "kanji": "羽根",
+      "hiragana": "はね",
+      "romaji": "hane",
+      "translation": "крыло, перо",
+      "theme": "природа",
+      "date_added": "2026-08-12",
+      "note": ""
+    },
+    {
+      "id": 996,
+      "kanji": "飛び立つ",
+      "hiragana": "とびたつ",
+      "romaji": "tobitatsu",
+      "translation": "взлетать",
+      "theme": "глаголы",
+      "date_added": "2026-08-12",
+      "note": ""
+    },
+    {
+      "id": 997,
+      "kanji": "突き抜ける",
+      "hiragana": "つきぬける",
+      "romaji": "tsukinukeru",
+      "translation": "прорваться сквозь",
+      "theme": "глаголы",
+      "date_added": "2026-08-12",
+      "note": ""
+    },
+    {
+      "id": 998,
+      "kanji": "振り切る",
+      "hiragana": "ふりきる",
+      "romaji": "furikiru",
+      "translation": "оторваться, стряхнуть",
+      "theme": "глаголы",
+      "date_added": "2026-08-12",
+      "note": ""
+    },
+    {
+      "id": 999,
+      "kanji": "カゴ",
+      "hiragana": "かご",
+      "romaji": "kago",
+      "translation": "клетка, корзина",
+      "theme": "вещи",
+      "date_added": "2026-08-12",
+      "note": ""
+    },
+    {
+      "id": 1000,
+      "kanji": "振り返る",
+      "hiragana": "ふりかえる",
+      "romaji": "furikaeru",
+      "translation": "оглядываться",
+      "theme": "глаголы",
+      "date_added": "2026-08-12",
+      "note": ""
+    },
+    {
+      "id": 1001,
+      "kanji": "鼓動",
+      "hiragana": "こどう",
+      "romaji": "kodou",
+      "translation": "сердцебиение",
+      "theme": "здоровье",
+      "date_added": "2026-08-12",
+      "note": ""
+    },
+    {
+      "id": 1002,
+      "kanji": "呼吸",
+      "hiragana": "こきゅう",
+      "romaji": "kokyuu",
+      "translation": "дыхание",
+      "theme": "здоровье",
+      "date_added": "2026-08-12",
+      "note": ""
+    },
+    {
+      "id": 1003,
+      "kanji": "駆け出す",
+      "hiragana": "かけだす",
+      "romaji": "kakedasu",
+      "translation": "побежать",
+      "theme": "глаголы",
+      "date_added": "2026-08-12",
+      "note": ""
+    },
+    {
+      "id": 1004,
+      "kanji": "眩しい",
+      "hiragana": "まぶしい",
+      "romaji": "mabushii",
+      "translation": "ослепительный",
+      "theme": "прилагательные",
+      "date_added": "2026-08-12",
+      "note": ""
+    },
+    {
+      "id": 1005,
+      "kanji": "求める",
+      "hiragana": "もとめる",
+      "romaji": "motomeru",
+      "translation": "жаждать, искать",
+      "theme": "глаголы",
+      "date_added": "2026-08-12",
+      "note": ""
+    },
+    {
+      "id": 1006,
+      "kanji": "追い続ける",
+      "hiragana": "おいつづける",
+      "romaji": "oitsuzukeru",
+      "translation": "продолжать преследовать",
+      "theme": "глаголы",
+      "date_added": "2026-08-12",
+      "note": "от 追う + 続ける"
+    },
+    {
+      "id": 1007,
+      "kanji": "いざなう",
+      "hiragana": "いざなう",
+      "romaji": "izanau",
+      "translation": "манить, звать",
+      "theme": "глаголы",
+      "date_added": "2026-08-12",
+      "note": "в песне: いざなうのは — меня манит"
     }
   ]
 }
