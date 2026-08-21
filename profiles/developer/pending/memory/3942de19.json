@@ -1,0 +1,14 @@
+{
+  "id": "3942de19",
+  "subsystem": "memory",
+  "action": "add",
+  "summary": "add to memory: Travel Visualizer: ~/projects/travel-visualizer/ (FastAPI+MapLibre+SQLite). Запуск: ./scripts/start.sh → http://127.0.0.",
+  "origin": "assistant_tool",
+  "created_at": 1786872322.6028721,
+  "payload": {
+    "action": "add",
+    "target": "memory",
+    "content": "Travel Visualizer: ~/projects/travel-visualizer/ (FastAPI+MapLibre+SQLite). Запуск: ./scripts/start.sh → http://127.0.0.1:8000. HERE_API_KEY в .env (опционально; без ключа Nominatim+haversine fallback). Тесты: .venv/bin/python -m pytest.",
+    "old_text": null
+  }
+}

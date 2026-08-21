@@ -1,0 +1,14 @@
+{
+  "id": "dac76063",
+  "subsystem": "memory",
+  "action": "add",
+  "summary": "add to memory: Agile Oracle: ~/projects/agile-oracle — Node+Express+Socket.IO+Prisma(SQLite) бэк + React/Vite/Tailwind/Framer фронт, gi",
+  "origin": "assistant_tool",
+  "created_at": 1786723590.8523788,
+  "payload": {
+    "action": "add",
+    "target": "memory",
+    "content": "Agile Oracle: ~/projects/agile-oracle — Node+Express+Socket.IO+Prisma(SQLite) бэк + React/Vite/Tailwind/Framer фронт, git-репо. Run: npm run setup; npm run dev (:3000 бэк, :5173 фронт); prod: npm run build && npm start. Использовать nvm node v22.22 (в zshrc по умолчанию node@14).",
+    "old_text": null
+  }
+}

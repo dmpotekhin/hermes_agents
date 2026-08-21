@@ -285,6 +285,19 @@
     "use_count": 0,
     "view_count": 0
   },
+  "grounded-citations": {
+    "archived_at": null,
+    "created_at": "2026-08-12T16:50:49.881037+00:00",
+    "created_by": null,
+    "last_patched_at": null,
+    "last_used_at": null,
+    "last_viewed_at": null,
+    "patch_count": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 0,
+    "view_count": 0
+  },
   "heartmula": {
     "archived_at": null,
     "created_at": "2026-06-23T07:51:15.009997+00:00",
@@ -307,7 +320,7 @@
     "last_viewed_at": "2026-08-11T05:47:55.684061+00:00",
     "patch_count": 1,
     "pinned": false,
-    "state": "stale",
+    "state": "active",
     "use_count": 5,
     "view_count": 5
   },
@@ -415,18 +428,31 @@
     "use_count": 0,
     "view_count": 0
   },
+  "inspecting-hermes-desktop-dom": {
+    "archived_at": null,
+    "created_at": "2026-08-12T16:50:49.918466+00:00",
+    "created_by": null,
+    "last_patched_at": null,
+    "last_used_at": null,
+    "last_viewed_at": null,
+    "patch_count": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 0,
+    "view_count": 0
+  },
   "japanese-language-tutor": {
     "archived_at": null,
     "created_at": "2026-06-16T07:15:35.824709+00:00",
     "created_by": "agent",
-    "last_patched_at": "2026-08-10T19:12:24.553666+00:00",
-    "last_used_at": "2026-08-10T19:12:09.354939+00:00",
-    "last_viewed_at": "2026-08-10T19:12:09.352043+00:00",
-    "patch_count": 189,
+    "last_patched_at": "2026-08-12T17:10:32.935629+00:00",
+    "last_used_at": "2026-08-12T17:10:04.117218+00:00",
+    "last_viewed_at": "2026-08-12T17:10:04.114247+00:00",
+    "patch_count": 194,
     "pinned": false,
     "state": "active",
-    "use_count": 144,
-    "view_count": 143
+    "use_count": 146,
+    "view_count": 145
   },
   "japanese-tutor": {
     "archived_at": null,
@@ -437,7 +463,7 @@
     "last_viewed_at": "2026-07-08T11:10:43.089390+00:00",
     "patch_count": 12,
     "pinned": false,
-    "state": "active",
+    "state": "stale",
     "use_count": 34,
     "view_count": 34
   },

@@ -1,0 +1,23 @@
+{
+  "id": "239d809b",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 2 op(s) to memory: - replace: Security pre-commit hook в /Users/dmitrypotekhin/trainer/qa-interview-trainer/.git/hooks/pre-commit (bash, бл",
+  "origin": "background_review",
+  "created_at": 1787322853.7260811,
+  "payload": {
+    "action": "batch",
+    "target": "memory",
+    "operations": [
+      {
+        "action": "replace",
+        "content": "Security pre-commit hook в qa-interview-trainer/.git/hooks/pre-commit (gitleaks 8.30.1 + bandit 1.9.4 HIGH-block; semgrep сломан, пропускается). Бинари: gitleaks ~/bin, bandit/semgrep ~/Library/Python/3.11/bin (не в PATH, хук сам расширяет). Нет Xcode CLT → brew не собирает native, pip падает на cryptography.",
+        "old_text": "Security pre-commit hook в /Users/dmitrypotekhin/trainer/qa-interview-trainer/.git/hooks/pre-commit (bash, блокирует commit): gitleaks 8.30.1 (git --staged) + bandit 1.9.4 (HIGH блок, MEDIUM warn) + semgrep (пока сломан — пропускается). Бинари: gitleaks в ~/bin, bandit/semgrep в ~/Library/Python/3.11/bin (не в дефолтном PATH, хук сам расширяет PATH). На машине НЕТ Xcode CLT (xcode-select --install) — из-за этого brew не собирает go/native, pip падает на cryptography. semgrep поставить нормально можно только после установки Xcode CLT."
+      },
+      {
+        "action": "add",
+        "content": "VPN-перехват на машине: при включённом VPN DNS резолвит домены в 198.18.x.x → web_extract/web-инструменты блокируют как «private address», npm/git-загрузки ползут (~в 10 раз медленнее). Лечение: попросить пользователя отключить VPN для больших скачиваний; проверка `route -n get default` → interface en0 (не utun3)."
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  // KiloCode project config — копируется в корень проекта.
+  // Провайдер DeepSeek настраивается в UI (Settings → Providers),
+  // здесь — правила и инструкции.
+  "instructions": [
+    "./AGENTS.md",
+    ".kilo/rules/*.md"
+  ],
+  // Компакция контекста: сработает при 80% от окна модели (по умолчанию авто).
+  "compaction": {
+    "threshold_percent": 80
+  }
+}

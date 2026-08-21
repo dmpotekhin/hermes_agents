@@ -86,6 +86,7 @@ When the test/brief needs an API key or env var (e.g. `DEEPSEEK_API_KEY`) that i
 - **Do assertions inside the script** (e.g. `assert`), print a distinct `ALL ASSERTIONS PASSED` marker, and check `returncode == 0`. The terminal-blocked inline-`-c` route cannot carry this gracefully.
 - **Respect the denial guard**: if `terminal` returns "User denied this command", do NOT retry the same command or attempt "the same outcome via a different command" through the terminal tool. `execute_code` is a separate tool path — using it to run a *read-only verification* is legitimate and respects the denial. Do NOT use it to force through destructive/commit operations the user already declined.
 - **Re-run the verification against CURRENT file state before claiming done.** A verification run from an earlier turn (even if it passed) does not prove the file as it stands now works if you have since edited/committed. The runtime/curator may flag "unverified" after a code edit precisely because the last run predates the edit. After any edit to the target file, re-run the ad-hoc script and confirm `EXIT 0` / your `ALL ASSERTIONS PASSED` marker against the current bytes. Pair it with a `git status --short` / `git log` check so you can state the file is committed with no uncommitted diff — otherwise the evidence is stale even when it says PASS.
+- **Expect a "unverified" re-flag once even after a passing run** (observed: pytest green + ad-hoc script green in the turn the runtime asked, then the same turn it re-flagged). Don't argue or re-narrate the old evidence — just re-run BOTH in the current turn with visible exit codes: canonical suite with a clean, unpiped exit (`pytest -q; echo "exit: $?"` or `set -o pipefail`), plus the `hermes-verify-` temp script exercising the changed behavior (asserts on the feature, not just imports), then remove the temp file. Report them as two SEPARATE evidence items ("suite green, N passed" + "ad-hoc checks N/N ALL OK") — labeling the temp script as ad-hoc verification rather than folding it into the suite result keeps the evidence honest.
 
 ## FastAPI / pyproject-backend specifics
 
@@ -128,6 +129,29 @@ r = subprocess.run([VENV, "-c", "import server, db, commands, dispatcher; print(
 ```
 
 Cross-reference: `agent-workflow-pitfalls` #16 for the full tiered-verification pattern.
+
+## Verifying a standalone CLI script (importlib + monkeypatch globals)
+
+When the target is a plain script — not an importable package — that hardcodes its state path and fires side-effect writers, import it with `importlib` and swap its module globals before calling its functions. This tests the real logic without touching the real state file or writing real output:
+
+```python
+import importlib.util, tempfile, json
+spec = importlib.util.spec_from_file_location("mod", "/abs/path/script.py")
+mod = importlib.util.module_from_spec(spec); spec.loader.exec_module(mod)
+
+tmp = tempfile.mkdtemp(prefix="hermes-verify-state-")
+mod.STATE_FILE = f"{tmp}/state.json"          # isolate hardcoded state path
+mod.NOW = datetime(2026, 8, 12, 10, 0, 0)     # control "now"
+mod._update_daily_log = lambda *a, **k: None  # neutralize side-effect writers
+mod._update_daily_log_for_session = lambda *a, **k: None
+mod.cmd_start("proj"); mod.cmd_segment("proj")  # drive the real functions
+assert json.load(open(mod.STATE_FILE))["current"]["project"] == "proj"
+```
+
+Key points:
+- `exec_module` runs the script's top-level code (`STATE_FILE = ...`, `NOW = datetime.now()`), so **monkeypatch the globals AFTER import, before calling functions** — functions read globals at call time, so the swap takes effect.
+- **Neutralize every writer the called function fires** (log writers, file updaters). Otherwise a supposedly-isolated test still writes real files (e.g. an Obsidian daily log) or mutates real state.
+- Wrap the body in `try/finally` so the temp state dir is removed even when an assertion fails. **Import `shutil` in the same script** — a cleanup-time `NameError` raises AFTER all assertions have printed PASS, flipping exit code to 1 and making the runtime treat the run as unverified. Read the final `returncode`, not just the PASS lines.
 
 ## Pitfalls
 

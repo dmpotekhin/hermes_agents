@@ -1,0 +1,14 @@
+{
+  "id": "669aaa4e",
+  "subsystem": "memory",
+  "action": "replace",
+  "summary": "replace in memory: old: Strix (AI-пентест): ~/.strix/bin/strix v1.5.3\nnew: Strix (AI-пентест) установлен и работает: ~/.strix/bin/strix v1.",
+  "origin": "background_review",
+  "created_at": 1786651425.1580029,
+  "payload": {
+    "action": "replace",
+    "target": "memory",
+    "content": "Strix (AI-пентест) установлен и работает: ~/.strix/bin/strix v1.5.3, конфиг ~/.strix/cli-config.json (deepseek/deepseek-v4-pro + ключ). Требует Docker. Запуск скан-команд и починка Docker Desktop (если снова сломается) — в skill 'strix-security-scanning'.",
+    "old_text": "Strix (AI-пентест): ~/.strix/bin/strix v1.5.3"
+  }
+}

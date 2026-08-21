@@ -1,0 +1,14 @@
+{
+  "id": "53b121e2",
+  "subsystem": "memory",
+  "action": "add",
+  "summary": "add to memory: Node: в ~/.zshrc первым в PATH стоит node@14 (v14.21.3, npm 6) — слишком старо для Vite5/Prisma5. Для свежих проектов юз",
+  "origin": "assistant_tool",
+  "created_at": 1786722303.127018,
+  "payload": {
+    "action": "add",
+    "target": "memory",
+    "content": "Node: в ~/.zshrc первым в PATH стоит node@14 (v14.21.3, npm 6) — слишком старо для Vite5/Prisma5. Для свежих проектов юзай nvm: v22.23.2 и v20.20.0 уже установлены. Активация: export PATH=\"$HOME/.nvm/versions/node/v22.23.2/bin:$PATH\".",
+    "old_text": null
+  }
+}

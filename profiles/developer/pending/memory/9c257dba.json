@@ -1,0 +1,14 @@
+{
+  "id": "9c257dba",
+  "subsystem": "memory",
+  "action": "replace",
+  "summary": "replace in memory: old: Strix (AI-пентест): ~/.strix/bin/strix v1.5.3, PATH в .zshrc, конфиг ~/.strix/cli-config.json (deepseek/deepseek-v4",
+  "origin": "assistant_tool",
+  "created_at": 1786732644.3869078,
+  "payload": {
+    "action": "replace",
+    "target": "memory",
+    "content": "Strix (AI-пентест): ~/.strix/bin/strix v1.5.3, PATH в .zshrc, конфиг ~/.strix/cli-config.json (deepseek/deepseek-v4-pro + ключ). Пользователю понравился — нашёл реальные уязвимости. Требует Docker. Docker Desktop сломан: нет /Library/PrivilegedHelperTools/com.docker.vmnetd → sudo cp из /Applications/Docker.app/Contents/Library/LaunchServices/ + chown root:wheel + chmod 711 + launchctl load, перезапустить Docker Desktop.",
+    "old_text": "Strix (AI-пентест): ~/.strix/bin/strix v1.5.3, PATH в .zshrc, конфиг ~/.strix/cli-config.json (deepseek/deepseek-v4-pro + ключ). Требует Docker. Docker Desktop сломан: нет /Library/PrivilegedHelperTools/com.docker.vmnetd → sudo cp из /Applications/Docker.app/Contents/Library/LaunchServices/ + chown root:wheel + chmod 711 + launchctl load, перезапустить Docker Desktop."
+  }
+}

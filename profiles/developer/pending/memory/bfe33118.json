@@ -1,0 +1,14 @@
+{
+  "id": "bfe33118",
+  "subsystem": "memory",
+  "action": "add",
+  "summary": "add to memory: Hermes developer профиль: с 17.08.2026 дефолтная модель deepseek-v4-flash (вместо deepseek-v4-pro), compression.threshol",
+  "origin": "assistant_tool",
+  "created_at": 1786969669.285304,
+  "payload": {
+    "action": "add",
+    "target": "memory",
+    "content": "Hermes developer профиль: с 17.08.2026 дефолтная модель deepseek-v4-flash (вместо deepseek-v4-pro), compression.threshold_tokens=80000, proactive_prune_tokens=48000. Правила экономии токенов — в SOUL.md профиля (секция «Экономия токенов»). deepseek-v4-pro только по явному запросу для архитектурных задач.",
+    "old_text": null
+  }
+}

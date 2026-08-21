@@ -1,0 +1,14 @@
+{
+  "id": "8fd5b2ac",
+  "subsystem": "memory",
+  "action": "replace",
+  "summary": "replace in memory: old: Security pre-commit hook в /Users/dmitrypotekhin/trainer/qa-interview-trainer/.git/hooks/pre-commit\nnew: Security p",
+  "origin": "background_review",
+  "created_at": 1786719650.45456,
+  "payload": {
+    "action": "replace",
+    "target": "memory",
+    "content": "Security pre-commit hook в /Users/dmitrypotekhin/trainer/qa-interview-trainer/.git/hooks/pre-commit (bash, блокирует commit): gitleaks 8.30.1 (git --staged) + bandit 1.9.4 (HIGH блок, MEDIUM warn) + semgrep (пока сломан — пропускается). Бинари: gitleaks в ~/bin, bandit/semgrep в ~/Library/Python/3.11/bin (не в дефолтном PATH, хук сам расширяет PATH). bandit B324 (md5/sha1) срабатывает HIGH даже на не-безопасном хеше — фикс hashlib.md5(x, usedforsecurity=False) (Py3.9+). На машине НЕТ Xcode CLT (xcode-select --install) — из-за этого brew не собирает go/native, pip падает на cryptography. semgrep поставить нормально можно только после установки Xcode CLT.",
+    "old_text": "Security pre-commit hook в /Users/dmitrypotekhin/trainer/qa-interview-trainer/.git/hooks/pre-commit"
+  }
+}

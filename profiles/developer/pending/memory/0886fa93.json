@@ -1,0 +1,22 @@
+{
+  "id": "0886fa93",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 2 op(s) to memory: - add: Wife needs Hermes on Windows 11: profiles german-tutor (Frau Weber, A1-C2) and marketing (copywriting, SEO, SMM,",
+  "origin": "background_review",
+  "created_at": 1786478238.168711,
+  "payload": {
+    "action": "batch",
+    "target": "memory",
+    "operations": [
+      {
+        "action": "add",
+        "content": "Wife needs Hermes on Windows 11: profiles german-tutor (Frau Weber, A1-C2) and marketing (copywriting, SEO, SMM, automation). Setup archive at ~/Desktop/hermes-wife-profiles.zip with WINDOWS_SETUP.md and HERMES_FOR_BEGINNERS.md instructions."
+      },
+      {
+        "action": "add",
+        "content": "Telegram personal assistant bot: @dmitry_assistant_bot. Gateway runs via hermes gateway (background), developer profile. VPN required for Telegram API from Russia. Categories: notes, tasks, ideas, contacts, bookmarks, videos (yt-dlp → ~/Downloads/bot/), reminders (cronjob). Must save to Obsidian: ~/Odsidian/obsidians/Obsidian Vault/Brain/notes/bot/{notes,tasks,ideas,contacts,bookmarks,videos,reminders}.md. SOUL.md has Telegram assistant section with mandatory write_file instructions."
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "12f1cf53",
+  "subsystem": "memory",
+  "action": "add",
+  "summary": "add to memory: Graphify v0.9.47 установлен (pip3 --user graphifyy), бинарь ~/Library/Python/3.11/bin/graphify (не в PATH); бэкенд deeps",
+  "origin": "background_review",
+  "created_at": 1787158596.0168161,
+  "payload": {
+    "action": "add",
+    "target": "memory",
+    "content": "Graphify v0.9.47 установлен (pip3 --user graphifyy), бинарь ~/Library/Python/3.11/bin/graphify (не в PATH); бэкенд deepseek поддерживается (DEEPSEEK_API_KEY); workflow — skill graphify-knowledge-graph.",
+    "old_text": null
+  }
+}

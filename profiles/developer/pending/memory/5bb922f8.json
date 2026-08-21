@@ -1,0 +1,14 @@
+{
+  "id": "5bb922f8",
+  "subsystem": "memory",
+  "action": "add",
+  "summary": "add to memory: Vibecode tracker: stats включает live-сессию (патч 16.08). Бэкфилл пропущенного времени: pauses→segments в ~/.hermes/sta",
+  "origin": "background_review",
+  "created_at": 1786912912.4617789,
+  "payload": {
+    "action": "add",
+    "target": "memory",
+    "content": "Vibecode tracker: stats включает live-сессию (патч 16.08). Бэкфилл пропущенного времени: pauses→segments в ~/.hermes/state/vibecode_state.json; времена коммитов — из git log --reverse; дневной лог — Brain/notes/vibecoding/YYYY-MM-DD.md. Скилл vibecode-tracker user-owned (не curator-managed).",
+    "old_text": null
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "jobs": [
+    {
+      "id": "5d00112d5cbd",
+      "name": "\u041d\u0430\u043b\u0438\u0442\u044c \u043a\u043e\u0444\u0435 (22:51)",
+      "prompt": "\u041d\u0430\u043f\u043e\u043c\u043d\u0438 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044e: \u043f\u043e\u0440\u0430 \u043d\u0430\u043b\u0438\u0442\u044c \u043a\u043e\u0444\u0435! \u2615",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "provider_snapshot": "deepseek",
+      "model_snapshot": "deepseek-v4-pro",
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "once",
+        "run_at": "2026-08-11T22:51:00+03:00",
+        "display": "once at 2026-08-11 22:51"
+      },
+      "schedule_display": "once at 2026-08-11 22:51",
+      "repeat": {
+        "times": 1,
+        "completed": 1
+      },
+      "enabled": false,
+      "state": "completed",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-08-11T22:48:23.779698+03:00",
+      "next_run_at": null,
+      "last_run_at": "2026-08-11T22:52:09.150412+03:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "222651048",
+        "chat_name": "Dmitry Potekhin",
+        "thread_id": null,
+        "user_id": "222651048"
+      },
+      "enabled_toolsets": null,
+      "workdir": null,
+      "run_claim": null,
+      "fire_claim": null
+    },
+    {
+      "id": "7a252d97e458",
+      "name": "\u041d\u0430\u043b\u0438\u0442\u044c \u043a\u043e\u0444\u0435 (22:55)",
+      "prompt": "\u041d\u0430\u043f\u043e\u043c\u043d\u0438 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044e: \u043f\u043e\u0440\u0430 \u043d\u0430\u043b\u0438\u0442\u044c \u043a\u043e\u0444\u0435! \u2615",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "provider_snapshot": "deepseek",
+      "model_snapshot": "deepseek-v4-pro",
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "once",
+        "run_at": "2026-08-11T22:55:00+03:00",
+        "display": "once at 2026-08-11 22:55"
+      },
+      "schedule_display": "once at 2026-08-11 22:55",
+      "repeat": {
+        "times": 1,
+        "completed": 1
+      },
+      "enabled": false,
+      "state": "completed",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-08-11T22:51:53.449355+03:00",
+      "next_run_at": null,
+      "last_run_at": "2026-08-11T22:55:35.466049+03:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "222651048",
+        "chat_name": "Dmitry Potekhin",
+        "thread_id": null,
+        "user_id": "222651048"
+      },
+      "enabled_toolsets": null,
+      "workdir": null,
+      "run_claim": null,
+      "fire_claim": null
+    },
+    {
+      "id": "1f4f5abce108",
+      "name": "\u041d\u0430\u043b\u0438\u0442\u044c \u043f\u0438\u0432\u0430",
+      "prompt": "\u041d\u0430\u043f\u043e\u043c\u043d\u0438 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044e: \u043f\u043e\u0440\u0430 \u043d\u0430\u043b\u0438\u0442\u044c \u043f\u0438\u0432\u0430! \ud83c\udf7a",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "provider_snapshot": "deepseek",
+      "model_snapshot": "deepseek-v4-pro",
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "once",
+        "run_at": "2026-08-11T22:59:00+03:00",
+        "display": "once at 2026-08-11 22:59"
+      },
+      "schedule_display": "once at 2026-08-11 22:59",
+      "repeat": {
+        "times": 1,
+        "completed": 1
+      },
+      "enabled": false,
+      "state": "completed",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-08-11T22:56:34.140439+03:00",
+      "next_run_at": null,
+      "last_run_at": "2026-08-11T22:59:44.996388+03:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "222651048",
+        "chat_name": "Dmitry Potekhin",
+        "thread_id": null,
+        "user_id": "222651048"
+      },
+      "enabled_toolsets": null,
+      "workdir": null,
+      "run_claim": null,
+      "fire_claim": null
+    }
+  ],
+  "updated_at": "2026-08-11T23:16:20.917385+03:00"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "c9eee676",
+  "subsystem": "memory",
+  "action": "add",
+  "summary": "add to memory: Wife's Hermes profiles on Windows 11: german-tutor (Frau Weber, A1-C2) + marketing (copywriting, SEO, SMM, analytics). P",
+  "origin": "background_review",
+  "created_at": 1786471947.92204,
+  "payload": {
+    "action": "add",
+    "target": "memory",
+    "content": "Wife's Hermes profiles on Windows 11: german-tutor (Frau Weber, A1-C2) + marketing (copywriting, SEO, SMM, analytics). Profiles ready at ~/.hermes/profiles/german-tutor/ and ~/.hermes/profiles/marketing/. Archive: ~/Desktop/hermes-wife-profiles.zip with setup instructions.",
+    "old_text": null
+  }
+}

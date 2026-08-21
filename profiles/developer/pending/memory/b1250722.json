@@ -1,0 +1,28 @@
+{
+  "id": "b1250722",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 3 op(s) to memory: - replace: Security pre-commit hook в /Users/dmitrypotekhin/trainer/qa-interview-trainer/.git/hooks/pre-commit -> Securi",
+  "origin": "background_review",
+  "created_at": 1787164581.695452,
+  "payload": {
+    "action": "batch",
+    "target": "memory",
+    "operations": [
+      {
+        "action": "replace",
+        "content": "Security pre-commit hook (qa-interview-trainer/.git/hooks): gitleaks 8.30.1 (~/bin) + bandit 1.9.4 (~/Library/Python/3.11/bin, хук расширяет PATH). Xcode CLT НЕ установлен — brew native / pip cryptography падают; semgrep сломан до установки CLT.",
+        "old_text": "Security pre-commit hook в /Users/dmitrypotekhin/trainer/qa-interview-trainer/.git/hooks/pre-commit"
+      },
+      {
+        "action": "replace",
+        "content": "Strix (AI-пентест): ~/.strix/bin/strix v1.5.3, конфиг ~/.strix/cli-config.json (deepseek + ключ). Нужен Docker; если нет vmnetd — sudo cp из /Applications/Docker.app/Contents/Library/LaunchServices/ + chown root:wheel + chmod 711 + launchctl load.",
+        "old_text": "Strix (AI-пентест): ~/.strix/bin/strix v1.5.3, PATH в .zshrc"
+      },
+      {
+        "action": "add",
+        "content": "Travel-Visualiser: /Users/dmitrypotekhin/projects/travel-visualizer (git@github.com:dmpotekhin/Travel-Visualiser, SSH, main). FastAPI+MapLibre+Cesium; тесты .venv/bin/python -m pytest -q из корня. .env в .gitignore: HERE_API_KEY опционален, CESIUM_ION_TOKEN задан (2026-08-19). Пользователь после милстоуна: пуш + сразу мердж в main. Детали — скилл travel-visualiser."
+      }
+    ]
+  }
+}

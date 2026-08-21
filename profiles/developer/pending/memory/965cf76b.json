@@ -1,0 +1,33 @@
+{
+  "id": "965cf76b",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 4 op(s) to memory: - replace: QA Interview Trainer: -> QA Interview Trainer: /Users/dmitrypotekhin/trainer/qa-interview-trainer/ (GitHub dm",
+  "origin": "background_review",
+  "created_at": 1787319962.0423381,
+  "payload": {
+    "action": "batch",
+    "target": "memory",
+    "operations": [
+      {
+        "action": "replace",
+        "content": "QA Interview Trainer: /Users/dmitrypotekhin/trainer/qa-interview-trainer/ (GitHub dmpotekhin/qa-interview-trainer, SSH, ветка main). Сервисы: backend FastAPI :8000, frontend Vite+React :3000, mock API :8080. PostgreSQL 16 localhost:5432 (trainer/trainer, trust). Старт: start.sh в корне репо.",
+        "old_text": "QA Interview Trainer:"
+      },
+      {
+        "action": "replace",
+        "content": "Graphify: pip graphifyy (--user), бинарь ~/Library/Python/3.11/bin/graphify (не в PATH). Граф кода (tree-sitter AST) в graphify-out/; deepseek-бэкенд (DEEPSEEK_API_KEY); скилл graphify-knowledge-graph.",
+        "old_text": "Graphify: pip пакет graphifyy"
+      },
+      {
+        "action": "replace",
+        "content": "Strix (AI-пентест): ~/.strix/bin/strix v1.5.3, PATH в .zshrc, конфиг ~/.strix/cli-config.json (deepseek-v4-pro). Требует Docker; Docker Desktop сломан (нет vmnetd): sudo cp из Docker.app/Contents/Library/LaunchServices/ + chown root:wheel + chmod 711 + launchctl load + перезапуск.",
+        "old_text": "Strix (AI-пентест):"
+      },
+      {
+        "action": "add",
+        "content": "Сеть: внешние домены (github.com, omniroute.online и др.) резолвятся в 198.18.0.x (RFC 2544, перехват прокси). web_extract/web_search блокируют их как «private address»; curl/git работают напрямую через этот адрес."
+      }
+    ]
+  }
+}

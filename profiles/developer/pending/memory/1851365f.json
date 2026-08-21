@@ -1,0 +1,14 @@
+{
+  "id": "1851365f",
+  "subsystem": "memory",
+  "action": "add",
+  "summary": "add to memory: agile-oracle (~/projects/agile-oracle): сборка Vite 5 требует node 18+. Системный node v14 (/usr/local/bin) ломает `npm",
+  "origin": "assistant_tool",
+  "created_at": 1786736236.7632551,
+  "payload": {
+    "action": "add",
+    "target": "memory",
+    "content": "agile-oracle (~/projects/agile-oracle): сборка Vite 5 требует node 18+. Системный node v14 (/usr/local/bin) ломает `npm run build` ошибкой `Unexpected token '??='`. Правильно: `export PATH=\"$HOME/.nvm/versions/node/v20.20.0/bin:$PATH\"` перед npm-командами (в nvm есть v20 и v22). Backend — Node на :3000 (vite проксирует /api и /socket.io), фронт :5173.",
+    "old_text": null
+  }
+}

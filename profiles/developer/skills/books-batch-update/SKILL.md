@@ -56,6 +56,10 @@ with open('js/notes-data.js', 'w') as f:
     f.write(new_content)
 ```
 
+## Excel Source Priority
+
+When `Книги.xlsx` exists in two locations (project dir + Downloads), compare modification dates. See `references/excel-source-priority.md` for details and history.
+
 ## Step 5 (extended): Verification
 
 Use `execute_code` instead of terminal — it's non-destructive and can read files via `read_file` tool.
@@ -80,7 +84,21 @@ note_keys = re.findall(r'\|\s{2}"([^"]+)": \{', content)
 - [ ] Last new entry has `"theses": [` and `"takeaway":` structure
 - [ ] Git commit pushed to master
 
+## Step 2 (new): Find Books Without Notes
+
+Before generating notes, compare `books-data.js` against `notes-data.js` to find which books lack notes:
+
+```python
+# Extract keys: "Author — Title"
+book_keys = set(re.findall(r'\{"author": "([^"]+)", "title": "([^"]+)",', books_content))
+note_keys = set(re.findall(r'^\s{2}"([^"]+)": \{', notes_content, re.MULTILINE))
+missing = sorted(book_keys - note_keys)
+```
+
+**Питфолл «все книги без заметок»**: если все книги из `books-data.js` отмечены как missing, а `notes-data.js` содержит больше ключей — это значит, что `books-data.js` был пересобран (старые книги ушли). Это нормально. См. `references/duplicate-detection.md`.
+
 ## Subagent Group Size Reference
-- 3 subagents × 15 books each = 45 max per batch
+- 3 subagents × **~180 books** each = 540 max per batch (tested working with real 539-book sync)
 - Max concurrent: 3 (configurable via delegation.max_concurrent_children)
-- Each subagent takes ~2-4 minutes with web_search
+- Each subagent takes ~2-4 minutes *with web_search* — **without web search**, group size can be ~180 (subagent knows most books from training data)
+- For 539+ books: 3 groups of ~180 works well, completes in ~5-10 minutes

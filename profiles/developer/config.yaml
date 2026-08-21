@@ -1,7 +1,10 @@
 model:
-  default: deepseek-v4-pro
-  provider: deepseek
-  base_url: https://api.deepseek.com/v1
+  default: Qwen/Qwen3.5-35B-A3B
+  provider: huggingface
+  base_url: https://router.huggingface.co/v1
+  aliases:
+    hf-glm: huggingface/zai-org/GLM-4.7-Flash
+    hf-qwen: huggingface/Qwen/Qwen3.5-35B-A3B
 fallback_providers: []
 toolsets:
   - hermes-cli
@@ -100,8 +103,10 @@ tool_loop_guardrails:
 compression:
   enabled: true
   threshold: 0.5
+  threshold_tokens: 80000
   target_ratio: 0.2
   protect_last_n: 20
+  proactive_prune_tokens: 48000
   hygiene_hard_message_limit: 5000
   protect_first_n: 3
   abort_on_summary_failure: false
@@ -494,6 +499,10 @@ gateway:
   trust_recent_files_seconds: 600
   api_server:
     max_concurrent_runs: 10
+  platforms:
+    telegram:
+      token: 8775341518:AAGqHjD19CeRDgNQ9yudhjXbI3r3IvIWxTw
+      enabled: true
 streaming:
   enabled: false
   transport: auto
@@ -618,11 +627,15 @@ custom_providers:
     api_key: s2_1cdc555034a7493aa20e1984ea7eb694
     base_url: https://routellm.abacus.ai/v1
     models:
+      - route-llm-code
+      - route-llm-code-low
       - route-llm
       - claude-sonnet-5
       - gpt-5.6-terra
+      - gemini-3.7-flash
       - gemini-3.6-flash
       - gemini-3.5-flash
+      - grok-4.6
       - grok-4.5
       - claude-fable-5
       - gpt-5.6-sol
@@ -636,8 +649,9 @@ custom_providers:
       - grok-4.3
       - moonshotai/Kimi-K3
       - moonshotai/Kimi-K2.7-Code
+      - zai-org/GLM-5.3
       - zai-org/GLM-5.2
-      - deepseek-ai/DeepSeek-V4-Pro
+      - deepseek-ai/DeepSeek-V4-Pro-0813
       - deepseek-ai/DeepSeek-V4-Flash-0731
       - claude-haiku-4-5-20251001
       - gpt-5.4-nano
@@ -660,6 +674,9 @@ custom_providers:
       - deepseek-ai/DeepSeek-V3.2
       - moonshotai/Kimi-K2.6
       - moonshotai/Kimi-K2-Instruct
+      - Qwen/Qwen3.8-27B
+      - qwen3.8-max
+      - qwen3.7-max
       - Qwen/Qwen3.6-27B
       - Qwen/Qwen3-Coder-480B-A35B-Instruct
       - Qwen/Qwen3-32B
@@ -727,6 +744,7 @@ custom_providers:
       - flux2
       - flux2_pro
       - grok_imagine_image
+      - grok_imagine_image2
       - grok_imagine_image_quality
       - wan27
       - gpt-audio-1.5

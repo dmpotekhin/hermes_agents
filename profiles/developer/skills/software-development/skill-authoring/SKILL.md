@@ -48,3 +48,14 @@ When modifying `writing-plans`, insert between sections, not at step numbers.
 Skills created during a session are user-owned. Background curator cannot edit them.
 Error: "the skill is not curator-managed (no usage record)."
 To fix: `hermes curator adopt <name>`
+
+## Importing Skills from External Repos
+
+User's recurring request: "пройдись по репозиторию, посмотри что можно дополнить из скиллов" (audited mattpocock/skills and obra/superpowers so far). Full recipe in `references/external-skill-import.md`. Summary:
+
+1. **Clone shallow** to /tmp, enumerate `skills/*/SKILL.md`.
+2. **Compare against local**: `skills_list`; for already-adapted repos grep `author:.*adapted from`; `wc -c` sizes reveal stale bundles.
+3. **Classify**: no local analog → candidate; already adapted → skip; harness-specific (Claude Code hooks, `/setup-*` commands) → skip.
+4. **Adapt frontmatter to Hermes**: description ≤60 chars (Pitfall 1); strip Claude-only fields (`disable-model-invocation`, `argument-hint`); replace `/setup-<repo>` references with Hermes equivalents; add `author: Hermes Agent (adapted from <repo>)`, license, `metadata.hermes.tags`, `related_skills`.
+5. **Copy support files** (template.sh, etc.) via `cp`, then `chmod +x` and validate (`bash -n`).
+6. **For git-clone bundles** (superpowers lives at `~/.hermes/skills/superpowers/` as a git clone): check version vs upstream (`git log --oneline -1`), check `git status --short` for local adaptations, preserve them (backup patch) before any fetch/rebase.

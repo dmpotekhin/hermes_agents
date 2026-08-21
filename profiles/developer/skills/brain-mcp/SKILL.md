@@ -50,7 +50,7 @@ Dream is deterministic — no LLM inside. It runs on `candidate_threshold` (defa
 | `brain_create_note` | Writer | Create markdown note in Brain/notes/ |
 | `brain_devlog` | Writer | Append timestamped entry to dev journal |
 | `brain_dream` | Lifecycle | Run the rule engine (supports dry_run) |
-| `brain_context` | Reader | Read active confirmed + quarantined preferences |
+| `brain_context` | Reader | Read active confirmed + quarantined preferences + `recent_activity` (last journal entries, handoff) |
 | `brain_context_pack` | Reader | Budgeted context slice within token limit |
 | `brain_search` | Search | FTS5 full-text search over vault |
 | `brain_status` | Admin | Vault path, counts, last dream |
@@ -152,7 +152,7 @@ Common issues: hardcoded vault paths in `bin/o2b-mcp`, `.idea/` tracked by git, 
 
 ```bash
 cd /Users/dmitrypotekhin/brain
-bun test                    # Full suite (121 tests)
+bun test                    # Full suite (135 tests)
 bun run typecheck           # TypeScript check
 bun run validate            # typecheck + lint + test
 ```

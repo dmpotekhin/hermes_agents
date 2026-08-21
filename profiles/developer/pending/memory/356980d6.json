@@ -1,0 +1,14 @@
+{
+  "id": "356980d6",
+  "subsystem": "memory",
+  "action": "add",
+  "summary": "add to user profile: Предпочитает быстрый цикл: фичи → пуш → сразу мердж в main (fast-forward, без PR-ревизии). Просит запускать приложение л",
+  "origin": "background_review",
+  "created_at": 1787164581.702486,
+  "payload": {
+    "action": "add",
+    "target": "user",
+    "content": "Предпочитает быстрый цикл: фичи → пуш → сразу мердж в main (fast-forward, без PR-ревизии). Просит запускать приложение локально для проверки и обновлять README (раздел фич) после изменений.",
+    "old_text": null
+  }
+}

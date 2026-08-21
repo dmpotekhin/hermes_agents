@@ -1,0 +1,14 @@
+{
+  "id": "177781ad",
+  "subsystem": "memory",
+  "action": "add",
+  "summary": "add to user profile: На работе есть доступ к DeepSeek 4 Flash (контекст 100K токенов) для вайбкодинга автотестов; спрашивал как настроить Her",
+  "origin": "background_review",
+  "created_at": 1787257213.6850271,
+  "payload": {
+    "action": "add",
+    "target": "user",
+    "content": "На работе есть доступ к DeepSeek 4 Flash (контекст 100K токенов) для вайбкодинга автотестов; спрашивал как настроить Hermes под неё (дефолт остаётся на бесплатных моделях).",
+    "old_text": null
+  }
+}

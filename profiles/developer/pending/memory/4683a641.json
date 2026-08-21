@@ -1,0 +1,14 @@
+{
+  "id": "4683a641",
+  "subsystem": "memory",
+  "action": "add",
+  "summary": "add to user profile: Пользователь периодически просит аудитировать внешние репозитории скиллов («пройдись по репозиторию, что можно дополнить",
+  "origin": "background_review",
+  "created_at": 1787252002.532835,
+  "payload": {
+    "action": "add",
+    "target": "user",
+    "content": "Пользователь периодически просит аудитировать внешние репозитории скиллов («пройдись по репозиторию, что можно дополнить») — уже были mattpocock/skills и obra/superpowers. Методика импорта — в скилле skill-authoring (раздел Importing Skills from External Repos).",
+    "old_text": null
+  }
+}

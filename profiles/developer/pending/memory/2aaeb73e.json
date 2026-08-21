@@ -1,0 +1,14 @@
+{
+  "id": "2aaeb73e",
+  "subsystem": "memory",
+  "action": "add",
+  "summary": "add to memory: Проект blender-3d-generator: /Users/dmitrypotekhin/blender-3d-generator/ — веб-генератор 3D-моделей для Blender (спека d",
+  "origin": "background_review",
+  "created_at": 1787154482.46211,
+  "payload": {
+    "action": "add",
+    "target": "memory",
+    "content": "Проект blender-3d-generator: /Users/dmitrypotekhin/blender-3d-generator/ — веб-генератор 3D-моделей для Blender (спека draft в docs/specs/, MVP Vite+React+Three.js, экспорт .glb; Blender на машине не установлен). Файлы пользователь открывает в PyCharm (open -a PyCharm).",
+    "old_text": null
+  }
+}

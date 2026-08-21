@@ -1,0 +1,13 @@
+{
+  // KiloCode project config — copy to project root.
+  // Provider (DeepSeek / OpenAI Compatible) is configured in the UI:
+  // Settings → Providers. This file carries rules/instructions.
+  "instructions": [
+    "./AGENTS.md",
+    ".kilo/rules/*.md"
+  ],
+  // Context condensing is automatic; optional threshold (1-100).
+  "compaction": {
+    "threshold_percent": 80
+  }
+}

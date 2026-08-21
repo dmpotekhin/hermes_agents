@@ -1,0 +1,14 @@
+{
+  "id": "db71aebf",
+  "subsystem": "memory",
+  "action": "add",
+  "summary": "add to memory: Japanese Reader: /Users/dmitrypotekhin/projects/japanese-reader (React/Vite+Tailwind, kuroshiro+kuromoji, Satori Reader-",
+  "origin": "background_review",
+  "created_at": 1786707731.7285912,
+  "payload": {
+    "action": "add",
+    "target": "memory",
+    "content": "Japanese Reader: /Users/dmitrypotekhin/projects/japanese-reader (React/Vite+Tailwind, kuroshiro+kuromoji, Satori Reader-стиль). Системный node v14 — запускать nvm use 20, dev :5173. Детали в скилле japanese-text-processing.",
+    "old_text": null
+  }
+}

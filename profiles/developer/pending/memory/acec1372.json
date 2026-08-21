@@ -1,0 +1,14 @@
+{
+  "id": "acec1372",
+  "subsystem": "memory",
+  "action": "add",
+  "summary": "add to memory: OmniRoute (AI-шлюз): установлен глобально через node v22.23.2 (nvm), пакет omniroute v3.8.49 (~3 ГБ). Требует node>=22.1",
+  "origin": "assistant_tool",
+  "created_at": 1787324534.438307,
+  "payload": {
+    "action": "add",
+    "target": "memory",
+    "content": "OmniRoute (AI-шлюз): установлен глобально через node v22.23.2 (nvm), пакет omniroute v3.8.49 (~3 ГБ). Требует node>=22.19 (undici). Установка падает на postinstall @swc/core с SIGBUS — лечится OMNIROUTE_SKIP_POSTINSTALL=1 (swc в рантайме не нужен). Дашборд localhost:20128, API /v1. Команда omniroute в PATH через nvm. GitHub репо 422 МБ — клонировать долго, лучше npm.",
+    "old_text": null
+  }
+}

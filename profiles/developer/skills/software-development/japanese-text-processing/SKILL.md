@@ -7,6 +7,10 @@ description: Set up kuroshiro + kuromoji in Vite/React for automatic furigana, d
 
 Set up a Japanese reading app with automatic furigana (ruby annotations), dictionary lookup, and text-to-speech — all in the browser.
 
+> **Project reference** — the concrete app this skill builds is the Japanese Reader at
+> `/Users/dmitrypotekhin/projects/japanese-reader`. See `references/japanese-reader-project.md`
+> for its path, run recipe (`nvm use 20`), structure, and current design state.
+
 ## Dependencies
 
 ```bash
@@ -94,6 +98,23 @@ The copy script must handle the `.gz` files:
   "dev": "vite"
 }
 ```
+
+## Vite + Tailwind — config changes need a dev-server restart
+
+When editing `tailwind.config.js` (adding a font family, color, or spacing token),
+the running Vite dev server does **not** reliably pick up the new config — it can
+keep serving stale CSS (e.g. a newly added `font-serif-jp` utility computes as the
+old `Roboto`). The production build (`npm run build`) is always authoritative.
+
+Pitfalls:
+- After changing `tailwind.config.js`, restart `npm run dev` before trusting what
+  you see. Vite logs `[vite] page reload tailwind.config.js`, but Tailwind JIT can
+  still hold a stale config in dev.
+- Verify font/color/utility changes with a computed-style check, not eyeballing:
+  `getComputedStyle(el).fontFamily` / `.backgroundColor` in the browser console, or
+  grep the built CSS: `grep -o "\.font-serif-jp[^{]*{[^}]*}" dist/assets/*.css`.
+- This is a Tailwind-JIT + Vite PostCSS cache quirk, not a bug in your code. If the
+  build output is correct but the dev server looks wrong, restart the server first.
 
 ## Kuroshiro Initialization — Race Condition Fix
 

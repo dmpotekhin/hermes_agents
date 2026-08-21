@@ -1,0 +1,14 @@
+{
+  "id": "4d403f03",
+  "subsystem": "memory",
+  "action": "replace",
+  "summary": "replace in memory: old: Strix (AI-пентест): ~/.strix/bin/strix v1.5.3, PATH в .zshrc, конфиг ~/.strix/cli-config.json (deepseek/deepseek-v4",
+  "origin": "assistant_tool",
+  "created_at": 1786710373.6588302,
+  "payload": {
+    "action": "replace",
+    "target": "memory",
+    "content": "Strix (AI-пентест): ~/.strix/bin/strix v1.5.3, конфиг ~/.strix/cli-config.json (deepseek/deepseek-v4-pro + ключ). Требует запущенный Docker daemon (Docker Desktop vmnetd уже починен). ВАЖНО: при скане локальной папки Strix сам ПРАВИТ код (применяет фиксы) и пишет результаты в <target>/strix_runs/ — перед сканом коммить/стешь, strix_runs/ добавить в .gitignore.",
+    "old_text": "Strix (AI-пентест): ~/.strix/bin/strix v1.5.3, PATH в .zshrc, конфиг ~/.strix/cli-config.json (deepseek/deepseek-v4-pro + ключ). Требует Docker. Docker Desktop сломан: нет /Library/PrivilegedHelperTools/com.docker.vmnetd → sudo cp из /Applications/Docker.app/Contents/Library/LaunchServices/ + chown root:wheel + chmod 711 + launchctl load, перезапустить Docker Desktop."
+  }
+}

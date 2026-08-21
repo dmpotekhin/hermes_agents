@@ -1,0 +1,14 @@
+{
+  "id": "48251e8e",
+  "subsystem": "memory",
+  "action": "add",
+  "summary": "add to memory: Сеть до зарубежных CDN (GitHub/Azure) ~100 КБ/с с обрывами: requests-загрузчики зависают — качать curl -C - --speed-limi",
+  "origin": "background_review",
+  "created_at": 1787144102.962235,
+  "payload": {
+    "action": "add",
+    "target": "memory",
+    "content": "Сеть до зарубежных CDN (GitHub/Azure) ~100 КБ/с с обрывами: requests-загрузчики зависают — качать curl -C - --speed-limit 1024 --speed-time 60 --retry. invisible-playwright 0.7.2 установлен (pip --user) — антидетект для Ozon; движок кэшируется в ~/Library/Caches/invisible-playwright.",
+    "old_text": null
+  }
+}

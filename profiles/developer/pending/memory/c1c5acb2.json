@@ -1,0 +1,22 @@
+{
+  "id": "c1c5acb2",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 2 op(s) to memory: - add: japanese-reader: ~/projects/japanese-reader (GitHub dmpotekhin/japanese-reader) — React/Vite+Tailwind+kuroshiro/k",
+  "origin": "background_review",
+  "created_at": 1786719100.4347851,
+  "payload": {
+    "action": "batch",
+    "target": "memory",
+    "operations": [
+      {
+        "action": "add",
+        "content": "japanese-reader: ~/projects/japanese-reader (GitHub dmpotekhin/japanese-reader) — React/Vite+Tailwind+kuroshiro/kuromoji, стиль Satori Reader с аниме-темами. Системный node v14, для Vite-проектов юзать nvm (v20/v22, default 20)."
+      },
+      {
+        "action": "add",
+        "content": "Hermes-терминал: Python urllib/requests таймаутит на localhost (127.0.0.1:PORT), а curl работает — HTTP-проверки локальных сервисов делать через curl."
+      }
+    ]
+  }
+}

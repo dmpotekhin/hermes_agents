@@ -1,0 +1,29 @@
+{
+  "id": "a2dbd46e",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 3 op(s) to memory: - add: После каждого git push вызывай: python3 ~/.hermes/scripts/vibecode_tracker.py segment <project>. Трекер глобальны",
+  "origin": "background_review",
+  "created_at": 1786467320.4892612,
+  "payload": {
+    "action": "batch",
+    "target": "memory",
+    "operations": [
+      {
+        "action": "add",
+        "target": "memory",
+        "content": "После каждого git push вызывай: python3 ~/.hermes/scripts/vibecode_tracker.py segment <project>. Трекер глобальный, стейт в ~/.hermes/state/, автоопределение профиля. Логи в Obsidian: Brain/notes/vibecoding/."
+      },
+      {
+        "action": "add",
+        "target": "memory",
+        "content": "Вайбкодинг-трекер: авто-пауза >10 мин простоя, планировочные сессии тоже учитываются, оба профиля (developer + japanese-tutor). Backfill за июнь-август: 75 коммитов, 19 дней, ~35ч. Daily log: backfill выше <!-- LIVE -->, live-данные ниже — не перезаписывать backfill."
+      },
+      {
+        "action": "add",
+        "target": "user",
+        "content": "Дмитрий хочет автоматически отслеживать время вайбкодинга с Hermes. Предпочитает: автоматический трекинг (старт сессии = начало, коммит/пуш = сегмент), авто-пауза при простое >10 мин, учёт планировочных сессий, трекинг по всем профилям. Данные в Obsidian."
+      }
+    ]
+  }
+}

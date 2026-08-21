@@ -1,0 +1,14 @@
+{
+  "id": "cffa2528",
+  "subsystem": "memory",
+  "action": "replace",
+  "summary": "replace in memory: old: Strix (AI-пентест): ~/.strix/bin/strix v1.5.3, PATH в .zshrc\nnew: Strix (AI-пентест) установлен: ~/.strix/bin/strix",
+  "origin": "background_review",
+  "created_at": 1786654834.039497,
+  "payload": {
+    "action": "replace",
+    "target": "memory",
+    "content": "Strix (AI-пентест) установлен: ~/.strix/bin/strix v1.5.3 (PATH в .zshrc), конфиг ~/.strix/cli-config.json (deepseek/deepseek-v4-pro + ключ). Требует Docker. Docker Desktop работает (починен: vmnetd восстановлен + factory reset диска). Как чинить Docker — в скилле macos-system-administration.",
+    "old_text": "Strix (AI-пентест): ~/.strix/bin/strix v1.5.3, PATH в .zshrc"
+  }
+}

@@ -198,6 +198,28 @@ As of 2026-08, `execute_code` with `open(path, 'w')` successfully writes to note
 ### 14. `read_file` can read .xlsx as text — bypass terminal guard
 When terminal is blocked for `python3 -c` or script runs in the project directory, `read_file` on the .xlsx file auto-extracts all rows as tab-separated text. This allows Excel data inspection without touching terminal. Use `execute_code` to parse the extracted text, compare with existing JS, and compute diffs — then write only the diff (not full rebuild) via `patch` or `execute_code`.
 
+### 15. notes-data.js is JS, NOT JSON — trailing commas break json.loads
+`notes-data.js` contains trailing commas inside arrays/objects (`],` and `},` after the last element) — valid JavaScript, INVALID JSON. `json.loads` on the file fails with a misleading "Expecting value" pointing at the closing `],`, which looks like a broken file but is actually just trailing commas. Diagnostic path:
+- For syntax: `node --check js/books-data.js` / `node --check js/notes-data.js` — fast parse-only, does NOT execute, and is NOT blocked by the terminal guard (unlike `node -e`).
+- For semantic checks in Python: strip trailing commas before parsing:
+```python
+body = re.sub(r",(\s*[\]}])", r"\1", body)  # tolerate trailing commas
+obj = json.JSONDecoder().raw_decode(body.lstrip())[0]
+```
+Do NOT trust bare `json.loads` on these files — it will false-positive "broken". One-shot check covering all of the above: run `python3 <skill_dir>/scripts/verify_books_data.py [new book titles...]` (node --check + trailing-comma-tolerant parse + MISSING + dup-keys + 5-theses).
+
+### 16. Fixing Excel typos cascades into notes keys — check for duplicates
+When fixing a typo in `Книги.xlsx` (e.g. `Исскуство` → `Искусство`, 8 cells in 2026-08), the title changes in `books-data.js` AND any notes key that used the typo. Two notes can coexist under the typo'd and correct keys (both counted as separate entries); after renaming keys to match the fixed title they COLLIDE → duplicate key (last one wins on the site, invisible in json.loads). After any key-rename pass, always assert key uniqueness:
+```python
+keys = list(obj.keys())
+dups = {k for k in keys if keys.count(k) > 1}
+assert not dups, dups
+```
+Also remove orphan one-line records that duplicated a full record (old typo key renamed into an existing correct key).
+
+### 17. books-data.js must be a bare global — no `export`
+The site's `js/books.js` checks `typeof booksData === 'undefined'` and the data files load as plain scripts, so `books-data.js` / `notes-data.js` MUST declare `const booksData = [...]` / `const bookNotes = {...}` WITHOUT `export`. A rebuild script that writes `export const` breaks the page silently. Verify after rebuild: `head -2 js/books-data.js` shows no `export`.
+
 ## Notes Rendering
 
 Books with notes get a `.has-notes` class, a `📝 Заметки` button, and a `.book-notes-panel` (hidden by default, expands on click). The panel contains:
@@ -225,12 +247,12 @@ grep -c '"theses"' js/notes-data.js
 curl -sI https://dmpotekhin.github.io/js/books-data.js | grep -E 'content-length|last-modified'
 ```
 
-## Current State (after 2026-08-03 session)
+## Current State (after 2026-08-19 session)
 
-- 534 books in `books-data.js` (regenerated from Excel)
-- 494 books have notes (92% coverage, 40 without)
-- ~765 note entries in `notes-data.js`
+- 542 books in `books-data.js` (regenerated from Excel)
+- All 542 books have notes (100% coverage, MISSING=0); 686 note entries in `notes-data.js`
+- Fixed 7 «Исскуство»→«Искусство» typos in Excel/books-data.js + mirrored key renames in notes-data.js; repaired a missing comma after the «Создание арки персонажа» record
 - Dark theme default (inline `<head>` script + `html.dark-theme body` CSS, see `static-site-patterns` references)
 - Responsive layout: `clamp()` spacing/fonts/images, `auto-fit` grids, touch targets ≥44px
 - 4 known duplicate titles in Excel source (Битва железных канцлеров, Барьеры, Демон, Рискуя собственной шкурой) — not blocking
-- Verification: `bash scripts/verify-books.sh` or `execute_code` JSON parse check
+- Verification: `python3 scripts/verify_books_data.py` (preferred) or `bash scripts/verify-books.sh`

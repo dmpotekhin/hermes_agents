@@ -1,0 +1,14 @@
+{
+  "id": "0ffafba6",
+  "subsystem": "memory",
+  "action": "add",
+  "summary": "add to memory: Машина (Intel Mac) медленная: комбинированные shell-команды с &&/; часто таймаутятся (BLOCKED) — предпочитать одиночные",
+  "origin": "background_review",
+  "created_at": 1787148207.18944,
+  "payload": {
+    "action": "add",
+    "target": "memory",
+    "content": "Машина (Intel Mac) медленная: комбинированные shell-команды с &&/; часто таймаутятся (BLOCKED) — предпочитать одиночные команды с timeout ≥60с. python3-старт медленный.",
+    "old_text": null
+  }
+}

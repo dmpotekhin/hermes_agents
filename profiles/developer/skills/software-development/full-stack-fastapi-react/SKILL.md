@@ -99,13 +99,19 @@ wait
 ## Pitfalls
 
 - **uvicorn path:** Run `uvicorn backend.main:app` from project root, NOT `cd backend && uvicorn main:app`. The latter breaks relative imports.
+- **Prefer plain `uvicorn` over `uvicorn[standard]`:** the `[standard]` extra pulls uvloop/httptools/watchfiles (C/Rust builds) which fail on machines without Xcode CLT. Plain uvicorn (asyncio + h11) is enough for local apps and installs from wheels with no native builds.
 - **Node version:** Vite 6+ requires Node ≥18. Default macOS `node` may be v14. Use nvm: `export PATH=~/.nvm/versions/node/v20.x.x/bin:$PATH`.
 - **Frontend build errors:** Missing page imports (from later tasks) are expected during incremental development. Build will pass once all pages exist.
 - **Port conflicts:** `lsof -ti:8000 | xargs kill` to free the port before restarting.
 
 ## Ad-Hoc Verification
 
-When the project has no test suite, verify with temporary scripts:
+Prefer a committed `tests/` suite run with `python -m pytest` — it is the
+canonical, repeatable verification and covers API end-to-end via `TestClient`.
+Inline `python -c` and arbitrary-path temp scripts can hit a terminal consent
+prompt that stalls without a user reply, while `python -m pytest` and
+`python -m <module>` run clean. Use the temp-script pattern below only for
+projects with no test suite:
 
 ```python
 import tempfile, os, subprocess

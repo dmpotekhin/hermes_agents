@@ -1,0 +1,14 @@
+{
+  "id": "06707ec8",
+  "subsystem": "memory",
+  "action": "add",
+  "summary": "add to memory: Notion-clone: /Users/dmitrypotekhin/projects/notion-clone (Node/Express + Socket.IO + Prisma backend, React/Vite+TS clie",
+  "origin": "background_review",
+  "created_at": 1786980124.7680159,
+  "payload": {
+    "action": "add",
+    "target": "memory",
+    "content": "Notion-clone: /Users/dmitrypotekhin/projects/notion-clone (Node/Express + Socket.IO + Prisma backend, React/Vite+TS client, vitest). Server и клиент закоммичены; тесты 15/15; клиент: npx tsc --noEmit + npx vite build (в Hermes — background=true).",
+    "old_text": null
+  }
+}

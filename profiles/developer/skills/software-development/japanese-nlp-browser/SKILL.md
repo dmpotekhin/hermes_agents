@@ -240,6 +240,10 @@ Kuromoji and Vite 5 require **Node.js >= 18**. If the system has an older Node, 
 nvm use 20
 ```
 
+## Vite + Tailwind config staleness (dev server cache)
+
+After editing `tailwind.config.js` (e.g. adding a new `fontFamily` key or a color), the Vite dev server does NOT always reload the config — a newly-added utility class (e.g. `font-serif-jp`) can be missing from the served CSS, so `getComputedStyle` still shows the old font/color even though `npm run build` produces correct output. Diagnose: run `npm run build` and grep the class in `dist/assets/*.css` — if it's absent there the config wasn't picked up at all; if present, the dev server is just stale. Fix: restart the dev server. When verifying new Tailwind classes, trust the build output over the hot-reloading dev server.
+
 ## References
 
 - `references/kuromoji-vite-integration.md` — full vite.config.ts with all plugins and middleware, plus explanation of why each piece is needed

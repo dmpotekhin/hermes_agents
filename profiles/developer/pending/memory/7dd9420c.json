@@ -1,0 +1,14 @@
+{
+  "id": "7dd9420c",
+  "subsystem": "memory",
+  "action": "add",
+  "summary": "add to memory: Vibecode-трекер авто-стартует: обёртка hermes() в ~/.zshrc (start при запуске, stop при выходе) + инструкция в SOUL.md п",
+  "origin": "assistant_tool",
+  "created_at": 1786568254.6953988,
+  "payload": {
+    "action": "add",
+    "target": "memory",
+    "content": "Vibecode-трекер авто-стартует: обёртка hermes() в ~/.zshrc (start при запуске, stop при выходе) + инструкция в SOUL.md профиля. Скрипт ~/.hermes/scripts/vibecode_tracker.py доработан: start не теряет незакрытую сессию, stop уважает auto-pause >10мин.",
+    "old_text": null
+  }
+}

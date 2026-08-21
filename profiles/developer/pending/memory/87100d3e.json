@@ -1,0 +1,24 @@
+{
+  "id": "87100d3e",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 2 op(s) to memory: - add: Жена — маркетолог, учит немецкий. Нужен отдельный Hermes-аккаунт на Windows 11. Профили: german-tutor (Фрау Вебер",
+  "origin": "background_review",
+  "created_at": 1786472939.1526551,
+  "payload": {
+    "action": "batch",
+    "target": "memory",
+    "operations": [
+      {
+        "action": "add",
+        "content": "Жена — маркетолог, учит немецкий. Нужен отдельный Hermes-аккаунт на Windows 11. Профили: german-tutor (Фрау Вебер, A1–C2) и marketing (тексты, SMM, SEO, вайбкодинг). Архив профилей на Desktop: hermes-wife-profiles.zip.",
+        "target": "user"
+      },
+      {
+        "action": "add",
+        "content": "Хочет Telegram-бота = вход в Hermes, не отдельный скрипт. Функционал: напоминания (cronjob), задачи/идеи/заметки (Obsidian), закладки, YouTube-скачивание (yt-dlp), голосовые (STT), поиск по заметкам. Пока только YouTube (без авторизации), Instagram/Facebook позже.",
+        "target": "memory"
+      }
+    ]
+  }
+}
