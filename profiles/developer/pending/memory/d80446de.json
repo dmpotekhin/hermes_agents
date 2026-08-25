@@ -1,0 +1,28 @@
+{
+  "id": "d80446de",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 3 op(s) to memory: - replace: Strix (AI-пентест): ~/.strix/bin/strix v1.5.3, PATH в .zshrc, конфиг ~/.strix/cli-config.json (deepseek/deeps",
+  "origin": "assistant_tool",
+  "created_at": 1787599485.832907,
+  "payload": {
+    "action": "batch",
+    "target": "memory",
+    "operations": [
+      {
+        "action": "replace",
+        "old_text": "Strix (AI-пентест): ~/.strix/bin/strix v1.5.3, PATH в .zshrc, конфиг ~/.strix/cli-config.json (deepseek/deepseek-v4-pro + ключ). Требует Docker. Docker Desktop сломан: нет /Library/PrivilegedHelperTools/com.docker.vmnetd → sudo cp из /Applications/Docker.app/Contents/Library/LaunchServices/ + chown root:wheel + chmod 711 + launchctl load, перезапустить Docker Desktop.",
+        "new_text": "Strix: ~/.strix/bin/strix (PATH в .zshrc), конфиг ~/.strix/cli-config.json (deepseek-v4-pro). Нужен Docker; Docker Desktop сломан (нет com.docker.vmnetd) — фикс: sudo cp из /Applications/Docker.app/Contents/Library/LaunchServices/ + chown root:wheel + chmod 711 + launchctl load."
+      },
+      {
+        "action": "replace",
+        "old_text": "Graphify: pip пакет graphifyy (--user), бинарь ~/Library/Python/3.11/bin/graphify (не в PATH). Строит граф кода (tree-sitter AST, без LLM) в graphify-out/ проекта; deepseek — first-class LLM-бэкенд (DEEPSEEK_API_KEY). Использовать скилл graphify-knowledge-graph при работе с проектами.",
+        "new_text": "Graphify: ~/Library/Python/3.11/bin/graphify (не в PATH). Граф кода в graphify-out/; deepseek first-class (DEEPSEEK_API_KEY). См. скилл graphify-knowledge-graph."
+      },
+      {
+        "action": "add",
+        "content": "DeepSeek Harness MCP (127.0.0.1:8090): запуск dsh --profile web --no-open под node22 (nvm v22.23.2; дефолтный node=14 не годится). В Hermes подключён как mcp harness_plugin. Не выставлять наружу (unauth RCE)."
+      }
+    ]
+  }
+}

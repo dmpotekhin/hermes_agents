@@ -1,0 +1,28 @@
+{
+  "id": "6b2a1c58",
+  "subsystem": "memory",
+  "action": "batch",
+  "summary": "apply 3 op(s) to memory: - replace: Strix (AI-пентест): ~/.strix/bin/strix v1.5.3 -> Strix (AI-пентест): ~/.strix/bin/strix v1.5.3, конфиг ~/.str",
+  "origin": "background_review",
+  "created_at": 1787332444.210289,
+  "payload": {
+    "action": "batch",
+    "target": "memory",
+    "operations": [
+      {
+        "action": "replace",
+        "content": "Strix (AI-пентест): ~/.strix/bin/strix v1.5.3, конфиг ~/.strix/cli-config.json (deepseek-v4-pro). Требует Docker; если Docker Desktop сломан (нет /Library/PrivilegedHelperTools/com.docker.vmnetd) — sudo cp /Applications/Docker.app/Contents/Library/LaunchServices/com.docker.vmnetd /Library/PrivilegedHelperTools/ + chown root:wheel + chmod 711 + launchctl load, перезапуск.",
+        "old_text": "Strix (AI-пентест): ~/.strix/bin/strix v1.5.3"
+      },
+      {
+        "action": "replace",
+        "content": "Security pre-commit hook в qa-interview-trainer/.git/hooks/pre-commit: gitleaks 8.30.1 (git --staged) + bandit 1.9.4 (HIGH блок, MEDIUM warn) + semgrep (сломан — пропускается). Бинари: gitleaks ~/bin, bandit/semgrep ~/Library/Python/3.11/bin (не в PATH, хук расширяет). Нет Xcode CLT — brew не собирает go/native, pip падает на cryptography; semgrep — только после xcode-select --install.",
+        "old_text": "Security pre-commit hook в /Users/dmitrypotekhin/trainer/qa-interview-trainer/.git/hooks/pre-commit"
+      },
+      {
+        "action": "add",
+        "content": "~/.hermes = git-репо dmpotekhin/hermes_agents (SSH, main); «пуш обновлений гермес» = git add -A в ~/.hermes + credential-scan + commit + push."
+      }
+    ]
+  }
+}

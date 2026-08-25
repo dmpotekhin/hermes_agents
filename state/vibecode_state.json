@@ -561,14 +561,122 @@
       ],
       "commits": 1,
       "ended": "2026-08-21T14:40:59.602435"
+    },
+    {
+      "started": "2026-08-21T14:40:59.602435",
+      "last_segment": "2026-08-21T20:17:15.393732",
+      "project": "omniroute",
+      "segments": [
+        {
+          "from": "2026-08-21T14:40:59.602435",
+          "to": "2026-08-21T20:17:15.393732",
+          "duration_seconds": 20175,
+          "project": "omniroute"
+        }
+      ],
+      "pauses": [],
+      "commits": 1,
+      "ended": "2026-08-21T20:17:15.393732"
+    },
+    {
+      "started": "2026-08-21T20:17:15.393732",
+      "last_segment": "2026-08-21T20:17:15.393732",
+      "project": null,
+      "segments": [],
+      "pauses": [
+        {
+          "from": "2026-08-21T20:17:15.393732",
+          "to": "2026-08-24T18:17:47.026899",
+          "gap_seconds": 252031
+        }
+      ],
+      "commits": 0,
+      "ended": "2026-08-24T18:17:47.026899"
+    },
+    {
+      "started": "2026-08-24T18:17:47.026899",
+      "last_segment": "2026-08-24T18:17:47.026899",
+      "project": "unknown",
+      "segments": [
+        {
+          "from": "2026-08-24T18:17:47.026899",
+          "to": "2026-08-24T18:18:27.930853",
+          "duration_seconds": 40,
+          "project": "unknown"
+        }
+      ],
+      "pauses": [],
+      "commits": 0,
+      "ended": "2026-08-24T18:18:27.930853"
+    },
+    {
+      "started": "2026-08-24T18:18:27.930853",
+      "last_segment": "2026-08-24T18:18:27.930853",
+      "project": "unknown",
+      "segments": [],
+      "pauses": [],
+      "commits": 0,
+      "ended": "2026-08-24T18:18:28.178977"
+    },
+    {
+      "started": "2026-08-24T18:23:36.046184",
+      "last_segment": "2026-08-24T18:23:36.046184",
+      "project": "unknown",
+      "segments": [],
+      "pauses": [
+        {
+          "from": "2026-08-24T18:23:36.046184",
+          "to": "2026-08-24T18:42:44.671251",
+          "gap_seconds": 1148
+        }
+      ],
+      "commits": 0,
+      "ended": "2026-08-24T18:42:44.671251"
+    },
+    {
+      "started": "2026-08-24T18:42:53.660099",
+      "last_segment": "2026-08-24T18:42:53.660099",
+      "project": "unknown",
+      "segments": [],
+      "pauses": [],
+      "commits": 0,
+      "ended": "2026-08-24T18:43:19.201027"
+    },
+    {
+      "started": "2026-08-24T21:45:46.990454",
+      "last_segment": "2026-08-24T21:45:46.990454",
+      "project": "unknown",
+      "segments": [],
+      "pauses": [
+        {
+          "from": "2026-08-24T21:45:46.990454",
+          "to": "2026-08-24T23:56:36.297577",
+          "gap_seconds": 7849
+        }
+      ],
+      "commits": 0,
+      "ended": "2026-08-24T23:56:36.297577"
     }
   ],
   "current": {
-    "started": "2026-08-21T14:40:59.602435",
-    "last_segment": "2026-08-21T14:40:59.602435",
-    "project": "unknown",
-    "segments": [],
+    "started": "2026-08-24T23:56:36.297577",
+    "last_segment": "2026-08-25T00:03:33.845125",
+    "project": "books-library",
+    "segments": [
+      {
+        "from": "2026-08-24T23:56:36.297577",
+        "to": "2026-08-24T23:58:25.656572",
+        "duration_seconds": 109,
+        "project": "unknown"
+      },
+      {
+        "from": "2026-08-24T23:58:25.656572",
+        "to": "2026-08-25T00:03:33.845125",
+        "duration_seconds": 308,
+        "project": "books-library"
+      }
+    ],
     "pauses": [],
-    "commits": 0
+    "commits": 2
   }
 }
