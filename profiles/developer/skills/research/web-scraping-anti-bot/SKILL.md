@@ -14,6 +14,31 @@ metadata:
 
 Use when the user wants a price / data point from a site that may be protected by an anti-bot system (Ozon, Wildberries, marketplaces, Cloudflare-fronted sites) or when a plain `curl` gets 403/captcha.
 
+## Step 0 — extraction front-end refuses a URL (SSR docs)
+
+An extraction tool (web_extract) can refuse a public URL with a misleading
+error: `Blocked: URL targets a private or internal network address`. That is
+usually an anti-bot/SSRF guard on the *fetch backend*, NOT a genuinely private
+host. Before reaching for the ladder below, fetch the page straight with a
+browser User-Agent:
+
+```bash
+curl -sL -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36" "<url>"
+```
+
+Many "blocked" doc sites are simply server-side-rendered HTML once you present
+a browser UA. **docs.pen.dev (Nextra/Next.js, ~2026)** is one such case:
+web_extract blocked it, `curl` returned full HTML, and the content sits in the
+`<main>` block. For docs sites try canonical machine routes first: `/<page>.md`
+and `/llms.txt` (Mintlify serves these; Nextra returns 404 for `/llms.txt`).
+
+Fetch + extract `<main>` + strip tags in one pass with the bundled script, so a
+whole doc section (several URLs) comes back without flooding context:
+
+```bash
+python3 scripts/fetch_ssr_page.py https://docs.pen.dev/getting-started/installation https://docs.pen.dev/for-developers/pen-cli
+```
+
 ## Escalation ladder (cheap → expensive; stop early)
 
 1. **curl with UA + cookie jar** — `curl -sL -c jar -b jar -A "<real UA>" URL`. Handle 307 redirects automatically; a first hit usually sets `__Secure-*` cookies, retry with the jar.

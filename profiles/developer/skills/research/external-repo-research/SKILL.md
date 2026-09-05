@@ -87,7 +87,8 @@ Save as a markdown plan/report in `.hermes/plans/` with a timestamped filename.
 Example of a condensed knowledge-bank reference for a studied repo (what it is, mechanics worth
 borrowing, integration hooks, verdict): `references/openviking.md` (OpenViking context DB, evaluated
 2026-08-20, decision pending). Reuse this shape when a studied repo's applicability is likely to
-come up again.
+come up again. Another: `references/agency-agents.md` (msitarzewski/agency-agents → Hermes
+lazy-router plugin, evaluated 2026-09-04, adopt).
 
 ## Skill-library sync (import / update)
 

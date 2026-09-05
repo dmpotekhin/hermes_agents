@@ -51,6 +51,20 @@ When `main.js` uses `data-lang` attributes with `innerHTML` replacement (`update
 </p>
 ```
 
+### Data-driven image lists load eagerly → first-paint cost scales with N
+A render loop that injects one `<img>` per list item (map sidebar, city/card grid) and does NOT set `loading="lazy"` fetches every item's image the moment the list builds. On a static-site page this is the real "load": the initial download grows roughly as item_count × average image size and pins first paint (worst on mobile). The server/CDN side is usually NOT the concern — GitHub Pages serves static files free via CDN and a site well under the 1 GB soft limit is fine; the client-side eager fetch is what hurts.
+
+- Eager list thumbs: `buildList()`-style loops render all N items → all N images are fetched at page open.
+- On-demand popup images (e.g. a MapLibre popup photo injected after a click) already load lazily *by timing* — those are fine and often must STAY eager (lazy on a popup/DOM-rebuilt element can fail to load).
+- Fix: add `loading="lazy"` to the list thumbnails so only near-viewport items fetch; and/or generate a small thumbnail variant (e.g. 200 px q70) for the list while keeping the full-size image for the on-demand popups.
+
+```javascript
+// BROKEN — every list item's image fetched at open regardless of scroll
+var dot = '<img class="list-thumb" src="' + item.photo + '" alt="">';
+// FIXED — only visible list items load
+var dot = '<img class="list-thumb" loading="lazy" src="' + item.photo + '" alt="">';
+```
+
 ## Patterns
 
 ### Excel → JS data pipeline

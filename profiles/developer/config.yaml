@@ -103,7 +103,7 @@ tool_loop_guardrails:
 compression:
   enabled: true
   threshold: 0.5
-  threshold_tokens: 80000
+  threshold_tokens: 100000
   target_ratio: 0.2
   protect_last_n: 20
   proactive_prune_tokens: 48000
@@ -137,12 +137,6 @@ auxiliary:
     api_key: ''
     timeout: 120
     download_timeout: 30
-  web_extract:
-    provider: auto
-    model: ''
-    base_url: ''
-    api_key: ''
-    timeout: 360
   compression:
     provider: auto
     model: ''
@@ -216,6 +210,12 @@ auxiliary:
     base_url: ''
     api_key: ''
     timeout: 120
+  web_extract:
+    provider: auto
+    model: ''
+    base_url: ''
+    api_key: ''
+    timeout: 360
 display:
   compact: false
   personality: ''
@@ -356,14 +356,13 @@ delegation:
   api_key: ''
   api_mode: ''
   inherit_mcp_toolsets: true
-  max_iterations: 50
+  max_iterations: 250
   child_timeout_seconds: 0
   reasoning_effort: ''
-  max_concurrent_children: 3
+  max_concurrent_children: 10
   max_spawn_depth: 1
   orchestrator_enabled: true
   subagent_auto_approve: false
-  max_async_children: 3
 prefill_messages_file: ''
 goals:
   max_turns: 20
@@ -438,6 +437,10 @@ approvals:
   mcp_reload_confirm: true
   destructive_slash_confirm: true
 command_allowlist: []
+plugins:
+  enabled:
+  - agency-agents-router
+    - image_gen/abacus_ai
 hooks_auto_accept: false
 security:
   allow_private_urls: false
@@ -486,7 +489,6 @@ logging:
 model_catalog:
   enabled: true
   url: https://hermes-agent.nousresearch.com/docs/api/model-catalog.json
-  ttl_hours: 1
 network:
   force_ipv4: false
 gateway:
@@ -548,7 +550,7 @@ paste_collapse_threshold_fallback: 5
 paste_collapse_char_threshold: 2000
 computer_use:
   cua_telemetry: false
-_config_version: 30
+_config_version: 40
 mcp_servers:
   playwright:
     command: npx
@@ -622,9 +624,6 @@ known_plugin_toolsets:
     - spotify
 image_gen:
   provider: abacus_ai
-plugins:
-  enabled:
-    - image_gen/abacus_ai
 custom_providers:
   - name: abacus-ai
     api_key: s2_1cdc555034a7493aa20e1984ea7eb694
@@ -635,24 +634,27 @@ custom_providers:
       route-llm: {}
       claude-sonnet-5: {}
       gpt-5.6-terra: {}
+      gemini-3.8-flash: {}
       gemini-3.7-flash: {}
       gemini-3.6-flash: {}
       gemini-3.5-flash: {}
       grok-4.6: {}
       grok-4.5: {}
-      claude-fable-5: {}
+      claude-fable-5-1: {}
       gpt-5.6-sol: {}
       gemini-3.1-pro-preview: {}
       claude-opus-5: {}
       claude-opus-4-8: {}
       gpt-5.5: {}
       gpt-5.6-luna: {}
+      muse-spark-1.3: {}
       muse-spark-1.2: {}
       gpt-5.4-mini: {}
       grok-4.3: {}
       moonshotai/Kimi-K3: {}
       moonshotai/Kimi-K2.7-Code: {}
       zai-org/GLM-5.3: {}
+      zai-org/GLM-5.3-Flash: {}
       zai-org/GLM-5.2: {}
       deepseek-ai/DeepSeek-V4-Pro-0813: {}
       deepseek-ai/DeepSeek-V4-Flash-0731: {}
@@ -664,7 +666,6 @@ custom_providers:
       gemini-3-flash-preview: {}
       claude-sonnet-4-6: {}
       gpt-5.4: {}
-      stealth/ox-alpha: {}
       thinkingmachines/Inkling: {}
       muse-spark-1.1: {}
       mimo-v2-pro: {}
@@ -676,9 +677,9 @@ custom_providers:
       zai-org/GLM-4.7: {}
       zai-org/GLM-4.6: {}
       zai-org/GLM-4.5: {}
-      deepseek-ai/DeepSeek-V3.2: {}
       moonshotai/Kimi-K2.6: {}
       moonshotai/Kimi-K2-Instruct: {}
+      qwen3.8-flash: {}
       Qwen/Qwen3.8-27B: {}
       qwen3.8-max: {}
       qwen3.7-max: {}
@@ -693,6 +694,7 @@ custom_providers:
       meta-llama/Meta-Llama-3.3-70B-Instruct: {}
       meta-llama/Meta-Llama-3.1-8B-Instruct: {}
       meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8: {}
+      claude-fable-5: {}
       claude-opus-4-7: {}
       claude-opus-4-6: {}
       claude-opus-4-5-20251101: {}
@@ -752,6 +754,7 @@ custom_providers:
       grok_imagine_image2: {}
       grok_imagine_image_quality: {}
       wan27: {}
+      meta_muse_image: {}
       gpt-audio-1.5: {}
       gpt-audio-mini: {}
       gemini-2.5-flash-preview-tts: {}
@@ -792,8 +795,10 @@ custom_providers:
       grok_imagine_video: {}
       grok_imagine_video15: {}
       gemini_omni_flash: {}
+      gemini_omni_flash11: {}
       minimax_h3: {}
       wan27_video: {}
+      wan30_video: {}
       flux3: {}
     models_discovered: true
 

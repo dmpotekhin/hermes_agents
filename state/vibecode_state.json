@@ -656,27 +656,228 @@
       ],
       "commits": 0,
       "ended": "2026-08-24T23:56:36.297577"
+    },
+    {
+      "started": "2026-08-24T23:56:36.297577",
+      "last_segment": "2026-08-25T00:03:33.845125",
+      "project": "books-library",
+      "segments": [
+        {
+          "from": "2026-08-24T23:56:36.297577",
+          "to": "2026-08-24T23:58:25.656572",
+          "duration_seconds": 109,
+          "project": "unknown"
+        },
+        {
+          "from": "2026-08-24T23:58:25.656572",
+          "to": "2026-08-25T00:03:33.845125",
+          "duration_seconds": 308,
+          "project": "books-library"
+        }
+      ],
+      "pauses": [
+        {
+          "from": "2026-08-25T00:03:33.845125",
+          "to": "2026-08-26T15:43:24.952681",
+          "gap_seconds": 142791
+        }
+      ],
+      "commits": 2,
+      "ended": "2026-08-26T15:43:24.952681"
+    },
+    {
+      "started": "2026-08-26T15:43:24.952681",
+      "last_segment": "2026-08-26T18:08:04.157927",
+      "project": "ghpages-travel-map",
+      "segments": [
+        {
+          "from": "2026-08-26T15:43:24.952681",
+          "to": "2026-08-26T18:08:04.157927",
+          "duration_seconds": 8679,
+          "project": "ghpages-travel-map"
+        }
+      ],
+      "pauses": [],
+      "commits": 0,
+      "ended": "2026-08-26T18:08:08.973221"
+    },
+    {
+      "started": "2026-08-26T22:19:22.258000",
+      "last_segment": "2026-08-26T22:19:22.258000",
+      "project": "unknown",
+      "segments": [],
+      "pauses": [
+        {
+          "from": "2026-08-26T22:19:22.258000",
+          "to": "2026-08-27T10:21:48.646242",
+          "gap_seconds": 43346
+        }
+      ],
+      "commits": 0,
+      "ended": "2026-08-27T10:21:48.646242"
+    },
+    {
+      "started": "2026-08-28T15:04:34.787039",
+      "last_segment": "2026-08-28T15:04:34.787039",
+      "project": "unknown",
+      "segments": [],
+      "pauses": [
+        {
+          "from": "2026-08-28T15:04:34.787039",
+          "to": "2026-08-28T15:39:10.187389",
+          "gap_seconds": 2075
+        }
+      ],
+      "commits": 0,
+      "ended": "2026-08-28T15:39:10.187389"
+    },
+    {
+      "started": "2026-08-28T15:39:10.187389",
+      "last_segment": "2026-08-28T22:42:00.000000",
+      "project": "travel-blog-app",
+      "segments": [
+        {
+          "from": "2026-08-28T15:27:00.000000",
+          "to": "2026-08-28T15:58:00.000000",
+          "duration_seconds": 1860,
+          "project": "hermes"
+        },
+        {
+          "from": "2026-08-28T21:34:00.000000",
+          "to": "2026-08-28T22:42:00.000000",
+          "duration_seconds": 4080,
+          "project": "travel-blog-app"
+        }
+      ],
+      "pauses": [],
+      "commits": 0,
+      "ended": "2026-08-29T12:21:18.066353"
+    },
+    {
+      "started": "2026-08-29T12:21:18.066353",
+      "last_segment": "2026-08-29T22:45:32.726673",
+      "project": "travel-blog-app",
+      "segments": [
+        {
+          "from": "2026-08-29T12:21:18.066353",
+          "to": "2026-08-29T22:44:43.772249",
+          "duration_seconds": 37405,
+          "project": "travel-blog-app"
+        },
+        {
+          "from": "2026-08-29T22:44:43.772249",
+          "to": "2026-08-29T22:45:32.726673",
+          "duration_seconds": 48,
+          "project": "travel-blog-app"
+        }
+      ],
+      "pauses": [],
+      "commits": 1,
+      "ended": "2026-08-29T22:45:32.819931"
+    },
+    {
+      "started": "2026-08-31T22:42:36.861928",
+      "last_segment": "2026-09-01T00:31:41.195541",
+      "project": "travel-blog-app",
+      "segments": [
+        {
+          "from": "2026-08-31T22:42:36.861928",
+          "to": "2026-09-01T00:11:36.183967",
+          "duration_seconds": 5339,
+          "project": "dmpotekhin.github.io"
+        },
+        {
+          "from": "2026-09-01T00:11:36.183967",
+          "to": "2026-09-01T00:31:41.195541",
+          "duration_seconds": 1205,
+          "project": "travel-blog-app"
+        }
+      ],
+      "pauses": [
+        {
+          "from": "2026-09-01T00:31:41.195541",
+          "to": "2026-09-03T18:02:58.853478",
+          "gap_seconds": 235877
+        }
+      ],
+      "commits": 4,
+      "ended": "2026-09-03T18:02:58.853478"
+    },
+    {
+      "started": "2026-09-03T18:02:58.853478",
+      "last_segment": "2026-09-03T18:02:58.853478",
+      "project": "unknown",
+      "segments": [],
+      "pauses": [
+        {
+          "from": "2026-09-03T18:02:58.853478",
+          "to": "2026-09-03T18:14:48.348197",
+          "gap_seconds": 709
+        }
+      ],
+      "commits": 0,
+      "ended": "2026-09-03T18:14:48.348197"
+    },
+    {
+      "started": "2026-09-03T18:14:48.348197",
+      "last_segment": "2026-09-03T22:00:52.031837",
+      "project": "dmpotekhin.github.io",
+      "segments": [
+        {
+          "from": "2026-09-03T18:14:48.348197",
+          "to": "2026-09-03T22:00:52.031837",
+          "duration_seconds": 13563,
+          "project": "dmpotekhin.github.io"
+        }
+      ],
+      "pauses": [],
+      "commits": 0,
+      "ended": "2026-09-03T22:01:00.507716"
+    },
+    {
+      "started": "2026-09-03T23:36:11.823167",
+      "last_segment": "2026-09-03T23:36:11.823167",
+      "project": "unknown",
+      "segments": [],
+      "pauses": [
+        {
+          "from": "2026-09-03T23:36:11.823167",
+          "to": "2026-09-04T00:01:27.388527",
+          "gap_seconds": 1515
+        }
+      ],
+      "commits": 0,
+      "ended": "2026-09-04T00:01:27.388527"
+    },
+    {
+      "started": "2026-09-04T09:56:29.119679",
+      "last_segment": "2026-09-04T09:56:29.119679",
+      "project": "unknown",
+      "segments": [],
+      "pauses": [
+        {
+          "from": "2026-09-04T09:56:29.119679",
+          "to": "2026-09-04T19:32:39.296478",
+          "gap_seconds": 34570
+        }
+      ],
+      "commits": 0,
+      "ended": "2026-09-04T19:32:39.296478"
     }
   ],
   "current": {
-    "started": "2026-08-24T23:56:36.297577",
-    "last_segment": "2026-08-25T00:03:33.845125",
-    "project": "books-library",
+    "started": "2026-09-04T19:32:39.296478",
+    "last_segment": "2026-09-04T19:38:11.706654",
+    "project": "travel-media-thumbs",
     "segments": [
       {
-        "from": "2026-08-24T23:56:36.297577",
-        "to": "2026-08-24T23:58:25.656572",
-        "duration_seconds": 109,
-        "project": "unknown"
-      },
-      {
-        "from": "2026-08-24T23:58:25.656572",
-        "to": "2026-08-25T00:03:33.845125",
-        "duration_seconds": 308,
-        "project": "books-library"
+        "from": "2026-09-04T19:32:39.296478",
+        "to": "2026-09-04T19:38:11.706654",
+        "duration_seconds": 332,
+        "project": "travel-media-thumbs"
       }
     ],
     "pauses": [],
-    "commits": 2
+    "commits": 1
   }
 }

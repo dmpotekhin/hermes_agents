@@ -147,3 +147,10 @@ Alternatively, `delegation` has dedicated `base_url` and `api_key` fields that t
 ## Example: Installing Abacus AI Image Gen Plugin
 
 See `references/abacus-ai-example.md` for the full step-by-step with this specific plugin.
+
+## Example: Installing an External Repo's Self-Installing Plugin
+
+Some plugins ship their own installer (`convert.sh` + `install.sh`) and write to
+`config.yaml` themselves (no `hermes config set`). See
+`references/agency-agents-router.md` for one such case — The Agency agent roster
+(lazy router, 273 agents, HERMES_HOME gotcha).
