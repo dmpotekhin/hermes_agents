@@ -2,392 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5178846-3a40-46af-a44e-d03114740a1b" name="Changes" comment="1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profiles/developer/.hermes_history" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/.hermes_history" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/SOUL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/SOUL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/models_dev_cache.etag" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/models_dev_cache.etag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/.bundled_manifest" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/.bundled_manifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/.curator_backups/2026-07-26T19-44-44Z/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/.curator_backups/2026-07-26T19-44-44Z/skills.tar.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/profiles/developer/skills/.curator_ledger.jsonl" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/.curator_ledger.jsonl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/.curator_state" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/.curator_state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/.hub/lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/.hub/lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profiles/developer/skills/.usage.json" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/.usage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/autonomous-ai-agents/computer-use/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/autonomous-ai-agents/computer-use/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/autonomous-ai-agents/hermes-plugins/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/autonomous-ai-agents/hermes-plugins/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/github/codebase-inspection/SKILL.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/productivity/document-to-action-items/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/productivity/document-to-action-items/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/productivity/google-workspace/scripts/_hermes_home.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/productivity/google-workspace/scripts/_hermes_home.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/productivity/pdf/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/productivity/pdf/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/productivity/pdf/scripts/pdf_page_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/productivity/pdf/scripts/pdf_page_image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/productivity/pdf/scripts/pdf_read.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/productivity/pdf/scripts/pdf_read.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/productivity/teams-meeting-pipeline/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/productivity/teams-meeting-pipeline/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/research/arxiv/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/research/arxiv/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/research/blocked-page-recovery/SKILL.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/research/blocked-page-recovery/scripts/recover_page.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/research/external-repo-research/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/research/external-repo-research/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/research/grounded-citations/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/research/grounded-citations/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/research/grounded-citations/references/citation-formats.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/research/grounded-citations/references/citation-formats.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/research/web-scraping-anti-bot/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/research/web-scraping-anti-bot/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/software-development/hermes-agent-skill-authoring/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/software-development/hermes-agent-skill-authoring/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/software-development/simplify-code/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/software-development/simplify-code/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/software-development/spike/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/software-development/spike/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/static-site-patterns/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/static-site-patterns/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/terminal-sessions/tty-dev-ttys001" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/terminal-sessions/tty-dev-ttys001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/verification_evidence.db" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/verification_evidence.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/japanese-tutor/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/.bundled_manifest" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/japanese-tutor/skills/.bundled_manifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/.hub/lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/japanese-tutor/skills/.hub/lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/autonomous-ai-agents/computer-use/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/japanese-tutor/skills/autonomous-ai-agents/computer-use/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/creative/ascii-video/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/japanese-tutor/skills/creative/ascii-video/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/creative/manim-video/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/japanese-tutor/skills/creative/manim-video/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/creative/p5js/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/japanese-tutor/skills/creative/p5js/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/creative/songwriting-and-ai-music/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/japanese-tutor/skills/creative/songwriting-and-ai-music/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/github/codebase-inspection/SKILL.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/media/youtube-content/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/japanese-tutor/skills/media/youtube-content/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/note-taking/obsidian/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/japanese-tutor/skills/note-taking/obsidian/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/airtable/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/airtable/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/accept_changes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/comment.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/merge_runs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/helpers/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/helpers/pptx_chart.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/helpers/pptx_slide.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/helpers/pptx_theme.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/ecma/fourth-edition/opc-contentTypes.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/ecma/fourth-edition/opc-coreProperties.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/ecma/fourth-edition/opc-digSig.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/ecma/fourth-edition/opc-relationships.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/mce/mc.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/microsoft/wml-2010.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/microsoft/wml-2012.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/microsoft/wml-2018.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/microsoft/wml-cex-2018.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/microsoft/wml-cid-2016.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/schemas/microsoft/wml-symex-2015.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/soffice.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/validate.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/validators/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/validators/base.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/validators/docx.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/validators/pptx.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/office/validators/redlining.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/templates/comments.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/templates/commentsExtended.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/templates/commentsExtensible.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/templates/commentsIds.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/docx/scripts/templates/people.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/google-workspace/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/google-workspace/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/google-workspace/scripts/_hermes_home.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/google-workspace/scripts/_hermes_home.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/maps/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/maps/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/pdf/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/pdf/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/pdf/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/pdf/forms.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/pdf/reference.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/pdf/scripts/check_bounding_boxes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/pdf/scripts/check_fillable_fields.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/pdf/scripts/convert_pdf_to_images.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/pdf/scripts/create_validation_image.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/pdf/scripts/extract_form_field_info.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/pdf/scripts/extract_form_structure.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/pdf/scripts/fill_fillable_fields.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/pdf/scripts/fill_pdf_form_with_annotations.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/add_slide.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/clean.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/helpers/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/helpers/pptx_chart.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/helpers/pptx_slide.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/helpers/pptx_theme.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-contentTypes.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-coreProperties.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-digSig.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-relationships.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/mce/mc.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-2010.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-2012.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-2018.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-cex-2018.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-cid-2016.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-symex-2015.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/soffice.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/validate.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/validators/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/validators/base.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/validators/docx.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/validators/pptx.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/office/validators/redlining.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/powerpoint/scripts/thumbnail.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/teams-meeting-pipeline/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/teams-meeting-pipeline/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/xlsx/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/xlsx/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/xlsx/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/xlsx/scripts/office/soffice.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/productivity/xlsx/scripts/recalc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/research/arxiv/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/japanese-tutor/skills/research/arxiv/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/research/grounded-citations/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/japanese-tutor/skills/research/grounded-citations/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/research/grounded-citations/references/citation-formats.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/japanese-tutor/skills/research/grounded-citations/references/citation-formats.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/research/llm-wiki/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/japanese-tutor/skills/research/llm-wiki/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/software-development/dogfood/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/japanese-tutor/skills/software-development/dogfood/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/software-development/hermes-agent-skill-authoring/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/japanese-tutor/skills/software-development/hermes-agent-skill-authoring/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/software-development/requesting-code-review/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/japanese-tutor/skills/software-development/requesting-code-review/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/software-development/simplify-code/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/japanese-tutor/skills/software-development/simplify-code/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/software-development/spike/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/japanese-tutor/skills/software-development/spike/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/software-development/systematic-debugging/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/japanese-tutor/skills/software-development/systematic-debugging/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/japanese-tutor/skills/software-development/test-driven-development/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/japanese-tutor/skills/software-development/test-driven-development/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/cron/executions.db" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/cron/executions.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profiles/travel-agent/cron/ticker_heartbeat" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/cron/ticker_heartbeat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profiles/travel-agent/cron/ticker_last_success" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/cron/ticker_last_success" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/.bundled_manifest" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/skills/.bundled_manifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/.curator_backups/2026-07-22T17-45-19Z/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/.curator_backups/2026-07-22T17-45-19Z/skills.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/.curator_backups/2026-07-29T19-05-22Z/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/.curator_backups/2026-07-29T19-05-22Z/skills.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/.curator_state" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/skills/.curator_state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/.hub/lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/skills/.hub/lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/.usage.json" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/skills/.usage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/autonomous-ai-agents/computer-use/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/skills/autonomous-ai-agents/computer-use/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/productivity/document-to-action-items/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/skills/productivity/document-to-action-items/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/productivity/google-workspace/scripts/_hermes_home.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/skills/productivity/google-workspace/scripts/_hermes_home.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/productivity/pdf/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/skills/productivity/pdf/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/productivity/pdf/scripts/pdf_page_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/skills/productivity/pdf/scripts/pdf_page_image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/productivity/pdf/scripts/pdf_read.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/skills/productivity/pdf/scripts/pdf_read.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/productivity/teams-meeting-pipeline/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/skills/productivity/teams-meeting-pipeline/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/research/arxiv/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/skills/research/arxiv/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/research/blocked-page-recovery/SKILL.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/research/blocked-page-recovery/scripts/recover_page.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/research/grounded-citations/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/skills/research/grounded-citations/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/research/grounded-citations/references/citation-formats.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/skills/research/grounded-citations/references/citation-formats.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/software-development/hermes-agent-skill-authoring/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/skills/software-development/hermes-agent-skill-authoring/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/software-development/requesting-code-review/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/skills/software-development/requesting-code-review/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/software-development/simplify-code/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/skills/software-development/simplify-code/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/software-development/spike/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/skills/software-development/spike/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/software-development/systematic-debugging/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/skills/software-development/systematic-debugging/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/software-development/test-driven-development/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/skills/software-development/test-driven-development/SKILL.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profiles/travel-agent/state/gateway.heartbeat" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/state/gateway.heartbeat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/state/gateway.lifecycle.json" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/state/gateway.lifecycle.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/.hub/lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/skills/.hub/lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/autonomous-ai-agents/computer-use/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/skills/autonomous-ai-agents/computer-use/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/creative/ascii-video/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/skills/creative/ascii-video/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/creative/manim-video/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/skills/creative/manim-video/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/creative/p5js/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/skills/creative/p5js/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/creative/songwriting-and-ai-music/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/skills/creative/songwriting-and-ai-music/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/github/codebase-inspection/SKILL.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/media/youtube-content/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/skills/media/youtube-content/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/note-taking/obsidian/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/skills/note-taking/obsidian/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/airtable/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/skills/productivity/airtable/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/skills/productivity/docx/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/accept_changes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/comment.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/merge_runs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/helpers/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/helpers/pptx_chart.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/helpers/pptx_slide.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/helpers/pptx_theme.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/ecma/fourth-edition/opc-contentTypes.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/ecma/fourth-edition/opc-coreProperties.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/ecma/fourth-edition/opc-digSig.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/ecma/fourth-edition/opc-relationships.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/mce/mc.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/microsoft/wml-2010.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/microsoft/wml-2012.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/microsoft/wml-2018.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/microsoft/wml-cex-2018.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/microsoft/wml-cid-2016.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/schemas/microsoft/wml-symex-2015.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/soffice.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/validate.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/validators/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/validators/base.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/validators/docx.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/validators/pptx.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/office/validators/redlining.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/templates/comments.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/templates/commentsExtended.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/templates/commentsExtensible.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/templates/commentsIds.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/docx/scripts/templates/people.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/google-workspace/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/skills/productivity/google-workspace/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/google-workspace/scripts/_hermes_home.py" beforeDir="false" afterPath="$PROJECT_DIR$/skills/productivity/google-workspace/scripts/_hermes_home.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/maps/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/skills/productivity/maps/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/pdf/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/pdf/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/skills/productivity/pdf/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/pdf/forms.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/pdf/reference.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/pdf/scripts/check_bounding_boxes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/pdf/scripts/check_fillable_fields.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/pdf/scripts/convert_pdf_to_images.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/pdf/scripts/create_validation_image.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/pdf/scripts/extract_form_field_info.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/pdf/scripts/extract_form_structure.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/pdf/scripts/fill_fillable_fields.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/pdf/scripts/fill_pdf_form_with_annotations.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/skills/productivity/powerpoint/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/add_slide.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/clean.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/helpers/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/helpers/pptx_chart.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/helpers/pptx_slide.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/helpers/pptx_theme.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-contentTypes.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-coreProperties.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-digSig.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-relationships.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/mce/mc.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-2010.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-2012.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-2018.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-cex-2018.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-cid-2016.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-symex-2015.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/soffice.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/validate.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/validators/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/validators/base.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/validators/docx.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/validators/pptx.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/office/validators/redlining.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/powerpoint/scripts/thumbnail.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/teams-meeting-pipeline/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/skills/productivity/teams-meeting-pipeline/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/xlsx/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/xlsx/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/skills/productivity/xlsx/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/xlsx/scripts/office/soffice.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/productivity/xlsx/scripts/recalc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/research/arxiv/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/skills/research/arxiv/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/research/grounded-citations/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/skills/research/grounded-citations/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/research/grounded-citations/references/citation-formats.md" beforeDir="false" afterPath="$PROJECT_DIR$/skills/research/grounded-citations/references/citation-formats.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/research/llm-wiki/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/skills/research/llm-wiki/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/software-development/dogfood/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/skills/software-development/dogfood/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/software-development/hermes-agent-skill-authoring/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/skills/software-development/hermes-agent-skill-authoring/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/software-development/requesting-code-review/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/skills/software-development/requesting-code-review/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/software-development/simplify-code/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/skills/software-development/simplify-code/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/software-development/spike/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/skills/software-development/spike/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/software-development/systematic-debugging/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/skills/software-development/systematic-debugging/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/software-development/test-driven-development/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/skills/software-development/test-driven-development/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/state-snapshots/20260722-213914-pre-update/config.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/state-snapshots/20260722-213914-pre-update/manifest.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/state/vibecode_state.json" beforeDir="false" afterPath="$PROJECT_DIR$/state/vibecode_state.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -447,11 +67,30 @@
       <option name="project" value="LOCAL" />
       <updated>1787640937007</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1">
+      <option name="closed" value="true" />
+      <created>1788596550388</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1788596550389</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />

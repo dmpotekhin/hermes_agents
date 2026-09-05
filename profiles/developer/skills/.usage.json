@@ -746,6 +746,21 @@
     "use_count": 0,
     "view_count": 0
   },
+  "git-history-recovery": {
+    "archived_at": null,
+    "created_at": "2026-09-05T08:41:33.006688+00:00",
+    "created_by": "agent",
+    "last_patched_at": null,
+    "last_reused_patch_generation": 0,
+    "last_used_at": null,
+    "last_viewed_at": null,
+    "patch_count": 0,
+    "patch_generation": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 0,
+    "view_count": 0
+  },
   "github-auth": {
     "archived_at": null,
     "created_at": "2026-07-19T16:17:16.216316+00:00",
@@ -863,13 +878,15 @@
     "created_at": "2026-07-26T19:44:46.044715+00:00",
     "created_by": null,
     "last_patched_at": null,
-    "last_used_at": "2026-08-16T10:04:19.947866+00:00",
-    "last_viewed_at": "2026-08-16T10:04:19.931078+00:00",
+    "last_reused_patch_generation": 0,
+    "last_used_at": "2026-09-05T08:40:06.000754+00:00",
+    "last_viewed_at": "2026-09-05T08:40:05.994147+00:00",
     "patch_count": 0,
+    "patch_generation": 0,
     "pinned": false,
     "state": "active",
-    "use_count": 2,
-    "view_count": 2
+    "use_count": 3,
+    "view_count": 3
   },
   "google-workspace": {
     "archived_at": null,
@@ -1784,6 +1801,21 @@
     "use_count": 0,
     "view_count": 0
   },
+  "resolving-merge-conflicts": {
+    "archived_at": null,
+    "created_at": "2026-09-05T08:40:01.864614+00:00",
+    "created_by": null,
+    "last_patched_at": null,
+    "last_reused_patch_generation": 0,
+    "last_used_at": "2026-09-05T08:40:01.871476+00:00",
+    "last_viewed_at": "2026-09-05T08:40:01.864648+00:00",
+    "patch_count": 0,
+    "patch_generation": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 1,
+    "view_count": 1
+  },
   "sdlc-review": {
     "archived_at": null,
     "created_at": "2026-08-26T12:43:55.105197+00:00",
@@ -2368,14 +2400,14 @@
     "created_by": null,
     "last_patched_at": "2026-08-16T20:24:13.132701+00:00",
     "last_reused_patch_generation": 0,
-    "last_used_at": "2026-08-31T21:11:00.111103+00:00",
-    "last_viewed_at": "2026-08-31T21:11:00.103292+00:00",
+    "last_used_at": "2026-09-05T08:39:12.224121+00:00",
+    "last_viewed_at": "2026-09-05T08:39:12.217677+00:00",
     "patch_count": 3,
     "patch_generation": 0,
     "pinned": false,
     "state": "active",
-    "use_count": 26,
-    "view_count": 25
+    "use_count": 27,
+    "view_count": 26
   },
   "web-audio-sound-effects": {
     "archived_at": null,
