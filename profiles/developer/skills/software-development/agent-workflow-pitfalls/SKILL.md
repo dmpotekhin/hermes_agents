@@ -460,4 +460,49 @@ the marker pattern was introduced.
 7. **Sanity-check "pre-existing failure" disclosures cheaply**: if the diff only touches `tests/test_api.py`, failures in `tests/test_scheduler.py` cannot be caused by this commit — the disclosure is credible without a full A/B (full proof is the implementer's job, see #18).
 8. **Verdict format:** lead with the spec-compliance verdict (PASS/FAIL), map each global constraint to concrete evidence, then quality notes + non-blocking observations. Keep it tight — the parent's context window pays for it.
 
-**Why it matters:** The review is the only gate between a report and "done". Steps 3–5 convert rubber-stamping into verification; in this session they confirmed PASS with 8/8 tests run locally, and caught exactly the class of issue (silent stale-config writes, order-dependent flakes) that report-only review misses.
+## 24. Block Insert via `patch` Swallows the Neighbouring Token or Decorator
+
+**Symptom:** You insert a whole new section/class with `patch` and the anchor's
+seam eats an adjacent token: the closing `)` of the previous `return Config(...)`
+disappears, or the `@dataclass` decorator belonging to the class you inserted
+*before* vanishes. Two different failure modes:
+- missing paren → caught by `python -m py_compile` (loud, easy);
+- missing decorator → **compiles clean and fails only at runtime**
+  (`TypeError: Config() takes no arguments`), which reads like a design bug and
+  sends you hunting in the wrong file.
+
+**Fix — verify the seams after every block insert:**
+1. `python -m py_compile <file>`, then `grep -c '^@dataclass' <file>` and
+   `grep -n '^class ' <file>` — compare against what you expect. A decorator count
+   one lower than expected is the tell.
+2. Construct the thing you touched (import the module and instantiate the
+   dataclass/config) — a decorated class that lost its decorator still imports.
+3. Make the insert self-delimiting: end the `old_string` a few lines *above* the
+   construct you insert before, and repeat that construct's own signature line
+   verbatim at the end of `new_string`, so the tool must match it instead of
+   consuming it.
+
+**Also — a Python error thrown after `patch()` in the same `execute_code` block
+is not a failed patch.** `print(result["success"])` raising `KeyError` (the result
+key differs per tool) makes it look like the edit did not land; re-read the file
+with `grep`/`read_file` before re-applying, or you will apply the edit twice.
+
+**Why it matters:** both artefacts survive review by eye (the new code looks
+complete) and cost a full debug cycle to attribute; the seam check is one grep.
+
+## 25. Two Instances of the Same Long-Polling Process
+
+**Symptom:** After a restart the new instance's captured log is **empty** while
+the process is alive; the old instance still answers. Cause: the earlier `kill`
+was issued inside a terminal call that got BLOCKED, so it never ran, and both
+instances now poll the same token.
+
+**Fix:** Before starting a poller (bot, watcher, worker), list the processes
+(`pgrep -fl <script>`) and check the process table rather than trusting that a
+kill succeeded. Then start it with unbuffered output (`python -u`) so the tracked
+process log is readable while it runs — without `-u` an empty log looks like a
+crash even when the service is healthy.
+
+**Why it matters:** an empty log plus a live process is the single most
+misleading signal; it looks like a startup failure and hides the real one.
+

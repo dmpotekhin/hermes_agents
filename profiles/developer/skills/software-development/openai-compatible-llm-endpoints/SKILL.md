@@ -61,6 +61,36 @@ base_url at the router; Hermes → add a provider with the same base_url/keys.
    `/model deepseek` — define aliases in `model.aliases` (short form
    `huggingface/<model-id>`).
 
+## Provider with no built-in Hermes entry (e.g. Perplexity) → model alias
+
+Not every OpenAI-compatible provider has a named provider profile in Hermes
+(Perplexity does NOT — only openrouter, deepseek, xai, huggingface, etc. ship one;
+check `hermes-agent` skill `providers-and-models.md` table). For those, register a
+**user-defined model alias with its own `base_url` + `key_env`** — never touch the
+default model, so the free default keeps working.
+
+- Alias credential resolves from the alias HOST (its own base_url/key_env), NOT
+  carried over from the provider that was active before the switch — this is what
+  keeps `provider: custom` providers from contaminating the default.
+- Secrets in profile `.env` (`PERPLEXITY_API_KEY=...`), settings in config.yaml via
+  `hermes config set` — never hand-edit config.yaml, never put a key in config.yaml.
+- Perplexity: OpenAI-compatible at `https://api.perplexity.ai`; most used model
+  `sonar-pro`. Full cost table + FireClaw name-collision note:
+  `references/perplexity-and-nonbuiltin-providers.md`.
+
+```bash
+hermes config set model.aliases.pplx.sonar model sonar-pro
+hermes config set model.aliases.pplx.sonar provider custom
+hermes config set model.aliases.pplx.sonar base_url "https://api.perplexity.ai"
+hermes config set model.aliases.pplx.sonar key_env PERPLEXITY_API_KEY
+# verify (no spend):
+hermes config get model.aliases.pplx.sonar
+# use on demand:  /model pplx.sonar   (default stays free)
+```
+
+Caveat: a real call to a paid provider SPENDS MONEY. Verify the alias resolves with
+the config-get above, and only fire a live request after the user confirms.
+
 ## Self-hosted gateways
 
 Want a single endpoint that aggregates many free providers with auto-fallback

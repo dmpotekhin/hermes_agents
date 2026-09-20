@@ -79,3 +79,10 @@ YouTube links).
 | Bot doesn't respond | `/start` in bot chat first |
 | Unknown sender | Pairing not approved — `hermes pairing approve` |
 | SQLite WAL warnings | `hermes update` to upgrade SQLite |
+
+## Standalone bots on the same machine
+
+A self-hosted bot (aiogram, `python bot.py`) that reuses the gateway's bot token
+fights the gateway over `getUpdates` (409 Conflict, one side stops receiving).
+Compare bot ids — the part of the token before `:` is public — before starting
+one. Pre-flight, run and verification workflow: skill `standalone-telegram-bot`.

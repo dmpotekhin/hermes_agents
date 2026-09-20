@@ -75,6 +75,11 @@ When the test/brief needs an API key or env var (e.g. `DEEPSEEK_API_KEY`) that i
               for l in open("/Users/me/.hermes/profiles/developer/.env")
               if l.strip().startswith("DEEPSEEK_API_KEY"))
    ```
+   **`~/.hermes/.env` can hold a STALE copy of the same var** — `load_dotenv()` never overwrites an
+   already-set variable, so loading both files in order lands you on the dead key and you get a real
+   `401 Authentication Fails` that looks like a bug in your own code. Load the profile file last
+   with `load_dotenv(path, override=True)` (or load only that one), and validate the key with one
+   live call before drawing conclusions.
 3. **Inject it into the subprocess env only** — never write it into repo files, and don't rely on the persistent shell (the export won't persist across tool calls reliably, and `terminal` may be blocked). Never `print` the full secret value; print a boolean like `"key loaded:", bool(key)` or a 6-char prefix. Also set `PYTHONPATH` here when the project isn't installed as a package:
    ```python
    env = dict(os.environ); env["DEEPSEEK_API_KEY"] = key; env["PYTHONPATH"] = "/abs/project/root"
@@ -153,12 +158,86 @@ Key points:
 - **Neutralize every writer the called function fires** (log writers, file updaters). Otherwise a supposedly-isolated test still writes real files (e.g. an Obsidian daily log) or mutates real state.
 - Wrap the body in `try/finally` so the temp state dir is removed even when an assertion fails. **Import `shutil` in the same script** — a cleanup-time `NameError` raises AFTER all assertions have printed PASS, flipping exit code to 1 and making the runtime treat the run as unverified. Read the final `returncode`, not just the PASS lines.
 
+## Verification ladder for a freshly written app/service
+
+Never stop at one rung — each rung catches a different class of defect, and the cheap ones go
+first. Worked recipe with copy-ready stubs: `references/verification-ladder-python-services.md`.
+
+1. **Rung 1 — structure/logic with stubbed deps (no install, seconds).** Inject fake modules into
+   `sys.modules` for the third-party imports (`aiogram`, `openai`, `dotenv`) and `exec_module` the
+   target with `importlib`, so you can assert on pure helpers (text splitting, URL extraction,
+   config validation, media-type resolution, temp-file writers) before any dependency exists. Two
+   stub traps produce failures that look like code bugs and are not: register the module object at
+   `sys.modules[<name>]` BEFORE `exec_module` or a `@dataclass` in the target dies inside
+   `dataclasses._is_type` with `'NoneType' object has no attribute '__dict__'`; and give
+   magic-filter stubs an `__or__` returning self — a stub exposing `F.video` as a plain string
+   raises `TypeError: unsupported operand type(s) for |: 'str' and 'str'` inside `build_router()`.
+2. **Rung 2 — real deps, from the pins.** Install with `pip install -r requirements.txt`, never
+   loose package names: an unpinned `pip install openai` resolves to 3.x even when the project pins
+   `openai>=1.55.0,<2.0.0`. Print the resolved versions
+   (`import aiogram, openai; print(aiogram.__version__, openai.__version__)`) and confirm they
+   satisfy the pins — a green run against the wrong major version is not evidence. Then assert on
+   real framework internals: `[h.callback.__name__ for h in router.message.handlers]` for handler
+   registration, `inspect.signature(h.callback).parameters` to prove DI kwarg names match the
+   dispatcher's `workflow_data` keys, real constructor kwargs such as `FSInputFile(path, filename=...)`.
+3. **Rung 3 — live provider probes (cheap, real network).** (a) Call the wrapper with an
+   **intentionally invalid key** and assert your custom exception is raised — the only way to prove
+   the SDK's `AuthenticationError` → your error type mapping actually holds. (b) Pin the request
+   payload without spending tokens by monkeypatching the module's client class
+   (`bot.AsyncOpenAI = _FakeClient`) with a fake supporting `async with` and capturing `**kwargs`,
+   then asserting `temperature`, `max_tokens`, `model`, `base_url` and the prompt's truncation
+   marker. (c) One real call with a short input to confirm end-to-end output shape.
+4. **Rung 4 — real external binary roundtrip.** A command is not verified because it looks right:
+   generate the input inside the check with lavfi
+   (`ffmpeg -y -f lavfi -i testsrc=size=320x240:rate=15:duration=2 -f lavfi -i sine=frequency=440:duration=2 -shortest -c:v libx264 -pix_fmt yuv420p -c:a aac test.mp4`),
+   run the real extraction, assert the artifact is non-empty, then exercise the fallback branch and
+   the broken-input branch (garbage bytes → your `AudioExtractionError`, not a raw traceback).
+5. **Rung 5 — entry point fatal path.** Run `python app.py; echo "exit_code=$?"` with the config
+   removed: expect one human-readable line, no traceback, and a NON-ZERO exit. **Never write
+   `except (KeyboardInterrupt, SystemExit): pass` around `asyncio.run(main())`** — the fatal-path
+   `raise SystemExit(1)` inside `main()` is swallowed and the process exits 0, so CI and scripts read
+   a config failure as success. Catch `KeyboardInterrupt` only.
+
+## Verify the ARTIFACT, not the in-memory object
+
+When the deliverable is a file (image, PDF, generated site, report), a passing unit test on the
+builder object proves nothing about the bytes on disk. Verifications that actually caught bugs:
+
+- **Re-open what you produced.** A renderer's verifier should load the file back (Pillow/`open`)
+  and re-check the platform rules — exact pixel size, real format (JPEG vs PNG), file size, and
+  "no content in the reserved region". In-memory checks of the object you just built can agree
+  with themselves while the file is wrong.
+- **Write a layout/metadata sidecar next to the artifact** (e.g. `slide_01.layout.json` with every
+  text box and its y-range). It is the contract that survives a process boundary, lets the
+  verifier check geometry without re-deriving it, and gives a human a way to audit.
+- **Run a real end-to-end script that leaves files in a plain directory** (`/tmp/<feature>_e2e.py`
+  invoked as `PYTHONPATH=. .venv/bin/python /tmp/<feature>_e2e.py`, output into
+  `/tmp/<feature>_demo/`), then `ls -l` the directory and quote real byte sizes in the report.
+  In one session the e2e run found two genuine bugs (an async-provider call from sync code, and a
+  slide repeating the hero sentence) that the 25 green unit tests did not — the bugs only appear
+  when the whole pipeline runs on real input.
+- **Check the pipeline's own verdict, not just the timer:** assert and report the terminal state
+  (`verified`, `6/6 slides passed`) plus what the run *warned* about — warnings that the source had
+  no image are honest, not failures.
+
 ## Pitfalls
 
+- **In-process imports are cached across `execute_code` calls — verify a PATCHED module in a FRESH interpreter, not with `import` in the running kernel.** The session kernel keeps `sys.modules` between calls, so a module loaded before your patch keeps serving the old class object: `AttributeError` on the field/function you just added, which reads as "the patch did not land" when it did. Verify via `subprocess.run([VENV_PY, ...])` (always fresh), or pass `reset=True` to drop the kernel state first. Same trap for a live run that imports the package at module scope: re-run it as a subprocess rather than re-executing the body in the same kernel.
+- **A scripted multi-line rewrite that prints a count can silently do nothing.** A transform loop that builds an output list but writes `out.extend(lines[i:j])` (the original slice) instead of the modified lines reports "N changed" while the file is untouched — the count is computed from your intentions, not from the bytes. After any scripted rewrite, re-scan the file for the NEW marker AND for the leftover OLD pattern (`grep -c 'async def test_'` and `grep -c '^def test_.*\n.*await'`), and only then say it worked.
+- **After a structural `patch` (insert/delete a line), run a batch syntax check over every touched file before any test run.** Deleting an "empty" line can merge `def f(self, ...):` with its docstring body (`def f():        """..."""`), which is an `IndentationError` — cheap to catch with `compileall`, expensive to discover one test-run later. Batch it: `subprocess.run([VENV_PY, "-m", "compileall", "-q", *files])` in one `execute_code` call, before the suite.
+- **Keep the routine test command in its OWN call — never bundle it behind `&&` with an inline `python -c`.** When the guard blocks the whole command line, you lose the pytest evidence too. The inline-`-c` half is the half that trips the heuristic (see the temp-file rule above); run the suite alone, then do the import/wiring check inside `execute_code` as a subprocess.
 - **The `patch` tool (replace mode) can match an unintended occurrence and silently corrupt a file.** When inserting a function/block "after" another in a Python file, a short anchor like `)` (the last line of the preceding function or member) is NOT unique — it matches the first `)` in the file (e.g. the end of an `import`/`from` line), mangling the result and producing a `SyntaxError`. Fixes that work:
   - Use an **unambiguous anchor**: include the full closing of the previous function together with the following top-level definition line (e.g. the `@dataclass`/`class X:` that comes immediately after where the new function goes), all in `old_string`, so the match can only land in one place.
   - If the file is small (a few dozen lines), prefer rewriting the whole file with `write_file` to its intended final state rather than fighting ambiguous anchors.
   - **Always inspect the `patch` diff/result immediately** — the tool returns the diff and flags `lint: status: error` with `SyntaxError` on a bad match. If it reports a syntax error, the patch hit the wrong place: re-read the file, then rewrite cleanly. Confirm with `git diff` showing EXACTLY the intended single change and nothing else before committing.
+- **`write_file` with a RELATIVE path can create a tree outside the project.** A relative target
+  was written to `<cwd>/dmitrypotekhin/projects/<proj>/...` (a directory that then had to be moved
+  and removed). Always pass an ABSOLUTE path to `write_file`/`patch`; if an unexpected tree shows
+  up, `ls` both paths first, then ask the user for consent before `mv` + `rm -rf`.
+- **A test fixture that omits an optional field hides a whole code path.** An image-slide helper
+  without `code_json` meant the code block was never drawn and the code-integrity check silently
+  skipped; only two failing tests after adding the field exposed it. Exercise every optional field
+  at least once and assert the artifact shows it.
 - Hidden/dot-prefixed files are not matched by default file searches (e.g. `.kids_learn.db` won't show with a `*.db` glob). Check for them explicitly if a DB should exist.
 - A user-blocked `terminal` may also block `rm` of your own temp files. Prefer locating/cleaning temp files inside `execute_code` itself so cleanup and execution are atomic and don't require a separate (blockable) terminal call.
 - `WRITE_BLOCKED` on `terminal` is not a claim the code is wrong — it is an execution-path restriction. Report the code as *verified via execute_code* and flag the commit/push step as pending user approval rather than as a code failure.

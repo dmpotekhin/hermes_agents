@@ -107,6 +107,9 @@ cronjob(action='create', schedule='<ISO timestamp>',
 ## Pitfalls
 
 - MCP brain tools unavailable in gateway sessions — use write_file directly
+- Regression suites that import modules never exercise `main()`: a NameError in the startup log/report kills the bot at boot while all tests stay green. Add a smoke test that runs `main()` with a fake Bot (`bot.Bot = FakeBot` + `Dispatcher.start_polling` stub) and asserts polling is reached — then boot the bot for real and read the log for `Traceback`.
+- After adding a UI layer, background code (scheduler, OCR params, download mode) keeps reading `.env` unless it is explicitly wired to the runtime settings store — push settings lookups into the tick/handler, not just the screens.
+- When the UI adds a command to `PUBLIC_COMMANDS`, old tests asserting the exact set fail: update the assertion to the new spec instead of reverting the code.
 - Token exposed in chat → revoke immediately via @BotFather `/revoke`
 - Gateway needs restart after SOUL.md changes
 - Obsidian path: use FULL path, not shortened (`~` not `$HOME`)

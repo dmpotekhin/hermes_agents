@@ -34,6 +34,15 @@ MANDATORY after every development session:
 
 Dev journals live at `Brain/journal/` — readable in Obsidian.
 
+## Activity digest (day / week: «что мы сделали за неделю»)
+
+NEVER answer a period-summary request from memory or from the vibecode tracker alone — rebuild it from evidence, then write it into the vault. Full recipe (queries, paths, formats): `references/period-digest.md`.
+
+1. **Evidence, in this order**: per-repo `git log --since=<iso-date> --date=format:'%m-%d %H:%M' --pretty='%ad %h %s'`; Hermes session stats from `~/.hermes/profiles/<profile>/state.db`; vault file mtimes + the vault's own `git log`; `python3 ~/.hermes/scripts/vibecode_tracker.py stats week` (secondary only).
+2. **Write two artifacts**: a period note `Brain/notes/weekly/<from>--<to>.md` (grouped by project, with the commits, the numbers, and «что дальше») and `Brain/journal/YYYY-MM-DD.md` entries for every day of the window that has none, in the existing log line format `HH:MM | project:<name> | <what happened> — commit <sha>`.
+3. **Commit the vault**: the vault lives inside the `obsidians` git repo (repo root = the vault's parent dir). Run the credential scan on the staged diff, commit, push.
+4. **State gaps honestly** — days with no evidence, undercounted tracker time. Never pad a summary to look busier than the evidence.
+
 ## Vault layout
 
 ```

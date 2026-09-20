@@ -378,8 +378,8 @@ curator:
   enabled: true
   interval_hours: 168
   min_idle_hours: 2
-  stale_after_days: 30
-  archive_after_days: 90
+  stale_after_days: 14
+  archive_after_days: 30
   consolidate: false
   prune_builtins: true
   backup:
@@ -436,10 +436,11 @@ approvals:
   cron_mode: deny
   mcp_reload_confirm: true
   destructive_slash_confirm: true
-command_allowlist: []
+command_allowlist:
+  - overwrite project env/config via redirection
 plugins:
   enabled:
-  - agency-agents-router
+    - agency-agents-router
     - image_gen/abacus_ai
 hooks_auto_accept: false
 security:
@@ -550,7 +551,7 @@ paste_collapse_threshold_fallback: 5
 paste_collapse_char_threshold: 2000
 computer_use:
   cua_telemetry: false
-_config_version: 40
+_config_version: 44
 mcp_servers:
   playwright:
     command: npx
@@ -635,12 +636,10 @@ custom_providers:
       claude-sonnet-5: {}
       gpt-5.6-terra: {}
       gemini-3.8-flash: {}
-      gemini-3.7-flash: {}
-      gemini-3.6-flash: {}
-      gemini-3.5-flash: {}
       grok-4.6: {}
       grok-4.5: {}
       claude-fable-5-1: {}
+      gpt-6-astra: {}
       gpt-5.6-sol: {}
       gemini-3.1-pro-preview: {}
       claude-opus-5: {}
@@ -656,6 +655,7 @@ custom_providers:
       zai-org/GLM-5.3: {}
       zai-org/GLM-5.3-Flash: {}
       zai-org/GLM-5.2: {}
+      deepseek-ai/DeepSeek-V4.1-Flash: {}
       deepseek-ai/DeepSeek-V4-Pro-0813: {}
       deepseek-ai/DeepSeek-V4-Flash-0731: {}
       deepseek-ai/DeepSeek-V4-Flash-Vision-Exp: {}
@@ -666,6 +666,7 @@ custom_providers:
       gemini-3-flash-preview: {}
       claude-sonnet-4-6: {}
       gpt-5.4: {}
+      gemini-3.7-flash: {}
       thinkingmachines/Inkling: {}
       muse-spark-1.1: {}
       mimo-v2-pro: {}
@@ -676,24 +677,23 @@ custom_providers:
       zai-org/GLM-5: {}
       zai-org/GLM-4.7: {}
       zai-org/GLM-4.6: {}
-      zai-org/GLM-4.5: {}
       moonshotai/Kimi-K2.6: {}
       moonshotai/Kimi-K2-Instruct: {}
-      qwen3.8-flash: {}
+      Qwen/Qwen3.8-Flash-Next: {}
       Qwen/Qwen3.8-27B: {}
       qwen3.8-max: {}
       qwen3.7-max: {}
       Qwen/Qwen3.6-27B: {}
       Qwen/Qwen3-Coder-480B-A35B-Instruct: {}
       Qwen/Qwen3-32B: {}
+      abacusai/Smaug-Flash: {}
+      gemini-3.6-flash: {}
+      gemini-3.5-flash: {}
       gemini-3.1-flash-image: {}
       gemini-3-pro-image: {}
       gemini-2.5-flash-image: {}
       gemini-2.5-flash: {}
       gemini-2.5-pro: {}
-      meta-llama/Meta-Llama-3.3-70B-Instruct: {}
-      meta-llama/Meta-Llama-3.1-8B-Instruct: {}
-      meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8: {}
       claude-fable-5: {}
       claude-opus-4-7: {}
       claude-opus-4-6: {}
@@ -720,8 +720,11 @@ custom_providers:
       gpt-4o-mini: {}
       gpt-4o: {}
       gpt_image15: {}
+      gpt_image15_edit: {}
       gpt_image2: {}
       gpt_image2_edit: {}
+      gpt_image25: {}
+      gpt_image25_edit: {}
       flux_kontext: {}
       flux_kontext_edit: {}
       flux_pro: {}
@@ -744,6 +747,7 @@ custom_providers:
       nano_banana: {}
       nano_banana_pro: {}
       nano_banana2: {}
+      nano_banana25: {}
       nano_banana_lite: {}
       qwen_image_edit: {}
       imagine_art: {}

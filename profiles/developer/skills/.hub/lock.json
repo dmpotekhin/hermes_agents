@@ -286,6 +286,247 @@
       },
       "installed_at": "2026-09-03T21:01:09.582952+00:00",
       "updated_at": "2026-09-03T21:01:09.582952+00:00"
+    },
+    "product-marketing": {
+      "source": "skills.sh",
+      "identifier": "skills-sh/coreyhaines31/marketingskills/product-marketing",
+      "trust_level": "community",
+      "scan_verdict": "safe",
+      "content_hash": "sha256:c7abb31599dd08c0",
+      "install_path": "product-marketing",
+      "files": [
+        "SKILL.md",
+        "evals/evals.json"
+      ],
+      "metadata": {
+        "source_url": "https://github.com/coreyhaines31/marketingskills/tree/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/product-marketing",
+        "source_revision": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+        "detail_url": "https://skills.sh/coreyhaines31/marketingskills/product-marketing",
+        "repo_url": "https://github.com/coreyhaines31/marketingskills"
+      },
+      "scan_provenance": {
+        "bundle_hash": "sha256:c7abb31599dd08c04018fd964ef6154b5cce12829abd6e5086971f8c7a3acb7b",
+        "scanner_version": "skills-guard-v2",
+        "source": "skills-sh/coreyhaines31/marketingskills/product-marketing",
+        "source_url": "https://github.com/coreyhaines31/marketingskills/tree/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/product-marketing",
+        "verdict": "safe",
+        "trust_level": "community",
+        "findings": [],
+        "rules": [],
+        "scanned_at": "2026-09-20T13:48:31.382456+00:00",
+        "summary": "product-marketing: clean scan, no threats detected",
+        "fresh": true
+      },
+      "installed_at": "2026-09-20T13:48:31.463610+00:00",
+      "updated_at": "2026-09-20T13:48:31.463610+00:00"
+    },
+    "pricing": {
+      "source": "skills.sh",
+      "identifier": "skills-sh/coreyhaines31/marketingskills/pricing",
+      "trust_level": "community",
+      "scan_verdict": "safe",
+      "content_hash": "sha256:523fe7fd4efe36a5",
+      "install_path": "pricing",
+      "files": [
+        "SKILL.md",
+        "evals/evals.json",
+        "references/pricing-models.md",
+        "references/pricing-page-teardown.md",
+        "references/research-methods.md",
+        "references/tier-structure.md"
+      ],
+      "metadata": {
+        "source_url": "https://github.com/coreyhaines31/marketingskills/tree/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/pricing",
+        "source_revision": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+        "detail_url": "https://skills.sh/coreyhaines31/marketingskills/pricing",
+        "repo_url": "https://github.com/coreyhaines31/marketingskills"
+      },
+      "scan_provenance": {
+        "bundle_hash": "sha256:523fe7fd4efe36a5f84a226eaa04ac6e96e0725cfd94b0ee723471bff5a88e19",
+        "scanner_version": "skills-guard-v2",
+        "source": "skills-sh/coreyhaines31/marketingskills/pricing",
+        "source_url": "https://github.com/coreyhaines31/marketingskills/tree/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/pricing",
+        "verdict": "safe",
+        "trust_level": "community",
+        "findings": [],
+        "rules": [],
+        "scanned_at": "2026-09-20T13:48:57.192527+00:00",
+        "summary": "pricing: clean scan, no threats detected",
+        "fresh": true
+      },
+      "installed_at": "2026-09-20T13:48:57.251494+00:00",
+      "updated_at": "2026-09-20T13:48:57.251494+00:00"
+    },
+    "seo-audit": {
+      "source": "skills.sh",
+      "identifier": "skills-sh/coreyhaines31/marketingskills/seo-audit",
+      "trust_level": "community",
+      "scan_verdict": "safe",
+      "content_hash": "sha256:f29b4f122cf3e21d",
+      "install_path": "seo-audit",
+      "files": [
+        "SKILL.md",
+        "evals/evals.json",
+        "references/ai-writing-detection.md",
+        "references/international-seo.md"
+      ],
+      "metadata": {
+        "source_url": "https://github.com/coreyhaines31/marketingskills/tree/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/seo-audit",
+        "source_revision": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+        "detail_url": "https://skills.sh/coreyhaines31/marketingskills/seo-audit",
+        "repo_url": "https://github.com/coreyhaines31/marketingskills"
+      },
+      "scan_provenance": {
+        "bundle_hash": "sha256:f29b4f122cf3e21d8c9c91b53d970f0a915c25d4a2fd55503a68cf553b788bac",
+        "scanner_version": "skills-guard-v2",
+        "source": "skills-sh/coreyhaines31/marketingskills/seo-audit",
+        "source_url": "https://github.com/coreyhaines31/marketingskills/tree/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/seo-audit",
+        "verdict": "safe",
+        "trust_level": "community",
+        "findings": [],
+        "rules": [],
+        "scanned_at": "2026-09-20T13:51:56.948912+00:00",
+        "summary": "seo-audit: clean scan, no threats detected",
+        "fresh": true
+      },
+      "installed_at": "2026-09-20T13:51:56.997004+00:00",
+      "updated_at": "2026-09-20T13:51:56.997004+00:00"
+    },
+    "copywriting": {
+      "source": "skills.sh",
+      "identifier": "skills-sh/coreyhaines31/marketingskills/copywriting",
+      "trust_level": "community",
+      "scan_verdict": "caution",
+      "content_hash": "sha256:76d497ae54acef1a",
+      "install_path": "copywriting",
+      "files": [
+        "SKILL.md",
+        "evals/evals.json",
+        "references/copy-frameworks.md",
+        "references/natural-transitions.md"
+      ],
+      "metadata": {
+        "source_url": "https://github.com/coreyhaines31/marketingskills/tree/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/copywriting",
+        "source_revision": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+        "detail_url": "https://skills.sh/coreyhaines31/marketingskills/copywriting",
+        "repo_url": "https://github.com/coreyhaines31/marketingskills"
+      },
+      "scan_provenance": {
+        "bundle_hash": "sha256:76d497ae54acef1aa19e1c0132ab20da886a8141390147ddd96a0145e5d7d52b",
+        "scanner_version": "skills-guard-v2",
+        "source": "skills-sh/coreyhaines31/marketingskills/copywriting",
+        "source_url": "https://github.com/coreyhaines31/marketingskills/tree/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/copywriting",
+        "verdict": "caution",
+        "trust_level": "community",
+        "findings": [
+          {
+            "pattern_id": "context_exfil",
+            "severity": "high",
+            "category": "exfiltration",
+            "file": "evals/evals.json",
+            "line": 73,
+            "match": "\"expected_output\": \"Should immediately identify 'Learn More' as a weak CTA per the guidelines. Should apply the CTA f...",
+            "description": "instructs agent to output/share conversation history"
+          }
+        ],
+        "rules": [
+          "context_exfil"
+        ],
+        "scanned_at": "2026-09-20T13:51:40.680473+00:00",
+        "summary": "copywriting: caution — 1 finding(s) in exfiltration",
+        "fresh": false
+      },
+      "installed_at": "2026-09-20T15:04:14.070102+00:00",
+      "updated_at": "2026-09-20T15:04:14.070102+00:00"
+    },
+    "customer-research": {
+      "source": "skills.sh",
+      "identifier": "skills-sh/coreyhaines31/marketingskills/customer-research",
+      "trust_level": "community",
+      "scan_verdict": "caution",
+      "content_hash": "sha256:ec2c3303c15bf7cb",
+      "install_path": "customer-research",
+      "files": [
+        "SKILL.md",
+        "evals/evals.json",
+        "references/interviews-and-surveys.md",
+        "references/source-guides.md"
+      ],
+      "metadata": {
+        "source_url": "https://github.com/coreyhaines31/marketingskills/tree/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/customer-research",
+        "source_revision": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+        "detail_url": "https://skills.sh/coreyhaines31/marketingskills/customer-research",
+        "repo_url": "https://github.com/coreyhaines31/marketingskills"
+      },
+      "scan_provenance": {
+        "bundle_hash": "sha256:ec2c3303c15bf7cb11ffd2fe6acc357be53407ac7fe8fd0093c91b2cbe98b144",
+        "scanner_version": "skills-guard-v2",
+        "source": "skills-sh/coreyhaines31/marketingskills/customer-research",
+        "source_url": "https://github.com/coreyhaines31/marketingskills/tree/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/customer-research",
+        "verdict": "caution",
+        "trust_level": "community",
+        "findings": [
+          {
+            "pattern_id": "path_traversal_deep",
+            "severity": "high",
+            "category": "traversal",
+            "file": "references/source-guides.md",
+            "line": 336,
+            "match": "See [tools/integrations/sparktoro.md](../../../tools/integrations/sparktoro.md) for full tool details and pricing.",
+            "description": "deep relative path traversal (3+ levels up)"
+          },
+          {
+            "pattern_id": "path_traversal",
+            "severity": "medium",
+            "category": "traversal",
+            "file": "references/source-guides.md",
+            "line": 336,
+            "match": "See [tools/integrations/sparktoro.md](../../../tools/integrations/sparktoro.md) for full tool details and pricing.",
+            "description": "relative path traversal (2+ levels up)"
+          }
+        ],
+        "rules": [
+          "path_traversal",
+          "path_traversal_deep"
+        ],
+        "scanned_at": "2026-09-20T13:52:12.679594+00:00",
+        "summary": "customer-research: caution — 2 finding(s) in traversal",
+        "fresh": false
+      },
+      "installed_at": "2026-09-20T15:04:31.149578+00:00",
+      "updated_at": "2026-09-20T15:04:31.149578+00:00"
+    },
+    "redesign-skill": {
+      "source": "skills.sh",
+      "identifier": "skills-sh/leonxlnx/taste-skill/redesign-existing-projects",
+      "trust_level": "community",
+      "scan_verdict": "safe",
+      "content_hash": "sha256:9d2c6a925e7f0529",
+      "install_path": "redesign-skill",
+      "files": [
+        "SKILL.md"
+      ],
+      "metadata": {
+        "source_url": "https://github.com/leonxlnx/taste-skill/tree/e79ca9ec7e071eb3a3b623c4fb752e853fc3ed58/skills/redesign-skill",
+        "source_revision": "e79ca9ec7e071eb3a3b623c4fb752e853fc3ed58",
+        "detail_url": "https://skills.sh/leonxlnx/taste-skill/redesign-existing-projects",
+        "repo_url": "https://github.com/leonxlnx/taste-skill"
+      },
+      "scan_provenance": {
+        "bundle_hash": "sha256:9d2c6a925e7f052954d86e59e92c953a5dae05cc580ae59b1751376d31f56fa4",
+        "scanner_version": "skills-guard-v2",
+        "source": "skills-sh/leonxlnx/taste-skill/redesign-existing-projects",
+        "source_url": "https://github.com/leonxlnx/taste-skill/tree/e79ca9ec7e071eb3a3b623c4fb752e853fc3ed58/skills/redesign-skill",
+        "verdict": "safe",
+        "trust_level": "community",
+        "findings": [],
+        "rules": [],
+        "scanned_at": "2026-09-20T15:05:01.005239+00:00",
+        "summary": "redesign-skill: clean scan, no threats detected",
+        "fresh": true
+      },
+      "installed_at": "2026-09-20T15:05:01.100739+00:00",
+      "updated_at": "2026-09-20T15:05:01.100739+00:00"
     }
   }
 }

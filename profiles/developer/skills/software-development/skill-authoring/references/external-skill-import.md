@@ -28,3 +28,16 @@ Notable upstream changes worth having: brainstorming "Three Paths" (spike/bounde
 **CRITICAL — 5 local GSD adaptations exist in the bundle** (`git status --short`): skills/brainstorming/SKILL.md + spec-document-reviewer-prompt.md (docs/superpowers/specs/ → docs/specs/), requesting-code-review/SKILL.md (+CONTEXT.md decision-coverage block), verification-before-completion/SKILL.md (+Coverage Verification C1-C4), writing-plans/SKILL.md (+Phase Context GSD Discuss). Must be preserved (backup patch via `git diff > /tmp/superpowers-local.patch`) before any fetch/rebase; re-apply manually after update.
 
 Update was proposed to user (save patch → fetch+rebase → resolve conflicts → verify with skills_list); not yet executed as of session end.
+
+## coreyhaines31/marketingskills — установлен через хаб (без клона)
+
+Набор из ~50 маркетинговых скиллов (MIT, Agent Skills spec: `SKILL.md` + `references/`), идентификатор установки — `skills-sh/coreyhaines31/marketingskills/<name>`. Клон не нужен; при отказе хаба есть запасной путь — скачать каталог скилла через GitHub contents API/raw.
+
+Что брать под задачи пользователя (контент, бренд, монетизация, SEO статических сайтов):
+
+- `product-marketing` — базовый: создаёт `.agents/product-marketing.md` (продукт, аудитория, позиционирование), остальные скиллы на него ссылаются. Именно этот файл читает секция монетизации «Валидатора идей» в tg-transcriber.
+- `pricing` (+ `references/pricing-models.md`), `offers`, `paywalls`, `onboarding`, `cro`, `ab-testing` — монетизация и конверсия.
+- `copywriting`, `copy-editing`, `content-strategy`, `social`, `emails`, `launch`, `marketing-psychology` — контент и запуск.
+- `seo-audit`, `ai-seo`, `programmatic-seo`, `schema`, `site-architecture` — статические сайты.
+
+Оговорки, которые надо озвучивать пользователю (иначе ожидания завышены): это фреймворки и чеклисты для агента, а не данные и не рыночная аналитика — ценность равна качеству переданного контекста продукта; материал US-центричный (LinkedIn/Product Hunt/Google Ads вместо Telegram/VC/Хабр/Яндекс); внутри воронка автора (своё агентство, платное обучение, партнёрские интеграции в `tools/`); часть скиллов тянет платные SaaS с ключами.
