@@ -2,13 +2,14 @@
 
 # 🏯 Hermes Agent — Конфигурация и профили
 
-[![GitHub](https://img.shields.io/badge/репозиторий-privado-8A2BE2?style=flat-square&logo=github)](https://github.com/dmpotekhin/hernes_agents)
-[![JLPT](https://img.shields.io/badge/JLPT-N5_N4_N3-FF6B6B?style=flat-square&logo=opencontainersinitiative)](#jlpt-база-знаний)
-[![Anki](https://img.shields.io/badge/Anki-колода-00ADD8?style=flat-square&logo=anki)](#anki-колода-n5-по-дням)
-[![Hermes](https://img.shields.io/badge/Hermes-Agent-4FC08D?style=flat-square)](#)
+[![GitHub](https://img.shields.io/badge/репозиторий-private-8A2BE2?style=flat-square&logo=github)](https://github.com/dmpotekhin/hermes_agents)
+[![Профили](https://img.shields.io/badge/профили-5-4FC08D?style=flat-square)](#-профили)
+[![Навыки](https://img.shields.io/badge/навыки-600+-FF6B6B?style=flat-square)](#-навыки)
+[![JLPT](https://img.shields.io/badge/JLPT-N5_N4_N3-FF6B6B?style=flat-square)](#jlpt-база-знаний)
+[![Anki](https://img.shields.io/badge/Anki-колода-00ADD8?style=flat-square&logo=anki)](#-anki-колода-n5-по-дням)
 [![macOS](https://img.shields.io/badge/platform-macOS-000000?style=flat-square&logo=apple)](#)
 
-**Полная конфигурация Hermes Agent на macOS · 3 профиля · 100+ навыков · JLPT-база N5–N1**
+**Полная конфигурация Hermes Agent на macOS · 5 профилей · ~600 навыков · JLPT-база N5–N1**
 
 </div>
 
@@ -16,18 +17,39 @@
 
 ## 📋 Содержание
 
+- [Что нового](#-что-нового-в-этом-синке)
 - [Структура репозитория](#-структура-репозитория)
 - [Профили](#-профили)
+- [Навыки](#-навыки)
+- [Плагины](#-плагины)
 - [JLPT База знаний](#-jlpt-база-знаний)
-  - [Поиск по RAG](#поиск-по-rag)
-  - [Формат паттернов](#формат-паттернов)
 - [Anki-колода N5](#-anki-колода-n5-по-дням)
-  - [Характеристики](#характеристики)
-  - [Как использовать](#как-использовать)
-  - [Сборка](#сборка-колоды)
 - [Быстрый старт](#-быстрый-старт)
 - [Безопасность](#-безопасность)
 - [Диагностика](#-диагностика)
+
+---
+
+## 🆕 Что нового в этом синке
+
+- **+11 общих навыков** (`skills/`): `box`, `weekly-review-planning`, `product-price-monitor`,
+  `meeting-action-items`, `document-to-action-items`, `competitor-news-monitor`,
+  `email-inbox-triage`, `blocked-page-recovery`, `sdlc-review`, `github`, `codebase-inspection`
+- **+40 навыков профиля developer**:
+  - UI/дизайн: `improve-ui`, `ui-foundations`, `ui-components`, `ui-checklist`,
+    `baseline-ui`, `ui-animations`, `fixing-accessibility`, `fixing-motion-performance`
+  - Гейты качества: `clean-code-guard`, `docs-guard`, `test-guard`, `precommit-quality-gate`
+  - Контент и рост: `copywriting`, `pricing`, `launch`, `product-marketing`, `seo-audit`, `customer-research`
+  - Карты/визуализация: `maplibre-web-maps`, `maplibre-interactive-map`, `globe-gl-visualization`,
+    `static-map-visualization`, `web-map-static-deploy`
+  - Telegram и прочее: `standalone-telegram-bot`, `telegram-media-features`, `travel-*`,
+    `news-aggregation-pipeline`, `python-app-structure-pitfalls`, `hermes-update-recovery`
+- **Два новых профиля: `marketing` и `german-tutor`** — оба собраны из общего набора навыков
+  (по 59 навыков), у каждого свой SOUL.md
+- **Плагины**: `agency-agents-router` (роутер Agency-агентов, ~250 агентов),
+  `image_gen/abacus_ai` (генерация изображений)
+- **Планы**: `plans/` — browser-admin-ui, pen-dev-cheatsheet, open-design-cheatsheet, add-perplexity
+- Обновлены `config.yaml` профилей developer/travel-agent, cron-задачи, `SOUL.md`, журналы навыков
 
 ---
 
@@ -36,59 +58,51 @@
 ```
 ~/.hermes/
 ├── 📄 config.yaml               # Глобальная конфигурация Hermes Agent
-├── 📄 SOUL.md                   # Личность агента
-├── 📄 .gitignore                # Игнорируемые файлы
+├── 📄 SOUL.md                   # Личность агента по умолчанию
+├── 📄 .gitignore                # Что не попадает в git
+├── 📄 README.md                 # Этот файл
 │
 ├── 👤 profiles/
 │   ├── 💻  developer/           # Senior Developer Agent
+│   │   ├── config.yaml          #   модель, MCP, tools, compression
+│   │   ├── SOUL.md              #   процесс: TDD, code review, frozen specs
+│   │   ├── skills/              #   205 навыков
+│   │   ├── plugins/             #   agency-agents-router, image_gen
+│   │   └── tools/               #   scan_credentials.py (сканер секретов)
+│   │
+│   ├── 🇯🇵  japanese-tutor/      # Репетитор японского (Sato-sensei)
 │   │   ├── config.yaml
 │   │   ├── SOUL.md
-│   │   └── skills/              # Навыки профиля (софт-дев, MCP)
+│   │   ├── skills/              #   87 навыков
+│   │   └── cron/jobs.json       #   n5-daily-lesson · 21:00 MSK ежедневно
 │   │
-│   ├── 🇯🇵  japanese-tutor/      # Репетитор японского языка
+│   ├── ✈️  travel-agent/        # Тревел-агент
 │   │   ├── config.yaml
 │   │   ├── SOUL.md
-│   │   ├── skills/              # Навыки профиля
-│   │   └── cron/jobs.json       # Ежедневный урок в 21:00 MSK
+│   │   └── skills/              #   91 навык
 │   │
-│   └── ✈️  travel-agent/        # Тревел-агент
-│       ├── config.yaml
+│   ├── 📣  marketing/           # Marketing Pro — маркетинг и автоматизация
+│   │   ├── SOUL.md
+│   │   └── skills/              #   59 навыков
+│   │
+│   └── 🇩🇪  german-tutor/        # Deutschlehrerin (Frau Weber)
 │       ├── SOUL.md
-│       └── skills/
+│       └── skills/              #   59 навыков
 │
-├── 🧠 skills/                   # Общие навыки
-│   ├── creative/                # генерация, дизайн, инфографика
-│   ├── mlops/                   # LLM, инференс, HuggingFace
-│   ├── github/                  # PR, code review, CI
-│   ├── research/                # arXiv, paper writing
-│   ├── productivity/            # Notion, Google Workspace, PDF
-│   ├── media/                   # YouTube, аудио, GIF
-│   └── ...                      # 100+ навыков
+├── 🧠 skills/                   # 95 общих навыков (наследуются всеми профилями)
+│   ├── creative/                # генерация, дизайн, инфографика, анимации
+│   ├── mlops/                   # LLM, инференс, HuggingFace, vLLM, llama.cpp
+│   ├── github/                  # PR, code review, CI, Pages
+│   ├── research/                # arXiv, графы знаний, цитирование, мониторинг
+│   ├── productivity/            # Notion, Google Workspace, PDF/DOCX/XLSX, карты
+│   ├── media/                   # YouTube, аудио, музыка, GIF
+│   ├── autonomous-ai-agents/    # claude-code, codex, opencode, computer-use
+│   ├── security/                # pentest (strix), remediation, tirith-guard
+│   └── ...                      # software-development, apple, web, smart-home
 │
-├── 📦 jp_rag_data/              # JLPT база знаний
-│   ├── chromadb/                # ChromaDB векторная БД
-│   ├── patterns.jsonl           # 723 паттерна N5–N1
-│   ├── user_vocab.json          # 1007 слов · 26 тем
-│   ├── pokemon_vocab.json       # 207 слов · словарь Pokémon (из 283 субтитров)
-│   ├── pokemon_phrasebook.md        # Разговорник Pokémon (14 категорий, markdown)
-│   ├── pokemon_extra_words.json     # +68 имён покемонов из Johto
-│   ├── 30_days_conversation_prompts.md    # Промты для разговорной практики (v1)
-│   ├── Perplexity_N5_30days_v2.md         # Промты v2 · двуязычные + адаптивная сложность
-│   ├── Perplexity_N4_30days_v1.md         # Промты N4 · 30 дней разговорной практики (Акудзава)
-│   ├── pokemon_conversation_plan.md       # 10 дней разговорной практики по Pokémon (Gemini)
-│   ├── bluebird_song_prompt.md            # Промпт для Gemini: разбор песни ブルーバード
-│   ├── n4_akuzawa_monthly_plan.md   # 30-дневный план N4 (Акудзава)
-│   ├── n4_monthly_plan.md           # 30-дневный детальный план N4
-│   ├── n3_akuzawa_monthly_plan.md   # 30-дневный план N3 (Акудзава)
-│   ├── n2_akuzawa_monthly_plan.md   # 30-дневный план N2 (Акудзава)
-│   ├── n1_akuzawa_monthly_plan.md   # 30-дневный план N1 (Акудзава)
-│   ├── query_rag.py             # Поиск по паттернам
-│   ├── daily_lesson.py          # Генератор урока
-│   ├── study_plan.json          # 30-дневный план N5
-│   ├── N5_vocab_days.apkg       # Anki-колода · 1 444 слова
-│   └── build_n5_anki.py         # Сборщик Anki-колоды
-│
-├── 🔌 plugins/                  # Внешние плагины
+├── 📦 jp_rag_data/              # JLPT база знаний + Anki + промты
+├── 📝 plans/                    # Черновики планов (.hermes/plans/)
+├── 🔌 plugins/                  # Глобальные плагины
 └── ⏰ cron/                     # Глобальные cron-задачи
 ```
 
@@ -96,36 +110,29 @@
 
 ## 👤 Профили
 
-### 🇯🇵 japanese-tutor
-
-Ваш персональный репетитор японского языка — **Sato-sensei**.
-
-| Параметр | Значение |
-|---------|---------|
-| **Назначение** | Изучение JLPT N5–N1, грамматика, лексика |
-| **Модель** | `deepseek-v4-flash` |
-| **Провайдер** | DeepSeek |
-| **Доставка** | Telegram · ежедневно в 21:00 MSK |
-| **Метод** | Последовательное прохождение паттернов Акудзавы |
-
 ### 💻 developer
 
-Старший разработчик и архитектор — методичный, спокойный, с 20-летним опытом.
+Старший разработчик и архитектор — методичный, спокойный, 20 лет опыта.
+Строгая дисциплина процесса: классификация задачи → план → TDD → security review → verification.
 
 | Параметр | Значение |
 |---------|---------|
-| **Назначение** | Разработка: TDD, code review, отладка, архитектура |
-| **Модель** | `deepseek-v4-pro` |
-| **Провайдер** | DeepSeek |
-| **MCP-серверы** | playwright, filesystem, git, github |
+| **Назначение** | Разработка: TDD, code review, отладка, архитектура, документация |
+| **Модель** | `Qwen/Qwen3.5-35B-A3B` (алиасы `hf-qwen`, `hf-glm`) |
+| **Провайдер** | HuggingFace Inference Providers · `router.huggingface.co/v1` |
+| **Навыки** | 205 |
+| **Плагины** | `agency-agents-router`, `image_gen` (abacus_ai) |
 | **Метод** | RED → GREEN → REFACTOR → COMMIT |
 
 #### Обязательный процесс
 
-1. Задача расплывчата → brainstorming (≤5 вопросов)
-2. После прояснения → writing-plans → план → ждать OK
-3. Реализация: RED → GREEN → REFACTOR → COMMIT
-4. Завершение: simplify-code → requesting-code-review → verification
+1. `project-state` → прочитать `.planning/STATE.md`
+2. Классификация задачи: `tiny-fix` / `quick-win` / `feature` / `architecture-change`
+3. Задача расплывчата → brainstorming (≤5 вопросов)
+4. feature/architecture-change → `discuss` → `writing-plans` → план → ждать OK
+5. Реализация: RED → GREEN → REFACTOR → COMMIT
+6. Завершение: simplify-code → security-review → code-review → verification-before-completion
+7. Перед **каждым** коммитом — `scan_credentials.py --staged` (сканер секретов)
 
 #### MCP-серверы
 
@@ -135,6 +142,27 @@
 | **filesystem** | Файлы проекта (`~/projects`) |
 | **git** | Коммиты, ветки, статус |
 | **github** | PR, issues, code review |
+| **perplexity** | Веб-поиск с цитированием |
+| **obsidian-brain** | Долговременная память в Obsidian |
+| **harness_plugin** | DeepSeek Harness (`dsh`) |
+
+#### Экономия токенов
+
+Профиль настроен на агрессивный прунинг контекста:
+`compression.proactive_prune_tokens=48000`, `proactive_prune_min_result_chars=2000`.
+
+### 🇯🇵 japanese-tutor
+
+Персональный репетитор японского — **Sato-sensei**.
+
+| Параметр | Значение |
+|---------|---------|
+| **Назначение** | JLPT N5–N1: грамматика, лексика, разговорная практика |
+| **Модель** | `deepseek-v4-flash` |
+| **Провайдер** | DeepSeek |
+| **Навыки** | 87 |
+| **Доставка** | Telegram · ежедневный урок в 21:00 MSK (`n5-daily-lesson`) |
+| **Метод** | Последовательное прохождение паттернов Акудзавы |
 
 ### ✈️ travel-agent
 
@@ -142,9 +170,56 @@
 
 | Параметр | Значение |
 |---------|---------|
-| **Назначение** | Поиск билетов, отелей, маршрутов |
+| **Назначение** | Билеты, отели, маршруты, карты, фото-админка |
 | **Модель** | `deepseek-v4-flash` |
 | **Провайдер** | DeepSeek |
+| **Навыки** | 91 |
+
+### 📣 marketing
+
+Маркетинг и автоматизация — **Marketing Pro**.
+
+| Параметр | Значение |
+|---------|---------|
+| **Назначение** | Копирайтинг, SEO, SMM, аналитика, workflow-автоматизация |
+| **Конфиг** | наследует глобальный `config.yaml` |
+| **Навыки** | 59 |
+
+### 🇩🇪 german-tutor
+
+Преподаватель немецкого — **Frau Weber**.
+
+| Параметр | Значение |
+|---------|---------|
+| **Назначение** | Немецкий язык: грамматика, лексика, разговорная практика |
+| **Конфиг** | наследует глобальный `config.yaml` |
+| **Навыки** | 59 |
+
+---
+
+## 🧠 Навыки
+
+| Расположение | Количество | Область |
+|--------------|:----------:|---------|
+| `skills/` (общие) | 95 | доступны во всех профилях |
+| `profiles/developer/skills/` | 205 | разработка, UI, безопасность, карты, контент |
+| `profiles/travel-agent/skills/` | 91 | путешествия, карты, медиа |
+| `profiles/japanese-tutor/skills/` | 87 | языки, Obsidian, продуктивность |
+| `profiles/marketing/skills/` | 59 | копирайтинг, SEO, аналитика |
+| `profiles/german-tutor/skills/` | 59 | языки, продуктивность |
+
+Формат навыка — каталог с `SKILL.md` (YAML-frontmatter + инструкции), при необходимости
+`references/`, `scripts/`, `templates/`. Новые навыки ставятся через `skills list/add`,
+каталог UI-навыков — `npx skills add ibelick/ui-skills`.
+
+---
+
+## 🔌 Плагины
+
+| Плагин | Профиль | Назначение |
+|--------|---------|-----------|
+| `agency-agents-router` | developer | Роутер Agency-специалистов (~250 агентов, 4 МБ ростер) |
+| `image_gen/abacus_ai` | developer | Генерация изображений через Abacus AI RouteLLM |
 
 ---
 
@@ -158,22 +233,24 @@
 |------|----------|
 | `patterns.jsonl` | 723 паттерна с примерами, хираганой, ромадзи |
 | `chromadb/` | Векторная БД для семантического поиска (модель `intfloat/multilingual-e5-small`) |
-|| `user_vocab.json` | Персональный словарь: 1007 слов, 26 тем |
-|| `pokemon_vocab.json` | Словарь Pokémon: 207 слов, 14 категорий (из 283 субтитров) |
-|| `pokemon_phrasebook.md` | Разговорник Pokémon для просмотра (таблицы по категориям) |
-|| `pokemon_extra_words.json` | Доп. имена покемонов (Johto) — 68 шт. |
+| `user_vocab.json` | Персональный словарь: 1007 слов, 26 тем |
+| `pokemon_vocab.json` | Словарь Pokémon: 207 слов, 14 категорий (из 283 субтитров) |
+| `pokemon_phrasebook.md` | Разговорник Pokémon для просмотра (таблицы по категориям) |
+| `pokemon_extra_words.json` | Доп. имена покемонов (Johto) — 68 шт. |
 | `study_plan.json` | 30-дневный план N5 с разбивкой по дням |
 | `study_progress.json` | Прогресс изучения |
 | `query_rag.py` | CLI-поиск по RAG |
 | `daily_lesson.py` | Генератор ежедневного урока |
 | `30_days_conversation_prompts.md` | 30 промтов для разговорной практики (v1) |
 | `Perplexity_N5_30days_v2.md` | 30 промтов v2 — двуязычные, с адаптивной сложностью |
-| `Perplexity_N4_30days_v1.md` | 30 промтов N4 — разговорная практика по Акудзаве (словарь + грамматика + сценарий) |
+| `Perplexity_N4_30days_v1.md` | 30 промтов N4 — разговорная практика по Акудзаве |
 | `n4_akuzawa_monthly_plan.md` | 30-дневный план N4 по Акудзаве |
 | `n4_monthly_plan.md` | 30-дневный детальный план N4 |
 | `n3_akuzawa_monthly_plan.md` | 30-дневный план N3 по Акудзаве |
 | `n2_akuzawa_monthly_plan.md` | 30-дневный план N2 по Акудзаве |
 | `n1_akuzawa_monthly_plan.md` | 30-дневный план N1 по Акудзаве |
+| `pokemon_conversation_plan.md` | 10 дней разговорной практики по Pokémon (Gemini) |
+| `bluebird_song_prompt.md` | Промпт для Gemini: разбор песни ブルーバード |
 
 ### Поиск по RAG
 
@@ -253,7 +330,7 @@ python3 ~/.hermes/jp_rag_data/query_rag.py "〜たいです"
 |----------|:----------:|
 | Поле `vocabulary` в паттернах | 29 |
 | Извлечено из примеров | ~1 200 |
-|| Из `user_vocab.json` | 1007 |
+| Из `user_vocab.json` | 1007 |
 | **Всего уникальных** | **1 444** |
 
 ### Сборка колоды
@@ -279,17 +356,18 @@ cd ~/.hermes && python3 jp_rag_data/build_n5_anki.py
 ## 🚀 Быстрый старт
 
 ```bash
-# 1. Клонировать репозиторий
-git clone git@github.com:dmpotekhin/hernes_agents.git ~/.hermes
+# 1. Клонировать репозиторий (приватный, SSH)
+git clone git@github.com:dmpotekhin/hermes_agents.git ~/.hermes
 
-# 2. Создать .env с API-ключами
+# 2. Создать .env с API-ключами (в git не попадает)
 cp .env.example .env
-# Отредактировать .env: DeepSeek, OpenAI и т.д.
+# Отредактировать .env: DeepSeek, HuggingFace (HF_TOKEN), Perplexity и т.д.
 
 # 3. Установить Hermes (если ещё нет)
 # https://hermes-agent.nousresearch.com/docs
 
-# 4. Запустить
+# 4. Запустить нужный профиль
+hermes --profile developer
 hermes --profile japanese-tutor
 ```
 
@@ -297,18 +375,31 @@ hermes --profile japanese-tutor
 
 ## 🔒 Безопасность
 
-Следующие файлы **НЕ попадают** в git (см. [`.gitignore`](.gitignore)):
+В git **не попадают** (см. [`.gitignore`](.gitignore)):
 
-| Файл | Причина |
-|------|---------|
-| `.env` | API-ключи и токены |
-| `auth.json`, `nous_auth.json` | Аутентификация |
-| `channel_directory.json` | Привязка каналов |
-| `sessions/`, `logs/`, `cache/` | Сессии и логи |
-| `memories/` | Долговременная память агента |
-| `state.db`, `kanban.db` | Базы данных |
+| Что | Причина |
+|-----|---------|
+| `.env`, `auth.json`, `nous_auth.json` | API-ключи и токены |
+| `channel_directory.json`, `gateway_state.json` | Привязка каналов |
+| `sessions/`, `logs/`, `cache/`, `audio_cache/`, `image_cache/` | Сессии, логи, кеши |
+| `memories/`, `**/pending/` | Долговременная память агента |
+| `state.db`, `kanban.db`, `shared-state.db` | Базы данных |
+| `backups/`, `**/state-snapshots/`, `state.db.bak*` | Снапшоты и бэкапы (сотни МБ) |
+| `node/`, `node_modules/`, `**/__pycache__/` | Встроенный Node-runtime и кеши Python |
+| `**/skills/.curator_backups/`, `skills/.hub/*-cache/` | Внутренние кеши навыков |
 | `cron/output/` | Сгенерированные уроки |
-| `pairing/` | Связка с Telegram/Discord |
+| `pairing/`, `*.lock`, `*.pid` | Связка с Telegram/Discord, временные файлы |
+
+Дополнительно перед каждым коммитом запускается сканер секретов:
+
+```bash
+python3 ~/.hermes/profiles/developer/tools/scan_credentials.py --staged
+```
+
+> ⚠️ Известное ложное срабатывание: `pem-private-key` в
+> `profiles/developer/plugins/agency-agents-router/data/agents.json` — это заголовки
+> `-----BEGIN ... PRIVATE KEY-----` внутри markdown-инструкции SecOps-агента
+> (пример того, что должен искать сканер), реального ключа нет.
 
 ---
 
@@ -325,8 +416,11 @@ tail -f ~/.hermes/logs/*.log
 cat ~/.hermes/gateway.pid | xargs kill
 hermes gateway --daemon
 
-# Проверить состояние git
-cd ~/.hermes && git status
+# Состояние git-синка конфигурации
+cd ~/.hermes && git status && git log --oneline -5
+
+# Обновление Hermes (и восстановление после сбоя)
+# см. навык hermes-update-recovery
 ```
 
 ---

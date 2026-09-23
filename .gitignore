@@ -68,3 +68,38 @@ SOUL.md.save
 
 # Node / deps
 node_modules/
+**/__pycache__/
+*.pyc
+
+# Backups & DB snapshots (сотни МБ — никогда в git)
+backups/
+**/backups/
+**/state-snapshots/
+state.db.bak*
+*.db.bak*
+*.zip
+
+# Embedded Node runtime
+node/
+**/node/
+
+# Skills hub caches & curator blobs
+skills/.hub/index-cache/
+skills/.hub/scan-cache/
+**/skills/.hub/index-cache/
+**/skills/.hub/scan-cache/
+**/.curator_backups/
+
+# Transient instance state
+.npm_lock_hash_*
+.install_id
+install_id
+spawn-ledger.json
+shared-state.db
+*.db-shm
+*.db-wal
+**/terminal-sessions/
+**/pending/
+
+# One-off upgrade leftovers
+.backup-*/

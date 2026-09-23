@@ -148,3 +148,4 @@ venv/bin/python3 -c "import cryptography; print(cryptography.__version__)"
 
 - `references/recovery-paths.md` — a full worked diagnosis from a real session (log excerpts, marker lifecycle, per-step output).
 - `references/version-check-and-update.md` — worked version-check transcript (installed vs releases/latest vs main), the diverged-branch case, and the residual `.bak` marker.
+- Committing/pushing the **config** repo `~/.hermes` itself (a different, private repo): see the `hermes-config-repo-sync` skill. The install checkout `hermes-agent/` is nested and gitignored there.
