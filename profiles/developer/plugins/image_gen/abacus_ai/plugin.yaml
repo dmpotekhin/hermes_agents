@@ -1,0 +1,13 @@
+name: abacus_ai
+version: 2.0.0
+description: "Abacus AI image generation backend via RouteLLM (FLUX 2 Pro, DALL-E, MidJourney, Nano Banana Pro 4K, and 20+ models)."
+author: ZoniBoy00
+kind: backend
+requires_env:
+  - name: ABACUS_AI_API_KEY
+    description: "Abacus AI RouteLLM API key. Get yours at https://abacus.ai/app/route-llm-apis"
+    url: "https://abacus.ai/app/route-llm-apis"
+    secret: true
+provides_tools:
+  - image_generate_background
+  - image_generate_background_status

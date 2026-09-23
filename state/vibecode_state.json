@@ -1067,21 +1067,103 @@
       ],
       "commits": 0,
       "ended": "2026-09-20T19:32:35.183376"
+    },
+    {
+      "started": "2026-09-20T19:32:35.183376",
+      "last_segment": "2026-09-20T19:36:51.595552",
+      "project": "tg-transcriber",
+      "segments": [
+        {
+          "from": "2026-09-20T19:32:35.183376",
+          "to": "2026-09-20T19:36:51.595552",
+          "duration_seconds": 256,
+          "project": "tg-transcriber"
+        }
+      ],
+      "pauses": [
+        {
+          "from": "2026-09-20T19:36:51.595552",
+          "to": "2026-09-20T23:49:54.128288",
+          "gap_seconds": 15182
+        }
+      ],
+      "commits": 1,
+      "ended": "2026-09-20T23:49:54.128288"
+    },
+    {
+      "started": "2026-09-20T23:49:54.128288",
+      "last_segment": "2026-09-21T01:30:45.313470",
+      "project": "tg-transcriber",
+      "segments": [
+        {
+          "from": "2026-09-20T23:49:54.128288",
+          "to": "2026-09-20T23:54:18.827965",
+          "duration_seconds": 264,
+          "project": "tg-transcriber"
+        },
+        {
+          "from": "2026-09-20T23:54:18.827965",
+          "to": "2026-09-20T23:57:10.012368",
+          "duration_seconds": 171,
+          "project": "tg-transcriber"
+        },
+        {
+          "from": "2026-09-20T23:57:10.012368",
+          "to": "2026-09-21T00:00:39.073998",
+          "duration_seconds": 209,
+          "project": "tg-transcriber"
+        },
+        {
+          "from": "2026-09-21T00:00:39.073998",
+          "to": "2026-09-21T00:02:52.694562",
+          "duration_seconds": 133,
+          "project": "tg-transcriber"
+        },
+        {
+          "from": "2026-09-21T00:02:52.694562",
+          "to": "2026-09-21T00:04:39.341477",
+          "duration_seconds": 106,
+          "project": "tg-transcriber"
+        },
+        {
+          "from": "2026-09-21T00:04:39.341477",
+          "to": "2026-09-21T00:14:11.836340",
+          "duration_seconds": 572,
+          "project": "tg-transcriber"
+        }
+      ],
+      "pauses": [
+        {
+          "from": "2026-09-21T00:14:11.836340",
+          "to": "2026-09-21T01:30:45.313470",
+          "gap_seconds": 4593
+        }
+      ],
+      "commits": 6,
+      "ended": "2026-09-21T01:30:45.508703"
+    },
+    {
+      "started": "2026-09-21T20:33:18.284340",
+      "last_segment": "2026-09-21T20:33:18.284340",
+      "project": "unknown",
+      "segments": [],
+      "pauses": [
+        {
+          "from": "2026-09-21T20:33:18.284340",
+          "to": "2026-09-23T17:30:00.409781",
+          "gap_seconds": 161802
+        }
+      ],
+      "commits": 0,
+      "ended": "2026-09-23T17:30:00.409781"
     }
   ],
   "current": {
-    "started": "2026-09-20T19:32:35.183376",
-    "last_segment": "2026-09-20T19:36:51.595552",
-    "project": "tg-transcriber",
-    "segments": [
-      {
-        "from": "2026-09-20T19:32:35.183376",
-        "to": "2026-09-20T19:36:51.595552",
-        "duration_seconds": 256,
-        "project": "tg-transcriber"
-      }
-    ],
+    "started": "2026-09-23T17:30:00.409781",
+    "last_segment": "2026-09-23T17:30:00.409781",
+    "project": "unknown",
+    "segments": [],
     "pauses": [],
-    "commits": 1
+    "commits": 0
   }
 }

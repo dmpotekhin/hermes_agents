@@ -3,61 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="a5178846-3a40-46af-a44e-d03114740a1b" name="Changes" comment="1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SOUL.md" beforeDir="false" afterPath="$PROJECT_DIR$/SOUL.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profiles/developer/.hermes_history" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/.hermes_history" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profiles/developer/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/cron/executions.db" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/cron/executions.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/cron/jobs.json" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/cron/jobs.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profiles/developer/cron/ticker_heartbeat" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/cron/ticker_heartbeat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profiles/developer/cron/ticker_last_success" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/cron/ticker_last_success" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profiles/developer/models_dev_cache.etag" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/models_dev_cache.etag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/.bundled_manifest" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/.bundled_manifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/.curator_backups/2026-08-03T10-27-09Z/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/.curator_backups/2026-08-03T10-27-09Z/skills.tar.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/profiles/developer/skills/.curator_ledger.jsonl" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/.curator_ledger.jsonl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/.curator_state" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/.curator_state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/.hub/lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/.hub/lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profiles/developer/skills/.usage.json" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/.usage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/add-book-note/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/add-book-note/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/autonomous-ai-agents/hermes-plugins/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/autonomous-ai-agents/hermes-plugins/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/devops/macos-system-administration/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/devops/macos-system-administration/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/note-taking/obsidian-brain/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/note-taking/obsidian-brain/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/productivity/google-workspace/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/productivity/google-workspace/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/productivity/google-workspace/scripts/google_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/productivity/google-workspace/scripts/google_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/productivity/google-workspace/scripts/gws_bridge.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/productivity/google-workspace/scripts/gws_bridge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/research/competitor-news-monitor/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/research/competitor-news-monitor/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/research/grounded-citations/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/research/grounded-citations/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/software-development/agent-workflow-pitfalls/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/software-development/agent-workflow-pitfalls/SKILL.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/autonomous-ai-agents/hermes-token-analytics/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/autonomous-ai-agents/hermes-token-analytics/SKILL.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profiles/developer/skills/software-development/execute-code-verification/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/software-development/execute-code-verification/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/software-development/openai-compatible-llm-endpoints/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/software-development/openai-compatible-llm-endpoints/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/software-development/skill-authoring/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/software-development/skill-authoring/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/software-development/skill-authoring/references/external-skill-import.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/software-development/skill-authoring/references/external-skill-import.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/software-development/telegram-bot-assistant/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/software-development/telegram-bot-assistant/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/software-development/telegram-bot-setup/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/software-development/telegram-bot-setup/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/software-development/vibecode-tracker/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/software-development/vibecode-tracker/SKILL.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/developer/skills/software-development/spec-driven-implementation/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/skills/software-development/spec-driven-implementation/SKILL.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profiles/developer/state/gateway.heartbeat" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/state/gateway.heartbeat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/state/gateway.lifecycle.json" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/state/gateway.lifecycle.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profiles/developer/terminal-sessions/tty-dev-ttys001" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/terminal-sessions/tty-dev-ttys001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/developer/verification_evidence.db" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/developer/verification_evidence.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/config.yaml.corrupt.20260619-130023.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/cron/executions.db" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/cron/executions.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profiles/travel-agent/cron/ticker_heartbeat" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/cron/ticker_heartbeat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profiles/travel-agent/cron/ticker_last_success" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/cron/ticker_last_success" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/.bundled_manifest" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/skills/.bundled_manifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/.curator_backups/2026-08-05T19-41-41Z/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/.curator_backups/2026-08-05T19-41-41Z/skills.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/.curator_backups/2026-08-12T20-34-58Z/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/.curator_backups/2026-08-12T20-34-58Z/skills.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/.curator_state" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/skills/.curator_state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/.usage.json" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/skills/.usage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/productivity/google-workspace/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/skills/productivity/google-workspace/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/productivity/google-workspace/scripts/google_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/skills/productivity/google-workspace/scripts/google_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/productivity/google-workspace/scripts/gws_bridge.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/skills/productivity/google-workspace/scripts/gws_bridge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/research/competitor-news-monitor/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/skills/research/competitor-news-monitor/SKILL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/skills/research/grounded-citations/SKILL.md" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/skills/research/grounded-citations/SKILL.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profiles/travel-agent/state/gateway.heartbeat" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/state/gateway.heartbeat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/travel-agent/state/gateway.lifecycle.json" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/travel-agent/state/gateway.lifecycle.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/state/vibecode_state.json" beforeDir="false" afterPath="$PROJECT_DIR$/state/vibecode_state.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788617859534</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1">
+      <option name="closed" value="true" />
+      <created>1789935641021</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1789935641021</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

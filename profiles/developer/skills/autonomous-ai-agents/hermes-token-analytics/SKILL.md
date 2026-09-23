@@ -53,6 +53,7 @@ Key tables (schema via `sqlite3 db ".schema sessions"`):
 
 - `compression.threshold_tokens 80000` — absolute token cap; compression triggers
   at the lower of ratio threshold and this value.
+- `compression.proactive_prune_min_result_chars 2000` — **raise the floor or the prune above is a silent no-op.** Default 8000 chars, but ordinary tool results are mostly smaller (794 tool rows, only 3 >= 8000 chars in a real measured session) -> pass 2 finds nothing, `prune:nothing_eligible` lands in `logs/agent.log`, and the session grows to `threshold_tokens` and pays a full LLM compaction instead. Floor is 200. Verify: `grep 'prune:' ~/.hermes/profiles/<p>/logs/agent.log` (want `prune:nothing_eligible` to stop appearing) and measure by replaying real `messages` rows through `ContextCompressor._prune_old_tool_results` at both thresholds (pattern: /tmp/prune_check.py).
 - `compression.proactive_prune_tokens 48000` — deterministic prune of old tool
   results (snapshots, big outputs) BEFORE they ride every turn. Biggest single win;
   the real fix for snapshot bloat.
@@ -100,6 +101,32 @@ the session; re-derive from `.schema sessions` before trusting column names):
   HF-router `estimated_cost_usd` rows are garbage (single session showed $74.3K;
   whole-period total read $81.8K vs ~$12.4 real when computed on deepseek rows
   only). Present deepseek-only numbers, label the rest as unreliable.
+
+## Single work item: cost of one feature/task (chain across compactions)
+
+When the user asks «сколько потрачено на <фичу/задачу> и какая модель»:
+
+1. Find when the work started (timestamp of the spec / first user message), then sum the
+   `sessions` rows whose LIFETIME begins at that moment and chains forward — one logical work
+   item spans several `sessions.id` because compaction forks the session.
+2. Sum the row aggregates: `input_tokens, output_tokens, reasoning_tokens, cache_read_tokens,
+   estimated_cost_usd, api_call_count, tool_call_count, message_count`.
+3. Answer «какая модель» from `session_model_usage` (group by model, billing_provider,
+   billing_base_url) — not from config.yaml.
+4. Report new tokens (input+output) AND billed total with cache_read; label the in-flight
+   session's numbers «на момент запроса» — they keep growing while you answer.
+
+- **Never attribute by message content.** Compaction copies the same user message and tool
+  result under several `session_id`s, so `messages.content LIKE '%keyword%'` both matches the
+  whole history and multiplies the cost several-fold. Use the session lifetime window or an
+  explicit id list.
+- **`sessions.started_at`/`ended_at` are REAL unix timestamps.** Comparing to an ISO string
+  (`started_at >= '2026-09-21'`) silently returns 0 rows; use `strftime('%s','now') - N*86400`
+  and `datetime(started_at,'unixepoch','localtime')` for display only.
+- **Separate the feature's own LLM cost from agent overhead.** The tokens are the dev agent's
+  (reading code, patches, tests); if the feature calls no LLM itself (local ffmpeg, pure
+  transform), its own cost is zero — state that explicitly instead of letting the number read
+  as runtime spend. Cache_read (~96%) versus new tokens (~4%) is the expected shape.
 
 ## Pitfalls
 

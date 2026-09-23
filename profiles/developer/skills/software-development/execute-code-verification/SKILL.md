@@ -192,6 +192,20 @@ first. Worked recipe with copy-ready stubs: `references/verification-ladder-pyth
    (`ffmpeg -y -f lavfi -i testsrc=size=320x240:rate=15:duration=2 -f lavfi -i sine=frequency=440:duration=2 -shortest -c:v libx264 -pix_fmt yuv420p -c:a aac test.mp4`),
    run the real extraction, assert the artifact is non-empty, then exercise the fallback branch and
    the broken-input branch (garbage bytes → your `AudioExtractionError`, not a raw traceback).
+   4b. **Rung 4b — synthesize SPEECH, not tones, whenever the pipeline transcribes.** `sine`/`testsrc`
+      prove the ffmpeg plumbing, but a speech-to-text stage needs intelligible audio. macOS `say`
+      generates it offline and free — no cloud TTS, no third-party video to download:
+      `say -v Milena -f /tmp/smoke_text.txt -o /tmp/smoke.aiff` (put the text in a FILE: UTF-8/русский
+      text as a shell argument is fragile), then wrap it as a clip:
+      `ffmpeg -y -f lavfi -i color=c=navy:s=640x360 -i /tmp/smoke.aiff -shortest -c:v libx264 -pix_fmt yuv420p -c:a aac /tmp/smoke.mp4`,
+      confirm with `ffprobe -v error -show_entries format=duration -of csv=p=0 /tmp/smoke.mp4`. 40-60 s
+      is plenty and costs cents; write the spoken text WITH facts, numbers and conclusions so the
+      downstream LLM stage has something real to summarize. Drive the pipeline through the app's OWN
+      assembly function (the handler's `build_service(...)`-style factory) instead of rebuilding the
+      object graph by hand — and remember the app loads `.env` inside its `main()`, so a script living
+      outside the entry point must call `load_dotenv(<repo>/.env, override=True)` itself, or it dies on
+      missing env vars before reaching any of your code (`PYTHONPATH=<repo>` too when the script sits
+      in `/tmp`).
 5. **Rung 5 — entry point fatal path.** Run `python app.py; echo "exit_code=$?"` with the config
    removed: expect one human-readable line, no traceback, and a NON-ZERO exit. **Never write
    `except (KeyboardInterrupt, SystemExit): pass` around `asyncio.run(main())`** — the fatal-path
@@ -230,6 +244,7 @@ builder object proves nothing about the bytes on disk. Verifications that actual
   - Use an **unambiguous anchor**: include the full closing of the previous function together with the following top-level definition line (e.g. the `@dataclass`/`class X:` that comes immediately after where the new function goes), all in `old_string`, so the match can only land in one place.
   - If the file is small (a few dozen lines), prefer rewriting the whole file with `write_file` to its intended final state rather than fighting ambiguous anchors.
   - **Always inspect the `patch` diff/result immediately** — the tool returns the diff and flags `lint: status: error` with `SyntaxError` on a bad match. If it reports a syntax error, the patch hit the wrong place: re-read the file, then rewrite cleanly. Confirm with `git diff` showing EXACTLY the intended single change and nothing else before committing.
+- **A long `patch` / `write_file` payload can be EMITTED TRUNCATED — the success message proves nothing about the bytes.** In a long session the argument string itself got cut mid-line, leaving a literal `[truncated]` marker inside a source file and silently deleting the code around it (a `class X:` header and half a function body vanished, while the tool still reported a diff and a byte count). Rules that held up: (a) keep `new_string` small and anchor on a SHORT unique line — do not paste a whole function as the replacement; (b) after every write batch, `grep -rn "truncated" <touched files>` **and** run a syntax pass (`python -m compileall -q <files>` or `ruff check <files>`) before the test suite — auto-lint caught the one break that was syntactically invalid, but a cut tail can also land somewhere that still parses; (c) repair by re-applying SEVERAL small anchored patches, never one big rewrite; (d) read the edited region back whenever a patch result looks oddly small or reports an unexpected length. Never emit placeholder text (`...`, `[truncated]`) inside code you are writing — it lands verbatim in the file.
 - **`write_file` with a RELATIVE path can create a tree outside the project.** A relative target
   was written to `<cwd>/dmitrypotekhin/projects/<proj>/...` (a directory that then had to be moved
   and removed). Always pass an ABSOLUTE path to `write_file`/`patch`; if an unexpected tree shows

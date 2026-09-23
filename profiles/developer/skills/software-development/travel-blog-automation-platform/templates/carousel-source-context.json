@@ -1,0 +1,20 @@
+{
+  "_comment": "Hand-written CarouselSourceContext for `cli.py carousel research --fixture <this file>`. Use it for offline walks of the pipeline. The facts must be ones a human actually read in the source — the factory never invents them, and a fixture full of invented claims defeats the point of the fact guard. Keys must match CarouselSourceContext in core/models.py; extra keys are ignored, and a shape drift fails loudly in `model_validate`.",
+  "source_type": "url",
+  "vertical": "travel",
+  "source_url": "https://example.invalid/article",
+  "title": "Short title of the source",
+  "summary": "One or two sentences describing what the source says.",
+  "facts": [
+    "A statement the source literally supports.",
+    "A second statement the source literally supports."
+  ],
+  "sourced_facts": [
+    {
+      "text": "A statement the source literally supports.",
+      "source": "article"
+    }
+  ],
+  "confidence": 0.9,
+  "raw_payload_json": "{}"
+}
